@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Script de probas en Polaris para a incorporación de información climática
+## Script de probas en Polaris para a combinación dos resultados finais
 ## Eduardo Corbelle, iniciado o 7 de maio de 2015
 
 ########## Establecer máscara
