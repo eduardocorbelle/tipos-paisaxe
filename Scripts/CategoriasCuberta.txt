@@ -1,0 +1,8 @@
+1:Monte raso
+2:Turbeiras
+3:Urbano e artificial
+4:Repoboacion
+5:Bosque
+6:Agricola e gandeiro
+7:Extraccion e verquido
+8:Vinhedo
