@@ -31,5 +31,12 @@ v.out.ogr input=segmentos25 output=./Tmp
 v.in.ogr input=./Backup/segmentos25.shp output=ClasesXeo 
 v.to.rast input=ClasesXeo output=ClasesXeo use=attr attr=CodXeo label=ClaseXeo
 
+r.category ClasesXeo sep=: rules=- << EOF
+0:Relevo intermedio
+1:Canon
+2:Chaira
+3:Serra
+EOF
+
 ## Eliminamos a máscara
 r.mask -r

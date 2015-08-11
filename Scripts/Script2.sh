@@ -27,7 +27,7 @@ echo "Calculando a grella de escenas"
 p.sig.grid -c input=cubertas size=60 shift=1 method=coocurence histograms=./Tmp/GrellaCubertas
 
 ### Cálculo dos histogramas para as escenas seleccionadas
-p.sig.points -c input=cubertas coorfile=./Escenas/escenasCuberta.txt size=60 method=coocurence histograms=./Tmp/escenasCuberta.his
+p.sig.points -c input=cubertas coorfile=./tipos-paisaxe/Escenas/escenasCuberta.txt size=60 method=coocurence histograms=./Tmp/escenasCuberta.his
 
 ## Clases de cuberta asociadas ás escenas (escenascuberta.txt)
 # 1 : monte raso
@@ -43,7 +43,7 @@ p.sig.points -c input=cubertas coorfile=./Escenas/escenasCuberta.txt size=60 met
 # 18 e 19: viñedo
 
 ### Similaridade coas escenas seleccionadas
-p.sim.search scenes=./Tmp/escenasCuberta.his grid=./Tmp/GrellaSiose measure=shannon output=SC_shannon nulls=0.80
+p.sim.search scenes=./Tmp/escenasCuberta.his grid=./Tmp/GrellaCubertas measure=shannon output=SC_shannon nulls=0.80
 
 ### Valores medios (e comprobación de valores extremos) de similaridade
 # (Máscara co mapa de concellos) [xerado polo Script1]

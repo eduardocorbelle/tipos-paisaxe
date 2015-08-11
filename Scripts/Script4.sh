@@ -7,7 +7,7 @@
 r.mask raster=concellos
 
 ########## Cruzar as categorías
-r.cross input=Claseforma,Clasecuberta,bioclima output=TiposPaisaxe
+r.cross input=ClasesXeo,ClaseCuberta,bioclima output=TiposPaisaxe
 r.mask -r
 
 ########## Pasar a vector e simplificar

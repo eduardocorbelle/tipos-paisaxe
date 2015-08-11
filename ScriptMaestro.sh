@@ -7,7 +7,7 @@
 ## Instalación de GRASS 7.0 a partir de:
 ## http://grasswiki.osgeo.org/wiki/Compile_and_Install
 ## e de GeoPAT seguindo as intruccións de:
-## http://sil.uc.edu/gitlist/geoPAT/tree/master/
+## http://sil.uc.edu/gitlist/geoPAT/
 
 
 ### Cargar datos base (as rutas aos arquivos poden ter cambiado)
