@@ -9,7 +9,7 @@
 
 ## Acceso a mapsets
 g.mapset -c Tmp
-g.mapsets mapset=AdminLimits,MDT25,MDT200,SIOSE,Clima,Habitat,Vinhedo
+g.mapsets mapset=AdminLimits,MDT25,MDT200,SIOSE,Clima,Habitat,Vinhedo,Cascos
 
 ## Uso do MDT25 para establecer a rexión
 g.region rast=mdt25
@@ -75,7 +75,6 @@ r.mapcalc expression="dAF = sqrt((SC_shannon_16 - SC_shannon_17)^2)"
 r.mapcalc expression="sVI = (SC_shannon_18 + SC_shannon_19)/2"
 r.mapcalc expression="dVI = sqrt((SC_shannon_18 - SC_shannon_19)^2)"
 
-
 ### Asignación por máxima similaridade
 r.mapcalc expression="ClaseCuberta = if(sMR > sTu & sMR > sB & sMR > sRF & sMR > sAI & sMR > sAE & sMR > sRD & sMR > sU & sMR > sEx & sMR > sAF & sMR > sVI, 1, if(sTu > sB & sTu > sRF & sTu > sAI & sTu > sAE & sTu > sRD & sTu > sU  & sTu > sEx & sTu > sAF & sTu > sVI, 2, if(sB > sRF & sB > sAI & sB > sAE & sB > sRD & sB > sU & sB > sEx & sB > sAF & sB > sVI, 3, if(sRF > sAI & sRF > sAE & sRF > sRD & sRF > sU & sRF > sEx & sRF > sAF & sRF > sVI, 4, if(sAI > sAE & sAI > sRD & sAI > sU & sAI > sEx & sAI > sAF  & sAI > sVI, 5, if(sAE > sRD & sAE > sU & sAE > sEx & sAE > sAF & sAE > sVI, 6, if(sRD > sU & sRD > sEx & sRD > sAF & sRD > sVI, 7, if(sU > sEx & sU > sAF & sU > sVI, 8, if(sEx > sAF & sEx > sVI, 9, if(sAF > sVI, 10, 11))))))))))"
 
@@ -93,5 +92,33 @@ r.category ClaseCuberta sep=: rules=- << EOF
 11:Vinhedo
 EOF
 
+## Incorporar os conxuntos históricos (área integral de protección)
+v.to.rast in=AreaIntegral out=AreaIntegral use=val val=1
+r.null map=AreaIntegral null=0
+
+r.mapcalc expression="ClaseCuberta2=if(AreaIntegral==1, 12, ClaseCuberta)"
+
+r.category ClaseCuberta2 sep=: rules=- << EOF
+1:Monte raso
+2:Turbeira
+3:Bosque
+4:Repoboacion forestal
+5:Agrogandeiro intensivo
+6:Agrogandeiro extensivo
+7:Rururbano (diseminado)
+8:Urbano
+9:Extractivo
+10:Mosaico agroforestal
+11:Vinhedo
+12:Conxunto Historico
+EOF
+
 ## Desactivar máscara
 r.mask -r
+
+## Borrar capas intermedias (libera aprox. 10 GB)
+g.remove type=raster pattern=SC* -f
+g.remove type=raster pattern=s* -f
+g.remove type=raster pattern=d* -f
+g.remove type=raster name=AreaIntegral -f
+g.remove type=raster name=Vin -f

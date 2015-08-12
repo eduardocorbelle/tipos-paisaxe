@@ -18,7 +18,7 @@ g.region rast=mdt25
 v.to.rast input=siose2011 type=area out=siose2011 use=attr column=SIOSElenda labelcolumn=CLASELENDA
 
 ## Reclasificamos
-r.reclass input=siose2011 output=siose2011r rules=./Scripts/SIOSEreclas.txt title="Siose 2011 reclasificado"
+r.reclass input=siose2011 output=siose2011r rules=./Scripts/ReclassSiose.txt title="Siose 2011 reclasificado"
 
 
 

@@ -1,8 +1,0 @@
- 0 thru 5	= 0
- 5 thru 10	= 1
-10 thru 20	= 2
-20 thru 25      = 3
-25 thru 30      = 4
-30 thru 45      = 5
-45 thru 60      = 6
-60 thru 450     = 7

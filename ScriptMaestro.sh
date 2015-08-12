@@ -13,8 +13,6 @@
 ### Cargar datos base (as rutas aos arquivos poden ter cambiado)
 # MDT25
 sh ./Scripts/ImportMDT25.sh
-# MDT200
-sh ./Scripts/ImportMDT200.sh
 # Límites administrativos
 sh ./Scripts/ImportLimits.sh
 # SIOSE 2011
@@ -25,6 +23,10 @@ sh ./Scripts/ImportHabitat.sh
 sh ./Scripts/ImportCLIMA.sh
 # Datos de Viñedo
 sh ./Scripts/ImportVinhedo.sh
+# Conxuntos históricos
+sh ./Scripts/ImportCascos.sh
+# Ámbito de actuación do POL
+sh ./Scripts/ImportPOL.sh
 
 
 ### Procesado da información
