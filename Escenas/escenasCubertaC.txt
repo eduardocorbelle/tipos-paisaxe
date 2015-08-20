@@ -1,0 +1,17 @@
+# Clases de paisaxe asociadas ás escenas (escenascuberta.txt)
+
+1,monte raso
+2,turbeiras
+3,bosque
+5,repoboacións
+7,agrogandeiro intensivo
+9,agrogandeiro extensivo
+10,agrogandeiro extensivo
+11,rururbano diseminado
+12,rururbano diseminado
+13,urbano
+15,extractivo
+16,mosaico agroforestal
+17,mosaico agroforestal
+18,viñedo
+19,viñedo

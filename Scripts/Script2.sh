@@ -21,6 +21,7 @@ r.mapcalc expression="Vin=Vin040+Vin045+Vin050+Vin055+Vin060+Vin065+Vin070+Vin07
 r.mapcalc expression="cubertas = if(siose2011r==2|siose2011r==8, null(), if(habitats==2, 5, if(habitats==11, 2, if(Vin==1, 8, siose2011r))))"
 r.category map=cubertas rules=./Scripts/CategoriasCuberta.txt separator=":"
 r.support -s cubertas
+r.out.gdal in=cubertas out=./Tmp/cubertas.img format=HFA
 
 ### Cálculo dos histogramas de co-ocorrencias (ventá circular, diámetro de 1500 m, resolución 25 m)
 echo "Calculando a grella de escenas"
@@ -29,18 +30,7 @@ p.sig.grid -c input=cubertas size=60 shift=1 method=coocurence histograms=./Tmp/
 ### Cálculo dos histogramas para as escenas seleccionadas
 p.sig.points -c input=cubertas coorfile=./tipos-paisaxe/Escenas/escenasCuberta.txt size=60 method=coocurence histograms=./Tmp/escenasCuberta.his
 
-## Clases de cuberta asociadas ás escenas (escenascuberta.txt)
-# 1 : monte raso
-# 2 : turbeiras
-# 3 : bosque
-# 5 : repoboacións
-# 7 : agrogandeiro intensivo
-# 9 e 10: agrogandeiro extensivo
-# 11 e 12: rururbano diseminado
-# 13 : urbano
-# 15 : extractivo
-# 16 e 17: mosaico agroforestal
-# 18 e 19: viñedo
+## Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
 
 ### Similaridade coas escenas seleccionadas
 p.sim.search scenes=./Tmp/escenasCuberta.his grid=./Tmp/GrellaCubertas measure=shannon output=SC_shannon nulls=0.80
