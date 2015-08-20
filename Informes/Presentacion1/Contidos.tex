@@ -1,0 +1,203 @@
+%\documentclass{article}
+\usepackage[english,spanish,galician]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{default}
+\usepackage{array}
+\usepackage{chngpage}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{animate}
+
+
+\title{Cartografía de unidades da paisaxe}
+\subtitle{Proposta preliminar}
+\author{Eduardo Corbelle Rico} 
+\institute{Laboratorio do territorio\\Universidade de Santiago de Compostela}
+\date{2 de xullo de 2015}
+
+\titlegraphic{
+\includegraphics[height=1cm]{/home/edujose/Traballo/Recursos/logo_usc/logo_ux.pdf}%
+}
+
+
+
+
+\graphicspath{{"/home/edujose/Traballo/Proxectos/2015_04_CatalogoPaisaxe/Reports/Report1/Figures/"}}
+
+
+\usetheme{Frankfurt} % Frankfurt
+\usefonttheme{professionalfonts}
+\usecolortheme{USC2} % masterra 
+\useinnertheme{circles}
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}
+\setcounter{tocdepth}{1}
+
+
+\begin{document}
+
+%\mode<presentation>
+%----------- páxina de título ----------------------------------------------%
+\begin{frame}[plain]
+ \vspace{2cm}
+ \titlepage
+\end{frame}
+
+%%----------- Contidos ----------------------------------------------%
+%\begin{frame}{Contidos}
+%  \tableofcontents%[pausesections]
+%\end{frame}
+%
+%\mode*
+%\maketitle
+%\tableofcontents
+
+
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Obxectivos}
+ \begin{itemize}
+  \item Propoñer unha clasificación de \alert{tipos de paisaxe}
+  \item Cartografar a localización de cada tipo (\alert{unidades})
+ \end{itemize}
+ 
+\pause
+ \begin{block}{Compoñentes da clasificación}
+  \begin{itemize}
+   \item Clases de forma do relevo
+   \item Clases de uso/cuberta do solo
+   \item Clases bioclimáticas
+  \end{itemize}
+ \end{block} 
+\end{frame}
+
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Clases de forma do relevo}
+  \begin{enumerate}
+   \item Chaira
+   \item Val
+   \item Canón
+   \item Relevo ondulado
+   \item Montaña
+  \end{enumerate}
+\end{frame}
+
+
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Clases de uso/cuberta do solo}
+  \begin{enumerate}
+   \item Mato seco e rochedo
+   \item Brezais húmidos e turbeiras
+   \item Bosques naturais
+   \item Bosques transformados
+   \item Agrícola e gandeiro extensivo
+   \item Agrícola e gandeiro intensivo
+   \item Residencial diseminado
+   \item Urbano e industrial
+  \end{enumerate}
+\end{frame}
+
+
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Clases bioclimáticas}
+  \begin{enumerate}
+   \item Subhiperoceánico
+   \item Semihiperoceánico
+   \item Euoceánico
+   \item Semicontinental
+  \end{enumerate}
+\end{frame}
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Tipos de paisaxe}
+ \begin{block}{Exemplo}
+ Chaira\\
+ Agrícola e gandeiro intensivo\\
+ Clima semihiperoceánico
+ \end{block}
+ 
+ \pause
+ \begin{block}{Número (potencial) de tipos}
+ 5 clases forma $\times$ 8 clases uso $\times$ 4 clases clima $ = $ 160 tipos
+
+ \bigskip
+ Tipo $\neq$ Unidade
+ \end{block}
+\end{frame}
+
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Principais fontes de información}
+ \begin{itemize}
+  \item MDT25 (IGN)
+  \item SIOSE 2011 (IET)
+  \item Mapa de hábitats (Laboratorio de botánica, USC)
+  \item Rodríguez Guitián \& Ramil Rego, RR.RR., 2007
+ \end{itemize}
+\end{frame}
+
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Escala de traballo}
+Grande área paisaxística
+  \begin{itemize}
+   \item Comarca paisaxística
+    \begin{itemize}
+     \item \alert{\textbf{Unidade da paisaxe}}
+      \begin{itemize}
+       \item Elemento da paisaxe
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Criterios de elección de clases}
+\begin{itemize}
+ \item Relevancia para a xestión
+ \item Posibilidade de identificación automática (patrón)
+\end{itemize}
+\end{frame}
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Patróns: Exemplos}
+\includegraphics<1>[width=\textwidth]{EscenaA1}
+\includegraphics<2>[width=\textwidth]{EscenaA2}
+\end{frame}
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Patróns: Exemplos}
+\includegraphics<1>[width=\textwidth]{EscenaB1}
+\includegraphics<2>[width=\textwidth]{EscenaB2}
+\end{frame}
+
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}
+\frametitle{Patróns: Exemplos}
+\includegraphics<1>[width=\textwidth]{EscenaC1}
+\includegraphics<2>[width=\textwidth]{EscenaC2}
+\end{frame}
+
+
+
+
+
+
+
+\end{document}
+

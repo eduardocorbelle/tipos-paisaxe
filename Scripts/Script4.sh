@@ -16,7 +16,7 @@ r.to.vect -v input=TiposPaisaxe output=TiposPaisaxe type=area
 
 ########## Recortar o ámbito do POL
 v.overlay ainput=TiposPaisaxe binput=Ambito operator=not output=TiposPaisaxeR
-
+## * Podería facerse en fases anteriores e en formato ráster
 
 ########## Simplificar (eliminar unidades menores de 1ha)
 v.generalize input=TiposPaisaxeR output=TiposPaisaxeB method=reumann threshold=26 --o

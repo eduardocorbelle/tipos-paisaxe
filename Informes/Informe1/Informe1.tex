@@ -1,0 +1,272 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[]{graphicx}
+\usepackage[]{color}
+\usepackage[english,spanish,galician]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[adobe-utopia]{mathdesign}
+\usepackage{url}
+\usepackage[unicode=true, pdfusetitle, bookmarks=true, bookmarksnumbered=true, bookmarksopen=FALSE, 
+            breaklinks=false, pdfborder={0 0 1}, backref=false, colorlinks=TRUE, linktocpage=TRUE, 
+            allcolors=blue]{hyperref}
+\usepackage{natbib}
+\usepackage[textwidth=35mm, textsize=footnotesize, disable]{todonotes}
+\usepackage{microtype}
+\usepackage{booktabs}
+
+\title{Mapa de tipos de paisaxe en Galicia\\Descrición da versión 0.2}
+\author{Eduardo Corbelle Rico\thanks{Laboratorio do territorio (LaboraTe), Departamento de Enxeñería Agroforestal, Universidade de Santiago de Compostela. Correo-e: \href{mailto:eduardo.corbelle@usc.es}{eduardo.corbelle@usc.es}.}}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\hrule
+ \vspace{.2cm}
+  \begin{footnotesize}
+   \noindent NOTA: Este documento describe os conceptos teóricos, os supostos de partida, as fontes de información orixinais e o proceso de traballo empregado na produción da versión 0.2 do Mapa de tipos de paisaxe de Galicia. O código completo empregado está dispoñible para descarga en: \url{https://github.com/eduardocorbelle/tipos-paisaxe/releases/tag/v0.2}.\\   
+Todo o contido do documento faise público baixo licencia \emph{Creative Commons Atribución-Compartir Igual} (CC by-sa). Unha versión resumida das condicións da licencia pódese consultar en galego en: \url{http://creativecommons.org/licenses/by-sa/4.0/deed.gl}.
+  \end{footnotesize}
+ \vspace{.2cm}
+\hrule
+\bigskip
+
+\section{Introdución}
+
+A delimitación dos límites das unidades da paisaxe continúa a ser en moitos casos un traballo no que se combinan, de xeito manual e polo tanto subxectivo, a percepción visual da información cartográfica coa experiencia previa e o coñecemento da área de estudio. Se ben os resultados obtidos adoitan ser de moi boa calidade, trátase dun procedemento lento e custoso e por esta razón existe na comunidade científica un grande interese por definir procedementos automáticos ou semi-automáticos de delineación, baseados no uso da información xeoespacial hoxe dispoñible en moitos países \citep{Mucher201087,Jasiewicz2014104}. A idea principal detrás da delimitación automática de tipos de paisaxe consiste en asumir que a paisaxe pode ser clasificada en categorías (\emph{tipos}) con significado desde o punto de vista da xestión. Por suposto, asúmese tamén que a información dispoñible é suficiente para distinguir os tipos que son obxecto de interese. Cada tipo de paisaxe adoita ir habitualmente acompañado dunha pequena descrición, como por exemplo esta proporcionada por \citet{Chuman2010200}:
+\begin{quote}
+<<Tipo 9: Áreas de baixa altitude e clima temperado que reciben unha media de 650~mm de precipitación anual. Os tipos de solo máis característicos son os fluvisoles, luvisoles háplicos e pelosoles. A vexetación natural consiste principalmente de bosques de carballos e carpes, bosques de ribeira, ou bosques encharcados de carballos pedunculados e faias. Unha alta proporción [da superficie] deste tipo foi ocupada por superficie urbana. As terras de cultivo, as áreas urbanas e as zonas industriais ou comerciais son os usos do solo característicos deste tipo de paisaxe.>>
+%\emph{``Type 9: Warm lowlands that receive up to 650 mm of precipitation per year on average. Fluvisols, haplic luvisols and pellosols are the most characteristic soil types. Natural vegetation consists mainly of oak-hornbeam forest, alluvial forest or waterlogged pedunculate oak-beech forest. A high proportion of this land has been converted to urban fabric. Arable land, discontinuous urban fabric and industrial or commercial units are characteristic land covers for this landscape type.''}
+\end{quote}
+
+%\citep{Mucher201087}
+%In general, a classification method can be either subjective (based on intuitive expert judgment) or objective-based on quantitative statistical methods. The main limitation of subjective methods is the difficulty of classification revision by another expert or the incorporation of new data that is obtained later in the study. Objective methods are therefore the main focus of current methodological approaches.
+
+
+Dentro deste esquema, cada categoría ou \emph{tipo} de paisaxe concrétase sobre o territorio nunha ou varias \emph{unidades} da paisaxe, que podemos definir como <<fragmentos a escala media da superficie terrestre, moldeados pola natureza e a actividade humana, e que son percibidos polas polas persoas>> \citep{Kienast2015136}. Realizar unha cartografía de tipos de paisaxe existentes equivale, polo tanto, a establecer os límites xeográficos das unidades existentes. Este pode ser tratado como un problema de clasificación automática ou \emph{machine learning}, en cuxo caso son de aplicación as técnicas e principios comúns nos ámbitos científicos da teledetección, o tratamento de imaxes dixitais, e a análise espacial. Unha vez establecido este marco metodolóxico xeral, resulta interesante sinalar que para a clasificación podemos empregar, potencialmenÉ destacable a existencia dun te, dúas aproximacións posibles, ou unha combinación delas: a baseada na propia estrutura dos datos (\emph{data-driven}), e a baseada en modelos definidos previamente (\emph{knowledge-driven}).
+
+A primeira aproximación consiste en tratar de dividir as observacións sobre as que temos información (por exemplo, cada un dos elementos dunha cuadrícula coa que de xeito arbitrario dividimos o territorio) mediante métodos automáticos que tratan de formar grupos relativamente homoxéneos internamente e heteroxéneos entre si. Se ben existen múltiples variacións posibles, interesa resaltar aquí que este procedemento resulta na delimitación de porcións do territorio, pero que precisa necesariamente dunha segunda fase na que definamos a que categoría concreta de paisaxe debería ser asignada cada porción. 
+
+A segunda aproximación posible consiste en definir previamente cales son as características que definen cada tipo de paisaxe (características que necesariamente deben ser observables na información cartográfica dispoñible), para poder avaliar ata que punto cada porción do territorio se asemella ao modelo definido. Usualmente, asígnase a cada porción de territorio a categoría coa que mostra maior similitude. Tamén aquí esta descrición xenérica engloba moitas posibles variantes concretas.
+
+
+
+
+
+
+
+Con independencia do procedemento técnico utilizado, o marco conceptual máis habitual na bibliografía sobre clasificación da paisaxe é o sistema do \emph{Landscape Character Assessment} (LCA), proposto orixinalmente no Reino Unido na década de 1990. Este é común en moitos países europeos ---incluída España \citep{Valles2013}--- así como non europeos, e foi recentemente escollido para producir un mapa de paisaxes de toda Europa \citep{Wascher2005,Mucher201087}. O concepto máis destacado deste sistema é o de \emph{carácter}, que se define como <<un patrón consistente, recoñecible e diferenciado, de elementos da paisaxe que fai esa paisaxe diferente doutras, pero non mellor ou peor>> \citep{TheCountrysideAgency2002}. Parece obvio indicar que non existe unha única escala á que se deba realizar unha clasificación da paisaxe, e que o patrón que podemos observar varía coa escala escollida. En definitiva, o que se trata de facer coa clasificación é dividir o territorio en unidades homoxéneas, de acordo ás súas características físicas e biolóxicas, a unha determinada escala \citep{Capotorti2012174}. A elección de escala debería ser, polo tanto, previa á definición das categorías de paisaxe coas que se traballará.
+
+Convén recordar aquí que o concepto de \emph{escala do traballo} se utiliza normalmente para referirse a dous conceptos independentes pero a miúdo relacionados: a extensión total abarcada (normalmente relacionada cunha determinada división administrativa utilizada como referencia), e o nivel de detalle esperable no producto final. Este último concrétase, á súa vez, no tamaño mínimo a partir do cal unha unidade aparece no mapa (a \emph{unidade mínima cartografiable}) e na precisión que se lle supón ás liña que dividen as unidades entre si. No caso dos traballos realizados durante as últimas décadas en España, \citet{Valles2013} atoparon que os traballos realizados a nivel do Estado ou comunidade autónoma están habitualmente a escalas de 1:200~000 ou 1:100~000, os traballos realizados a nivel provincial a escalas de 1:50~000 ou 1:25~000, e os traballos realizados a nivel municipal a escala 1:10~000. 
+
+%\emph{Atlas de los Paisajes de España}: Bib. Intercentros, sala CC. Sociais, XEO~497, 1 (texto), 2 (mapa) e 3 (CD). Saída gráfica a unha escala aproximada de 1:700~000,
+% \emph{Atlas de los paisajes de Castilla la Mancha}: Biblioteca de Xeografía e Historia, AT~127 (2011).
+
+%Por outra parte, existen diferentes tipos de indicadores para avaliar o estado ou o grao de cambio nas paisaxes, algúns deles baseados no concepto de ``forzas de cambio'' (\emph{driving forces}). Por exemplo, o sistema suízo LABES está baseado no concepto de ``forza de cambio-presión-estado-impacto-resposta'' \citep{Kienast2015136}. Outros sistemas de indicadores empregados en diferentes países aparecen citados na mesma publicación ou en \citet{Walz201588}. 
+
+
+
+\subsection{Fontes de información habituais}
+
+A maioría dos traballos consultados na bibliografía fan uso dun número relativamente reducido (3--5) de fontes de información para clasificar unidades da paisaxe. Por exemplo, \citet{Capotorti2012174} empregaron fundamentalmente o clima e a fisiografía, e complementaron esta información con cartografía de espazos naturais protexidos, vexetación potencial e usos do solo actuais. \citet{Chuman2010200} empregaron o clima, o tipo de solo, a topografía, a vexetación potencial e o uso actual do solo. \citet{Soto2010720} empregaron a altitude, a pendente do terreo, unha clasificación ecolóxica preexistente e a xeoloxía. \citet{VanEetvelde2009160} empregaron a altitude, o uso do solo, o tipo de solo, e unha imaxe de satélite. En ocasións utilízase unha grande variedade de fontes de informaicón para caracterizar as unidades xa identificadas: por exemplo, \citet{Mucher201087} combinaron aspectos abióticos (clima, xeomorfoloxía, hidroloxía, edafoloxía), bióticos (vexetación e fauna) e culturais (cuberta do solo, estrutura da paisaxe) para caracterizar as unidades, pero estas foron delimitadas empregando exclusivamente a información sobre o clima, a altitude, a xeoloxía e a cuberta do solo.
+
+No caso dos traballos realizados en anos recentes en España, topografía, uso do solo, e visibilidade son as tres variables de entrada máis utilizadas \citep{Valles2013}. Para os traballos feitos a nivel de rexión ou comunidade autónoma, a análise da topografía adoita centrarse nos grandes dominios xeomorfolóxicos (áreas de montaña, chairas\ldots) e non en niveis de máis detalle como as formas do terreo (fondo de val, ladeira, cumio\ldots). A este nivel de análise, por outra parte, a análise de visibilidade non adoita facerse en absoluto, ou ben limítase a considerar unicamente a influencia do relevo (e non da cuberta artificial ou vexetal) sobre a visibilidade.
+
+\subsection{Métodos de análise habituais}
+
+Unha parte dos autores consultados realizaron a delimitación de unidades da paisaxe a partir dunha clasificación non supervisada \citep{VanEetvelde2009160,Chuman2010200,Soto2010720}. Este tipo de aproximación require que os autores busquen un sentido ás unidades formadas. Dito doutro xeito, a clasificación proporciona unidades delimitadas sobre o terreo, pero é necesario que os autores decidan, á vista das características de cada unha, cal sería o nome e a descrición máis acaída. Esta é unha típica aproximación dirixida pola información orixinal (\emph{data driven}), e as unidades formadas terán sentido, en relación cos obxectivos e os criterios de xestión que se propón o traballo, na medida en que a información orixinal empregada na clasificación tamén o teña.
+
+Un dos problemas das técnicas habitualmente utilizadas para a clasificación non supervisada (por exemplo, do algoritmo k-medias e as súas variantes) é que foron desenvolvidas para analizar conxuntos de datos non espaciais, e polo tanto non consideran a localización de cada observación como un dos criterios a ter en conta na clasificación. Os denominados algoritmos de segmentación son unha alternativa a aqueles, cada vez máis utilizados na medida en que van estando dispoñibles nun maior número de aplicacións informáticas e se van facendo máis eficientes desde o punto de vista dos seus requirimentos de cálculo. Un exemplo da súa utilización atopámolo en \citet{Mucher201087}, que explotan as capacidades de segmentación dunha coñecida aplicación comercial para delinear as unidades de paisaxe.
+
+Se ben as posibilidades dos métodos de segmentación son grandes, estes non parecen unha solución eficiente cando unha parte da información de partida é categórica (como é o caso do uso do solo, por exemplo). Unha alternativa para a delimitación de unidades homoxéneas a partir de información categórica é a proposta por \citet{Jasiewicz201562}, baseada no concepto de \emph{patrón espacial}. Os autores definen o patrón espacial como <<a estrutura perceptiva, a posición, ou a disposición dos diferentes obxectos nunha imaxe, que definen un conxunto de cualidades xeométricas.>> O patrón defínese nunha rexión de cálculo arredor de cada punto, para a cal se avalía a frecuencia de aparición de cada categoría do mapa orixinal, ou ben a frecuencia de aparición de cada par de cubertas contiguas (co-ocorrencia): \citet{Niesterowicz2013250}, por exemplo, empregaron como rexión de cálculo un cadrado de 3~km de lado (100 píxeles de 30 m) arredor de cada punto do mapa. O histograma de frecuencias resultante para cada punto do terreo define o patrón ou sinatura que se emprega para a clasificación posterior.
+
+A maioría dos traballos consultados realizan as análises empregando o modelo de datos ráster. A resolución empregada depende da escala de traballo: 2~km/píxel \citep[sobre toda a República Checa]{Chuman2010200}, 1~km/píxel \citep[Unión Europea]{Mucher201087}, 75~m/píxel \citep[Italia]{Capotorti2012174}, e 30~m/píxel \citep[Polonia]{Jasiewicz2014104}.
+
+
+
+%Para a análise da xeomorfoloxía do terreo, \citet{Capotorti2012174} empregaron o índice de posición topográfica (TPI) sobre un modelo dixital de elevaciónsa Estes consideraron as seguintes clases: costa, planicie, pendente en pé de monte, mesetas, ladeiras, vales e cumios. No uso da información sobre cuberta e uso do solo, os mesmos autores partiron de Corine Land Cover e fixeron unha reclasificación en seis grandes clases de acordo co grado de naturalidade (entendida neste caso como distancia ou diferencia coas formacións de vexetación potencial).
+% ``An original geomorphological map was drawn up by elaborating a Digital Terrain Model, with a grid cell of 75 m. We applied the Topographic Position Index (Jenness, 2006; Tagil and Jenness, 2008), a semiautomated method to define basic landforms developed by Weiss (2001) and implemented in the Dalrymple et al. (1968) nine-unit slope model, to match the geomorphological diversity of Italy.''
+%``The land cover types were reclassified into six environmental quality categories according to the concept of ‘‘naturalness’’''.
+
+
+
+
+%ALgúns traballos existentes na bibliografía téñense dedicado á identificación automática de accidentes xeográficos ou formas do terreo (\emph{landforms}). Esta é unha tarefa de menor complexidade, que se apoia fundamentalmente na información sobre a morfoloxía do terreo (por exemplo, representada a través dun modelo dixital de elevacións), que formaría só unha fase inicial dun proceso de cartografía de tipos de paisaxe. Conceptualmente, unha primeira aproximación simplificada permitiría entender cada tipo de paisaxe como un patrón específico ---caracterizable e polo tanto teoricamente identificable--- de formas do terreo \citep{Minar2008236,Evans201294}.
+
+%\citet{Jasiewicz2014104} empregaron un modelo de elevacións con resolución de 30~m/píxel de toda Polonia para derivar automaticamente un mapa con 10 posibles formas do terreo: \emph{flat}, \emph{peak}, \emph{pit}, \emph{ridge}, \emph{valley}, \emph{shoulder}, \emph{footslope}, \emph{spur}, \emph{hollow}. A continuación dividiron o mapa de formas nunha cuadrícula de paisaxes locais, sendo o tamaño da cuadrícula suficientemente grande para non resaltar a importancia de accidentes do terreo triviais ou de pouca importancia, pero tamén suficientemente pequeno para capturar a diversidade de tipos de paisaxe na área de estudio. Sobre a anterior, realizaron unha serie de consultas de similaridade por comparación cunha mostra de entrenamento de tipos de paisaxe predefinidos. Finalmente, asignaron a cada píxel o tipo de paisaxe cun maior valor de similaridade en cada caso. O resultado é unha clasificación dos grandes tipos xeomorfolóxicos dentro do país.
+
+
+
+
+
+
+
+\section{Materiais}
+
+
+%Escala: 1:25~000.
+Para realizar o mapa de tipos de paisaxe de Galicia propoñemos unha aproximación baseada en tres clases de información principais: a morfoloxía do terreo, o uso ou cuberta do solo, e o tipo de clima.
+
+
+A fonte empregada para analizar a morfoloxía do terreo é o modelo dixital do terreo con paso de malla de 25 metros (MDT25) elaborado e distribuído polo \emph{Instituto Geográfico Nacional}. Á vista da resolución empregada por outros traballos consultados, 25~m/píxel semella un bo compromiso entre nivel de detalle e volume de información: sobre a superficie de Galicia, supón arredor de 50 millóns de píxeles (empregar o seguinte modelo máis detallado ofrecido polo IGN, o MDT5 con malla de 5 metros, suporía multiplicar por 25 o volume de cálculo necesario, ata os 1~250 millóns de píxeles). Os datos empregados neste traballo, descargados na primavera de 2015, corresponden ás campañas de 2009 (nas provincias de Ourense e Lugo) e 2011 (nas provincias de A Coruña e Pontevedra) e proceden en tódolos casos do procesado de datos tomados por sensores láser aeroportados (lídar).
+
+
+No relativo ao uso ou cuberta do solo, empregamos dúas fontes, complementarias entre elas. A primeira é unha versión de lenda simplificada da versión de 2011 do Sistema de Información da Ocupación do Solo de España (SIOSE) elaborada e proporcionada polo Instituto de Estudos do Territorio (IET) da Consellería de Medio Ambiente, Territorio e Infraestruturas. A escala de SIOSE (1:25~000) é a mesma que a deste traballo. Malia tratarse dunha versión de lenda xa simplificada respecto da lenda completa de SIOSE, optamos por reducir aínda máis o número de categorías contempladas seguindo o criterio exposto no cadro~\ref{cadroSIOSE}. Esta información foi complementada parcialmente coa existente na cartografía do Plan Director da Rede Natura 2000 de Galicia \citep{PDRN2011}. En particular, tomamos desta última fonte a localización das áreas de turbeira e brezais húmidos, e a das masas de bosque caducifolio.
+
+\begin{table}
+\caption{Categorías na capa de Siose proporcionada polo IET e conversión proposta neste traballo} \label{cadroSIOSE}
+\begin{center}
+\begin{tabular}{p{.5\textwidth}l}
+\toprule
+Clases orixinais & Simplificación proposta \\
+\midrule
+Cultivos e prados & Superficie agrícola \\
+Mosaico agrícola e mato &  \\
+Mosaico de cultivos e especies arbóreas &  \\
+Viñedo e cultivos leñosos &  \\
+\midrule
+Coníferas & Repoboación forestal \\
+Eucaliptos &  \\
+Eucaliptos e coníferas &  \\
+Mestura de especies arbóreas & \\
+Repoboacións forestais &  \\
+\midrule
+Especies caducifolias & Bosque \\
+\midrule
+Mato & Monte raso\\
+Mato e especies arbóreas &  \\
+Mato e rochedo &  \\
+Afloramentos rochosos e rochedos &  \\
+Zonas queimadas &  \\
+\midrule
+Coberturas artificiais & Urbano e artificial \\
+Instalacións deportivas &  \\
+Mosaico agrícola e urbano &  \\
+Zonas urbanas &  \\
+\midrule
+Zonas de extracción ou vertido &  Zonas de extracción\\
+\midrule
+Sistemas xerais de transporte &  (Non contemplado)\\
+Augas continentais &  \\
+Augas mariñas &  \\
+Zonas húmidas &  \\
+Praias e cantís &  \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+Para representar a variabilidade climática de Galicia optamos por recorrer á proposta de \citet{Rodriguez2007}. Esta está baseada nos criterios de \citet{RivasMartinez2015}, recoñecidos pola comunidade científica internacional e empregados noutros traballos de clasificación de unidades de paisaxe \citep[p.ex. ][]{Capotorti2012174}. Das diferentes clasificacións dispoñibles na fonte orixinal (macrobioclimas, bioclimas e pisos bioclimáticos: termotipos e ombrotipos) utilizamos, por adecuarse mellor á escala de traballo empregada e por conter unha lenda de maior simplicidade, os bioclimas: <<espazos físicos delimitados por uns determinados tipos de vexetación e os seus correspondentes valores climáticos>> \citep{RivasMartinez2015}. 
+
+%A fonte de referencia no relativo á clasificación climática de Galicia puidera ser a de \citet{AtlasClimatico1999}. Non obstante, esta fonte presenta certas incongruencias cos propios datos mostrados.\footnote{P.ex., os valores presentados no mapa de temperatura media en todo o centro da provincia de Lugo superan os 13ºC, cando os valores das estacións oscilan entre 11 e 12ºC.} A clasificación resultante ten sido discutida por \citet{Rodriguez2007}, que propoñen unha nova clasificación baseada nos criterios de \citet{RivasMartinez2015}, a clasificación seguida por outros traballos similares .\todo{De feito, Capotorti e cols. empregan a clasificación de macrobioclimas, dado que traballan sobre toda Italia.} É de destacar que os mapas propostos na segunda das fontes citadas proceden en realidade dunha delimitación manual, a partir da clasificación de numerosas (209) estacións climáticas en territorio galego e limítrofes, pero semella a mellor fonte dispoñible ata o momento. 
+
+
+
+
+
+\section{Método}
+
+A práctica totalidade do proceso de análise levouse a cabo no sistema de información xeográfica libre GRASS GIS 7.0 \citep{GRASS7}, funcionando sobre sistema operativo Debian 8.0 <<\emph{Jessie}>> (GNU/Linux). O procesado da información sobre uso ou cuberta do solo foi realizada especificamente co módulo de GRASS GeoPAT \citep[\emph{Geospatial Pattern Analysis Toolbox},][]{Jasiewicz201562}.% A maiores, empregamos os complementos para GRASS \texttt{r.geomorphon} \citep{Jasiewicz2013147} e . %e R 3.1.1 \citep{R}.
+
+O proceso de traballo consta de tres partes diferenciadas, correspondentes ao análise da información sobre a morfoloxía do terreo, da relativa ao uso do solo, e da relativa ao clima, e unha fase final de integración dos tres resultados respectivos.
+
+\subsection{Morfoloxía do terreo}
+
+Para a clasificación das principais rexións xeomorfolóxicas de Galicia propoñemos unha división en catro grandes categorías: serras e áreas de montaña, chairas, canóns, e o resto do territorio (que optamos por denominar <<relevo intermedio>>). Para a súa delimitación optamos por realizar unha segmentación automática sobre os valores de altitude do MDT25 e unha capa de pendente do terreo derivada deste último. O resultado do proceso é unha división do terreo en áreas con pendente e altitude homoxéneas, que foron despois clasificadas de xeito manual nas categorías citadas. Identificamos como chairas as áreas da Terra Chá e a Limia, e como canóns os do Eume, Miño, Sil e Návea, baseándonos principalmente no criterio de pendente. Para a clasificación das áreas de serra tivemos en conta o criterio de \citet{PerezAlberti1986}, que considera o inicio das serras orientais entre os 600 e 700 metros de altitude, e nas áreas occidentais entre os 400 ou 500 metros.
+
+%Figuras: 1) segmentación sobre imaxe de sombreado derivada do MDT25.
+%         2) Resultado final da clasificación de rexións morfolóxicas.
+
+%%%%% Considerar a Rasa Cantábrica!!!
+%%%%% Outras rexións xeomorfolóxicas?? (Mesetas?)
+
+
+
+% Descartamos, polo tanto, o uso das formas do terreo que proporciona \texttt{r.geomorphon}\footnote{\url{http://grass.osgeo.org/grass70/manuals/addons/r.geomorphon.html}} dado que non permiten diferenciar patróns dentro do territorio de Galicia (o conxunto do territorio mostra un patrón moi similar de sucesión de picos, pendentes e fondos de val, coa única excepción das principais áreas de chaira).
+
+%A partir do anterior, empregamos unha segmentación baseada nunha grella de escenas (\emph{grid-of-scenes}) mediante o módulo \texttt{p.sig.grid} dispoñible en GeoPAT. A escena é unha área arredor de cada punto do terreo para a que se calcula un único patrón. O tamaño da escena (\emph{size}, $N$) escollido é neste caso de 100 píxeles (2~500~m). Neste proceso é posible degradar a resolución do ráster orixinal mediante o parámetro \emph{shift} (k) que define, neste caso, a densidade de puntos para os que se avalía o patrón (ou a distancia entre centros de escena), que establecemos provisionalmente en 2--4 píxeles: isto significa que a resolución do ráster de patróns é de 50--100 metros (2--4 veces máis grosa que a da capa orixinal).\footnote{A modo de comparación cos parámetros seleccionados aquí, \citet{Jasiewicz2014104} empregan $k=50$ e $N=1000$ (escenas de $15\times 15$~km e resolución do mapa de saída de 1.5~km).} O método empregado para caracterizar cada patrón é o de co-ocorrencia: en cada ventá de $N \times N$ píxeles avalíase o número de ocasións (frecuencia) que cada clase de pendente aparece ao lado de cada unha das demais. O resultado é un histograma de frecuencias de co-ocorrencia para cada escena.
+
+%Por outra banda establecemos un conxunto de escenas de entrenamento para establecer histogramas de co-ocorrencias cos que comparar os obtidos no paso anterior. Para iso, seleccionamos dúas \todo{Poderían ser máis, en función da diversidade da clase a definir.} escenas de cada tipo de grandes formas (exemplos nas figuras~\ref{fig:escenasPEND}): montaña, chaira, canón, vales amplos e áreas de relevo intermedio. \todo{A definición destas dúas últimas clases é discutible e quizais pouco operativa.} 
+
+%Finalmente, a comparación entre os histogramas da grella de escenas e os de cada un das escenas de entrenamento permite xerar tantos mapas de similaridade como escenas empregadas. O estatístico de distancia empregado é o de Shannon \citep{Cha2007}, considerado máis próximo á percepción humana da similaridade entre segmentos \citep{Jasiewicz2014104}. Dado que de entre os puntos da mostra de entrenamento hai varios de cada tipoloxía, é posible estimar un valor medio de similaridade como a media das capas de similaridade correspondentes aos puntos considerados dun mesmo tipo de relevo ou de cuberta do solo. O mapa final de clases de formas do terreo elaborouse asignando a cada píxel a clase con maior valor de similaridade asociado en cada caso.
+
+
+\begin{figure}
+\caption{}\label{fig:Morfo1}
+%\includegraphics[width=.49\textwidth]{}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+%As clases inicialmente concibidas foron:
+%
+%A) Clases de uso ou cuberta do solo
+%* Urbano: áreas que tipicamente serían, no planeamento xeral, solo urbano (consolidado ou non consolidado).
+%* Rururbano diseminado: áreas con vivendas diseminadas e intercaladas con outros usos do territorio.
+%* Rururbano lineal: áreas con vivendas espalladas ao longo dunha vía de comunicación.
+%* Agrogandeiro intensivo: p.ex. áreas afectadas por concentración parcelaria, áreas con escasa presencia de sebes, muros, ou camiños tradicionais.
+%* Agrogandeiro extensivo: áreas con abundante presencia de sebes, muros ou camiños tradicionais. Cabe incluír aquí o viñedo en socalcos?
+%* Arborado con función produtiva: áreas dominadas pola presencia de masas de arborado procedentes fundamentalmente de plantación e con finalidade de produción de madeira (principalmente masas puras ou mixtas de coníferas e eucalipto).
+%* Arborado - frondosas caducifolias: áreas dominadas pola presencia de masas de arborado procedentes fundamentalmente de revexetación espontánea, compostas por especies frondosas caducifolias, e tamén soutos de castiñeiro.
+%* Áreas escasamente humanizadas: áreas dominadas pola presencia de mato ou afloramentos rochosos. [Como tratamos a presenza de parques eólicos?]
+%* Embalses
+%* Minas e explotacións a ceo aberto.
+%
+
+
+
+\subsection{Clases de uso do solo}
+
+Reproducimos o esquema do apartado anterior sobre a capa de SIOSE (2011) reclasificada de acordo co cadro~\ref{cadroSIOSE}. Neste caso tamén consideramos un tamaño de escena de 2~500~m, aínda que podería ser diferente, e a busca de patróns mediante matriz de co-ocorrencias. Establecemos escenas de entrenamento para as seguintes clases: urbano, rururbano lineal, rururbano diseminado, agrogandeiro intensivo, agrogandeiro extensivo, mosaico agroforestal, arborado para produción de madeira, masas de frondosas caducifolias, encoros, áreas de mato e rochedo (quizais con pastoreo extensivo) e encoros (exemplos na figura~\ref{fig:escenasSIOSE}).
+
+\begin{figure}
+\caption{Exemplos de escenas de entrenamento definidas para áreas de uso agrogandeiro intensivo e mosaico de uso agrícola e forestal (sobre mapa SIOSE reclasificado e ortofotografía de PNOA).}\label{fig:escenasSIOSE}
+\includegraphics[width=.49\textwidth]{./Figures/EscenaAgrogandIntensivo1}
+\includegraphics[width=.49\textwidth]{./Figures/EscenaAgrogandIntensivo2}\\
+\includegraphics[width=.49\textwidth]{./Figures/EscenaMosaicoAgrof1}
+\includegraphics[width=.49\textwidth]{./Figures/EscenaMosaicoAgrof2}
+\end{figure}
+
+
+O mapa de clases xerouse, igual que no caso anterior, asignando a cada píxel a clase con maior valor de similaridade (calculada coa distancia de Shannon).
+
+\subsection{Combinación das clases}
+
+Os mapas de clases de formas do terreo e de clases de uso do solo combináronse co mapa de bioclimas para formar un mapa provisional de tipos de paisaxe, que foi posteriormente vectorizado. Cada tipo vén definido, polo tanto, pola combinación das clases dos tres mapas orixinais.
+
+
+
+
+
+
+
+\section{Resultados}
+
+
+
+
+
+
+
+
+
+%\newpage
+\bibliographystyle{galego}
+\bibliography{./References/LandscapeMapping}
+
+
+\end{document}
