@@ -16,3 +16,5 @@
 *.toc
 *.bbl
 *.blg
+.RData
+.RHistory
