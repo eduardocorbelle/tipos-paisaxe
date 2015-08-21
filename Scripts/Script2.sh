@@ -1,12 +1,10 @@
 #!/bin/bash
 
-## Script de probas en Polaris para a clasificación de unidades morfolóxicas da paisaxe
+## Script de probas en Polaris para a clasificación de unidades de tipo de cuberta da paisaxe
 ## Eduardo Corbelle, iniciado o 7 de maio de 2015
 
 
 ############
-### Sesión do 29 de xullo de 2015
-
 ## Acceso a mapsets
 g.mapset -c Tmp
 g.mapsets mapset=AdminLimits,MDT25,MDT200,SIOSE,Clima,Habitat,Vinhedo,Cascos

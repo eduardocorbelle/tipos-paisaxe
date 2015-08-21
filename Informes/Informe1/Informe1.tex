@@ -17,7 +17,7 @@
 \title{Mapa de tipos de paisaxe en Galicia\\Descrición da versión 0.2}
 \author{Eduardo Corbelle Rico\thanks{Laboratorio do territorio (LaboraTe), Departamento de Enxeñería Agroforestal, Universidade de Santiago de Compostela. Correo-e: \href{mailto:eduardo.corbelle@usc.es}{eduardo.corbelle@usc.es}.}}
 \date{\today}
-
+\graphicspath{{"./Figuras/"}}
 
 \begin{document}
 
@@ -27,7 +27,8 @@
  \vspace{.2cm}
   \begin{footnotesize}
    \noindent NOTA: Este documento describe os conceptos teóricos, os supostos de partida, as fontes de información orixinais e o proceso de traballo empregado na produción da versión 0.2 do Mapa de tipos de paisaxe de Galicia. O código completo empregado está dispoñible para descarga en: \url{https://github.com/eduardocorbelle/tipos-paisaxe/releases/tag/v0.2}.\\   
-Todo o contido do documento faise público baixo licencia \emph{Creative Commons Atribución-Compartir Igual} (CC by-sa). Unha versión resumida das condicións da licencia pódese consultar en galego en: \url{http://creativecommons.org/licenses/by-sa/4.0/deed.gl}.
+Todo o contido do documento faise público baixo licencia \emph{Creative Commons Atribución-Compartir Igual} (CC by-sa). Unha versión resumida das condicións da licencia pódese consultar en galego en: \url{http://creativecommons.org/licenses/by-sa/4.0/deed.gl}.\\
+Este é un documento de traballo que describe o estado actual. Tódalas aportacións ou recomendacións recibidas serán utilizadas para mellorar a calidade do proceso e do produto final.
   \end{footnotesize}
  \vspace{.2cm}
 \hrule
@@ -113,10 +114,10 @@ Para realizar o mapa de tipos de paisaxe de Galicia propoñemos unha aproximaci�
 A fonte empregada para analizar a morfoloxía do terreo é o modelo dixital do terreo con paso de malla de 25 metros (MDT25) elaborado e distribuído polo \emph{Instituto Geográfico Nacional}. Á vista da resolución empregada por outros traballos consultados, 25~m/píxel semella un bo compromiso entre nivel de detalle e volume de información: sobre a superficie de Galicia, supón arredor de 50 millóns de píxeles (empregar o seguinte modelo máis detallado ofrecido polo IGN, o MDT5 con malla de 5 metros, suporía multiplicar por 25 o volume de cálculo necesario, ata os 1~250 millóns de píxeles). Os datos empregados neste traballo, descargados na primavera de 2015, corresponden ás campañas de 2009 (nas provincias de Ourense e Lugo) e 2011 (nas provincias de A Coruña e Pontevedra) e proceden en tódolos casos do procesado de datos tomados por sensores láser aeroportados (lídar).
 
 
-No relativo ao uso ou cuberta do solo, empregamos dúas fontes, complementarias entre elas. A primeira é unha versión de lenda simplificada da versión de 2011 do Sistema de Información da Ocupación do Solo de España (SIOSE) elaborada e proporcionada polo Instituto de Estudos do Territorio (IET) da Consellería de Medio Ambiente, Territorio e Infraestruturas. A escala de SIOSE (1:25~000) é a mesma que a deste traballo. Malia tratarse dunha versión de lenda xa simplificada respecto da lenda completa de SIOSE, optamos por reducir aínda máis o número de categorías contempladas seguindo o criterio exposto no cadro~\ref{cadroSIOSE}. Esta información foi complementada parcialmente coa existente na cartografía do Plan Director da Rede Natura 2000 de Galicia \citep{PDRN2011}. En particular, tomamos desta última fonte a localización das áreas de turbeira e brezais húmidos, e a das masas de bosque caducifolio.
+No relativo ao uso ou cuberta do solo, empregamos dúas fontes, complementarias entre elas. A primeira é unha versión de lenda simplificada da versión de 2011 do Sistema de Información da Ocupación do Solo de España (SIOSE) elaborada e proporcionada polo Instituto de Estudos do Territorio (IET) da Consellería de Medio Ambiente, Territorio e Infraestruturas. A escala de SIOSE (1:25~000) é a mesma que a deste traballo. Malia tratarse dunha versión de lenda xa simplificada respecto da lenda completa de SIOSE, optamos por reducir aínda máis o número de categorías contempladas seguindo o criterio exposto no cadro~\ref{cadroSIOSE}. Esta información foi complementada parcialmente coa existente na cartografía do Plan Director da Rede Natura 2000 de Galicia \citep{PDRN2011}. En particular, tomamos desta última fonte a localización das áreas de turbeira e brezais húmidos, e a das masas de bosque caducifolio. Por último, a información mencionada complementouse coa xeometría das áreas integrais de protección de conxuntos históricos, cedida polo IET.
 
 \begin{table}
-\caption{Categorías na capa de Siose proporcionada polo IET e conversión proposta neste traballo} \label{cadroSIOSE}
+\caption{Categorías na capa de Siose 2011 proporcionada polo IET e conversión proposta neste traballo} \label{cadroSIOSE}
 \begin{center}
 \begin{tabular}{p{.5\textwidth}l}
 \toprule
@@ -125,7 +126,8 @@ Clases orixinais & Simplificación proposta \\
 Cultivos e prados & Superficie agrícola \\
 Mosaico agrícola e mato &  \\
 Mosaico de cultivos e especies arbóreas &  \\
-Viñedo e cultivos leñosos &  \\
+\midrule
+Viñedo e cultivos leñosos (cando a cuberta ocupada é superior ao 40\%) & Viñedo \\
 \midrule
 Coníferas & Repoboación forestal \\
 Eucaliptos &  \\
@@ -177,85 +179,102 @@ O proceso de traballo consta de tres partes diferenciadas, correspondentes ao an
 
 \subsection{Morfoloxía do terreo}
 
-Para a clasificación das principais rexións xeomorfolóxicas de Galicia propoñemos unha división en catro grandes categorías: serras e áreas de montaña, chairas, canóns, e o resto do territorio (que optamos por denominar <<relevo intermedio>>). Para a súa delimitación optamos por realizar unha segmentación automática sobre os valores de altitude do MDT25 e unha capa de pendente do terreo derivada deste último. O resultado do proceso é unha división do terreo en áreas con pendente e altitude homoxéneas, que foron despois clasificadas de xeito manual nas categorías citadas. Identificamos como chairas as áreas da Terra Chá e a Limia, e como canóns os do Eume, Miño, Sil e Návea, baseándonos principalmente no criterio de pendente. Para a clasificación das áreas de serra tivemos en conta o criterio de \citet{PerezAlberti1986}, que considera o inicio das serras orientais entre os 600 e 700 metros de altitude, e nas áreas occidentais entre os 400 ou 500 metros.
-
-%Figuras: 1) segmentación sobre imaxe de sombreado derivada do MDT25.
-%         2) Resultado final da clasificación de rexións morfolóxicas.
+Para a clasificación das principais rexións xeomorfolóxicas de Galicia propoñemos unha división en catro grandes categorías: serras e áreas de montaña, chairas, canóns, e o resto do territorio (que optamos por denominar <<relevo intermedio>>). Para a súa delimitación optamos por realizar unha segmentación automática sobre os valores de altitude do MDT25 e unha capa de pendente do terreo derivada deste último. O resultado do proceso é unha división do terreo en áreas con pendente e altitude homoxéneas, que foron despois clasificadas de xeito manual nas categorías citadas (figura~\ref{fig:Morfo}). Identificamos como chairas as áreas da Terra Chá e a Limia, e como canóns os do Eume, Miño, Sil e Návea, baseándonos principalmente no criterio de pendente. Para a clasificación das áreas de serra tivemos en conta o criterio de \citet{PerezAlberti1986}, que considera o inicio das serras orientais entre os 600 e 700 metros de altitude, e nas áreas occidentais entre os 400 ou 500 metros.
 
 %%%%% Considerar a Rasa Cantábrica!!!
 %%%%% Outras rexións xeomorfolóxicas?? (Mesetas?)
 
-
-
-% Descartamos, polo tanto, o uso das formas do terreo que proporciona \texttt{r.geomorphon}\footnote{\url{http://grass.osgeo.org/grass70/manuals/addons/r.geomorphon.html}} dado que non permiten diferenciar patróns dentro do territorio de Galicia (o conxunto do territorio mostra un patrón moi similar de sucesión de picos, pendentes e fondos de val, coa única excepción das principais áreas de chaira).
-
-%A partir do anterior, empregamos unha segmentación baseada nunha grella de escenas (\emph{grid-of-scenes}) mediante o módulo \texttt{p.sig.grid} dispoñible en GeoPAT. A escena é unha área arredor de cada punto do terreo para a que se calcula un único patrón. O tamaño da escena (\emph{size}, $N$) escollido é neste caso de 100 píxeles (2~500~m). Neste proceso é posible degradar a resolución do ráster orixinal mediante o parámetro \emph{shift} (k) que define, neste caso, a densidade de puntos para os que se avalía o patrón (ou a distancia entre centros de escena), que establecemos provisionalmente en 2--4 píxeles: isto significa que a resolución do ráster de patróns é de 50--100 metros (2--4 veces máis grosa que a da capa orixinal).\footnote{A modo de comparación cos parámetros seleccionados aquí, \citet{Jasiewicz2014104} empregan $k=50$ e $N=1000$ (escenas de $15\times 15$~km e resolución do mapa de saída de 1.5~km).} O método empregado para caracterizar cada patrón é o de co-ocorrencia: en cada ventá de $N \times N$ píxeles avalíase o número de ocasións (frecuencia) que cada clase de pendente aparece ao lado de cada unha das demais. O resultado é un histograma de frecuencias de co-ocorrencia para cada escena.
-
-%Por outra banda establecemos un conxunto de escenas de entrenamento para establecer histogramas de co-ocorrencias cos que comparar os obtidos no paso anterior. Para iso, seleccionamos dúas \todo{Poderían ser máis, en función da diversidade da clase a definir.} escenas de cada tipo de grandes formas (exemplos nas figuras~\ref{fig:escenasPEND}): montaña, chaira, canón, vales amplos e áreas de relevo intermedio. \todo{A definición destas dúas últimas clases é discutible e quizais pouco operativa.} 
-
-%Finalmente, a comparación entre os histogramas da grella de escenas e os de cada un das escenas de entrenamento permite xerar tantos mapas de similaridade como escenas empregadas. O estatístico de distancia empregado é o de Shannon \citep{Cha2007}, considerado máis próximo á percepción humana da similaridade entre segmentos \citep{Jasiewicz2014104}. Dado que de entre os puntos da mostra de entrenamento hai varios de cada tipoloxía, é posible estimar un valor medio de similaridade como a media das capas de similaridade correspondentes aos puntos considerados dun mesmo tipo de relevo ou de cuberta do solo. O mapa final de clases de formas do terreo elaborouse asignando a cada píxel a clase con maior valor de similaridade asociado en cada caso.
-
-
 \begin{figure}
-\caption{}\label{fig:Morfo1}
-%\includegraphics[width=.49\textwidth]{}
+\caption{Exemplo do resultado da segmentación para a clasificación de rexións xeomorfolóxicas. Nos segmentos creados (liña vermella) pódese apreciar a malla orixinal do MDT25. Móstranse en azul os clasificados manualmente como <<canón>> na área do Eume, sobre o mapa topográfico do IGN obtido vía WMS.}\label{fig:Morfo}
+\includegraphics[width=\textwidth]{Segmentacion.png}
 \end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
-%As clases inicialmente concibidas foron:
-%
-%A) Clases de uso ou cuberta do solo
-%* Urbano: áreas que tipicamente serían, no planeamento xeral, solo urbano (consolidado ou non consolidado).
-%* Rururbano diseminado: áreas con vivendas diseminadas e intercaladas con outros usos do territorio.
-%* Rururbano lineal: áreas con vivendas espalladas ao longo dunha vía de comunicación.
-%* Agrogandeiro intensivo: p.ex. áreas afectadas por concentración parcelaria, áreas con escasa presencia de sebes, muros, ou camiños tradicionais.
-%* Agrogandeiro extensivo: áreas con abundante presencia de sebes, muros ou camiños tradicionais. Cabe incluír aquí o viñedo en socalcos?
-%* Arborado con función produtiva: áreas dominadas pola presencia de masas de arborado procedentes fundamentalmente de plantación e con finalidade de produción de madeira (principalmente masas puras ou mixtas de coníferas e eucalipto).
-%* Arborado - frondosas caducifolias: áreas dominadas pola presencia de masas de arborado procedentes fundamentalmente de revexetación espontánea, compostas por especies frondosas caducifolias, e tamén soutos de castiñeiro.
-%* Áreas escasamente humanizadas: áreas dominadas pola presencia de mato ou afloramentos rochosos. [Como tratamos a presenza de parques eólicos?]
-%* Embalses
-%* Minas e explotacións a ceo aberto.
-%
-
-
 
 \subsection{Clases de uso do solo}
 
-Reproducimos o esquema do apartado anterior sobre a capa de SIOSE (2011) reclasificada de acordo co cadro~\ref{cadroSIOSE}. Neste caso tamén consideramos un tamaño de escena de 2~500~m, aínda que podería ser diferente, e a busca de patróns mediante matriz de co-ocorrencias. Establecemos escenas de entrenamento para as seguintes clases: urbano, rururbano lineal, rururbano diseminado, agrogandeiro intensivo, agrogandeiro extensivo, mosaico agroforestal, arborado para produción de madeira, masas de frondosas caducifolias, encoros, áreas de mato e rochedo (quizais con pastoreo extensivo) e encoros (exemplos na figura~\ref{fig:escenasSIOSE}).
+A clasificación de clases de paisaxe en función do uso do solo que presentamos aquí trata cada mancha de uso uniforme como un elemento, e define a clase de paisaxe como unha combinación de manchas, nun entorno de busca predefinido de modo arbitrario como un círculo de 1,5~km de diámetro. Os exemplos concretos utilizados no proceso de clasificación automática móstranse nas figuras \ref{fig:escenas1} a \ref{fig:escenas8}, e a descrición do que se pretendía capturar con cada unha é a seguinte:
+
+\begin{enumerate}
+ \item Áreas de monte raso. As caracterizadas pola dominancia de áreas de mato ou rochedo non clasificadas como turbeiras ou brezal húmido.
+ \item Áreas de turbeira e brezal húmido. Caracterizadas pola dominancia de áreas de turbeira ou brezal húmido.
+ \item Áreas de bosque. Caracterizadas pola dominancia de masas de arborado de frondosas caducifolias, baixo a asunción de que son bosques escasamente transformados ou proceden maioritariamente de procesos de revexetación espontánea.
+ \item Áreas de repoboación forestal. Caracterizadas pola dominancia de masas de arborado de especies tipicamente utilizadas para a produción de madeira, fundamentalmente coníferas e eucaliptos.
+ \item Áreas de uso agrogandeiro intensivo. Áreas caracterizadas pola dominancia de superficies continuas de cultivo ou produción de pastos, sen manchas intercaladas doutro tipo de uso.
+ \item Áreas de uso agrogandeiro extensivo. Áreas caracterizadas pola coexistencia de superficies de cultivo ou produción de pastos con manchas de bosque ou mato.
+ \item Áreas de viñedo. Caracterizadas pola dominancia de manchas con máis dun 40\% de cuberta de viñedo.
+ \item Áreas de mosaico agroforestal.
+ \item Áreas de uso urbano. Caracterizadas pola dominancia do uso urbano, residencial ou industrial.
+ \item Áreas rururbanas ou de diseminado. Áreas caracterizadas pola coexistencia de manchas clasificadas como de uso urbano con manchas de cultivo ou prados, repoboacións forestais e, ocasionalmente, masas de frondosas caducifolias.
+ \item Áreas de uso extractivo. Caracterizadas pola dominancia de superficies de explotación mineira a ceo aberto ou restos desta actividade.
+ \item Áreas de protección de conxuntos históricos. Aquelas clasificadas como tales polo planeamento urbanístico.
+\end{enumerate}
+
+
+Cada unha das áreas de entrenamento mostradas nas figuras, delimitadas por unha circunferencia de cor branca, definen unha matriz de co-ocorrencias entre as cubertas do solo. Esta indica a frecuencia de aparición, dentro da circunferencia, de cada combinación das clases de píxeles contiguos (agrícola ao lado de agrícola, agrícola ao lado de repoboación, e así sucesivamente). Esta frecuencia de co-ocorrencia define o patrón de busca, e é a razón de que nalgún caso empreguemos unha única área de entrenamento: cando a área de entrenamento corresponde a dominancia dunha única clase, o patrón ideal que resulta é do de moitas aparicións da clase dominante ao lado de si mesma, e exemplos adicionais non introducen máis información no proceso (este é o caso dos exemplos escollidos para a clase de <<uso agrogandeiro intensivo>>, por exemplo). Polo contrario, cando o patrón que tratamos de definir responde á combinación, máis ou menos íntima, de diferentes clases, pode ser beneficioso definir varios exemplos (este é o caso, por exemplo, da clase <<rururbano diseminado>>). Nestes casos optamos inicialmente por empregar dous exemplos de cada clase, pero esta é unha decisión susceptible de cambios. Cómpre sinalar tamén que o patrón definido é de co-ocorrencia entre clases e non de frecuencias de cada clase: dúas áreas nas que o uso agrícola e as repoboacións forestais ocuparan o 50\% da superficie non presentan o mesmo patrón de co-ocorrencia se nunha delas hai dúas únicas manchas separadas mentres que na outra hai múltiples manchas que se intercalan.
+
+O proceso de clasificación comeza comparando o patrón concreto observado para cada un dos píxeles do mapa con todos e cada un dos patróns de referencia. Para a resolución escollida neste traballo, de 25~m/píxel, trátase de arredor de 50 millóns de patróns empíricos a comparar con cada un dos patróns de referencia. Para a comparación empregamos o estatístico de distancia de Shannon \citep{Cha2007} como medida de similaridade, xa que algúns autores consideran que é máis próximo á percepción humana (visual) da similaridade que outros \citep{Jasiewicz2014104}. Cando se utilizan varios exemplos de entrenamento para unha mesma clase, o mapa de similaridade final calculouse como a media aritmética dos resultantes para cada exemplo. O mapa final de clases de cuberta ou uso do terreo elaborouse asignando a cada píxel a clase con maior valor de similaridade asociado en cada caso. A única excepción a esta regla foron as áreas de protección integral de conxuntos históricos, que foron tomadas directamente da fonte orixinal.
+
+%A partir do anterior, empregamos unha segmentación baseada nunha grella de escenas (\emph{grid-of-scenes}) mediante o módulo \texttt{p.sig.grid} dispoñible en GeoPAT. A escena é unha área arredor de cada punto do terreo para a que se calcula un único patrón. O tamaño da escena (\emph{size}, $N$) escollido é neste caso de 100 píxeles (2~500~m). Neste proceso é posible degradar a resolución do ráster orixinal mediante o parámetro \emph{shift} (k) que define, neste caso, a densidade de puntos para os que se avalía o patrón (ou a distancia entre centros de escena), que establecemos provisionalmente en 2--4 píxeles: isto significa que a resolución do ráster de patróns é de 50--100 metros (2--4 veces máis grosa que a da capa orixinal).\footnote{A modo de comparación cos parámetros seleccionados aquí, \citet{Jasiewicz2014104} empregan $k=50$ e $N=1000$ (escenas de $15\times 15$~km e resolución do mapa de saída de 1.5~km).} O método empregado para caracterizar cada patrón é o de co-ocorrencia: en cada ventá de $N \times N$ píxeles avalíase o número de ocasións (frecuencia) que cada clase de pendente aparece ao lado de cada unha das demais. O resultado é un histograma de frecuencias de co-ocorrencia para cada escena.
 
 \begin{figure}
-\caption{Exemplos de escenas de entrenamento definidas para áreas de uso agrogandeiro intensivo e mosaico de uso agrícola e forestal (sobre mapa SIOSE reclasificado e ortofotografía de PNOA).}\label{fig:escenasSIOSE}
-\includegraphics[width=.49\textwidth]{./Figures/EscenaAgrogandIntensivo1}
-\includegraphics[width=.49\textwidth]{./Figures/EscenaAgrogandIntensivo2}\\
-\includegraphics[width=.49\textwidth]{./Figures/EscenaMosaicoAgrof1}
-\includegraphics[width=.49\textwidth]{./Figures/EscenaMosaicoAgrof2}
+\caption{Escenas de entrenamento definidas para áreas de monte raso e turbeiras}\label{fig:escenas1}
+\includegraphics[width=\textwidth]{Escena_1}\\
+\includegraphics[width=\textwidth]{Escena_2}
+\end{figure}
+
+\begin{figure}
+\caption{Escenas de entrenamento definidas para áreas de bosque e repoboación forestal}\label{fig:escenas2}
+\includegraphics[width=\textwidth]{Escena_3}\\
+\includegraphics[width=\textwidth]{Escena_5}
+\end{figure}
+
+\begin{figure}
+\caption{Escena de entrenamento definidas para áreas de uso agrogandeiro intensivo}\label{fig:escenas3}
+\includegraphics[width=\textwidth]{Escena_7}
+\end{figure}
+
+\begin{figure}
+\caption{Escenas de entrenamento definidas para áreas de uso agrogandeiro extensivo}\label{fig:escenas4}
+\includegraphics[width=\textwidth]{Escena_9}\\
+\includegraphics[width=\textwidth]{Escena_10}
+\end{figure}
+
+\begin{figure}
+\caption{Escenas de entrenamento definidas para áreas de rururbano diseminado}\label{fig:escenas5}
+\includegraphics[width=\textwidth]{Escena_11}\\
+\includegraphics[width=\textwidth]{Escena_12}
+\end{figure}
+
+\begin{figure}
+\caption{Escenas de entrenamento definidas para áreas urbanas e de uso extrativo}\label{fig:escenas6}
+\includegraphics[width=\textwidth]{Escena_13}\\
+\includegraphics[width=\textwidth]{Escena_15}
+\end{figure}
+
+\begin{figure}
+\caption{Escenas de entrenamento definidas para áreas de mosaico agroforestal}\label{fig:escenas7}
+\includegraphics[width=\textwidth]{Escena_16}\\
+\includegraphics[width=\textwidth]{Escena_17}
+\end{figure}
+
+\begin{figure}
+\caption{Escenas de entrenamento definidas para áreas de viñedo}\label{fig:escenas8}
+\includegraphics[width=\textwidth]{Escena_18}\\
+\includegraphics[width=\textwidth]{Escena_19}
 \end{figure}
 
 
-O mapa de clases xerouse, igual que no caso anterior, asignando a cada píxel a clase con maior valor de similaridade (calculada coa distancia de Shannon).
-
 \subsection{Combinación das clases}
 
-Os mapas de clases de formas do terreo e de clases de uso do solo combináronse co mapa de bioclimas para formar un mapa provisional de tipos de paisaxe, que foi posteriormente vectorizado. Cada tipo vén definido, polo tanto, pola combinación das clases dos tres mapas orixinais.
+Os mapas de clases de formas do terreo e de clases de uso do solo combináronse co mapa de bioclimas para formar un mapa provisional de tipos de paisaxe, que foi posteriormente vectorizado de xeito automático. O mapa vectorial resultante foi sometido a un dobre proceso de simplificación: para eliminar as manchas de área menor de 1~ha de superficie, e para mellorar a calidade visual das liñas que separan as diferentes manchas.
 
+Finalmente, o mapa foi recortado polo ámbito de delimitación do Plan de Ordenación do Litoral (POL), que se exclúe dos resultados finais.
 
-
-
-
+% No script 4 agora xa se fai o recorte antes da simplificación das áreas de menos de 10ha
 
 
 \section{Resultados}
 
+Cada tipo de paisaxe contemplado no mapa vén definido, polo tanto, pola combinación das clases dos tres mapas orixinais. En total, a versión 0.2 elaborada de acordo ao descrito neste documento inclúe 11~164 unidades de paisaxe e 128 tipos diferentes de paisaxe, resultantes da combinación das 4 clases de rexión xeomorfolóxica, 12 clases de cuberta do solo, e 4 clases de bioclima (tendo en conta que algunhas combinacións teoricamente posibles non aparecen na realidade). A área media das unidades é de 246~ha e a mediana de 22~ha.
 
 
 
@@ -263,8 +282,7 @@ Os mapas de clases de formas do terreo e de clases de uso do solo combináronse 
 
 
 
-
-%\newpage
+\clearpage
 \bibliographystyle{galego}
 \bibliography{./References/LandscapeMapping}
 

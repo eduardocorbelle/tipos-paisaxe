@@ -14,15 +14,15 @@ r.mask -r
 ########## Pasar a vector 
 r.to.vect -v input=TiposPaisaxe output=TiposPaisaxe type=area
 
+########## Simplificar a forma das liñas
+v.generalize input=TiposPaisaxeR output=TiposPaisaxeB method=reumann threshold=26 --o
+
 ########## Recortar o ámbito do POL
 v.overlay ainput=TiposPaisaxe binput=Ambito operator=not output=TiposPaisaxeR
 ## * Podería facerse en fases anteriores e en formato ráster
 
 ########## Simplificar (eliminar unidades menores de 1ha)
-v.generalize input=TiposPaisaxeR output=TiposPaisaxeB method=reumann threshold=26 --o
 v.clean input=TiposPaisaxeB output=TiposPaisaxeC tool=rmarea threshold=10000 --o
-
-
 
 ########## Exportar
 now=$(date +"%Y_%m_%d")
