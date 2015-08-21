@@ -15,7 +15,7 @@ library(RColorBrewer)
 
 ## Cargamos a imaxe "cubertas"
 #cubertas <- readRAST("cubertas", cat=FALSE, ignore.stderr=TRUE)
-cubertas <- as.factor(raster("Tmp/cubertas.img"))
+cubertas <- as.factor(raster("/media/sf_Datos_Corbelle/Tmp/cubertas.img"))
 
 ## Categorías do mapa de cubertas
 cat <- read.table("Scripts/CategoriasCuberta.txt", sep=":")
@@ -49,11 +49,12 @@ figura <- function(i) {
   layout(matrix(c(1,1,2,1,1,2), 2, 3, byrow=TRUE))
   ## Primeiro espazo de debuxo
   par(mar=c(2,2,2,2), oma=c(0,0,0,0))
-  image(reco, col=cor, 
+  image(reco, col=cor[as.numeric(levels(as.factor(reco@data@values)))], 
         xlim=x+c(-b,b),
         ylim=y+c(-b,b),
         cex.axis=.95,
-        maxpixels=1.5e5)
+        maxpixels=1.5e5,
+        main= paste("Escena", esc$id[i], "-", esc$Clase[i]))
   points(x, y, pch=1, 
          col="white", cex=66*1.5/8) # para esta imaxe, cex=66 equivale a 8km diámetro
   ## Segundo espazo de debuxo
@@ -64,7 +65,7 @@ figura <- function(i) {
          fill = cor,
          border=cor,
          bty="n",
-         title= paste("Escena", esc$id[i], "-", esc$Clase[i]))
+         title= "Uso/cuberta do solo")
   ## Peche do dispositivo png
   dev.off()
 }
