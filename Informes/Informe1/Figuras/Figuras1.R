@@ -56,7 +56,7 @@ figura <- function(i) {
         maxpixels=1.5e5,
         main= paste("Escena", esc$id[i], "-", esc$Clase[i]))
   points(x, y, pch=1, 
-         col="white", cex=66*4/8) # para esta imaxe, cex=66 equivale a 8km diámetro
+         col="white", cex=66*3/8) # para esta imaxe, cex=66 equivale a 8km diámetro
   ## Segundo espazo de debuxo
   par(mar=c(0,0,2,0))
   plot(0,0, col="white", axes=FALSE)

@@ -39,18 +39,18 @@ r.category map=cubertas rules=./Scripts/CategoriasCuberta.txt separator=":"
 r.support -s cubertas
 r.out.gdal in=cubertas out=./Tmp/cubertas.img format=HFA
 
-### Cálculo dos histogramas de co-ocorrencias (ventá circular, diámetro de 4000 m, resolución 25 m)
+### Cálculo dos histogramas de co-ocorrencias (ventá circular, diámetro de 3000 m, resolución 100 m)
 echo "-------------6-------------"
-p.sig.grid -c input=cubertas size=160 shift=1 method=coocurence histograms=./Tmp/GrellaCubertas
+p.sig.grid -c input=cubertas size=120 shift=1 method=coocurence histograms=./Tmp/GrellaCubertas
 
 ### Cálculo dos histogramas para as escenas seleccionadas
 echo "-------------7-------------"
-p.sig.points -c input=cubertas coorfile=./tipos-paisaxe/Escenas/escenasCuberta.txt size=160 method=coocurence histograms=./Tmp/escenasCuberta.his
+p.sig.points -c input=cubertas coorfile=./tipos-paisaxe/Escenas/escenasCuberta.txt size=120 method=coocurence histograms=./Tmp/escenasCuberta.his
 
 ## Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
 
 ### Similaridade coas escenas seleccionadas
-p.sim.search scenes=./Tmp/escenasCuberta.his grid=./Tmp/GrellaCubertas measure=shannon output=SC_shannon nulls=0.10
+p.sim.search scenes=./Tmp/escenasCuberta.his grid=./Tmp/GrellaCubertas measure=shannon output=SC_shannon nulls=0.99
 
 ### Valores medios (e comprobación de valores extremos) de similaridade
 # (Máscara co mapa de concellos) [xerado polo Script1]
@@ -73,7 +73,7 @@ r.mapcalc expression="sAE = (SC_shannon_9 + SC_shannon_10)/2"
 r.mapcalc expression="sRD = (SC_shannon_11 + SC_shannon_12)/2"
 #r.mapcalc expression="dRD = sqrt((SC_shannon_11 - SC_shannon_12)^2)"
 ## Urbano (8)
-r.mapcalc expression="sU = (SC_shannon_13)"
+r.mapcalc expression="sU = SC_shannon_13"
 ## Extractivo (9) 
 g.copy raster=SC_shannon_15,sEx
 ## Mosaico agroforestal (10)
