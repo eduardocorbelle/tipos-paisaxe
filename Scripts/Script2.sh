@@ -88,17 +88,17 @@ echo "-------------9-------------"
 r.mapcalc expression="ClaseCuberta = if(sMR > sTu & sMR > sB & sMR > sRF & sMR > sAI & sMR > sAE & sMR > sRD & sMR > sU & sMR > sEx & sMR > sAF & sMR > sVI, 1, if(sTu > sB & sTu > sRF & sTu > sAI & sTu > sAE & sTu > sRD & sTu > sU  & sTu > sEx & sTu > sAF & sTu > sVI, 2, if(sB > sRF & sB > sAI & sB > sAE & sB > sRD & sB > sU & sB > sEx & sB > sAF & sB > sVI, 3, if(sRF > sAI & sRF > sAE & sRF > sRD & sRF > sU & sRF > sEx & sRF > sAF & sRF > sVI, 4, if(sAI > sAE & sAI > sRD & sAI > sU & sAI > sEx & sAI > sAF  & sAI > sVI, 5, if(sAE > sRD & sAE > sU & sAE > sEx & sAE > sAF & sAE > sVI, 6, if(sRD > sU & sRD > sEx & sRD > sAF & sRD > sVI, 7, if(sU > sEx & sU > sAF & sU > sVI, 8, if(sEx > sAF & sEx > sVI, 9, if(sAF > sVI, 10, 11))))))))))"
 
 r.category ClaseCuberta sep=: rules=- << EOF
-1:Monte raso
+1:Matogueira e rochedo
 2:Turbeira
 3:Bosque
-4:Repoboacion forestal
-5:Agrogandeiro intensivo
-6:Agrogandeiro extensivo
+4:Agrosistema intensivo (plantacion forestal)
+5:Agrosistema intensivo (superficie de cultivo)
+6:Agrosistema extensivo
 7:Rururbano (diseminado)
 8:Urbano
 9:Extractivo
-10:Mosaico agroforestal
-11:Vinhedo
+10:Agrosistema intensivo (mosaico agroforestal)
+11:Viñedo
 EOF
 
 ## Incorporar os conxuntos históricos (área integral de protección)
@@ -109,17 +109,17 @@ r.null map=AreaIntegral null=0
 r.mapcalc expression="ClaseCuberta2=if(AreaIntegral==1, 12, ClaseCuberta)"
 
 r.category ClaseCuberta2 sep=: rules=- << EOF
-1:Monte raso
+1:Matogueira e rochedo
 2:Turbeira
 3:Bosque
-4:Repoboacion forestal
-5:Agrogandeiro intensivo
-6:Agrogandeiro extensivo
+4:Agrosistema intensivo (plantacion forestal)
+5:Agrosistema intensivo (superficie de cultivo)
+6:Agrosistema extensivo
 7:Rururbano (diseminado)
 8:Urbano
 9:Extractivo
-10:Mosaico agroforestal
-11:Vinhedo
+10:Agrosistema intensivo (mosaico agroforestal)
+11:Viñedo
 12:Conxunto Historico
 EOF
 
