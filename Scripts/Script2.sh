@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Script para a clasificación de unidades morfolóxicas da paisaxe en GRASS GIS
+## Script de probas en Polaris para a clasificación de unidades de tipo de cuberta da paisaxe
 ## Eduardo Corbelle, iniciado o 7 de maio de 2015
 
 
@@ -132,4 +132,4 @@ g.remove type=raster pattern=SC* -f
 g.remove type=raster pattern=s* -f
 g.remove type=raster pattern=d* -f
 g.remove type=raster name=AreaIntegral -f
-g.remove type=raster name=Vin -f
+#g.remove type=raster name=Vin -f
