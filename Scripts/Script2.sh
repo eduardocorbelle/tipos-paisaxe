@@ -57,11 +57,11 @@ p.sim.search scenes=./Tmp/escenasCuberta.his grid=./Tmp/GrellaCubertas measure=s
 echo "-------------8-------------"
 #r.mask concellos
 ## Monte raso (1)
-r.mapcalc expression="sMR = (SC_shannon_1)"
+r.mapcalc expression="sMR = SC_shannon_1"
 ## Turbeiras (2)
-r.mapcalc expression="sTu = (SC_shannon_2)"
+r.mapcalc expression="sTu = SC_shannon_2"
 ## Bosque (3)
-r.mapcalc expression="sB = (SC_shannon_3)"
+r.mapcalc expression="sB = SC_shannon_3"
 ## Repoboacións (4)
 r.mapcalc expression="sRF = SC_shannon_5"
 ## Agrogandeiro intensivo (5)
