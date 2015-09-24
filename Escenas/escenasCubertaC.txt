@@ -4,7 +4,9 @@
 2,turbeiras
 3,bosque
 5,repoboacións
+6,repoboacións
 7,agrogandeiro intensivo
+8,agrogandeiro intensivo
 9,agrogandeiro extensivo
 10,agrogandeiro extensivo
 11,rururbano diseminado

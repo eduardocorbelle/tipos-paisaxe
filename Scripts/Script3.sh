@@ -5,18 +5,26 @@
 
 ########## Mapa climático
 #### Copiar ao mapset activo, engadir códigos numéricos
-g.copy vect=bioclima@Clima,bioclima
-v.build map=bioclima
-v.db.addcolumn map=bioclima columns='codigo INT'
-v.db.update map=bioclima layer=1 column=codigo value=1 where="BIOCLIMA='Subhiperoceánico'"
-v.db.update map=bioclima layer=1 column=codigo value=2 where="BIOCLIMA='Semihiperoceánico'"
-v.db.update map=bioclima layer=1 column=codigo value=3 where="BIOCLIMA='Euoceánico'"
-v.db.update map=bioclima layer=1 column=codigo value=4 where="BIOCLIMA='Semicontinental'"
+g.copy vect=termoclima@Clima,termoclima
+v.build map=termoclima
+
+v.db.addcolumn map=termoclima columns='codigo INT'
+
+v.db.update map=termoclima layer=1 column=codigo value=1 where="TERMOTIPO='Termotemperado'"
+v.db.update map=termoclima layer=1 column=codigo value=2 where="TERMOTIPO='Mesotemperado inferior'"
+v.db.update map=termoclima layer=1 column=codigo value=3 where="TERMOTIPO='Mesotemperado superior'"
+v.db.update map=termoclima layer=1 column=codigo value=4 where="TERMOTIPO='Supratemperado inferior'"
+v.db.update map=termoclima layer=1 column=codigo value=4 where="TERMOTIPO='Supratemperado superior'"
+v.db.update map=termoclima layer=1 column=codigo value=4 where="TERMOTIPO='Orotemperado'"
+v.db.update map=termoclima layer=1 column=codigo value=5 where="TERMOTIPO='Mesomediterráneo'"
+
 #### Pasar a ráster
-v.to.rast input=bioclima type=area use=attr attribute_column=codigo out=bioclima
-r.category bioclima sep=: rules=- << EOF
-1:Subhiperoceánico
-2:Semihiperoceánico
-3:Euoceánico
-4:Semicontinental
+v.to.rast input=termoclima type=area use=attr attribute_column=codigo out=termoclima
+
+r.category termoclima sep=: rules=- << EOF
+1:Termotemperado
+2:Mesotemperado inferior
+3:Mesotemperado superior
+4:Supra e orotemperado
+5:Mesomediterráneo
 EOF
