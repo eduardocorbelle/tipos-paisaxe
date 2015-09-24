@@ -26,16 +26,18 @@ i.segment group=grupo25 threshold=0.1 memory=3000 minsize=250 out=segmentos25
 r.to.vect input=segmentos25 output=segmentos25 type=area
 v.out.ogr input=segmentos25 output=./Tmp
 
-# Seguida de clasificación manual dos segmentos resultantes en serra, canón, chaira e resto.
+# Seguida de clasificación manual dos segmentos resultantes
 # (fixemos unha copia en ./Backup)
-v.in.ogr input=./Backup/segmentos25.shp output=ClasesXeo 
-v.to.rast input=ClasesXeo output=ClasesXeo use=attr attr=CodXeo label=ClaseXeo
+v.in.ogr input=./Backup/segmentos25_clasif.shp output=ClasesXeo snap=1
+v.to.rast input=ClasesXeoA output=ClasesXeo use=attr attr=Codigo label=Clase
+r.mapcalc "ClasesXeo = if(isnull(ClasesXeoA), 2, ClasesXeoA)"
 
 r.category ClasesXeo sep=: rules=- << EOF
-0:Relevo intermedio
-1:Canon
-2:Chaira
-3:Serra
+1:Litoral Cantabro-Atlantico
+2:Vales sublitorais
+3:Serras
+4:Chairas e vales interiores
+5:Canons
 EOF
 
 ## Eliminamos a máscara
