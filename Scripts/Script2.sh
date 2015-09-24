@@ -1,10 +1,6 @@
 #!/bin/bash
 
-<<<<<<< HEAD
 ## Script de probas en Polaris para a clasificación de unidades de tipo de cuberta da paisaxe
-=======
-## Script para a clasificación de unidades morfolóxicas da paisaxe en GRASS GIS
->>>>>>> a4317ed1606e36eaa847218054f3628bcfb28a92
 ## Eduardo Corbelle, iniciado o 7 de maio de 2015
 
 
@@ -43,13 +39,13 @@ r.category map=cubertas rules=./Scripts/CategoriasCuberta.txt separator=":"
 r.support -s cubertas
 r.out.gdal in=cubertas out=./Tmp/cubertas.img format=HFA
 
-### Cálculo dos histogramas de co-ocorrencias (ventá circular, diámetro de 3000 m, resolución 100 m)
+### Cálculo dos histogramas de co-ocorrencias (ventá circular, diámetro de 1000 m, resolución 25 m)
 echo "-------------6-------------"
-p.sig.grid -c input=cubertas size=120 shift=1 method=coocurence histograms=./Tmp/GrellaCubertas
+p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=./Tmp/GrellaCubertas
 
 ### Cálculo dos histogramas para as escenas seleccionadas
 echo "-------------7-------------"
-p.sig.points -c input=cubertas coorfile=./tipos-paisaxe/Escenas/escenasCuberta.txt size=120 method=coocurence histograms=./Tmp/escenasCuberta.his
+p.sig.points -c input=cubertas coorfile=./tipos-paisaxe/Escenas/escenasCuberta.txt size=40 method=coocurence histograms=./Tmp/escenasCuberta.his
 
 ## Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
 
@@ -67,9 +63,9 @@ r.mapcalc expression="sTu = (SC_shannon_2)"
 ## Bosque (3)
 r.mapcalc expression="sB = (SC_shannon_3)"
 ## Repoboacións (4)
-r.mapcalc expression="sRF = (SC_shannon_5+SC_shannon_6)/2"
+r.mapcalc expression="sRF = SC_shannon_5"
 ## Agrogandeiro intensivo (5)
-r.mapcalc expression="sAI = (SC_shannon_7+SC_shannon_8)/2"
+r.mapcalc expression="sAI = SC_shannon_7"
 ## Agrogandeiro extensivo (6)
 r.mapcalc expression="sAE = (SC_shannon_9 + SC_shannon_10)/2"
 #r.mapcalc expression="dAE = sqrt((SC_shannon_9 - SC_shannon_10)^2)"
