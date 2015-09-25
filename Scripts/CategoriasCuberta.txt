@@ -1,7 +1,7 @@
-1:Monte raso
+1:Mato e rochedo
 2:Turbeiras
 3:Urbano e artificial
-4:Repoboacion
+4:Repoboacions
 5:Bosque
 6:Agricola e gandeiro
 7:Extraccion e verquido

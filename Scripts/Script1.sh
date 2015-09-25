@@ -28,7 +28,7 @@ g.region rast=mdt25
 
 # Seguida de clasificación manual dos segmentos resultantes
 # (fixemos unha copia en ./Backup)
-v.in.ogr input=./Backup/segmentos25_clasif.shp output=ClasesXeo snap=1
+v.in.ogr input=./Backup/segmentos25_clasif.shp output=ClasesXeoA snap=1
 v.to.rast input=ClasesXeoA output=ClasesXeo use=attr attr=Codigo label=Clase
 r.mapcalc "ClasesXeo = if(isnull(ClasesXeoA), 2, ClasesXeoA)"
 

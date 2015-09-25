@@ -17,25 +17,11 @@ r.category map=TiposPaisaxeB raster=TiposPaisaxeA
 r.mask -r
 
 ########## Pasar a vector 
-<<<<<<< HEAD
-r.to.vect -v input=TiposPaisaxe output=TiposPaisaxe type=area
-
-########## Simplificar a forma das liñas
-v.generalize input=TiposPaisaxeR output=TiposPaisaxeB method=reumann threshold=26 --o
-
-########## Recortar o ámbito do POL
-v.overlay ainput=TiposPaisaxe binput=Ambito operator=not output=TiposPaisaxeR
-## * Podería facerse en fases anteriores e en formato ráster
-
-########## Simplificar (eliminar unidades menores de 1ha)
-v.clean input=TiposPaisaxeB output=TiposPaisaxeC tool=rmarea threshold=10000 --o
-=======
 r.to.vect -sv input=TiposPaisaxeB output=TiposPaisaxeB type=area
 
-########## Simplificar (eliminar unidades menores de 1ha)
+########## Simplificar (eliminar unidades menores de 2ha)
 #v.generalize input=TiposPaisaxeB output=TiposPaisaxeC method=reumann threshold=26 --o
-v.clean input=TiposPaisaxeB output=TiposPaisaxeD tool=rmarea threshold=10000 --o
->>>>>>> a4317ed1606e36eaa847218054f3628bcfb28a92
+v.clean input=TiposPaisaxeB output=TiposPaisaxeD tool=rmarea threshold=20000 --o
 
 ########## Exportar
 now=$(date +"%Y_%m_%d")

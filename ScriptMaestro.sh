@@ -12,29 +12,29 @@
 
 ### Cargar datos base (as rutas aos arquivos poden ter cambiado)
 # MDT25
-sh ./Scripts/ImportMDT25.sh
+bash ./Scripts/ImportMDT25.sh
 # Límites administrativos
-sh ./Scripts/ImportLimits.sh
+bash ./Scripts/ImportLimits.sh
 # SIOSE 2011
-sh ./Scripts/ImportSIOSE.sh
+bash ./Scripts/ImportSIOSE.sh
 # Hábitats
-sh ./Scripts/ImportHabitat.sh
+bash ./Scripts/ImportHabitat.sh
 # Datos climáticos
-sh ./Scripts/ImportCLIMA.sh
+bash ./Scripts/ImportCLIMA.sh
 # Datos de Viñedo
-sh ./Scripts/ImportVinhedo.sh
+bash ./Scripts/ImportVinhedo.sh
 # Conxuntos históricos
-sh ./Scripts/ImportCascos.sh
+bash ./Scripts/ImportCascos.sh
 # Ámbito de actuación do POL
-sh ./Scripts/ImportPOL.sh
+bash ./Scripts/ImportPOL.sh
 
 
 ### Procesado da información
 # Cartografía de rexións xeomorfolóxicas
-sh ./Scripts/Script1.sh # (Require operacións manuais no seu interior)
+bash ./tipos-paisaxe/Scripts/Script1.sh # (Require operacións manuais no seu interior)
 # Cartografía de clases de uso ou cuberta
-sh ./Scripts/Script2.sh
+bash ./tipos-paisaxe/Scripts/Script2.sh
 # Información climática
-sh ./Scripts/Script3.sh
+bash ./tipos-paisaxe/Scripts/Script3.sh
 # Incorporación de información de patrimonio e outras, e exportación
-sh ./Scripts/Script4.sh
+bash ./tipos-paisaxe/Scripts/Script4.sh
