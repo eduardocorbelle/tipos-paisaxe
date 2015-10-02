@@ -4,6 +4,12 @@
 datos <- read.table("Informes/Informe1/TiposAreas_2015_10_02.txt", sep="|", header=FALSE)
 colnames(datos) <- c("GAP_code","GAP","CXn","CXt","CCn","CCt","Cln","Clt","Aream2")
 
+## Creamos unha táboa cos nomes das GAP e o código asociado
+tab0 <- tapply(datos$GAP_code, INDEX=datos$GAP, FUN=min)[-9]
+tab0 <- tab0[order(tab0)]
+taboa0 <- data.frame("Código" = as.integer(tab0))
+rownames(taboa0) <- names(tab0)
+
 ## Clases xeomorfolóxicas por Grandes Áreas (en km2)
 taboa1 <- round(tapply(datos$Aream2, INDEX=list(datos$CXt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
 taboa1[is.na(taboa1)] <- 0
@@ -23,28 +29,28 @@ taboa3p <- round(100*prop.table(taboa3, margin=2),1)
 ## Preparamos as táboas para LaTeX
 library(xtable)
 
-xtaboa0  <- xtable(data.frame("Nome"=datos$GAP, "Código"=datos$GAP_code),
+xtaboa0  <- xtable(taboa0,
             caption="Grandes Áreas paisaxísticas e código asignado",
             label="xtaboa0")
 
-xtaboa1  <- xtable(taboa1[-9,-4],
+xtaboa1  <- xtable(taboa1[-4,-9],
             caption="Grandes unidades morfolóxicas por Grandes Áreas paisaxísticas (datos en km²)",
             label="xtaboa1")
-xtaboa1p <- xtable(taboa1p[-9,-4],
+xtaboa1p <- xtable(taboa1p[-4,-9],
             caption="Grandes unidades morfolóxicas por Grandes Áreas paisaxísticas (datos en porcentaxe)",
             label="xtaboa1p")
 
-xtaboa2  <- xtable(taboa2[-9, -5],
+xtaboa2  <- xtable(taboa2[-5, -9],
             caption="Clases de cuberta por Grandes Áreas paisaxísticas (datos en km²)",
             label="xtaboa2")
-xtaboa2p <- xtable(taboa2p[-9, -5],
+xtaboa2p <- xtable(taboa2p[-5, -9],
             caption="Clases de cuberta por Grandes Áreas paisaxísticas (datos en porcentaxe)",
             label="xtaboa2p")
 
-xtaboa3  <- xtable(taboa3[-9,-4],
+xtaboa3  <- xtable(taboa3[-4,-9],
             caption="Termotipos por Grandes Áreas paisaxísticas (datos en km²)",
             label="xtaboa3")
-xtaboa3p <- xtable(taboa3p[-9,-4],
+xtaboa3p <- xtable(taboa3p[-4,-9],
             caption="Termotipos por Grandes Áreas paisaxísticas (datos en porcentaxe)",
             label="xtaboa3p")
 
