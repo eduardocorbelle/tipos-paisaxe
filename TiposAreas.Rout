@@ -30,17 +30,17 @@ Type 'q()' to quit R.
 > rownames(taboa0) <- names(tab0)
 > 
 > ## Clases xeomorfolóxicas por Grandes Áreas (en km2)
-> taboa1 <- round(tapply(datos$Aream2, INDEX=list(datos$CXt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,0)
+> taboa1 <- round(tapply(datos$Aream2, INDEX=list(datos$CXt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
 > taboa1[is.na(taboa1)] <- 0
 > ## Clases xeomorfolóxicas por Grandes Áreas (en %)
 > taboa1p <- round(100*prop.table(taboa1, margin=2),1)
 > ## Clases de cuberta por Grandes Áreas (en km2)
-> taboa2 <- round(tapply(datos$Aream2, INDEX=list(datos$CCt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,0)
+> taboa2 <- round(tapply(datos$Aream2, INDEX=list(datos$CCt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
 > taboa2[is.na(taboa2)] <- 0
 > ## Clases xeomorfolóxicas por Grandes Áreas (en %)
 > taboa2p <- round(100*prop.table(taboa2, margin=2),1)
 > ## Clases de termotipos por Grandes Áreas (en km2)
-> taboa3 <- round(tapply(datos$Aream2, INDEX=list(datos$Clt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,0)
+> taboa3 <- round(tapply(datos$Aream2, INDEX=list(datos$Clt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
 > taboa3[is.na(taboa3)] <- 0
 > ## Clases xeomorfolóxicas por Grandes Áreas (en %)
 > taboa3p <- round(100*prop.table(taboa3, margin=2),1)
@@ -54,24 +54,30 @@ Type 'q()' to quit R.
 > 
 > xtaboa1  <- xtable(taboa1[-4,],
 +             caption="Grandes unidades morfolóxicas por Grandes Áreas paisaxísticas (datos en km²)",
-+             label="xtaboa1")
++             label="xtaboa1",
++             digits=0)
 > xtaboa1p <- xtable(taboa1p[-4,],
 +             caption="Grandes unidades morfolóxicas por Grandes Áreas paisaxísticas (datos en porcentaxe)",
-+             label="xtaboa1p")
++             label="xtaboa1p",
++             digits=1)
 > 
 > xtaboa2  <- xtable(taboa2[-9,],
 +             caption="Clases de cuberta por Grandes Áreas paisaxísticas (datos en km²)",
-+             label="xtaboa2")
++             label="xtaboa2",
++             digits=0)
 > xtaboa2p <- xtable(taboa2p[-9,],
 +             caption="Clases de cuberta por Grandes Áreas paisaxísticas (datos en porcentaxe)",
-+             label="xtaboa2p")
++             label="xtaboa2p",
++             digits=1)
 > 
 > xtaboa3  <- xtable(taboa3[-4,],
 +             caption="Termotipos por Grandes Áreas paisaxísticas (datos en km²)",
-+             label="xtaboa3")
++             label="xtaboa3",
++             digits=0)
 > xtaboa3p <- xtable(taboa3p[-4,],
 +             caption="Termotipos por Grandes Áreas paisaxísticas (datos en porcentaxe)",
-+             label="xtaboa3p")
++             label="xtaboa3p",
++             digits=1)
 > 
 > ## Exportamos a un ficheiro .tex
 > print.xtable(xtaboa0, type="latex", 
@@ -105,4 +111,4 @@ Type 'q()' to quit R.
 > 
 > proc.time()
    user  system elapsed 
-  0.388   0.040   0.452 
+  0.400   0.056   0.464 
