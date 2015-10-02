@@ -33,24 +33,24 @@ xtaboa0  <- xtable(taboa0,
             caption="Grandes Áreas paisaxísticas e código asignado",
             label="xtaboa0")
 
-xtaboa1  <- xtable(taboa1[-4,-9],
+xtaboa1  <- xtable(taboa1[-4,],
             caption="Grandes unidades morfolóxicas por Grandes Áreas paisaxísticas (datos en km²)",
             label="xtaboa1")
-xtaboa1p <- xtable(taboa1p[-4,-9],
+xtaboa1p <- xtable(taboa1p[-4,],
             caption="Grandes unidades morfolóxicas por Grandes Áreas paisaxísticas (datos en porcentaxe)",
             label="xtaboa1p")
 
-xtaboa2  <- xtable(taboa2[-5, -9],
+xtaboa2  <- xtable(taboa2[-9,],
             caption="Clases de cuberta por Grandes Áreas paisaxísticas (datos en km²)",
             label="xtaboa2")
-xtaboa2p <- xtable(taboa2p[-5, -9],
+xtaboa2p <- xtable(taboa2p[-9,],
             caption="Clases de cuberta por Grandes Áreas paisaxísticas (datos en porcentaxe)",
             label="xtaboa2p")
 
-xtaboa3  <- xtable(taboa3[-4,-9],
+xtaboa3  <- xtable(taboa3[-4,],
             caption="Termotipos por Grandes Áreas paisaxísticas (datos en km²)",
             label="xtaboa3")
-xtaboa3p <- xtable(taboa3p[-4,-9],
+xtaboa3p <- xtable(taboa3p[-4,],
             caption="Termotipos por Grandes Áreas paisaxísticas (datos en porcentaxe)",
             label="xtaboa3p")
 
