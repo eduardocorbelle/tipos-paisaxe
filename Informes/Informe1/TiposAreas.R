@@ -11,17 +11,17 @@ taboa0 <- data.frame("Código" = as.integer(tab0))
 rownames(taboa0) <- names(tab0)
 
 ## Clases xeomorfolóxicas por Grandes Áreas (en km2)
-taboa1 <- round(tapply(datos$Aream2, INDEX=list(datos$CXt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
+taboa1 <- round(tapply(datos$Aream2, INDEX=list(datos$CXt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,0)
 taboa1[is.na(taboa1)] <- 0
 ## Clases xeomorfolóxicas por Grandes Áreas (en %)
 taboa1p <- round(100*prop.table(taboa1, margin=2),1)
 ## Clases de cuberta por Grandes Áreas (en km2)
-taboa2 <- round(tapply(datos$Aream2, INDEX=list(datos$CCt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
+taboa2 <- round(tapply(datos$Aream2, INDEX=list(datos$CCt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,0)
 taboa2[is.na(taboa2)] <- 0
 ## Clases xeomorfolóxicas por Grandes Áreas (en %)
 taboa2p <- round(100*prop.table(taboa2, margin=2),1)
 ## Clases de termotipos por Grandes Áreas (en km2)
-taboa3 <- round(tapply(datos$Aream2, INDEX=list(datos$Clt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
+taboa3 <- round(tapply(datos$Aream2, INDEX=list(datos$Clt,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,0)
 taboa3[is.na(taboa3)] <- 0
 ## Clases xeomorfolóxicas por Grandes Áreas (en %)
 taboa3p <- round(100*prop.table(taboa3, margin=2),1)
