@@ -13,8 +13,9 @@
 \usepackage[textwidth=35mm, textsize=footnotesize, disable]{todonotes}
 \usepackage{microtype}
 \usepackage{booktabs}
+\usepackage{pdflscape}
 
-\title{Mapa de tipos de paisaxe en Galicia\\Descrición da versión 0.2}
+\title{Mapa de tipos de paisaxe en Galicia\\Descrición da versión 0.3}
 \author{Eduardo Corbelle Rico\thanks{Laboratorio do territorio (LaboraTe), Departamento de Enxeñería Agroforestal, Universidade de Santiago de Compostela. Correo-e: \href{mailto:eduardo.corbelle@usc.es}{eduardo.corbelle@usc.es}.}}
 \date{\today}
 \graphicspath{{"./Figuras/"}}
@@ -26,7 +27,7 @@
 \hrule
  \vspace{.2cm}
   \begin{footnotesize}
-   \noindent NOTA: Este documento describe os conceptos teóricos, os supostos de partida, as fontes de información orixinais e o proceso de traballo empregado na produción da versión 0.3 do Mapa de tipos de paisaxe de Galicia. O código completo empregado está dispoñible para descarga en: \url{https://github.com/eduardocorbelle/tipos-paisaxe/releases/tag/v0.2}.\\   
+   \noindent NOTA: Este documento describe os conceptos teóricos, os supostos de partida, as fontes de información orixinais e o proceso de traballo empregado na produción da versión 0.3 do Mapa de tipos de paisaxe de Galicia. O código completo empregado está dispoñible para descarga en: \url{https://github.com/eduardocorbelle/tipos-paisaxe/releases/tag/v0.3}.\\   
 Todo o contido do documento faise público baixo licencia \emph{Creative Commons Atribución-Compartir Igual} (CC by-sa). Unha versión resumida das condicións da licencia pódese consultar en galego en: \url{http://creativecommons.org/licenses/by-sa/4.0/deed.gl}.\\
 Este é un documento de traballo que describe o estado actual. Tódalas aportacións ou recomendacións recibidas serán utilizadas para mellorar a calidade do proceso e do produto final.
   \end{footnotesize}
@@ -289,11 +290,16 @@ Cada tipo de paisaxe contemplado no mapa vén definido, polo tanto, pola combina
 
 
 
-
-
-\clearpage
 \bibliographystyle{galego}
 \bibliography{./References/LandscapeMapping}
 
+
+
+
+\clearpage
+\begin{landscape}
+\input{TaboasGA}
+
+\end{landscape}
 
 \end{document}
