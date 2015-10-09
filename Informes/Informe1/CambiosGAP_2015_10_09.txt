@@ -1,0 +1,467 @@
+1|Golfo Ártabro|1|SAU|1|SAU|232169950.000000
+1|Golfo Ártabro|1|SAU|2|Arb-plant|115194950.000000
+1|Golfo Ártabro|1|SAU|3|Arb-revex|19421675.000000
+1|Golfo Ártabro|1|SAU|4|Mato|13938875.000000
+1|Golfo Ártabro|1|SAU|5|Artificial|72924275.000000
+1|Golfo Ártabro|1|SAU|NA|no data|2257425.000000
+1|Golfo Ártabro|2|Arb-plant|1|SAU|54155550.000000
+1|Golfo Ártabro|2|Arb-plant|2|Arb-plant|383845075.000000
+1|Golfo Ártabro|2|Arb-plant|3|Arb-revex|21916675.000000
+1|Golfo Ártabro|2|Arb-plant|4|Mato|32768125.000000
+1|Golfo Ártabro|2|Arb-plant|5|Artificial|29596275.000000
+1|Golfo Ártabro|2|Arb-plant|NA|no data|1871025.000000
+1|Golfo Ártabro|3|Arb-revex|1|SAU|1276250.000000
+1|Golfo Ártabro|3|Arb-revex|2|Arb-plant|8043075.000000
+1|Golfo Ártabro|3|Arb-revex|3|Arb-revex|20488650.000000
+1|Golfo Ártabro|3|Arb-revex|4|Mato|4351425.000000
+1|Golfo Ártabro|3|Arb-revex|5|Artificial|108650.000000
+1|Golfo Ártabro|3|Arb-revex|NA|no data|1580875.000000
+1|Golfo Ártabro|4|Mato|1|SAU|25704125.000000
+1|Golfo Ártabro|4|Mato|2|Arb-plant|83764925.000000
+1|Golfo Ártabro|4|Mato|3|Arb-revex|9909400.000000
+1|Golfo Ártabro|4|Mato|4|Mato|60851125.000000
+1|Golfo Ártabro|4|Mato|5|Artificial|6752175.000000
+1|Golfo Ártabro|4|Mato|NA|no data|1142825.000000
+1|Golfo Ártabro|5|Artificial|1|SAU|13205200.000000
+1|Golfo Ártabro|5|Artificial|2|Arb-plant|6766850.000000
+1|Golfo Ártabro|5|Artificial|3|Arb-revex|1554050.000000
+1|Golfo Ártabro|5|Artificial|4|Mato|11398925.000000
+1|Golfo Ártabro|5|Artificial|5|Artificial|44792750.000000
+1|Golfo Ártabro|5|Artificial|NA|no data|3908225.000000
+1|Golfo Ártabro|NA|no data|1|SAU|49350.000000
+1|Golfo Ártabro|NA|no data|2|Arb-plant|331275.000000
+1|Golfo Ártabro|NA|no data|3|Arb-revex|93100.000000
+1|Golfo Ártabro|NA|no data|4|Mato|122450.000000
+1|Golfo Ártabro|NA|no data|5|Artificial|1663575.000000
+1|Golfo Ártabro|NA|no data|NA|no data|2572125.000000
+2|A Mariña - Baixo Eo|1|SAU|1|SAU|167741725.000000
+2|A Mariña - Baixo Eo|1|SAU|2|Arb-plant|65250300.000000
+2|A Mariña - Baixo Eo|1|SAU|3|Arb-revex|6163950.000000
+2|A Mariña - Baixo Eo|1|SAU|4|Mato|6122900.000000
+2|A Mariña - Baixo Eo|1|SAU|5|Artificial|17336350.000000
+2|A Mariña - Baixo Eo|1|SAU|NA|no data|772575.000000
+2|A Mariña - Baixo Eo|2|Arb-plant|1|SAU|27359925.000000
+2|A Mariña - Baixo Eo|2|Arb-plant|2|Arb-plant|390178825.000000
+2|A Mariña - Baixo Eo|2|Arb-plant|3|Arb-revex|10747200.000000
+2|A Mariña - Baixo Eo|2|Arb-plant|4|Mato|18782825.000000
+2|A Mariña - Baixo Eo|2|Arb-plant|5|Artificial|4606275.000000
+2|A Mariña - Baixo Eo|2|Arb-plant|NA|no data|1155850.000000
+2|A Mariña - Baixo Eo|3|Arb-revex|1|SAU|1674075.000000
+2|A Mariña - Baixo Eo|3|Arb-revex|2|Arb-plant|10837275.000000
+2|A Mariña - Baixo Eo|3|Arb-revex|3|Arb-revex|10211000.000000
+2|A Mariña - Baixo Eo|3|Arb-revex|4|Mato|1198400.000000
+2|A Mariña - Baixo Eo|3|Arb-revex|5|Artificial|111900.000000
+2|A Mariña - Baixo Eo|3|Arb-revex|NA|no data|4425.000000
+2|A Mariña - Baixo Eo|4|Mato|1|SAU|16630325.000000
+2|A Mariña - Baixo Eo|4|Mato|2|Arb-plant|84688825.000000
+2|A Mariña - Baixo Eo|4|Mato|3|Arb-revex|4765075.000000
+2|A Mariña - Baixo Eo|4|Mato|4|Mato|52951325.000000
+2|A Mariña - Baixo Eo|4|Mato|5|Artificial|1721725.000000
+2|A Mariña - Baixo Eo|4|Mato|NA|no data|442400.000000
+2|A Mariña - Baixo Eo|5|Artificial|1|SAU|2915650.000000
+2|A Mariña - Baixo Eo|5|Artificial|2|Arb-plant|6102950.000000
+2|A Mariña - Baixo Eo|5|Artificial|3|Arb-revex|72950.000000
+2|A Mariña - Baixo Eo|5|Artificial|4|Mato|3602850.000000
+2|A Mariña - Baixo Eo|5|Artificial|5|Artificial|7126550.000000
+2|A Mariña - Baixo Eo|5|Artificial|NA|no data|1553225.000000
+2|A Mariña - Baixo Eo|NA|no data|1|SAU|58925.000000
+2|A Mariña - Baixo Eo|NA|no data|2|Arb-plant|86300.000000
+2|A Mariña - Baixo Eo|NA|no data|3|Arb-revex|150.000000
+2|A Mariña - Baixo Eo|NA|no data|4|Mato|104625.000000
+2|A Mariña - Baixo Eo|NA|no data|5|Artificial|284550.000000
+2|A Mariña - Baixo Eo|NA|no data|NA|no data|1207700.000000
+3|Costa Sur - Baixo Miño|1|SAU|1|SAU|168613575.000000
+3|Costa Sur - Baixo Miño|1|SAU|2|Arb-plant|65257175.000000
+3|Costa Sur - Baixo Miño|1|SAU|3|Arb-revex|13961025.000000
+3|Costa Sur - Baixo Miño|1|SAU|4|Mato|9999050.000000
+3|Costa Sur - Baixo Miño|1|SAU|5|Artificial|52346050.000000
+3|Costa Sur - Baixo Miño|1|SAU|NA|no data|867175.000000
+3|Costa Sur - Baixo Miño|2|Arb-plant|1|SAU|39961400.000000
+3|Costa Sur - Baixo Miño|2|Arb-plant|2|Arb-plant|399282925.000000
+3|Costa Sur - Baixo Miño|2|Arb-plant|3|Arb-revex|17250525.000000
+3|Costa Sur - Baixo Miño|2|Arb-plant|4|Mato|57564250.000000
+3|Costa Sur - Baixo Miño|2|Arb-plant|5|Artificial|27311000.000000
+3|Costa Sur - Baixo Miño|2|Arb-plant|NA|no data|1473625.000000
+3|Costa Sur - Baixo Miño|3|Arb-revex|1|SAU|252000.000000
+3|Costa Sur - Baixo Miño|3|Arb-revex|2|Arb-plant|1189100.000000
+3|Costa Sur - Baixo Miño|3|Arb-revex|3|Arb-revex|2916800.000000
+3|Costa Sur - Baixo Miño|3|Arb-revex|4|Mato|398125.000000
+3|Costa Sur - Baixo Miño|3|Arb-revex|5|Artificial|367825.000000
+3|Costa Sur - Baixo Miño|3|Arb-revex|NA|no data|27300.000000
+3|Costa Sur - Baixo Miño|4|Mato|1|SAU|4461875.000000
+3|Costa Sur - Baixo Miño|4|Mato|2|Arb-plant|94327050.000000
+3|Costa Sur - Baixo Miño|4|Mato|3|Arb-revex|8828875.000000
+3|Costa Sur - Baixo Miño|4|Mato|4|Mato|188035525.000000
+3|Costa Sur - Baixo Miño|4|Mato|5|Artificial|7432275.000000
+3|Costa Sur - Baixo Miño|4|Mato|NA|no data|673475.000000
+3|Costa Sur - Baixo Miño|5|Artificial|1|SAU|1798100.000000
+3|Costa Sur - Baixo Miño|5|Artificial|2|Arb-plant|2237800.000000
+3|Costa Sur - Baixo Miño|5|Artificial|3|Arb-revex|932800.000000
+3|Costa Sur - Baixo Miño|5|Artificial|4|Mato|1146425.000000
+3|Costa Sur - Baixo Miño|5|Artificial|5|Artificial|8598975.000000
+3|Costa Sur - Baixo Miño|5|Artificial|NA|no data|2706550.000000
+3|Costa Sur - Baixo Miño|NA|no data|1|SAU|138900.000000
+3|Costa Sur - Baixo Miño|NA|no data|2|Arb-plant|103825.000000
+3|Costa Sur - Baixo Miño|NA|no data|3|Arb-revex|180800.000000
+3|Costa Sur - Baixo Miño|NA|no data|4|Mato|407325.000000
+3|Costa Sur - Baixo Miño|NA|no data|5|Artificial|175800.000000
+3|Costa Sur - Baixo Miño|NA|no data|NA|no data|1896575.000000
+4|Ribeiras Encaixadas do Miño e do Sil|1|SAU|1|SAU|359037450.000000
+4|Ribeiras Encaixadas do Miño e do Sil|1|SAU|2|Arb-plant|181252125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|1|SAU|3|Arb-revex|57118875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|1|SAU|4|Mato|146632925.000000
+4|Ribeiras Encaixadas do Miño e do Sil|1|SAU|5|Artificial|43387725.000000
+4|Ribeiras Encaixadas do Miño e do Sil|1|SAU|NA|no data|4183475.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Arb-plant|1|SAU|42658025.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Arb-plant|2|Arb-plant|424751650.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Arb-plant|3|Arb-revex|28004625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Arb-plant|4|Mato|157415400.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Arb-plant|5|Artificial|15111500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Arb-plant|NA|no data|2895825.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Arb-revex|1|SAU|23946500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Arb-revex|2|Arb-plant|49603125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Arb-revex|3|Arb-revex|74222175.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Arb-revex|4|Mato|33094700.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Arb-revex|5|Artificial|2355350.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Arb-revex|NA|no data|2109000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Mato|1|SAU|65024825.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Mato|2|Arb-plant|181866850.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Mato|3|Arb-revex|61955225.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Mato|4|Mato|417902700.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Mato|5|Artificial|9588600.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Mato|NA|no data|3866575.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Artificial|1|SAU|10209825.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Artificial|2|Arb-plant|7294525.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Artificial|3|Arb-revex|3999800.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Artificial|4|Mato|6160075.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Artificial|5|Artificial|18317650.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Artificial|NA|no data|37783375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|NA|no data|1|SAU|6325.000000
+4|Ribeiras Encaixadas do Miño e do Sil|NA|no data|2|Arb-plant|16025.000000
+4|Ribeiras Encaixadas do Miño e do Sil|NA|no data|3|Arb-revex|2550.000000
+4|Ribeiras Encaixadas do Miño e do Sil|NA|no data|4|Mato|11125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|NA|no data|5|Artificial|1750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|NA|no data|NA|no data|29250.000000
+5|Serras Orientais|1|SAU|1|SAU|261926975.000000
+5|Serras Orientais|1|SAU|2|Arb-plant|56933600.000000
+5|Serras Orientais|1|SAU|3|Arb-revex|166700600.000000
+5|Serras Orientais|1|SAU|4|Mato|151503825.000000
+5|Serras Orientais|1|SAU|5|Artificial|12425800.000000
+5|Serras Orientais|1|SAU|NA|no data|863975.000000
+5|Serras Orientais|2|Arb-plant|1|SAU|14262500.000000
+5|Serras Orientais|2|Arb-plant|2|Arb-plant|166587900.000000
+5|Serras Orientais|2|Arb-plant|3|Arb-revex|35736775.000000
+5|Serras Orientais|2|Arb-plant|4|Mato|115549250.000000
+5|Serras Orientais|2|Arb-plant|5|Artificial|635025.000000
+5|Serras Orientais|2|Arb-plant|NA|no data|337975.000000
+5|Serras Orientais|3|Arb-revex|1|SAU|29063975.000000
+5|Serras Orientais|3|Arb-revex|2|Arb-plant|32492300.000000
+5|Serras Orientais|3|Arb-revex|3|Arb-revex|165618700.000000
+5|Serras Orientais|3|Arb-revex|4|Mato|37192925.000000
+5|Serras Orientais|3|Arb-revex|5|Artificial|1691650.000000
+5|Serras Orientais|3|Arb-revex|NA|no data|890800.000000
+5|Serras Orientais|4|Mato|1|SAU|118318725.000000
+5|Serras Orientais|4|Mato|2|Arb-plant|188480375.000000
+5|Serras Orientais|4|Mato|3|Arb-revex|270504550.000000
+5|Serras Orientais|4|Mato|4|Mato|640844425.000000
+5|Serras Orientais|4|Mato|5|Artificial|6754800.000000
+5|Serras Orientais|4|Mato|NA|no data|1120350.000000
+5|Serras Orientais|5|Artificial|1|SAU|2452700.000000
+5|Serras Orientais|5|Artificial|2|Arb-plant|3751375.000000
+5|Serras Orientais|5|Artificial|3|Arb-revex|1878575.000000
+5|Serras Orientais|5|Artificial|4|Mato|4943025.000000
+5|Serras Orientais|5|Artificial|5|Artificial|1326800.000000
+5|Serras Orientais|5|Artificial|NA|no data|3364850.000000
+5|Serras Orientais|NA|no data|1|SAU|7650.000000
+5|Serras Orientais|NA|no data|2|Arb-plant|9800.000000
+5|Serras Orientais|NA|no data|3|Arb-revex|10250.000000
+5|Serras Orientais|NA|no data|4|Mato|17575.000000
+5|Serras Orientais|NA|no data|5|Artificial|475.000000
+5|Serras Orientais|NA|no data|NA|no data|29150.000000
+6|Chairas e Fosas Luguesas|1|SAU|1|SAU|1260454550.000000
+6|Chairas e Fosas Luguesas|1|SAU|2|Arb-plant|282625600.000000
+6|Chairas e Fosas Luguesas|1|SAU|3|Arb-revex|125535175.000000
+6|Chairas e Fosas Luguesas|1|SAU|4|Mato|186221275.000000
+6|Chairas e Fosas Luguesas|1|SAU|5|Artificial|79415925.000000
+6|Chairas e Fosas Luguesas|1|SAU|NA|no data|3587825.000000
+6|Chairas e Fosas Luguesas|2|Arb-plant|1|SAU|131908100.000000
+6|Chairas e Fosas Luguesas|2|Arb-plant|2|Arb-plant|387096300.000000
+6|Chairas e Fosas Luguesas|2|Arb-plant|3|Arb-revex|44630750.000000
+6|Chairas e Fosas Luguesas|2|Arb-plant|4|Mato|136851375.000000
+6|Chairas e Fosas Luguesas|2|Arb-plant|5|Artificial|10361450.000000
+6|Chairas e Fosas Luguesas|2|Arb-plant|NA|no data|712250.000000
+6|Chairas e Fosas Luguesas|3|Arb-revex|1|SAU|111188900.000000
+6|Chairas e Fosas Luguesas|3|Arb-revex|2|Arb-plant|96934700.000000
+6|Chairas e Fosas Luguesas|3|Arb-revex|3|Arb-revex|108871225.000000
+6|Chairas e Fosas Luguesas|3|Arb-revex|4|Mato|43024350.000000
+6|Chairas e Fosas Luguesas|3|Arb-revex|5|Artificial|5392250.000000
+6|Chairas e Fosas Luguesas|3|Arb-revex|NA|no data|1624650.000000
+6|Chairas e Fosas Luguesas|4|Mato|1|SAU|417397025.000000
+6|Chairas e Fosas Luguesas|4|Mato|2|Arb-plant|404135350.000000
+6|Chairas e Fosas Luguesas|4|Mato|3|Arb-revex|107948700.000000
+6|Chairas e Fosas Luguesas|4|Mato|4|Mato|538230075.000000
+6|Chairas e Fosas Luguesas|4|Mato|5|Artificial|18045925.000000
+6|Chairas e Fosas Luguesas|4|Mato|NA|no data|1396925.000000
+6|Chairas e Fosas Luguesas|5|Artificial|1|SAU|11167300.000000
+6|Chairas e Fosas Luguesas|5|Artificial|2|Arb-plant|8376375.000000
+6|Chairas e Fosas Luguesas|5|Artificial|3|Arb-revex|3174225.000000
+6|Chairas e Fosas Luguesas|5|Artificial|4|Mato|13768575.000000
+6|Chairas e Fosas Luguesas|5|Artificial|5|Artificial|16324225.000000
+6|Chairas e Fosas Luguesas|5|Artificial|NA|no data|2823175.000000
+6|Chairas e Fosas Luguesas|NA|no data|1|SAU|25125.000000
+6|Chairas e Fosas Luguesas|NA|no data|2|Arb-plant|20800.000000
+6|Chairas e Fosas Luguesas|NA|no data|3|Arb-revex|3350.000000
+6|Chairas e Fosas Luguesas|NA|no data|4|Mato|19225.000000
+6|Chairas e Fosas Luguesas|NA|no data|5|Artificial|3775.000000
+6|Chairas e Fosas Luguesas|NA|no data|NA|no data|50700.000000
+7|Galicia Central|1|SAU|1|SAU|1058035050.000000
+7|Galicia Central|1|SAU|2|Arb-plant|316224250.000000
+7|Galicia Central|1|SAU|3|Arb-revex|75303825.000000
+7|Galicia Central|1|SAU|4|Mato|111884125.000000
+7|Galicia Central|1|SAU|5|Artificial|109884050.000000
+7|Galicia Central|1|SAU|NA|no data|3533400.000000
+7|Galicia Central|2|Arb-plant|1|SAU|357076350.000000
+7|Galicia Central|2|Arb-plant|2|Arb-plant|1057115325.000000
+7|Galicia Central|2|Arb-plant|3|Arb-revex|70906325.000000
+7|Galicia Central|2|Arb-plant|4|Mato|174847300.000000
+7|Galicia Central|2|Arb-plant|5|Artificial|43574975.000000
+7|Galicia Central|2|Arb-plant|NA|no data|4849600.000000
+7|Galicia Central|3|Arb-revex|1|SAU|35586600.000000
+7|Galicia Central|3|Arb-revex|2|Arb-plant|37780725.000000
+7|Galicia Central|3|Arb-revex|3|Arb-revex|29488050.000000
+7|Galicia Central|3|Arb-revex|4|Mato|11554975.000000
+7|Galicia Central|3|Arb-revex|5|Artificial|1616175.000000
+7|Galicia Central|3|Arb-revex|NA|no data|502450.000000
+7|Galicia Central|4|Mato|1|SAU|340565050.000000
+7|Galicia Central|4|Mato|2|Arb-plant|497865250.000000
+7|Galicia Central|4|Mato|3|Arb-revex|81920500.000000
+7|Galicia Central|4|Mato|4|Mato|624236725.000000
+7|Galicia Central|4|Mato|5|Artificial|26545225.000000
+7|Galicia Central|4|Mato|NA|no data|3416650.000000
+7|Galicia Central|5|Artificial|1|SAU|19063175.000000
+7|Galicia Central|5|Artificial|2|Arb-plant|12580475.000000
+7|Galicia Central|5|Artificial|3|Arb-revex|3570625.000000
+7|Galicia Central|5|Artificial|4|Mato|4848875.000000
+7|Galicia Central|5|Artificial|5|Artificial|25761900.000000
+7|Galicia Central|5|Artificial|NA|no data|11974950.000000
+7|Galicia Central|NA|no data|1|SAU|13775.000000
+7|Galicia Central|NA|no data|2|Arb-plant|17475.000000
+7|Galicia Central|NA|no data|3|Arb-revex|3775.000000
+7|Galicia Central|NA|no data|4|Mato|11675.000000
+7|Galicia Central|NA|no data|5|Artificial|1300.000000
+7|Galicia Central|NA|no data|NA|no data|34675.000000
+8|Chairas, Fosas e Serras Ourensás|1|SAU|1|SAU|493211725.000000
+8|Chairas, Fosas e Serras Ourensás|1|SAU|2|Arb-plant|92938900.000000
+8|Chairas, Fosas e Serras Ourensás|1|SAU|3|Arb-revex|140456700.000000
+8|Chairas, Fosas e Serras Ourensás|1|SAU|4|Mato|167776250.000000
+8|Chairas, Fosas e Serras Ourensás|1|SAU|5|Artificial|28036200.000000
+8|Chairas, Fosas e Serras Ourensás|1|SAU|NA|no data|4082775.000000
+8|Chairas, Fosas e Serras Ourensás|2|Arb-plant|1|SAU|20817450.000000
+8|Chairas, Fosas e Serras Ourensás|2|Arb-plant|2|Arb-plant|339137950.000000
+8|Chairas, Fosas e Serras Ourensás|2|Arb-plant|3|Arb-revex|26059675.000000
+8|Chairas, Fosas e Serras Ourensás|2|Arb-plant|4|Mato|141341300.000000
+8|Chairas, Fosas e Serras Ourensás|2|Arb-plant|5|Artificial|3426400.000000
+8|Chairas, Fosas e Serras Ourensás|2|Arb-plant|NA|no data|3877175.000000
+8|Chairas, Fosas e Serras Ourensás|3|Arb-revex|1|SAU|20248575.000000
+8|Chairas, Fosas e Serras Ourensás|3|Arb-revex|2|Arb-plant|28779200.000000
+8|Chairas, Fosas e Serras Ourensás|3|Arb-revex|3|Arb-revex|94608150.000000
+8|Chairas, Fosas e Serras Ourensás|3|Arb-revex|4|Mato|29201625.000000
+8|Chairas, Fosas e Serras Ourensás|3|Arb-revex|5|Artificial|1235325.000000
+8|Chairas, Fosas e Serras Ourensás|3|Arb-revex|NA|no data|450675.000000
+8|Chairas, Fosas e Serras Ourensás|4|Mato|1|SAU|94714425.000000
+8|Chairas, Fosas e Serras Ourensás|4|Mato|2|Arb-plant|152687900.000000
+8|Chairas, Fosas e Serras Ourensás|4|Mato|3|Arb-revex|183900625.000000
+8|Chairas, Fosas e Serras Ourensás|4|Mato|4|Mato|692161825.000000
+8|Chairas, Fosas e Serras Ourensás|4|Mato|5|Artificial|10286800.000000
+8|Chairas, Fosas e Serras Ourensás|4|Mato|NA|no data|4741550.000000
+8|Chairas, Fosas e Serras Ourensás|5|Artificial|1|SAU|15490800.000000
+8|Chairas, Fosas e Serras Ourensás|5|Artificial|2|Arb-plant|3176800.000000
+8|Chairas, Fosas e Serras Ourensás|5|Artificial|3|Arb-revex|3814750.000000
+8|Chairas, Fosas e Serras Ourensás|5|Artificial|4|Mato|17740975.000000
+8|Chairas, Fosas e Serras Ourensás|5|Artificial|5|Artificial|13809450.000000
+8|Chairas, Fosas e Serras Ourensás|5|Artificial|NA|no data|11266450.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|1|SAU|827400.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|2|Arb-plant|679350.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|3|Arb-revex|633075.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|4|Mato|2821900.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|5|Artificial|3975.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|NA|no data|481525.000000
+9|Serras Surorientais|1|SAU|1|SAU|187034875.000000
+9|Serras Surorientais|1|SAU|2|Arb-plant|13406725.000000
+9|Serras Surorientais|1|SAU|3|Arb-revex|90513325.000000
+9|Serras Surorientais|1|SAU|4|Mato|173125150.000000
+9|Serras Surorientais|1|SAU|5|Artificial|11006850.000000
+9|Serras Surorientais|1|SAU|NA|no data|6857275.000000
+9|Serras Surorientais|2|Arb-plant|1|SAU|5492750.000000
+9|Serras Surorientais|2|Arb-plant|2|Arb-plant|183365300.000000
+9|Serras Surorientais|2|Arb-plant|3|Arb-revex|9510900.000000
+9|Serras Surorientais|2|Arb-plant|4|Mato|138833000.000000
+9|Serras Surorientais|2|Arb-plant|5|Artificial|667575.000000
+9|Serras Surorientais|2|Arb-plant|NA|no data|765225.000000
+9|Serras Surorientais|3|Arb-revex|1|SAU|19160725.000000
+9|Serras Surorientais|3|Arb-revex|2|Arb-plant|6569550.000000
+9|Serras Surorientais|3|Arb-revex|3|Arb-revex|138517975.000000
+9|Serras Surorientais|3|Arb-revex|4|Mato|43401850.000000
+9|Serras Surorientais|3|Arb-revex|5|Artificial|1494525.000000
+9|Serras Surorientais|3|Arb-revex|NA|no data|1273525.000000
+9|Serras Surorientais|4|Mato|1|SAU|60416400.000000
+9|Serras Surorientais|4|Mato|2|Arb-plant|37273125.000000
+9|Serras Surorientais|4|Mato|3|Arb-revex|125786250.000000
+9|Serras Surorientais|4|Mato|4|Mato|887160900.000000
+9|Serras Surorientais|4|Mato|5|Artificial|16602650.000000
+9|Serras Surorientais|4|Mato|NA|no data|5780775.000000
+9|Serras Surorientais|5|Artificial|1|SAU|6162000.000000
+9|Serras Surorientais|5|Artificial|2|Arb-plant|433725.000000
+9|Serras Surorientais|5|Artificial|3|Arb-revex|2759775.000000
+9|Serras Surorientais|5|Artificial|4|Mato|4681700.000000
+9|Serras Surorientais|5|Artificial|5|Artificial|5181400.000000
+9|Serras Surorientais|5|Artificial|NA|no data|16176075.000000
+9|Serras Surorientais|NA|no data|1|SAU|409200.000000
+9|Serras Surorientais|NA|no data|2|Arb-plant|194275.000000
+9|Serras Surorientais|NA|no data|3|Arb-revex|605525.000000
+9|Serras Surorientais|NA|no data|4|Mato|581550.000000
+9|Serras Surorientais|NA|no data|5|Artificial|925.000000
+9|Serras Surorientais|NA|no data|NA|no data|74150.000000
+10|Galicia Setentrional|1|SAU|1|SAU|185995250.000000
+10|Galicia Setentrional|1|SAU|2|Arb-plant|109193275.000000
+10|Galicia Setentrional|1|SAU|3|Arb-revex|16524925.000000
+10|Galicia Setentrional|1|SAU|4|Mato|20628475.000000
+10|Galicia Setentrional|1|SAU|5|Artificial|25768450.000000
+10|Galicia Setentrional|1|SAU|NA|no data|1421425.000000
+10|Galicia Setentrional|2|Arb-plant|1|SAU|34934625.000000
+10|Galicia Setentrional|2|Arb-plant|2|Arb-plant|439300000.000000
+10|Galicia Setentrional|2|Arb-plant|3|Arb-revex|20052775.000000
+10|Galicia Setentrional|2|Arb-plant|4|Mato|60554250.000000
+10|Galicia Setentrional|2|Arb-plant|5|Artificial|8494675.000000
+10|Galicia Setentrional|2|Arb-plant|NA|no data|1342850.000000
+10|Galicia Setentrional|3|Arb-revex|1|SAU|7572025.000000
+10|Galicia Setentrional|3|Arb-revex|2|Arb-plant|42325700.000000
+10|Galicia Setentrional|3|Arb-revex|3|Arb-revex|35588700.000000
+10|Galicia Setentrional|3|Arb-revex|4|Mato|13649825.000000
+10|Galicia Setentrional|3|Arb-revex|5|Artificial|417300.000000
+10|Galicia Setentrional|3|Arb-revex|NA|no data|967350.000000
+10|Galicia Setentrional|4|Mato|1|SAU|58341825.000000
+10|Galicia Setentrional|4|Mato|2|Arb-plant|182749750.000000
+10|Galicia Setentrional|4|Mato|3|Arb-revex|27456750.000000
+10|Galicia Setentrional|4|Mato|4|Mato|269977700.000000
+10|Galicia Setentrional|4|Mato|5|Artificial|13375325.000000
+10|Galicia Setentrional|4|Mato|NA|no data|2414450.000000
+10|Galicia Setentrional|5|Artificial|1|SAU|2441300.000000
+10|Galicia Setentrional|5|Artificial|2|Arb-plant|6829475.000000
+10|Galicia Setentrional|5|Artificial|3|Arb-revex|876925.000000
+10|Galicia Setentrional|5|Artificial|4|Mato|17396600.000000
+10|Galicia Setentrional|5|Artificial|5|Artificial|12155725.000000
+10|Galicia Setentrional|5|Artificial|NA|no data|3435475.000000
+10|Galicia Setentrional|NA|no data|1|SAU|502175.000000
+10|Galicia Setentrional|NA|no data|2|Arb-plant|837025.000000
+10|Galicia Setentrional|NA|no data|3|Arb-revex|62475.000000
+10|Galicia Setentrional|NA|no data|4|Mato|923600.000000
+10|Galicia Setentrional|NA|no data|5|Artificial|2124725.000000
+10|Galicia Setentrional|NA|no data|NA|no data|1366200.000000
+11|Chairas e Fosas Occidentais|1|SAU|1|SAU|413999500.000000
+11|Chairas e Fosas Occidentais|1|SAU|2|Arb-plant|114471550.000000
+11|Chairas e Fosas Occidentais|1|SAU|3|Arb-revex|12190275.000000
+11|Chairas e Fosas Occidentais|1|SAU|4|Mato|22872750.000000
+11|Chairas e Fosas Occidentais|1|SAU|5|Artificial|47950075.000000
+11|Chairas e Fosas Occidentais|1|SAU|NA|no data|2086000.000000
+11|Chairas e Fosas Occidentais|2|Arb-plant|1|SAU|126731225.000000
+11|Chairas e Fosas Occidentais|2|Arb-plant|2|Arb-plant|622110850.000000
+11|Chairas e Fosas Occidentais|2|Arb-plant|3|Arb-revex|9933275.000000
+11|Chairas e Fosas Occidentais|2|Arb-plant|4|Mato|92698400.000000
+11|Chairas e Fosas Occidentais|2|Arb-plant|5|Artificial|15594600.000000
+11|Chairas e Fosas Occidentais|2|Arb-plant|NA|no data|2166700.000000
+11|Chairas e Fosas Occidentais|3|Arb-revex|1|SAU|1306150.000000
+11|Chairas e Fosas Occidentais|3|Arb-revex|2|Arb-plant|1805500.000000
+11|Chairas e Fosas Occidentais|3|Arb-revex|3|Arb-revex|529700.000000
+11|Chairas e Fosas Occidentais|3|Arb-revex|4|Mato|196875.000000
+11|Chairas e Fosas Occidentais|3|Arb-revex|5|Artificial|64675.000000
+11|Chairas e Fosas Occidentais|3|Arb-revex|NA|no data|161275.000000
+11|Chairas e Fosas Occidentais|4|Mato|1|SAU|90231450.000000
+11|Chairas e Fosas Occidentais|4|Mato|2|Arb-plant|184475450.000000
+11|Chairas e Fosas Occidentais|4|Mato|3|Arb-revex|3886950.000000
+11|Chairas e Fosas Occidentais|4|Mato|4|Mato|234393250.000000
+11|Chairas e Fosas Occidentais|4|Mato|5|Artificial|11535625.000000
+11|Chairas e Fosas Occidentais|4|Mato|NA|no data|3201575.000000
+11|Chairas e Fosas Occidentais|5|Artificial|1|SAU|7972500.000000
+11|Chairas e Fosas Occidentais|5|Artificial|2|Arb-plant|5643900.000000
+11|Chairas e Fosas Occidentais|5|Artificial|3|Arb-revex|521225.000000
+11|Chairas e Fosas Occidentais|5|Artificial|4|Mato|10618550.000000
+11|Chairas e Fosas Occidentais|5|Artificial|5|Artificial|16248125.000000
+11|Chairas e Fosas Occidentais|5|Artificial|NA|no data|13213525.000000
+11|Chairas e Fosas Occidentais|NA|no data|1|SAU|155200.000000
+11|Chairas e Fosas Occidentais|NA|no data|2|Arb-plant|673575.000000
+11|Chairas e Fosas Occidentais|NA|no data|3|Arb-revex|1375.000000
+11|Chairas e Fosas Occidentais|NA|no data|4|Mato|1449525.000000
+11|Chairas e Fosas Occidentais|NA|no data|5|Artificial|1837500.000000
+11|Chairas e Fosas Occidentais|NA|no data|NA|no data|3332575.000000
+12|Rías Baixas|1|SAU|1|SAU|408350825.000000
+12|Rías Baixas|1|SAU|2|Arb-plant|163354625.000000
+12|Rías Baixas|1|SAU|3|Arb-revex|21796900.000000
+12|Rías Baixas|1|SAU|4|Mato|39236000.000000
+12|Rías Baixas|1|SAU|5|Artificial|140716525.000000
+12|Rías Baixas|1|SAU|NA|no data|3082875.000000
+12|Rías Baixas|2|Arb-plant|1|SAU|91507975.000000
+12|Rías Baixas|2|Arb-plant|2|Arb-plant|696534925.000000
+12|Rías Baixas|2|Arb-plant|3|Arb-revex|29126900.000000
+12|Rías Baixas|2|Arb-plant|4|Mato|180758575.000000
+12|Rías Baixas|2|Arb-plant|5|Artificial|52553150.000000
+12|Rías Baixas|2|Arb-plant|NA|no data|2793575.000000
+12|Rías Baixas|3|Arb-revex|1|SAU|1149450.000000
+12|Rías Baixas|3|Arb-revex|2|Arb-plant|6087075.000000
+12|Rías Baixas|3|Arb-revex|3|Arb-revex|4964125.000000
+12|Rías Baixas|3|Arb-revex|4|Mato|1806400.000000
+12|Rías Baixas|3|Arb-revex|5|Artificial|201400.000000
+12|Rías Baixas|3|Arb-revex|NA|no data|173600.000000
+12|Rías Baixas|4|Mato|1|SAU|27931025.000000
+12|Rías Baixas|4|Mato|2|Arb-plant|250932725.000000
+12|Rías Baixas|4|Mato|3|Arb-revex|16622075.000000
+12|Rías Baixas|4|Mato|4|Mato|407068100.000000
+12|Rías Baixas|4|Mato|5|Artificial|18186100.000000
+12|Rías Baixas|4|Mato|NA|no data|2220500.000000
+12|Rías Baixas|5|Artificial|1|SAU|14201075.000000
+12|Rías Baixas|5|Artificial|2|Arb-plant|16634625.000000
+12|Rías Baixas|5|Artificial|3|Arb-revex|720300.000000
+12|Rías Baixas|5|Artificial|4|Mato|21291250.000000
+12|Rías Baixas|5|Artificial|5|Artificial|54976250.000000
+12|Rías Baixas|5|Artificial|NA|no data|5621000.000000
+12|Rías Baixas|NA|no data|1|SAU|880150.000000
+12|Rías Baixas|NA|no data|2|Arb-plant|2595550.000000
+12|Rías Baixas|NA|no data|3|Arb-revex|28550.000000
+12|Rías Baixas|NA|no data|4|Mato|1017575.000000
+12|Rías Baixas|NA|no data|5|Artificial|6413775.000000
+12|Rías Baixas|NA|no data|NA|no data|8903850.000000
+NA|no data|1|SAU|1|SAU|309536350.000000
+NA|no data|1|SAU|2|Arb-plant|68545725.000000
+NA|no data|1|SAU|3|Arb-revex|166543325.000000
+NA|no data|1|SAU|4|Mato|247956700.000000
+NA|no data|1|SAU|5|Artificial|28109150.000000
+NA|no data|1|SAU|NA|no data|13535925.000000
+NA|no data|2|Arb-plant|1|SAU|59632550.000000
+NA|no data|2|Arb-plant|2|Arb-plant|285045300.000000
+NA|no data|2|Arb-plant|3|Arb-revex|45497475.000000
+NA|no data|2|Arb-plant|4|Mato|174498950.000000
+NA|no data|2|Arb-plant|5|Artificial|2276050.000000
+NA|no data|2|Arb-plant|NA|no data|6143250.000000
+NA|no data|3|Arb-revex|1|SAU|15429225.000000
+NA|no data|3|Arb-revex|2|Arb-plant|19457150.000000
+NA|no data|3|Arb-revex|3|Arb-revex|186413500.000000
+NA|no data|3|Arb-revex|4|Mato|52851525.000000
+NA|no data|3|Arb-revex|5|Artificial|3226250.000000
+NA|no data|3|Arb-revex|NA|no data|1815100.000000
+NA|no data|4|Mato|1|SAU|105854950.000000
+NA|no data|4|Mato|2|Arb-plant|115952800.000000
+NA|no data|4|Mato|3|Arb-revex|301391875.000000
+NA|no data|4|Mato|4|Mato|1094685800.000000
+NA|no data|4|Mato|5|Artificial|23152875.000000
+NA|no data|4|Mato|NA|no data|26108550.000000
+NA|no data|5|Artificial|1|SAU|7474775.000000
+NA|no data|5|Artificial|2|Arb-plant|8854450.000000
+NA|no data|5|Artificial|3|Arb-revex|15715200.000000
+NA|no data|5|Artificial|4|Mato|62456525.000000
+NA|no data|5|Artificial|5|Artificial|13109675.000000
+NA|no data|5|Artificial|NA|no data|56420825.000000
+NA|no data|NA|no data|1|SAU|318075.000000
+NA|no data|NA|no data|2|Arb-plant|397450.000000
+NA|no data|NA|no data|3|Arb-revex|205600.000000
+NA|no data|NA|no data|4|Mato|1453500.000000
+NA|no data|NA|no data|5|Artificial|4366900.000000

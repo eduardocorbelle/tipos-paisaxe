@@ -1,0 +1,22 @@
+1 = 1 Asociación de coníferas y otras frondosas
+3 = 3 Labor secano
+5 = 5 Otras frondosas
+6 = 6 [NA]
+7 = 7 Frutales en secano
+9 = 9 Regadío
+11 = 11 Coníferas
+13 = 13 Prados naturales
+14 = 14 Prados naturales asociados con frondosas (?)
+15 = 15 Matorral
+16 = 16 Pastizal-matorral
+17 = 17 Chopo y álamo
+19 = 19 Pastizal
+21 = 21 Viñedo en secano
+23 = 23 Pastizal-matorral
+25 = 25 Olivar en secano
+27 = 27 Improductivo
+28 = 28 Improductivo agua
+29 = 29 Asociación de coníferas y eucalipto
+31 = 31 Eucalipto
+
+# r.mapcalc "mca2009=if(mca2000=335,1,if(mca2000=408,3,if(mca2000=413,5,if(mca2000=703,7,if(mca2000=905,9,if(mca2000=1480,11,if(mca2000=3065,13,if(mca2000=4089,13,if(mca2000=21462,14,if(mca2000=7941,15,if(mca2000=11909,15,if(mca2000=21490,16,if(mca2000=8753,17,if(mca2000=12285,19,if(mca2000=17780,21,if(mca2000=18418,23,if(mca2000=20438,25,if(mca2000=24575,27,if(mca2000=23548,28,if(mca2000=26005,29,if(mca2000=31359,31,if(mca2000=30303,31,0))))))))))))))))))))))"

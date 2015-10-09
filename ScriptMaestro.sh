@@ -43,6 +43,9 @@ bash ./tipos-paisaxe/Scripts/Script4.sh
 ### Análise dos resultados
 # Figuras para o informe
 R CMD BATCH Informes/Informe1/Figuras/Figuras1.R
-# Análise de tipos de paisaxe por grandes áreas e comarcas paisaxísticas
+# Análise de tipos de paisaxe por grandes áreas
 bash ./Scripts/Script5.sh
 R CMD BATCH /media/sf_Datos_Corbelle/tipos-paisaxe/Informes/Informe1/TiposAreas.R
+# Análise de cambios de cuberta por grandes áreas e comarcas paisaxísticas
+bash ./Scripts/Script6.sh
+R CMD BATCH /media/sf_Datos_Corbelle/tipos-paisaxe/Informes/Informe1/CambiosAreas.R

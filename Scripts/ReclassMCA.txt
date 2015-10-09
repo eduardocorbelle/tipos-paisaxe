@@ -1,0 +1,6 @@
+3 7 9 13 14 21 25 19 = 1 SAU
+1 11 17 29 31 = 2 Arb-plant
+5 = 3 Arb-revex
+15 16 23 = 4 Mato
+27 = 5 Artificial
+6 28 = NULL
