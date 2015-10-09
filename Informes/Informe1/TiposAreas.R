@@ -105,13 +105,18 @@ print.xtable(xtaboa3p, type="latex",
 resumo <- function(GArea, porcent) {
   ## GArea = número da GAP
   ## porcent = porcentaxe mínimo do tipo sobre a GA
-  lista = taboa4p[order(taboa4p[,GArea], decreasing=TRUE),GArea]
-  selec = lista[which(lista >= porcent)]
-  frame = data.frame(Tipo = names(selec),
-                     Porcentaxe = as.numeric(selec))
+  listap = taboa4p[order(taboa4p[,GArea], decreasing=TRUE),GArea]
+  listan = taboa4[order(taboa4p[,GArea], decreasing=TRUE),GArea]
+  selecp = listap[which(listap >= porcent)]
+  selecn = listan[which(listap >= porcent)]
+  frame = data.frame(Tipo = names(selecp),
+                     Área = as.numeric(selecn),
+                     Porcentaxe = as.numeric(selecp))
   total = data.frame(Tipo = "Total",
-                     Porcentaxe = sum(selec))
+                     Área = sum(selecn),
+                     Porcentaxe = sum(selecp))
   frame = rbind(frame, total)
+  colnames(frame)[2] = "Área (km²)"
   return(frame)
 }
 

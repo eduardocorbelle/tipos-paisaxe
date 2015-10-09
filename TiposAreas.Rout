@@ -15,11 +15,16 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+[Previously saved workspace restored]
+
 > ## Script de R para resumir os datos de tipos de paisaxe por grandes áreas
 > 
 > ## Cargamos os datos orixinais
 > datos <- read.table("Informes/Informe1/TiposAreas_2015_10_02.txt", sep="|", header=FALSE)
 > colnames(datos) <- c("GAP_code","GAP","CXn","CXt","CCn","CCt","Cln","Clt","Aream2")
+> datos <- data.frame(datos, 
++                     tipo = factor(paste(datos$CXt, ";", datos$CCt, ";", datos$Clt)))
+> 
 > 
 > ## Creamos unha táboa cos nomes das GAP e o código asociado
 > tab0 <- tapply(datos$GAP_code, INDEX=datos$GAP, FUN=min)[-9]
@@ -42,6 +47,13 @@ Type 'q()' to quit R.
 > taboa3[is.na(taboa3)] <- 0
 > ## Clases xeomorfolóxicas por Grandes Áreas (en %)
 > taboa3p <- round(100*prop.table(taboa3, margin=2),1)
+> 
+> ## Tipos por grandes áreas (km2)
+> taboa4 <- round(tapply(datos$Aream2, INDEX=list(datos$tipo,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
+> taboa4[is.na(taboa4)] <- 0
+> ## Tipos por Grandes Áreas (en %)
+> taboa4p <- round(100*prop.table(taboa4, margin=2),1)
+> 
 > 
 > ## Preparamos as táboas para LaTeX
 > library(xtable)
@@ -107,6 +119,39 @@ Type 'q()' to quit R.
 +              floating=TRUE, table.placement = "p", caption.placement="top",
 +              latex.environments=c("center"))
 > 
+> 
+> ### Resumo dos principais tipos por grande área
+> resumo <- function(GArea, porcent) {
++   ## GArea = número da GAP
++   ## porcent = porcentaxe mínimo do tipo sobre a GA
++   listap = taboa4p[order(taboa4p[,GArea], decreasing=TRUE),GArea]
++   listan = taboa4[order(taboa4p[,GArea], decreasing=TRUE),GArea]
++   selecp = listap[which(listap >= porcent)]
++   selecn = listan[which(listap >= porcent)]
++   frame = data.frame(Tipo = names(selecp),
++                      Área = as.numeric(selecn),
++                      Porcentaxe = as.numeric(selecp))
++   total = data.frame(Tipo = "Total",
++                      Área = sum(selecn),
++                      Porcentaxe = sum(selecp))
++   frame = rbind(frame, total)
++   colnames(frame)[2] = "Área (km²)"
++   return(frame)
++ }
+> 
+> ### Aplicar a función ás 12 grandes áreas e exportar a LaTeX
+> # (bucle)
+> system("rm Informes/Informe1/TaboasTipos.tex")
+> for(i in 1:12) {
++  print.xtable(xtable(resumo(i, 1),
++                      caption=paste("Principais tipos de paisaxe, ", rownames(taboa0)[i] , "(", i, ")"),
++                      label=paste("Tipos", i)),
++              type="latex", 
++              file="Informes/Informe1/TaboasTipos.tex", append=TRUE,
++              floating=TRUE, table.placement = "p", caption.placement="top",
++              latex.environments=c("center"))
++ }
+> 
 > proc.time()
    user  system elapsed 
-  0.400   0.056   0.464 
+  1.000   0.056   1.287 
