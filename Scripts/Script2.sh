@@ -7,7 +7,7 @@
 ############
 ## Acceso a mapsets
 echo "-------------1-------------"
-g.mapset -c Tmp
+g.mapset -c Tmp20151106
 g.mapsets mapset=AdminLimits,MDT25,MDT200,SIOSE,Clima,Habitat,Vinhedo,Cascos
 
 ## Uso do MDT25 para establecer a rexión
@@ -22,7 +22,7 @@ v.to.rast input=concellos out=concellos use=val value=1
 r.mask concellos
 
 ## Baleiramos a carpeta Tmp
-rm ./Tmp/*
+rm /media/sf_Datos_Corbelle/Tmp/*
 
 ############
 ### Información de cubertas
@@ -37,20 +37,20 @@ echo "-------------5-------------"
 r.mapcalc expression="cubertas = if(siose2011r==2|siose2011r==8, null(), if(habitats==2, 5, if(habitats==11, 2, if(Vin==1, 8, siose2011r))))"
 r.category map=cubertas rules=./Scripts/CategoriasCuberta.txt separator=":"
 r.support -s cubertas
-r.out.gdal in=cubertas out=./Tmp/cubertas.img format=HFA
+r.out.gdal in=cubertas out=/media/sf_Datos_Corbelle/Tmp/cubertas.img format=HFA
 
 ### Cálculo dos histogramas de co-ocorrencias (ventá circular, diámetro de 1000 m, resolución 25 m)
 echo "-------------6-------------"
-p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=./Tmp/GrellaCubertas
+p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=/media/sf_Datos_Corbelle/Tmp/GrellaCubertas
 
 ### Cálculo dos histogramas para as escenas seleccionadas
 echo "-------------7-------------"
-p.sig.points -c input=cubertas coorfile=./tipos-paisaxe/Escenas/escenasCuberta.txt size=40 method=coocurence histograms=./Tmp/escenasCuberta.his
+p.sig.points -c input=cubertas coorfile=./tipos-paisaxe/Escenas/escenasCuberta.txt size=40 method=coocurence histograms=/media/sf_Datos_Corbelle/Tmp/escenasCuberta.his
 
 ## Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
 
 ### Similaridade coas escenas seleccionadas
-p.sim.search scenes=./Tmp/escenasCuberta.his grid=./Tmp/GrellaCubertas measure=shannon output=SC_shannon nulls=0.99
+p.sim.search scenes=/media/sf_Datos_Corbelle/Tmp/escenasCuberta.his grid=/media/sf_Datos_Corbelle/Tmp/GrellaCubertas measure=shannon output=SC_shannon nulls=0.99
 
 ### Valores medios (e comprobación de valores extremos) de similaridade
 # (Máscara co mapa de concellos) [xerado polo Script1]
@@ -106,7 +106,7 @@ echo "-------------10-------------"
 v.to.rast in=AreaIntegral out=AreaIntegral use=val val=1
 r.null map=AreaIntegral null=0
 
-r.mapcalc expression="ClaseCuberta2=if(AreaIntegral==1, 12, ClaseCuberta)"
+r.mapcalc expression="ClaseCuberta2=if(siose2011r==2,13,if(AreaIntegral==1, 12, ClaseCuberta))"
 
 r.category ClaseCuberta2 sep=: rules=- << EOF
 1:Matogueira e rochedo
@@ -121,6 +121,7 @@ r.category ClaseCuberta2 sep=: rules=- << EOF
 10:Agrosistema intensivo (mosaico agroforestal)
 11:Viñedo
 12:Conxunto Historico
+13:Lamina de auga
 EOF
 
 ## Desactivar máscara

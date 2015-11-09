@@ -31,13 +31,13 @@ bash ./Scripts/ImportPOL.sh
 
 ### Procesado da información
 # Cartografía de rexións xeomorfolóxicas
-bash ./tipos-paisaxe/Scripts/Script1.sh # (Require operacións manuais no seu interior)
+bash ./Scripts/Script1.sh # (Require operacións manuais no seu interior)
 # Cartografía de clases de uso ou cuberta
-bash ./tipos-paisaxe/Scripts/Script2.sh
+bash ./Scripts/Script2.sh
 # Información climática
-bash ./tipos-paisaxe/Scripts/Script3.sh
+bash ./Scripts/Script3.sh
 # Incorporación de información de patrimonio e outras, e exportación
-bash ./tipos-paisaxe/Scripts/Script4.sh
+bash ./Scripts/Script4.sh
 
 
 ### Análise dos resultados

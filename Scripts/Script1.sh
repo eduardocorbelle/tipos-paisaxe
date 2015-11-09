@@ -8,16 +8,16 @@
 ### Sesión do 28 de xullo de 2015
 
 ## Acceso a mapsets e establecemento da rexión de cálculo
-g.mapset -c Tmp
+g.mapset -c Tmp20151106
 g.mapsets mapset=AdminLimits,MDT25,MDT200,SIOSE,Clima,Vinhedo
 
 g.region rast=mdt25
 
 ## Copiamos mapa de concellos e establecemos a máscara
-#g.copy vect=concellos_siam,concellos
-#v.build concellos
-#v.to.rast input=concellos out=concellos use=val value=1
-#r.mask concellos
+g.copy vect=concellos_siam,concellos
+v.build concellos
+v.to.rast input=concellos out=concellos use=val value=1
+r.mask concellos
 
 ## Segmentación sobre mdt25 (segmentos de tamaño mínimo 250*625 m² = 15 ha)
 #r.slope.aspect elev=mdt25 slope=pendente25 format=percent
@@ -28,8 +28,8 @@ g.region rast=mdt25
 
 # Seguida de clasificación manual dos segmentos resultantes
 # (fixemos unha copia en ./Backup)
-v.in.ogr input=./Backup/segmentos25_clasif.shp output=ClasesXeoA snap=1
-v.to.rast input=ClasesXeoA output=ClasesXeo use=attr attr=Codigo label=Clase
+v.in.ogr input=/media/sf_Datos_Corbelle/Backup/segmentos25_clasif.shp output=ClasesXeoA snap=1
+v.to.rast input=ClasesXeoA output=ClasesXeoA use=attr attr=Codigo label=Clase
 r.mapcalc "ClasesXeo = if(isnull(ClasesXeoA), 2, ClasesXeoA)"
 
 r.category ClasesXeo sep=: rules=- << EOF

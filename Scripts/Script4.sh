@@ -27,7 +27,7 @@ v.clean input=TiposPaisaxeB output=TiposPaisaxeD tool=rmarea threshold=20000 --o
 now=$(date +"%Y_%m_%d")
 result=TiposPaisaxe_$now
 
-v.out.ogr in=TiposPaisaxeD output=./Resultados output_layer=$result
+v.out.ogr in=TiposPaisaxeD output=/media/sf_Datos_Corbelle/Resultados output_layer=$result
 
 ########## Limpeza do espazo de traballo
 g.remove type=vect name=TiposPaisaxeB -f
