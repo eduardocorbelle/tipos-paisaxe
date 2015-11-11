@@ -3,52 +3,49 @@
 ## Script para cargar a capa de SIOSE
 ## Eduardo Corbelle, 11 de xuño de 2015
 
-# Require previamente da unión entre a base de datos orixinal e o ficheiro SIOSElenda.csv (para asignar valores numéricos ás categorías do mapa)
-
 g.mapset -c SIOSE
 
 ## Importamos o ficheiro
-v.in.ogr input=/media/sf_Datos_Corbelle/Data/Datos_IET/SIOSE2011/SIOSE_2011_agregado.shp output=siose2011
-
-## Creamos un campo 'codigo'
-v.db.addcolumn map=siose2011 columns="codigo int"
-
-v.db.update map=siose2011 column=codigo value=1 where="CLASELENDA='Afloramientos rochosos e rochedos'"
-v.db.update map=siose2011 column=codigo value=2 where="CLASELENDA='Augas continentais'"
-v.db.update map=siose2011 column=codigo value=3 where="CLASELENDA='Augas mariñas'"
-v.db.update map=siose2011 column=codigo value=4 where="CLASELENDA='Coberturas artificiais'"
-v.db.update map=siose2011 column=codigo value=5 where="CLASELENDA='Coníferas'"
-v.db.update map=siose2011 column=codigo value=6 where="CLASELENDA='Cultivos e prados'"
-v.db.update map=siose2011 column=codigo value=7 where="CLASELENDA='Especies caducifolias'"
-v.db.update map=siose2011 column=codigo value=8 where="CLASELENDA='Eucaliptos'"
-v.db.update map=siose2011 column=codigo value=9 where="CLASELENDA='Eucaliptos e coníferas'"
-v.db.update map=siose2011 column=codigo value=10 where="CLASELENDA='Humedais'"
-v.db.update map=siose2011 column=codigo value=11 where="CLASELENDA='Instalacións deportivas'"
-v.db.update map=siose2011 column=codigo value=12 where="CLASELENDA='Mato'"
-v.db.update map=siose2011 column=codigo value=13 where="CLASELENDA='Mato e especies arbóreas'"
-v.db.update map=siose2011 column=codigo value=14 where="CLASELENDA='Mato e rochedo'"
-v.db.update map=siose2011 column=codigo value=15 where="CLASELENDA='Mestura de especies arbóreas'"
-v.db.update map=siose2011 column=codigo value=16 where="CLASELENDA='Mosaico agrícola e mato'"
-v.db.update map=siose2011 column=codigo value=17 where="CLASELENDA='Mosaico agrícola e urbano'"
-v.db.update map=siose2011 column=codigo value=18 where="CLASELENDA='Mosaico de cultivos e especies arbóreas'"
-v.db.update map=siose2011 column=codigo value=18 where="CLASELENDA='Mosaico de cultivos e especies arbóreas\r\n'"
-v.db.update map=siose2011 column=codigo value=19 where="CLASELENDA='Praias e cantís'"
-v.db.update map=siose2011 column=codigo value=20 where="CLASELENDA='Repoboacións forestais'"
-v.db.update map=siose2011 column=codigo value=21 where="CLASELENDA='Sistemas xerais de transporte'"
-v.db.update map=siose2011 column=codigo value=22 where="CLASELENDA='Viñedo e cultivos leñosos'"
-v.db.update map=siose2011 column=codigo value=23 where="CLASELENDA='Zonas de extracción ou vertido'"
-v.db.update map=siose2011 column=codigo value=24 where="CLASELENDA='Zonas queimadas'"
-v.db.update map=siose2011 column=codigo value=25 where="CLASELENDA='Zonas urbanas'"
+v.in.ogr input=/media/sf_Datos_Corbelle/Data/Datos_IET/SIOSE2011/SIOSE_2011_agregado.shp output=siose2011 --o
 
 ## Establecemos a rexión
 g.mapsets addmapset=MDT25
 g.region rast=mdt25
 
 ## Convertimos a raster
-v.to.rast input=siose2011 type=area out=siose2011 use=attr attribute_column=codigo
+# (Utilizamos o campo "AGREGACION")
+v.to.rast input=siose2011 type=area out=siose2011 use=attr attribute_column=AGREGACION
 
 ## Reclasificamos
 r.reclass input=siose2011 output=siose2011r rules=./Scripts/ReclassSiose.txt title="Siose 2011 reclasificado"
 
+# (Categorías orixinais da reclasificación feita no IET)
+# [1] "10 Coníferas"                                  
+# [2] "11 Eucaliptos e coníferas"                     
+# [3] "12 Repoboacións forestais"                     
+# [4] "13 Mestura de especies arbóreas"               
+# [5] "14 Mato"                                       
+# [6] "15 Mato e rochedo"                             
+# [7] "16 Mato e especies arbóreas"                   
+# [8] "16 Mato e especies arbóreas\r\n"               
+# [9] "17 Cultivos e prados"                          
+#[10] "18 Viñedo e cultivos leñosos"                  
+#[11] "19 Mosaico de cultivos e especies arbóreas"    
+#[12] "19 Mosaico de cultivos e especies arbóreas\r\n"
+#[13] "1 Sistemas xerais de transporte"               
+#[14] "20 Mosaico agrícola e mato"                    
+#[15] "21 Mosaico agrícola e urbano"                  
+#[16] "22 Augas continentais"                         
+#[17] "23 Augas mariñas"                              
+#[18] "24 Humedais"                                   
+#[19] "25 Instalacións deportivas"                    
+#[20] "2 Zonas urbanas"                               
+#[21] "3 Coberturas artificiais"                      
+#[22] "4 Afloramientos rochosos e rochedos"           
+#[23] "5 Zonas de extracción ou vertido"              
+#[24] "6 Zonas queimadas"                             
+#[25] "7 Praias e cantís"                             
+#[26] "8 Especies caducifolias"                       
+#[27] "9 Eucaliptos"               
 
 
