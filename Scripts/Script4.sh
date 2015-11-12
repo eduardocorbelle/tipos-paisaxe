@@ -31,7 +31,7 @@ v.out.ogr in=TiposPaisaxeD output=/media/sf_Datos_Corbelle/Resultados output_lay
 
 ########## Limpeza do espazo de traballo
 g.remove type=vect name=TiposPaisaxeB -f
-g.remove type=vect name=TiposPaisaxeC -f
+#g.remove type=vect name=TiposPaisaxeC -f
 
 ########## Edición manual do mapa resultante: 
 ## Separación da lenda en tres campos distintos da táboa de atributos.

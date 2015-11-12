@@ -5,16 +5,19 @@
 
 g.mapset -c SIOSE
 
+## Eliminamos parte das columnas da táboa de atributos orixinal
+R CMD BATCH ./Scripts/PreparaSiose.R
+
 ## Importamos o ficheiro
-v.in.ogr input=/media/sf_Datos_Corbelle/Data/Datos_IET/SIOSE2011/SIOSE_2011_agregado.shp output=siose2011 --o
+v.in.ogr input=/media/sf_Datos_Corbelle/Data/Datos_IET/SIOSE2011/SIOSE_2011_agregado.shp output=siose2011
 
 ## Establecemos a rexión
-g.mapsets addmapset=MDT25
+g.mapsets operation=MDT25
 g.region rast=mdt25
 
 ## Convertimos a raster
 # (Utilizamos o campo "AGREGACION")
-v.to.rast input=siose2011 type=area out=siose2011 use=attr attribute_column=AGREGACION
+v.to.rast input=siose2011 type=area out=siose2011 use=attr attribute_column=AGREGACION label_column=CLASELENDA
 
 ## Reclasificamos
 r.reclass input=siose2011 output=siose2011r rules=./Scripts/ReclassSiose.txt title="Siose 2011 reclasificado"
@@ -46,6 +49,4 @@ r.reclass input=siose2011 output=siose2011r rules=./Scripts/ReclassSiose.txt tit
 #[24] "6 Zonas queimadas"                             
 #[25] "7 Praias e cantís"                             
 #[26] "8 Especies caducifolias"                       
-#[27] "9 Eucaliptos"               
-
-
+#[27] "9 Eucaliptos"

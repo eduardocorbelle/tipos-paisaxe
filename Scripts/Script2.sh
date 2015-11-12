@@ -7,7 +7,7 @@
 ############
 ## Acceso a mapsets
 echo "-------------1-------------"
-g.mapset -c Tmp20151106
+g.mapset -c Tmp20151111
 g.mapsets mapset=AdminLimits,MDT25,MDT200,SIOSE,Clima,Habitat,Vinhedo,Cascos
 
 ## Uso do MDT25 para establecer a rexión
