@@ -8,7 +8,7 @@
 ### Sesión do 28 de xullo de 2015
 
 ## Acceso a mapsets e establecemento da rexión de cálculo
-g.mapset -c Tmp20151106
+g.mapset -c Tmp
 g.mapsets mapset=AdminLimits,MDT25,MDT200,SIOSE,Clima,Vinhedo
 
 g.region rast=mdt25
@@ -28,9 +28,9 @@ r.mask concellos
 
 # Seguida de clasificación manual dos segmentos resultantes
 # (fixemos unha copia en ./Backup)
-v.in.ogr input=/media/sf_Datos_Corbelle/Backup/segmentos25_clasif.shp output=ClasesXeoA snap=1
-v.to.rast input=ClasesXeoA output=ClasesXeoA use=attr attr=Codigo label=Clase
-r.mapcalc "ClasesXeo = if(isnull(ClasesXeoA), 2, ClasesXeoA)"
+v.in.ogr input=/media/sf_Datos_Corbelle/Backup/segmentos25_clasif.shp output=ClasesXeo snap=1
+v.to.rast input=ClasesXeo output=ClasesXeo use=attr attr=Codigo label=Clase
+r.null map=ClasesXeo null=2
 
 r.category ClasesXeo sep=: rules=- << EOF
 1:Litoral Cantabro-Atlantico

@@ -1,0 +1,1336 @@
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|1|Termotemperado|11216250.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|2|Mesotemperado inferior|4518750.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|3|Mesotemperado superior|14375.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|NA|no data|1291875.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|3|Bosque|1|Termotemperado|5105000.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|3|Bosque|2|Mesotemperado inferior|609375.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|3|Bosque|NA|no data|29375.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|36563750.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|8186250.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|NA|no data|239375.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|5546875.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|90625.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|260625.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|1|Termotemperado|10605000.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|2|Mesotemperado inferior|131250.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|NA|no data|301250.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|1|Termotemperado|249264375.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|2|Mesotemperado inferior|2693750.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|NA|no data|3780625.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|8|Urbano|1|Termotemperado|40040000.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|8|Urbano|2|Mesotemperado inferior|355625.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|8|Urbano|NA|no data|2648750.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|9|Extractivo|2|Mesotemperado inferior|20000.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|134816875.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|11448125.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|17500.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|757500.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|1|Termotemperado|918750.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|NA|no data|238125.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|NA|no data|1|Termotemperado|1340000.000000
+1|Golfo Ártabro|1|Litoral Cantabro-Atlantico|NA|no data|NA|no data|2300625.000000
+1|Golfo Ártabro|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|3930000.000000
+1|Golfo Ártabro|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|18439375.000000
+1|Golfo Ártabro|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|14996250.000000
+1|Golfo Ártabro|2|Vales sublitorais|2|Turbeira|2|Mesotemperado inferior|408750.000000
+1|Golfo Ártabro|2|Vales sublitorais|2|Turbeira|3|Mesotemperado superior|4890625.000000
+1|Golfo Ártabro|2|Vales sublitorais|3|Bosque|1|Termotemperado|388125.000000
+1|Golfo Ártabro|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|7492500.000000
+1|Golfo Ártabro|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|2820625.000000
+1|Golfo Ártabro|2|Vales sublitorais|3|Bosque|4|Supra e orotemperado|7500.000000
+1|Golfo Ártabro|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|21272500.000000
+1|Golfo Ártabro|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|101373125.000000
+1|Golfo Ártabro|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|19371250.000000
+1|Golfo Ártabro|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|331250.000000
+1|Golfo Ártabro|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|1040625.000000
+1|Golfo Ártabro|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|2490000.000000
+1|Golfo Ártabro|2|Vales sublitorais|6|Agrosistema extensivo|1|Termotemperado|50625.000000
+1|Golfo Ártabro|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|11630625.000000
+1|Golfo Ártabro|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|17455625.000000
+1|Golfo Ártabro|2|Vales sublitorais|6|Agrosistema extensivo|4|Supra e orotemperado|58750.000000
+1|Golfo Ártabro|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|27280000.000000
+1|Golfo Ártabro|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|19638125.000000
+1|Golfo Ártabro|2|Vales sublitorais|7|Rururbano (diseminado)|3|Mesotemperado superior|1606875.000000
+1|Golfo Ártabro|2|Vales sublitorais|8|Urbano|1|Termotemperado|2302500.000000
+1|Golfo Ártabro|2|Vales sublitorais|8|Urbano|2|Mesotemperado inferior|2828125.000000
+1|Golfo Ártabro|2|Vales sublitorais|8|Urbano|3|Mesotemperado superior|7500.000000
+1|Golfo Ártabro|2|Vales sublitorais|9|Extractivo|2|Mesotemperado inferior|140625.000000
+1|Golfo Ártabro|2|Vales sublitorais|9|Extractivo|3|Mesotemperado superior|29375.000000
+1|Golfo Ártabro|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|52425000.000000
+1|Golfo Ártabro|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|185891250.000000
+1|Golfo Ártabro|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|56405625.000000
+1|Golfo Ártabro|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|3114375.000000
+1|Golfo Ártabro|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|38340000.000000
+1|Golfo Ártabro|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|1104375.000000
+1|Golfo Ártabro|3|Serras|2|Turbeira|2|Mesotemperado inferior|335000.000000
+1|Golfo Ártabro|3|Serras|2|Turbeira|3|Mesotemperado superior|19363125.000000
+1|Golfo Ártabro|3|Serras|2|Turbeira|4|Supra e orotemperado|283125.000000
+1|Golfo Ártabro|3|Serras|3|Bosque|1|Termotemperado|22500.000000
+1|Golfo Ártabro|3|Serras|3|Bosque|2|Mesotemperado inferior|1341250.000000
+1|Golfo Ártabro|3|Serras|3|Bosque|3|Mesotemperado superior|7938125.000000
+1|Golfo Ártabro|3|Serras|3|Bosque|4|Supra e orotemperado|366875.000000
+1|Golfo Ártabro|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|4241250.000000
+1|Golfo Ártabro|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|8727500.000000
+1|Golfo Ártabro|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|496875.000000
+1|Golfo Ártabro|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|223125.000000
+1|Golfo Ártabro|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|2890625.000000
+1|Golfo Ártabro|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|2365000.000000
+1|Golfo Ártabro|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|20500000.000000
+1|Golfo Ártabro|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|1371250.000000
+1|Golfo Ártabro|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|40000.000000
+1|Golfo Ártabro|3|Serras|9|Extractivo|3|Mesotemperado superior|625.000000
+1|Golfo Ártabro|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|4583750.000000
+1|Golfo Ártabro|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|21202500.000000
+1|Golfo Ártabro|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|548750.000000
+1|Golfo Ártabro|5|Canons|1|Matogueira e rochedo|1|Termotemperado|6250.000000
+1|Golfo Ártabro|5|Canons|1|Matogueira e rochedo|2|Mesotemperado inferior|1674375.000000
+1|Golfo Ártabro|5|Canons|1|Matogueira e rochedo|3|Mesotemperado superior|711250.000000
+1|Golfo Ártabro|5|Canons|2|Turbeira|2|Mesotemperado inferior|333125.000000
+1|Golfo Ártabro|5|Canons|2|Turbeira|3|Mesotemperado superior|68750.000000
+1|Golfo Ártabro|5|Canons|3|Bosque|1|Termotemperado|4356875.000000
+1|Golfo Ártabro|5|Canons|3|Bosque|2|Mesotemperado inferior|13470000.000000
+1|Golfo Ártabro|5|Canons|3|Bosque|3|Mesotemperado superior|3505625.000000
+1|Golfo Ártabro|5|Canons|3|Bosque|NA|no data|53750.000000
+1|Golfo Ártabro|5|Canons|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|1176875.000000
+1|Golfo Ártabro|5|Canons|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|2154375.000000
+1|Golfo Ártabro|5|Canons|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|141875.000000
+1|Golfo Ártabro|5|Canons|4|Agrosistema intensivo (plantacion forestal)|NA|no data|71250.000000
+1|Golfo Ártabro|5|Canons|6|Agrosistema extensivo|2|Mesotemperado inferior|2552500.000000
+1|Golfo Ártabro|5|Canons|6|Agrosistema extensivo|3|Mesotemperado superior|973750.000000
+1|Golfo Ártabro|5|Canons|7|Rururbano (diseminado)|1|Termotemperado|488125.000000
+1|Golfo Ártabro|5|Canons|7|Rururbano (diseminado)|2|Mesotemperado inferior|35625.000000
+1|Golfo Ártabro|5|Canons|7|Rururbano (diseminado)|NA|no data|41250.000000
+1|Golfo Ártabro|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|735000.000000
+1|Golfo Ártabro|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|3201250.000000
+1|Golfo Ártabro|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|448125.000000
+1|Golfo Ártabro|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|3750.000000
+1|Golfo Ártabro|NA|no data|1|Matogueira e rochedo|NA|no data|3750.000000
+1|Golfo Ártabro|NA|no data|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|1875.000000
+1|Golfo Ártabro|NA|no data|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|625.000000
+1|Golfo Ártabro|NA|no data|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|854375.000000
+1|Golfo Ártabro|NA|no data|7|Rururbano (diseminado)|1|Termotemperado|1250.000000
+1|Golfo Ártabro|NA|no data|7|Rururbano (diseminado)|3|Mesotemperado superior|4375.000000
+1|Golfo Ártabro|NA|no data|7|Rururbano (diseminado)|NA|no data|4375.000000
+1|Golfo Ártabro|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|5000.000000
+1|Golfo Ártabro|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|3750.000000
+1|Golfo Ártabro|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|1641875.000000
+1|Golfo Ártabro|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|625.000000
+1|Golfo Ártabro|NA|no data|NA|no data|1|Termotemperado|1875.000000
+1|Golfo Ártabro|NA|no data|NA|no data|NA|no data|10000.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|1|Termotemperado|2906875.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|2|Mesotemperado inferior|810625.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|3|Mesotemperado superior|3125.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|NA|no data|141875.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|2|Turbeira|2|Mesotemperado inferior|1875.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|42716250.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|100266250.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|340000.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|NA|no data|184375.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|13497500.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|750000.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|41875.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|1|Termotemperado|891250.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|1|Termotemperado|36255000.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|2|Mesotemperado inferior|4608750.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|NA|no data|225000.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|8|Urbano|1|Termotemperado|20147500.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|8|Urbano|2|Mesotemperado inferior|2173750.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|8|Urbano|NA|no data|288750.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|78458125.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|39403750.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|68125.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|1056250.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|1|Termotemperado|613750.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|2|Mesotemperado inferior|172500.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|NA|no data|7500.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|NA|no data|1|Termotemperado|1606875.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|NA|no data|2|Mesotemperado inferior|1250.000000
+2|A Mariña - Baixo Eo|1|Litoral Cantabro-Atlantico|NA|no data|NA|no data|561250.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|1241875.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|13698750.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|6956875.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|1|Matogueira e rochedo|NA|no data|25000.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|2|Turbeira|2|Mesotemperado inferior|346250.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|2|Turbeira|3|Mesotemperado superior|1231250.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|5631875.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|7884375.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|19698750.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|129641875.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|29601250.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|NA|no data|360000.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|2480000.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|3986250.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|143125.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|6|Agrosistema extensivo|1|Termotemperado|243125.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|12223125.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|4783750.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|6|Agrosistema extensivo|NA|no data|10000.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|6235625.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|10725625.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|7|Rururbano (diseminado)|3|Mesotemperado superior|201250.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|8|Urbano|1|Termotemperado|567500.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|8|Urbano|2|Mesotemperado inferior|226875.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|8|Urbano|3|Mesotemperado superior|64375.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|34265625.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|116088125.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|15158750.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|111250.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|12|Conxunto Historico|2|Mesotemperado inferior|110625.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|NA|no data|2|Mesotemperado inferior|46875.000000
+2|A Mariña - Baixo Eo|2|Vales sublitorais|NA|no data|NA|no data|5000.000000
+2|A Mariña - Baixo Eo|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|3325625.000000
+2|A Mariña - Baixo Eo|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|19146250.000000
+2|A Mariña - Baixo Eo|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|2195000.000000
+2|A Mariña - Baixo Eo|3|Serras|2|Turbeira|2|Mesotemperado inferior|2598750.000000
+2|A Mariña - Baixo Eo|3|Serras|2|Turbeira|3|Mesotemperado superior|21705000.000000
+2|A Mariña - Baixo Eo|3|Serras|3|Bosque|2|Mesotemperado inferior|555625.000000
+2|A Mariña - Baixo Eo|3|Serras|3|Bosque|3|Mesotemperado superior|6274375.000000
+2|A Mariña - Baixo Eo|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|20700625.000000
+2|A Mariña - Baixo Eo|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|37052500.000000
+2|A Mariña - Baixo Eo|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|35000.000000
+2|A Mariña - Baixo Eo|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|2923750.000000
+2|A Mariña - Baixo Eo|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|40000.000000
+2|A Mariña - Baixo Eo|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|622500.000000
+2|A Mariña - Baixo Eo|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|5973125.000000
+2|A Mariña - Baixo Eo|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|110000.000000
+2|A Mariña - Baixo Eo|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|70625.000000
+2|A Mariña - Baixo Eo|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|2339375.000000
+2|A Mariña - Baixo Eo|3|Serras|8|Urbano|3|Mesotemperado superior|718125.000000
+2|A Mariña - Baixo Eo|3|Serras|9|Extractivo|2|Mesotemperado inferior|6250.000000
+2|A Mariña - Baixo Eo|3|Serras|9|Extractivo|3|Mesotemperado superior|18125.000000
+2|A Mariña - Baixo Eo|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|4739375.000000
+2|A Mariña - Baixo Eo|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|20463750.000000
+2|A Mariña - Baixo Eo|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|44375.000000
+2|A Mariña - Baixo Eo|4|Chairas e vales interiores|3|Bosque|3|Mesotemperado superior|1250.000000
+2|A Mariña - Baixo Eo|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|159375.000000
+2|A Mariña - Baixo Eo|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|558125.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|1|Termotemperado|7063125.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|2|Mesotemperado inferior|3750.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|NA|no data|1190000.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|3|Bosque|1|Termotemperado|3433125.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|3|Bosque|NA|no data|38125.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|29675000.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|4375.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|NA|no data|664375.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|1195000.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|251250.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|1|Termotemperado|4600000.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|NA|no data|643750.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|1|Termotemperado|134980625.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|NA|no data|4043750.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|8|Urbano|1|Termotemperado|17062500.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|8|Urbano|NA|no data|631250.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|9|Extractivo|1|Termotemperado|4980625.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|9|Extractivo|NA|no data|218750.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|38663750.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|833125.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|11|Viñedo|1|Termotemperado|7038125.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|11|Viñedo|NA|no data|242500.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|1|Termotemperado|272500.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|NA|no data|5000.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|NA|no data|1|Termotemperado|653750.000000
+3|Costa Sur - Baixo Miño|1|Litoral Cantabro-Atlantico|NA|no data|NA|no data|2541250.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|40453125.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|10218750.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|68750.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|1|Matogueira e rochedo|NA|no data|80625.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|3|Bosque|1|Termotemperado|12180625.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|2806875.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|8750.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|105778125.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|3339375.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|NA|no data|50000.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|6|Agrosistema extensivo|1|Termotemperado|17995625.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|6306875.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|51875.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|6|Agrosistema extensivo|NA|no data|46875.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|147819375.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|2067500.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|7|Rururbano (diseminado)|NA|no data|17500.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|8|Urbano|1|Termotemperado|3952500.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|9|Extractivo|1|Termotemperado|1132500.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|34551875.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|1296875.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|351250.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|11|Viñedo|1|Termotemperado|1641250.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|NA|no data|1|Termotemperado|17500.000000
+3|Costa Sur - Baixo Miño|2|Vales sublitorais|NA|no data|NA|no data|106250.000000
+3|Costa Sur - Baixo Miño|3|Serras|1|Matogueira e rochedo|1|Termotemperado|20680625.000000
+3|Costa Sur - Baixo Miño|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|59836875.000000
+3|Costa Sur - Baixo Miño|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|69700625.000000
+3|Costa Sur - Baixo Miño|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|50345625.000000
+3|Costa Sur - Baixo Miño|3|Serras|1|Matogueira e rochedo|NA|no data|33750.000000
+3|Costa Sur - Baixo Miño|3|Serras|2|Turbeira|2|Mesotemperado inferior|1031875.000000
+3|Costa Sur - Baixo Miño|3|Serras|2|Turbeira|3|Mesotemperado superior|288750.000000
+3|Costa Sur - Baixo Miño|3|Serras|3|Bosque|2|Mesotemperado inferior|1511875.000000
+3|Costa Sur - Baixo Miño|3|Serras|3|Bosque|3|Mesotemperado superior|1436250.000000
+3|Costa Sur - Baixo Miño|3|Serras|3|Bosque|NA|no data|10625.000000
+3|Costa Sur - Baixo Miño|3|Serras|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|32954375.000000
+3|Costa Sur - Baixo Miño|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|24091250.000000
+3|Costa Sur - Baixo Miño|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|3195625.000000
+3|Costa Sur - Baixo Miño|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|3128750.000000
+3|Costa Sur - Baixo Miño|3|Serras|6|Agrosistema extensivo|1|Termotemperado|461875.000000
+3|Costa Sur - Baixo Miño|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|9496875.000000
+3|Costa Sur - Baixo Miño|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|10728750.000000
+3|Costa Sur - Baixo Miño|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|161875.000000
+3|Costa Sur - Baixo Miño|3|Serras|6|Agrosistema extensivo|NA|no data|100625.000000
+3|Costa Sur - Baixo Miño|3|Serras|7|Rururbano (diseminado)|1|Termotemperado|2424375.000000
+3|Costa Sur - Baixo Miño|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|3509375.000000
+3|Costa Sur - Baixo Miño|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|919375.000000
+3|Costa Sur - Baixo Miño|3|Serras|8|Urbano|1|Termotemperado|364375.000000
+3|Costa Sur - Baixo Miño|3|Serras|8|Urbano|2|Mesotemperado inferior|169375.000000
+3|Costa Sur - Baixo Miño|3|Serras|8|Urbano|3|Mesotemperado superior|32500.000000
+3|Costa Sur - Baixo Miño|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|6862500.000000
+3|Costa Sur - Baixo Miño|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|3437500.000000
+3|Costa Sur - Baixo Miño|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|302500.000000
+3|Costa Sur - Baixo Miño|3|Serras|12|Conxunto Historico|1|Termotemperado|2367500.000000
+3|Costa Sur - Baixo Miño|3|Serras|NA|no data|2|Mesotemperado inferior|625.000000
+3|Costa Sur - Baixo Miño|3|Serras|NA|no data|3|Mesotemperado superior|625.000000
+3|Costa Sur - Baixo Miño|3|Serras|NA|no data|NA|no data|23750.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|1|Matogueira e rochedo|1|Termotemperado|17210000.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|1|Matogueira e rochedo|2|Mesotemperado inferior|29442500.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|1|Matogueira e rochedo|3|Mesotemperado superior|136250.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|1|Matogueira e rochedo|NA|no data|415000.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|3|Bosque|1|Termotemperado|2516875.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|3|Bosque|2|Mesotemperado inferior|796875.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|21850625.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|10892500.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|145625.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|NA|no data|757500.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|210625.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|100000.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|6|Agrosistema extensivo|1|Termotemperado|4838750.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|6|Agrosistema extensivo|2|Mesotemperado inferior|2625000.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|6|Agrosistema extensivo|3|Mesotemperado superior|66875.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|6|Agrosistema extensivo|NA|no data|474375.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|7|Rururbano (diseminado)|1|Termotemperado|27385625.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|7|Rururbano (diseminado)|2|Mesotemperado inferior|5945625.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|7|Rururbano (diseminado)|3|Mesotemperado superior|3750.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|7|Rururbano (diseminado)|NA|no data|1195625.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|8|Urbano|1|Termotemperado|300000.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|8|Urbano|2|Mesotemperado inferior|208125.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|22700625.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|11599375.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|10000.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|467500.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|11|Viñedo|1|Termotemperado|8405625.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|11|Viñedo|NA|no data|183125.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|NA|no data|1|Termotemperado|16875.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|NA|no data|2|Mesotemperado inferior|1250.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|NA|no data|3|Mesotemperado superior|1250.000000
+3|Costa Sur - Baixo Miño|4|Chairas e vales interiores|NA|no data|NA|no data|230625.000000
+3|Costa Sur - Baixo Miño|NA|no data|1|Matogueira e rochedo|1|Termotemperado|7959375.000000
+3|Costa Sur - Baixo Miño|NA|no data|1|Matogueira e rochedo|2|Mesotemperado inferior|4354375.000000
+3|Costa Sur - Baixo Miño|NA|no data|1|Matogueira e rochedo|NA|no data|45625.000000
+3|Costa Sur - Baixo Miño|NA|no data|3|Bosque|1|Termotemperado|171250.000000
+3|Costa Sur - Baixo Miño|NA|no data|3|Bosque|2|Mesotemperado inferior|237500.000000
+3|Costa Sur - Baixo Miño|NA|no data|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|8166875.000000
+3|Costa Sur - Baixo Miño|NA|no data|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|3132500.000000
+3|Costa Sur - Baixo Miño|NA|no data|4|Agrosistema intensivo (plantacion forestal)|NA|no data|20625.000000
+3|Costa Sur - Baixo Miño|NA|no data|6|Agrosistema extensivo|1|Termotemperado|741875.000000
+3|Costa Sur - Baixo Miño|NA|no data|6|Agrosistema extensivo|2|Mesotemperado inferior|2293125.000000
+3|Costa Sur - Baixo Miño|NA|no data|7|Rururbano (diseminado)|1|Termotemperado|13395625.000000
+3|Costa Sur - Baixo Miño|NA|no data|7|Rururbano (diseminado)|2|Mesotemperado inferior|2188125.000000
+3|Costa Sur - Baixo Miño|NA|no data|7|Rururbano (diseminado)|NA|no data|19375.000000
+3|Costa Sur - Baixo Miño|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|5237500.000000
+3|Costa Sur - Baixo Miño|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|1133750.000000
+3|Costa Sur - Baixo Miño|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|5000.000000
+3|Costa Sur - Baixo Miño|NA|no data|NA|no data|NA|no data|3750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|199375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|54375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|111875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Vales sublitorais|6|Agrosistema extensivo|1|Termotemperado|184375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|246875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|26250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|67500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|3750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|1|Matogueira e rochedo|1|Termotemperado|646875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|126403125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|130181875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|100243125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|1|Matogueira e rochedo|5|Mesomediterráneo|45100000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|1|Matogueira e rochedo|NA|no data|118125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|3|Bosque|1|Termotemperado|246250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|3|Bosque|2|Mesotemperado inferior|36078750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|3|Bosque|3|Mesotemperado superior|11630625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|3|Bosque|4|Supra e orotemperado|4437500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|3|Bosque|5|Mesomediterráneo|6163750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|424375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|22844375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|16363125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|13223750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|4|Agrosistema intensivo (plantacion forestal)|5|Mesomediterráneo|6355625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|8125000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|24711875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|427500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|5|Mesomediterráneo|213750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|6|Agrosistema extensivo|1|Termotemperado|60000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|110087500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|79496875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|4547500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|6|Agrosistema extensivo|5|Mesomediterráneo|11655625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|1035000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|1390000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|7|Rururbano (diseminado)|5|Mesomediterráneo|543750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|8|Urbano|5|Mesomediterráneo|35000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|9|Extractivo|2|Mesotemperado inferior|900000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|9|Extractivo|3|Mesotemperado superior|395625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|9|Extractivo|4|Supra e orotemperado|415000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|9|Extractivo|5|Mesomediterráneo|171875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|283750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|28861250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|38275000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|5|Mesomediterráneo|280000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|11|Viñedo|2|Mesotemperado inferior|2050625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|11|Viñedo|3|Mesotemperado superior|11875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|11|Viñedo|5|Mesomediterráneo|1676875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|12|Conxunto Historico|2|Mesotemperado inferior|614375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|NA|no data|2|Mesotemperado inferior|18125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|NA|no data|3|Mesotemperado superior|10625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|NA|no data|4|Supra e orotemperado|71250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|3|Serras|NA|no data|NA|no data|41250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|1|Matogueira e rochedo|1|Termotemperado|105749375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|1|Matogueira e rochedo|2|Mesotemperado inferior|103190000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|1|Matogueira e rochedo|3|Mesotemperado superior|5135000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|1|Matogueira e rochedo|4|Supra e orotemperado|211875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|1|Matogueira e rochedo|5|Mesomediterráneo|74019375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|1|Matogueira e rochedo|NA|no data|160625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|3|Bosque|1|Termotemperado|58813125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|3|Bosque|2|Mesotemperado inferior|58078125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|3|Bosque|3|Mesotemperado superior|732500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|3|Bosque|4|Supra e orotemperado|2500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|3|Bosque|5|Mesomediterráneo|13446875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|3|Bosque|NA|no data|162500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|60416250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|38935000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|1178125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|5|Mesomediterráneo|14887500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|3536875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|23933125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|2353750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|5|Mesomediterráneo|2911250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|6|Agrosistema extensivo|1|Termotemperado|91769375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|6|Agrosistema extensivo|2|Mesotemperado inferior|226573750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|6|Agrosistema extensivo|3|Mesotemperado superior|10504375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|6|Agrosistema extensivo|4|Supra e orotemperado|1250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|6|Agrosistema extensivo|5|Mesomediterráneo|30609375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|6|Agrosistema extensivo|NA|no data|178750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|7|Rururbano (diseminado)|1|Termotemperado|64127500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|7|Rururbano (diseminado)|2|Mesotemperado inferior|30338125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|7|Rururbano (diseminado)|3|Mesotemperado superior|114375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|7|Rururbano (diseminado)|5|Mesomediterráneo|13775000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|7|Rururbano (diseminado)|NA|no data|21875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|8|Urbano|1|Termotemperado|21174375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|8|Urbano|2|Mesotemperado inferior|202500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|8|Urbano|5|Mesomediterráneo|1744375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|9|Extractivo|2|Mesotemperado inferior|23125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|9|Extractivo|5|Mesomediterráneo|232500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|38340625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|118551250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|4123125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|5|Mesomediterráneo|3778750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|11|Viñedo|1|Termotemperado|54555625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|11|Viñedo|2|Mesotemperado inferior|3888750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|11|Viñedo|5|Mesomediterráneo|33135000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|11|Viñedo|NA|no data|3750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|12|Conxunto Historico|1|Termotemperado|335625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|12|Conxunto Historico|2|Mesotemperado inferior|61875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|NA|no data|1|Termotemperado|348750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|NA|no data|2|Mesotemperado inferior|1875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|NA|no data|5|Mesomediterráneo|2500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|4|Chairas e vales interiores|NA|no data|NA|no data|14375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|1|Matogueira e rochedo|1|Termotemperado|17311875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|1|Matogueira e rochedo|2|Mesotemperado inferior|31995000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|1|Matogueira e rochedo|3|Mesotemperado superior|4368125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|1|Matogueira e rochedo|5|Mesomediterráneo|43684375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|3|Bosque|1|Termotemperado|34728750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|3|Bosque|2|Mesotemperado inferior|46996250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|3|Bosque|3|Mesotemperado superior|2626250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|3|Bosque|5|Mesomediterráneo|6836875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|16677500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|10085625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|1991875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|4|Agrosistema intensivo (plantacion forestal)|5|Mesomediterráneo|7436875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|23125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|563125.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|50625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|5|Agrosistema intensivo (superficie de cultivo)|5|Mesomediterráneo|465625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|6|Agrosistema extensivo|1|Termotemperado|11260000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|6|Agrosistema extensivo|2|Mesotemperado inferior|29290000.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|6|Agrosistema extensivo|3|Mesotemperado superior|7076875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|6|Agrosistema extensivo|5|Mesomediterráneo|8639375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|7|Rururbano (diseminado)|1|Termotemperado|691250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|7|Rururbano (diseminado)|2|Mesotemperado inferior|295625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|7|Rururbano (diseminado)|3|Mesotemperado superior|6250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|7|Rururbano (diseminado)|5|Mesomediterráneo|548750.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|9|Extractivo|5|Mesomediterráneo|274375.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|2732500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|8556875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|1227500.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|5|Mesomediterráneo|1191250.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|11|Viñedo|1|Termotemperado|11000625.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|11|Viñedo|2|Mesotemperado inferior|6021875.000000
+4|Ribeiras Encaixadas do Miño e do Sil|5|Canons|11|Viñedo|5|Mesomediterráneo|3013750.000000
+5|Serras Orientais|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|4138125.000000
+5|Serras Orientais|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|39806250.000000
+5|Serras Orientais|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|61694375.000000
+5|Serras Orientais|2|Vales sublitorais|1|Matogueira e rochedo|4|Supra e orotemperado|1955000.000000
+5|Serras Orientais|2|Vales sublitorais|1|Matogueira e rochedo|NA|no data|623125.000000
+5|Serras Orientais|2|Vales sublitorais|2|Turbeira|3|Mesotemperado superior|46875.000000
+5|Serras Orientais|2|Vales sublitorais|2|Turbeira|4|Supra e orotemperado|625.000000
+5|Serras Orientais|2|Vales sublitorais|3|Bosque|1|Termotemperado|1654375.000000
+5|Serras Orientais|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|70381250.000000
+5|Serras Orientais|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|86915000.000000
+5|Serras Orientais|2|Vales sublitorais|3|Bosque|4|Supra e orotemperado|3325000.000000
+5|Serras Orientais|2|Vales sublitorais|3|Bosque|NA|no data|68750.000000
+5|Serras Orientais|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|711250.000000
+5|Serras Orientais|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|9248750.000000
+5|Serras Orientais|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|14752500.000000
+5|Serras Orientais|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|630000.000000
+5|Serras Orientais|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|NA|no data|183750.000000
+5|Serras Orientais|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|46875.000000
+5|Serras Orientais|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|776250.000000
+5|Serras Orientais|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|8750.000000
+5|Serras Orientais|2|Vales sublitorais|6|Agrosistema extensivo|1|Termotemperado|2363750.000000
+5|Serras Orientais|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|97141250.000000
+5|Serras Orientais|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|141351875.000000
+5|Serras Orientais|2|Vales sublitorais|6|Agrosistema extensivo|4|Supra e orotemperado|6708125.000000
+5|Serras Orientais|2|Vales sublitorais|6|Agrosistema extensivo|NA|no data|45625.000000
+5|Serras Orientais|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|27500.000000
+5|Serras Orientais|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|1291250.000000
+5|Serras Orientais|2|Vales sublitorais|7|Rururbano (diseminado)|3|Mesotemperado superior|1020000.000000
+5|Serras Orientais|2|Vales sublitorais|8|Urbano|3|Mesotemperado superior|58125.000000
+5|Serras Orientais|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|54375.000000
+5|Serras Orientais|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|20084375.000000
+5|Serras Orientais|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|16655000.000000
+5|Serras Orientais|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|66875.000000
+5|Serras Orientais|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|28750.000000
+5|Serras Orientais|2|Vales sublitorais|NA|no data|1|Termotemperado|15625.000000
+5|Serras Orientais|2|Vales sublitorais|NA|no data|2|Mesotemperado inferior|8125.000000
+5|Serras Orientais|2|Vales sublitorais|NA|no data|3|Mesotemperado superior|15625.000000
+5|Serras Orientais|2|Vales sublitorais|NA|no data|4|Supra e orotemperado|1875.000000
+5|Serras Orientais|2|Vales sublitorais|NA|no data|NA|no data|53125.000000
+5|Serras Orientais|3|Serras|1|Matogueira e rochedo|1|Termotemperado|2293125.000000
+5|Serras Orientais|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|27494375.000000
+5|Serras Orientais|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|172183750.000000
+5|Serras Orientais|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|369670000.000000
+5|Serras Orientais|3|Serras|1|Matogueira e rochedo|5|Mesomediterráneo|815625.000000
+5|Serras Orientais|3|Serras|1|Matogueira e rochedo|NA|no data|3230625.000000
+5|Serras Orientais|3|Serras|2|Turbeira|3|Mesotemperado superior|818750.000000
+5|Serras Orientais|3|Serras|2|Turbeira|4|Supra e orotemperado|664375.000000
+5|Serras Orientais|3|Serras|3|Bosque|1|Termotemperado|348125.000000
+5|Serras Orientais|3|Serras|3|Bosque|2|Mesotemperado inferior|11275000.000000
+5|Serras Orientais|3|Serras|3|Bosque|3|Mesotemperado superior|94253125.000000
+5|Serras Orientais|3|Serras|3|Bosque|4|Supra e orotemperado|128800625.000000
+5|Serras Orientais|3|Serras|3|Bosque|5|Mesomediterráneo|1046875.000000
+5|Serras Orientais|3|Serras|3|Bosque|NA|no data|1027500.000000
+5|Serras Orientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|727500.000000
+5|Serras Orientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|7655000.000000
+5|Serras Orientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|58110625.000000
+5|Serras Orientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|85438125.000000
+5|Serras Orientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|5|Mesomediterráneo|492500.000000
+5|Serras Orientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|NA|no data|575000.000000
+5|Serras Orientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|20000.000000
+5|Serras Orientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|9378750.000000
+5|Serras Orientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|10613125.000000
+5|Serras Orientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|61250.000000
+5|Serras Orientais|3|Serras|6|Agrosistema extensivo|1|Termotemperado|220000.000000
+5|Serras Orientais|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|11771250.000000
+5|Serras Orientais|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|295316875.000000
+5|Serras Orientais|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|378255000.000000
+5|Serras Orientais|3|Serras|6|Agrosistema extensivo|5|Mesomediterráneo|713750.000000
+5|Serras Orientais|3|Serras|6|Agrosistema extensivo|NA|no data|398750.000000
+5|Serras Orientais|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|36250.000000
+5|Serras Orientais|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|3088125.000000
+5|Serras Orientais|3|Serras|7|Rururbano (diseminado)|4|Supra e orotemperado|1609375.000000
+5|Serras Orientais|3|Serras|8|Urbano|3|Mesotemperado superior|560625.000000
+5|Serras Orientais|3|Serras|8|Urbano|4|Supra e orotemperado|334375.000000
+5|Serras Orientais|3|Serras|9|Extractivo|2|Mesotemperado inferior|105625.000000
+5|Serras Orientais|3|Serras|9|Extractivo|3|Mesotemperado superior|263125.000000
+5|Serras Orientais|3|Serras|9|Extractivo|4|Supra e orotemperado|3273750.000000
+5|Serras Orientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|26875.000000
+5|Serras Orientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|496250.000000
+5|Serras Orientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|48856250.000000
+5|Serras Orientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|60898750.000000
+5|Serras Orientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|5|Mesomediterráneo|1250.000000
+5|Serras Orientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|445000.000000
+5|Serras Orientais|3|Serras|NA|no data|2|Mesotemperado inferior|3750.000000
+5|Serras Orientais|3|Serras|NA|no data|3|Mesotemperado superior|50000.000000
+5|Serras Orientais|3|Serras|NA|no data|4|Supra e orotemperado|103750.000000
+5|Serras Orientais|3|Serras|NA|no data|NA|no data|188750.000000
+5|Serras Orientais|4|Chairas e vales interiores|1|Matogueira e rochedo|2|Mesotemperado inferior|9846875.000000
+5|Serras Orientais|4|Chairas e vales interiores|1|Matogueira e rochedo|3|Mesotemperado superior|4523750.000000
+5|Serras Orientais|4|Chairas e vales interiores|1|Matogueira e rochedo|4|Supra e orotemperado|210000.000000
+5|Serras Orientais|4|Chairas e vales interiores|1|Matogueira e rochedo|5|Mesomediterráneo|2379375.000000
+5|Serras Orientais|4|Chairas e vales interiores|3|Bosque|2|Mesotemperado inferior|5377500.000000
+5|Serras Orientais|4|Chairas e vales interiores|3|Bosque|3|Mesotemperado superior|6097500.000000
+5|Serras Orientais|4|Chairas e vales interiores|3|Bosque|4|Supra e orotemperado|135000.000000
+5|Serras Orientais|4|Chairas e vales interiores|3|Bosque|5|Mesomediterráneo|3199375.000000
+5|Serras Orientais|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|10676875.000000
+5|Serras Orientais|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|4436875.000000
+5|Serras Orientais|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|49375.000000
+5|Serras Orientais|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|5|Mesomediterráneo|4440000.000000
+5|Serras Orientais|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|354375.000000
+5|Serras Orientais|4|Chairas e vales interiores|6|Agrosistema extensivo|2|Mesotemperado inferior|7273750.000000
+5|Serras Orientais|4|Chairas e vales interiores|6|Agrosistema extensivo|3|Mesotemperado superior|11498750.000000
+5|Serras Orientais|4|Chairas e vales interiores|6|Agrosistema extensivo|4|Supra e orotemperado|132500.000000
+5|Serras Orientais|4|Chairas e vales interiores|6|Agrosistema extensivo|5|Mesomediterráneo|1825625.000000
+5|Serras Orientais|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|353125.000000
+5|Serras Orientais|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|1962500.000000
+5|Serras Orientais|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|5|Mesomediterráneo|169375.000000
+5|Serras Orientais|5|Canons|1|Matogueira e rochedo|1|Termotemperado|8151250.000000
+5|Serras Orientais|5|Canons|1|Matogueira e rochedo|2|Mesotemperado inferior|3630000.000000
+5|Serras Orientais|5|Canons|1|Matogueira e rochedo|3|Mesotemperado superior|361875.000000
+5|Serras Orientais|5|Canons|1|Matogueira e rochedo|NA|no data|376875.000000
+5|Serras Orientais|5|Canons|3|Bosque|1|Termotemperado|5683750.000000
+5|Serras Orientais|5|Canons|3|Bosque|2|Mesotemperado inferior|7000625.000000
+5|Serras Orientais|5|Canons|3|Bosque|3|Mesotemperado superior|413125.000000
+5|Serras Orientais|5|Canons|3|Bosque|5|Mesomediterráneo|47500.000000
+5|Serras Orientais|5|Canons|3|Bosque|NA|no data|60625.000000
+5|Serras Orientais|5|Canons|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|3361250.000000
+5|Serras Orientais|5|Canons|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|1514375.000000
+5|Serras Orientais|5|Canons|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|86875.000000
+5|Serras Orientais|5|Canons|4|Agrosistema intensivo (plantacion forestal)|5|Mesomediterráneo|54375.000000
+5|Serras Orientais|5|Canons|4|Agrosistema intensivo (plantacion forestal)|NA|no data|370000.000000
+5|Serras Orientais|5|Canons|6|Agrosistema extensivo|1|Termotemperado|2163750.000000
+5|Serras Orientais|5|Canons|6|Agrosistema extensivo|2|Mesotemperado inferior|5303750.000000
+5|Serras Orientais|5|Canons|6|Agrosistema extensivo|3|Mesotemperado superior|282500.000000
+5|Serras Orientais|5|Canons|6|Agrosistema extensivo|4|Supra e orotemperado|25000.000000
+5|Serras Orientais|5|Canons|6|Agrosistema extensivo|5|Mesomediterráneo|8750.000000
+5|Serras Orientais|5|Canons|6|Agrosistema extensivo|NA|no data|88750.000000
+5|Serras Orientais|5|Canons|7|Rururbano (diseminado)|1|Termotemperado|8750.000000
+5|Serras Orientais|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|1561875.000000
+5|Serras Orientais|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|551875.000000
+5|Serras Orientais|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|8750.000000
+5|Serras Orientais|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|5|Mesomediterráneo|39375.000000
+5|Serras Orientais|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|58125.000000
+5|Serras Orientais|5|Canons|NA|no data|1|Termotemperado|38750.000000
+5|Serras Orientais|5|Canons|NA|no data|2|Mesotemperado inferior|3125.000000
+5|Serras Orientais|5|Canons|NA|no data|3|Mesotemperado superior|1250.000000
+5|Serras Orientais|5|Canons|NA|no data|NA|no data|61250.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|790000.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|4326250.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|1|Matogueira e rochedo|4|Supra e orotemperado|68750.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|2|Turbeira|2|Mesotemperado inferior|165000.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|2|Turbeira|3|Mesotemperado superior|743125.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|677500.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|1133125.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|636875.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|841875.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|55625.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|2086875.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|7651875.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|6|Agrosistema extensivo|4|Supra e orotemperado|33750.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|396875.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|7|Rururbano (diseminado)|3|Mesotemperado superior|602500.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|8|Urbano|2|Mesotemperado inferior|21250.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|8|Urbano|3|Mesotemperado superior|101250.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|3198750.000000
+6|Chairas e Fosas Luguesas|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|4236875.000000
+6|Chairas e Fosas Luguesas|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|14385000.000000
+6|Chairas e Fosas Luguesas|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|81236875.000000
+6|Chairas e Fosas Luguesas|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|38196250.000000
+6|Chairas e Fosas Luguesas|3|Serras|2|Turbeira|2|Mesotemperado inferior|126250.000000
+6|Chairas e Fosas Luguesas|3|Serras|2|Turbeira|3|Mesotemperado superior|51820000.000000
+6|Chairas e Fosas Luguesas|3|Serras|2|Turbeira|4|Supra e orotemperado|21861875.000000
+6|Chairas e Fosas Luguesas|3|Serras|3|Bosque|2|Mesotemperado inferior|1903750.000000
+6|Chairas e Fosas Luguesas|3|Serras|3|Bosque|3|Mesotemperado superior|23001250.000000
+6|Chairas e Fosas Luguesas|3|Serras|3|Bosque|4|Supra e orotemperado|6453125.000000
+6|Chairas e Fosas Luguesas|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|7085625.000000
+6|Chairas e Fosas Luguesas|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|60746875.000000
+6|Chairas e Fosas Luguesas|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|20064375.000000
+6|Chairas e Fosas Luguesas|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|6692500.000000
+6|Chairas e Fosas Luguesas|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|132674375.000000
+6|Chairas e Fosas Luguesas|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|7153750.000000
+6|Chairas e Fosas Luguesas|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|29780625.000000
+6|Chairas e Fosas Luguesas|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|462355625.000000
+6|Chairas e Fosas Luguesas|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|49883125.000000
+6|Chairas e Fosas Luguesas|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|1443125.000000
+6|Chairas e Fosas Luguesas|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|11100625.000000
+6|Chairas e Fosas Luguesas|3|Serras|7|Rururbano (diseminado)|4|Supra e orotemperado|229375.000000
+6|Chairas e Fosas Luguesas|3|Serras|8|Urbano|2|Mesotemperado inferior|37500.000000
+6|Chairas e Fosas Luguesas|3|Serras|8|Urbano|3|Mesotemperado superior|331250.000000
+6|Chairas e Fosas Luguesas|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|12623125.000000
+6|Chairas e Fosas Luguesas|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|246831250.000000
+6|Chairas e Fosas Luguesas|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|20333125.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|1|Matogueira e rochedo|1|Termotemperado|3275000.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|1|Matogueira e rochedo|2|Mesotemperado inferior|89083125.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|1|Matogueira e rochedo|3|Mesotemperado superior|87806250.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|2|Turbeira|3|Mesotemperado superior|10981250.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|3|Bosque|2|Mesotemperado inferior|58903125.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|3|Bosque|3|Mesotemperado superior|69920000.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|3|Bosque|4|Supra e orotemperado|283750.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|143750.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|40999375.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|118953750.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|8729375.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|106266875.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|208924375.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|3649375.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|6|Agrosistema extensivo|1|Termotemperado|21966250.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|6|Agrosistema extensivo|2|Mesotemperado inferior|436222500.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|6|Agrosistema extensivo|3|Mesotemperado superior|797871875.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|6|Agrosistema extensivo|4|Supra e orotemperado|3727500.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|7|Rururbano (diseminado)|1|Termotemperado|4890000.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|7|Rururbano (diseminado)|2|Mesotemperado inferior|64352500.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|7|Rururbano (diseminado)|3|Mesotemperado superior|88583125.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|8|Urbano|1|Termotemperado|1358750.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|8|Urbano|2|Mesotemperado inferior|13255000.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|8|Urbano|3|Mesotemperado superior|10033125.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|9|Extractivo|2|Mesotemperado inferior|77500.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|9|Extractivo|3|Mesotemperado superior|283125.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|2420000.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|295643125.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|664755000.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|2888750.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|12|Conxunto Historico|1|Termotemperado|523750.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|12|Conxunto Historico|2|Mesotemperado inferior|58125.000000
+6|Chairas e Fosas Luguesas|4|Chairas e vales interiores|12|Conxunto Historico|3|Mesotemperado superior|326875.000000
+6|Chairas e Fosas Luguesas|5|Canons|1|Matogueira e rochedo|2|Mesotemperado inferior|1538125.000000
+6|Chairas e Fosas Luguesas|5|Canons|1|Matogueira e rochedo|3|Mesotemperado superior|11250.000000
+6|Chairas e Fosas Luguesas|5|Canons|3|Bosque|2|Mesotemperado inferior|2253125.000000
+6|Chairas e Fosas Luguesas|5|Canons|3|Bosque|3|Mesotemperado superior|625.000000
+6|Chairas e Fosas Luguesas|5|Canons|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|181250.000000
+6|Chairas e Fosas Luguesas|5|Canons|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|3125.000000
+6|Chairas e Fosas Luguesas|5|Canons|6|Agrosistema extensivo|2|Mesotemperado inferior|1853125.000000
+6|Chairas e Fosas Luguesas|5|Canons|6|Agrosistema extensivo|3|Mesotemperado superior|8125.000000
+6|Chairas e Fosas Luguesas|5|Canons|7|Rururbano (diseminado)|2|Mesotemperado inferior|12500.000000
+6|Chairas e Fosas Luguesas|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|143750.000000
+6|Chairas e Fosas Luguesas|NA|no data|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|11875.000000
+6|Chairas e Fosas Luguesas|NA|no data|6|Agrosistema extensivo|3|Mesotemperado superior|1250.000000
+6|Chairas e Fosas Luguesas|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|54375.000000
+7|Galicia Central|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|1|Termotemperado|1250.000000
+7|Galicia Central|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|48908750.000000
+7|Galicia Central|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|160570625.000000
+7|Galicia Central|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|55110625.000000
+7|Galicia Central|2|Vales sublitorais|2|Turbeira|2|Mesotemperado inferior|57500.000000
+7|Galicia Central|2|Vales sublitorais|2|Turbeira|3|Mesotemperado superior|1971250.000000
+7|Galicia Central|2|Vales sublitorais|3|Bosque|1|Termotemperado|16665625.000000
+7|Galicia Central|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|31228750.000000
+7|Galicia Central|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|5619375.000000
+7|Galicia Central|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|62398750.000000
+7|Galicia Central|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|140186875.000000
+7|Galicia Central|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|29911875.000000
+7|Galicia Central|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|10428750.000000
+7|Galicia Central|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|126206250.000000
+7|Galicia Central|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|31786250.000000
+7|Galicia Central|2|Vales sublitorais|6|Agrosistema extensivo|1|Termotemperado|49527500.000000
+7|Galicia Central|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|535385625.000000
+7|Galicia Central|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|150125000.000000
+7|Galicia Central|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|99951250.000000
+7|Galicia Central|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|188559375.000000
+7|Galicia Central|2|Vales sublitorais|7|Rururbano (diseminado)|3|Mesotemperado superior|14808125.000000
+7|Galicia Central|2|Vales sublitorais|8|Urbano|1|Termotemperado|3924375.000000
+7|Galicia Central|2|Vales sublitorais|8|Urbano|2|Mesotemperado inferior|25440000.000000
+7|Galicia Central|2|Vales sublitorais|8|Urbano|3|Mesotemperado superior|40000.000000
+7|Galicia Central|2|Vales sublitorais|9|Extractivo|1|Termotemperado|2481250.000000
+7|Galicia Central|2|Vales sublitorais|9|Extractivo|2|Mesotemperado inferior|4898750.000000
+7|Galicia Central|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|298287500.000000
+7|Galicia Central|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|1225739375.000000
+7|Galicia Central|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|226653125.000000
+7|Galicia Central|2|Vales sublitorais|11|Viñedo|1|Termotemperado|14375.000000
+7|Galicia Central|2|Vales sublitorais|12|Conxunto Historico|2|Mesotemperado inferior|905000.000000
+7|Galicia Central|2|Vales sublitorais|NA|no data|2|Mesotemperado inferior|26250.000000
+7|Galicia Central|3|Serras|1|Matogueira e rochedo|1|Termotemperado|625.000000
+7|Galicia Central|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|83056875.000000
+7|Galicia Central|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|257507500.000000
+7|Galicia Central|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|113081875.000000
+7|Galicia Central|3|Serras|2|Turbeira|3|Mesotemperado superior|3445000.000000
+7|Galicia Central|3|Serras|3|Bosque|2|Mesotemperado inferior|20476875.000000
+7|Galicia Central|3|Serras|3|Bosque|3|Mesotemperado superior|21401250.000000
+7|Galicia Central|3|Serras|3|Bosque|4|Supra e orotemperado|2246875.000000
+7|Galicia Central|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|15083750.000000
+7|Galicia Central|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|31753750.000000
+7|Galicia Central|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|13469375.000000
+7|Galicia Central|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|10827500.000000
+7|Galicia Central|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|44493750.000000
+7|Galicia Central|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|3980625.000000
+7|Galicia Central|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|137540000.000000
+7|Galicia Central|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|363582500.000000
+7|Galicia Central|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|40190625.000000
+7|Galicia Central|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|6031875.000000
+7|Galicia Central|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|7954375.000000
+7|Galicia Central|3|Serras|7|Rururbano (diseminado)|4|Supra e orotemperado|455000.000000
+7|Galicia Central|3|Serras|8|Urbano|2|Mesotemperado inferior|58750.000000
+7|Galicia Central|3|Serras|8|Urbano|3|Mesotemperado superior|1466875.000000
+7|Galicia Central|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|39831250.000000
+7|Galicia Central|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|82780625.000000
+7|Galicia Central|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|7245625.000000
+7|Galicia Central|3|Serras|NA|no data|3|Mesotemperado superior|625.000000
+7|Galicia Central|4|Chairas e vales interiores|1|Matogueira e rochedo|1|Termotemperado|6610000.000000
+7|Galicia Central|4|Chairas e vales interiores|1|Matogueira e rochedo|2|Mesotemperado inferior|41276250.000000
+7|Galicia Central|4|Chairas e vales interiores|1|Matogueira e rochedo|3|Mesotemperado superior|1025000.000000
+7|Galicia Central|4|Chairas e vales interiores|3|Bosque|1|Termotemperado|10663750.000000
+7|Galicia Central|4|Chairas e vales interiores|3|Bosque|2|Mesotemperado inferior|23507500.000000
+7|Galicia Central|4|Chairas e vales interiores|3|Bosque|3|Mesotemperado superior|850000.000000
+7|Galicia Central|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|8296875.000000
+7|Galicia Central|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|14631250.000000
+7|Galicia Central|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|69375.000000
+7|Galicia Central|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|20625.000000
+7|Galicia Central|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|46250.000000
+7|Galicia Central|4|Chairas e vales interiores|6|Agrosistema extensivo|1|Termotemperado|12406875.000000
+7|Galicia Central|4|Chairas e vales interiores|6|Agrosistema extensivo|2|Mesotemperado inferior|45186875.000000
+7|Galicia Central|4|Chairas e vales interiores|6|Agrosistema extensivo|3|Mesotemperado superior|248750.000000
+7|Galicia Central|4|Chairas e vales interiores|7|Rururbano (diseminado)|1|Termotemperado|7493750.000000
+7|Galicia Central|4|Chairas e vales interiores|7|Rururbano (diseminado)|2|Mesotemperado inferior|16188750.000000
+7|Galicia Central|4|Chairas e vales interiores|8|Urbano|1|Termotemperado|241875.000000
+7|Galicia Central|4|Chairas e vales interiores|8|Urbano|2|Mesotemperado inferior|545000.000000
+7|Galicia Central|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|2923125.000000
+7|Galicia Central|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|38209375.000000
+7|Galicia Central|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|35625.000000
+7|Galicia Central|4|Chairas e vales interiores|11|Viñedo|1|Termotemperado|716250.000000
+7|Galicia Central|NA|no data|1|Matogueira e rochedo|3|Mesotemperado superior|7078750.000000
+7|Galicia Central|NA|no data|2|Turbeira|3|Mesotemperado superior|740625.000000
+7|Galicia Central|NA|no data|3|Bosque|2|Mesotemperado inferior|8750.000000
+7|Galicia Central|NA|no data|3|Bosque|3|Mesotemperado superior|47500.000000
+7|Galicia Central|NA|no data|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|46250.000000
+7|Galicia Central|NA|no data|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|3607500.000000
+7|Galicia Central|NA|no data|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|2861250.000000
+7|Galicia Central|NA|no data|6|Agrosistema extensivo|2|Mesotemperado inferior|48125.000000
+7|Galicia Central|NA|no data|6|Agrosistema extensivo|3|Mesotemperado superior|21518125.000000
+7|Galicia Central|NA|no data|7|Rururbano (diseminado)|3|Mesotemperado superior|4225625.000000
+7|Galicia Central|NA|no data|8|Urbano|3|Mesotemperado superior|1177500.000000
+7|Galicia Central|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|223125.000000
+7|Galicia Central|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|23636250.000000
+8|Chairas, Fosas e Serras Ourensás|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|66875.000000
+8|Chairas, Fosas e Serras Ourensás|2|Vales sublitorais|1|Matogueira e rochedo|4|Supra e orotemperado|70625.000000
+8|Chairas, Fosas e Serras Ourensás|2|Vales sublitorais|3|Bosque|4|Supra e orotemperado|30625.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|1|Matogueira e rochedo|1|Termotemperado|12626250.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|255527500.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|284068750.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|239602500.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|1|Matogueira e rochedo|NA|no data|10352500.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|2|Turbeira|2|Mesotemperado inferior|65000.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|2|Turbeira|3|Mesotemperado superior|4846250.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|2|Turbeira|4|Supra e orotemperado|10856875.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|2|Turbeira|NA|no data|217500.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|3|Bosque|1|Termotemperado|718125.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|3|Bosque|2|Mesotemperado inferior|76284375.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|3|Bosque|3|Mesotemperado superior|45853750.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|3|Bosque|4|Supra e orotemperado|27725000.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|3|Bosque|NA|no data|1791250.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|304375.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|56852500.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|31714375.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|22578750.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|4|Agrosistema intensivo (plantacion forestal)|NA|no data|345625.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|46116875.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|35883750.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|24968125.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|779375.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|6|Agrosistema extensivo|1|Termotemperado|2385000.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|256706250.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|140128750.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|87822500.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|6|Agrosistema extensivo|NA|no data|526875.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|7|Rururbano (diseminado)|1|Termotemperado|48125.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|3775625.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|857500.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|7|Rururbano (diseminado)|4|Supra e orotemperado|915625.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|348125.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|8058750.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|7351875.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|1230000.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|109375.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|11|Viñedo|2|Mesotemperado inferior|3291875.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|NA|no data|1|Termotemperado|41875.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|NA|no data|2|Mesotemperado inferior|61250.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|NA|no data|3|Mesotemperado superior|171875.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|NA|no data|4|Supra e orotemperado|70000.000000
+8|Chairas, Fosas e Serras Ourensás|3|Serras|NA|no data|NA|no data|895000.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|1|Matogueira e rochedo|1|Termotemperado|61484375.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|1|Matogueira e rochedo|2|Mesotemperado inferior|136151250.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|1|Matogueira e rochedo|3|Mesotemperado superior|935625.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|1|Matogueira e rochedo|4|Supra e orotemperado|1250.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|1|Matogueira e rochedo|NA|no data|2146875.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|2|Turbeira|2|Mesotemperado inferior|3106875.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|3|Bosque|1|Termotemperado|14276250.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|3|Bosque|2|Mesotemperado inferior|79777500.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|3|Bosque|3|Mesotemperado superior|728125.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|3|Bosque|NA|no data|18750.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|18342500.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|46951875.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|116250.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|3125.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|NA|no data|21875.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|6409375.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|212460000.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|510625.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|6|Agrosistema extensivo|1|Termotemperado|50494375.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|6|Agrosistema extensivo|2|Mesotemperado inferior|342761250.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|6|Agrosistema extensivo|3|Mesotemperado superior|788125.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|6|Agrosistema extensivo|NA|no data|721875.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|7|Rururbano (diseminado)|1|Termotemperado|21293125.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|7|Rururbano (diseminado)|2|Mesotemperado inferior|34687500.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|7|Rururbano (diseminado)|NA|no data|42500.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|8|Urbano|1|Termotemperado|1216250.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|8|Urbano|2|Mesotemperado inferior|2285625.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|9|Extractivo|1|Termotemperado|206875.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|9|Extractivo|2|Mesotemperado inferior|2633125.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|34031875.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|41065000.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|11|Viñedo|1|Termotemperado|18440625.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|11|Viñedo|2|Mesotemperado inferior|2187500.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|11|Viñedo|NA|no data|435000.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|12|Conxunto Historico|2|Mesotemperado inferior|288125.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|NA|no data|1|Termotemperado|160625.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|NA|no data|2|Mesotemperado inferior|15625.000000
+8|Chairas, Fosas e Serras Ourensás|4|Chairas e vales interiores|NA|no data|NA|no data|283125.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|1|Matogueira e rochedo|2|Mesotemperado inferior|353750.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|1|Matogueira e rochedo|3|Mesotemperado superior|1474375.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|1|Matogueira e rochedo|4|Supra e orotemperado|468125.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|1|Matogueira e rochedo|NA|no data|63125.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|NA|no data|2|Mesotemperado inferior|4375.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|NA|no data|3|Mesotemperado superior|8125.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|NA|no data|4|Supra e orotemperado|11875.000000
+8|Chairas, Fosas e Serras Ourensás|NA|no data|NA|no data|NA|no data|17500.000000
+9|Serras Surorientais|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|17500.000000
+9|Serras Surorientais|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|18125.000000
+9|Serras Surorientais|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|35625.000000
+9|Serras Surorientais|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|139375.000000
+9|Serras Surorientais|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|288125.000000
+9|Serras Surorientais|2|Vales sublitorais|6|Agrosistema extensivo|5|Mesomediterráneo|55625.000000
+9|Serras Surorientais|2|Vales sublitorais|11|Viñedo|5|Mesomediterráneo|35625.000000
+9|Serras Surorientais|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|91956250.000000
+9|Serras Surorientais|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|218131250.000000
+9|Serras Surorientais|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|825100625.000000
+9|Serras Surorientais|3|Serras|1|Matogueira e rochedo|5|Mesomediterráneo|10418125.000000
+9|Serras Surorientais|3|Serras|1|Matogueira e rochedo|NA|no data|6913125.000000
+9|Serras Surorientais|3|Serras|2|Turbeira|2|Mesotemperado inferior|485000.000000
+9|Serras Surorientais|3|Serras|3|Bosque|2|Mesotemperado inferior|43081875.000000
+9|Serras Surorientais|3|Serras|3|Bosque|3|Mesotemperado superior|56723750.000000
+9|Serras Surorientais|3|Serras|3|Bosque|4|Supra e orotemperado|45211875.000000
+9|Serras Surorientais|3|Serras|3|Bosque|5|Mesomediterráneo|647500.000000
+9|Serras Surorientais|3|Serras|3|Bosque|NA|no data|490000.000000
+9|Serras Surorientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|10126875.000000
+9|Serras Surorientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|16797500.000000
+9|Serras Surorientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|112841250.000000
+9|Serras Surorientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|5|Mesomediterráneo|17500.000000
+9|Serras Surorientais|3|Serras|4|Agrosistema intensivo (plantacion forestal)|NA|no data|370000.000000
+9|Serras Surorientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|10447500.000000
+9|Serras Surorientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|25280000.000000
+9|Serras Surorientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|19288750.000000
+9|Serras Surorientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|5|Mesomediterráneo|1396875.000000
+9|Serras Surorientais|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|480625.000000
+9|Serras Surorientais|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|155370000.000000
+9|Serras Surorientais|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|229183750.000000
+9|Serras Surorientais|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|165934375.000000
+9|Serras Surorientais|3|Serras|6|Agrosistema extensivo|5|Mesomediterráneo|4060625.000000
+9|Serras Surorientais|3|Serras|6|Agrosistema extensivo|NA|no data|876875.000000
+9|Serras Surorientais|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|4175000.000000
+9|Serras Surorientais|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|2691875.000000
+9|Serras Surorientais|3|Serras|7|Rururbano (diseminado)|4|Supra e orotemperado|3765625.000000
+9|Serras Surorientais|3|Serras|8|Urbano|3|Mesotemperado superior|1875.000000
+9|Serras Surorientais|3|Serras|9|Extractivo|2|Mesotemperado inferior|3766250.000000
+9|Serras Surorientais|3|Serras|9|Extractivo|3|Mesotemperado superior|6206875.000000
+9|Serras Surorientais|3|Serras|9|Extractivo|4|Supra e orotemperado|11796875.000000
+9|Serras Surorientais|3|Serras|9|Extractivo|NA|no data|1250.000000
+9|Serras Surorientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|6226875.000000
+9|Serras Surorientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|8875000.000000
+9|Serras Surorientais|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|15521875.000000
+9|Serras Surorientais|3|Serras|11|Viñedo|2|Mesotemperado inferior|355625.000000
+9|Serras Surorientais|3|Serras|11|Viñedo|5|Mesomediterráneo|360000.000000
+9|Serras Surorientais|3|Serras|NA|no data|2|Mesotemperado inferior|6250.000000
+9|Serras Surorientais|3|Serras|NA|no data|3|Mesotemperado superior|685625.000000
+9|Serras Surorientais|3|Serras|NA|no data|4|Supra e orotemperado|25000.000000
+9|Serras Surorientais|3|Serras|NA|no data|NA|no data|185000.000000
+9|Serras Surorientais|4|Chairas e vales interiores|1|Matogueira e rochedo|2|Mesotemperado inferior|15625.000000
+9|Serras Surorientais|4|Chairas e vales interiores|1|Matogueira e rochedo|5|Mesomediterráneo|2841875.000000
+9|Serras Surorientais|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|31875.000000
+9|Serras Surorientais|5|Canons|1|Matogueira e rochedo|2|Mesotemperado inferior|20441875.000000
+9|Serras Surorientais|5|Canons|1|Matogueira e rochedo|3|Mesotemperado superior|5277500.000000
+9|Serras Surorientais|5|Canons|1|Matogueira e rochedo|4|Supra e orotemperado|2512500.000000
+9|Serras Surorientais|5|Canons|1|Matogueira e rochedo|5|Mesomediterráneo|10992500.000000
+9|Serras Surorientais|5|Canons|3|Bosque|2|Mesotemperado inferior|17693750.000000
+9|Serras Surorientais|5|Canons|3|Bosque|3|Mesotemperado superior|1222500.000000
+9|Serras Surorientais|5|Canons|3|Bosque|4|Supra e orotemperado|55000.000000
+9|Serras Surorientais|5|Canons|3|Bosque|5|Mesomediterráneo|1063125.000000
+9|Serras Surorientais|5|Canons|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|106250.000000
+9|Serras Surorientais|5|Canons|6|Agrosistema extensivo|2|Mesotemperado inferior|11497500.000000
+9|Serras Surorientais|5|Canons|6|Agrosistema extensivo|3|Mesotemperado superior|6478750.000000
+9|Serras Surorientais|5|Canons|6|Agrosistema extensivo|4|Supra e orotemperado|205625.000000
+9|Serras Surorientais|5|Canons|6|Agrosistema extensivo|5|Mesomediterráneo|1562500.000000
+9|Serras Surorientais|5|Canons|7|Rururbano (diseminado)|2|Mesotemperado inferior|1036875.000000
+9|Serras Surorientais|5|Canons|8|Urbano|2|Mesotemperado inferior|30000.000000
+9|Serras Surorientais|5|Canons|11|Viñedo|2|Mesotemperado inferior|821875.000000
+9|Serras Surorientais|5|Canons|11|Viñedo|5|Mesomediterráneo|521250.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|1|Termotemperado|31116250.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|2|Mesotemperado inferior|9763125.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|3|Mesotemperado superior|1138750.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|NA|no data|3026875.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|2|Turbeira|2|Mesotemperado inferior|199375.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|3|Bosque|2|Mesotemperado inferior|243750.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|54040625.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|62491875.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|22500.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|NA|no data|1615625.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|6968125.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|10000.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|168750.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|1|Termotemperado|3211875.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|2|Mesotemperado inferior|251875.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|NA|no data|107500.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|1|Termotemperado|45221875.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|2|Mesotemperado inferior|3156250.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|NA|no data|1420000.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|8|Urbano|1|Termotemperado|6298125.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|8|Urbano|2|Mesotemperado inferior|170625.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|8|Urbano|NA|no data|635625.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|9|Extractivo|1|Termotemperado|206250.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|9|Extractivo|2|Mesotemperado inferior|89375.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|97068750.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|30244375.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|1440000.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|1|Termotemperado|13750.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|NA|no data|1|Termotemperado|2745000.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|NA|no data|2|Mesotemperado inferior|93750.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|NA|no data|3|Mesotemperado superior|2500.000000
+10|Galicia Setentrional|1|Litoral Cantabro-Atlantico|NA|no data|NA|no data|1960625.000000
+10|Galicia Setentrional|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|53125.000000
+10|Galicia Setentrional|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|16127500.000000
+10|Galicia Setentrional|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|16979375.000000
+10|Galicia Setentrional|2|Vales sublitorais|2|Turbeira|2|Mesotemperado inferior|2872500.000000
+10|Galicia Setentrional|2|Vales sublitorais|2|Turbeira|3|Mesotemperado superior|2367500.000000
+10|Galicia Setentrional|2|Vales sublitorais|3|Bosque|1|Termotemperado|48125.000000
+10|Galicia Setentrional|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|15223125.000000
+10|Galicia Setentrional|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|9713125.000000
+10|Galicia Setentrional|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|16324375.000000
+10|Galicia Setentrional|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|192720000.000000
+10|Galicia Setentrional|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|32692500.000000
+10|Galicia Setentrional|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|91250.000000
+10|Galicia Setentrional|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|3063750.000000
+10|Galicia Setentrional|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|565000.000000
+10|Galicia Setentrional|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|14315625.000000
+10|Galicia Setentrional|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|18073750.000000
+10|Galicia Setentrional|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|1110625.000000
+10|Galicia Setentrional|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|8695625.000000
+10|Galicia Setentrional|2|Vales sublitorais|7|Rururbano (diseminado)|3|Mesotemperado superior|2948125.000000
+10|Galicia Setentrional|2|Vales sublitorais|8|Urbano|1|Termotemperado|137500.000000
+10|Galicia Setentrional|2|Vales sublitorais|8|Urbano|2|Mesotemperado inferior|1729375.000000
+10|Galicia Setentrional|2|Vales sublitorais|8|Urbano|3|Mesotemperado superior|465625.000000
+10|Galicia Setentrional|2|Vales sublitorais|9|Extractivo|2|Mesotemperado inferior|10447500.000000
+10|Galicia Setentrional|2|Vales sublitorais|9|Extractivo|3|Mesotemperado superior|33125.000000
+10|Galicia Setentrional|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|20503125.000000
+10|Galicia Setentrional|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|203471875.000000
+10|Galicia Setentrional|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|35826875.000000
+10|Galicia Setentrional|2|Vales sublitorais|NA|no data|2|Mesotemperado inferior|1613750.000000
+10|Galicia Setentrional|3|Serras|1|Matogueira e rochedo|1|Termotemperado|6250.000000
+10|Galicia Setentrional|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|24889375.000000
+10|Galicia Setentrional|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|107670625.000000
+10|Galicia Setentrional|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|2523125.000000
+10|Galicia Setentrional|3|Serras|2|Turbeira|2|Mesotemperado inferior|11126875.000000
+10|Galicia Setentrional|3|Serras|2|Turbeira|3|Mesotemperado superior|107353125.000000
+10|Galicia Setentrional|3|Serras|2|Turbeira|4|Supra e orotemperado|83378125.000000
+10|Galicia Setentrional|3|Serras|3|Bosque|2|Mesotemperado inferior|3841875.000000
+10|Galicia Setentrional|3|Serras|3|Bosque|3|Mesotemperado superior|21988750.000000
+10|Galicia Setentrional|3|Serras|3|Bosque|4|Supra e orotemperado|2287500.000000
+10|Galicia Setentrional|3|Serras|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|143750.000000
+10|Galicia Setentrional|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|31885000.000000
+10|Galicia Setentrional|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|45390625.000000
+10|Galicia Setentrional|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|2251875.000000
+10|Galicia Setentrional|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|1364375.000000
+10|Galicia Setentrional|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|3896875.000000
+10|Galicia Setentrional|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|1888125.000000
+10|Galicia Setentrional|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|17595625.000000
+10|Galicia Setentrional|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|71025000.000000
+10|Galicia Setentrional|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|10423125.000000
+10|Galicia Setentrional|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|167500.000000
+10|Galicia Setentrional|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|1666875.000000
+10|Galicia Setentrional|3|Serras|7|Rururbano (diseminado)|4|Supra e orotemperado|100625.000000
+10|Galicia Setentrional|3|Serras|8|Urbano|2|Mesotemperado inferior|8750.000000
+10|Galicia Setentrional|3|Serras|9|Extractivo|2|Mesotemperado inferior|718750.000000
+10|Galicia Setentrional|3|Serras|9|Extractivo|3|Mesotemperado superior|41250.000000
+10|Galicia Setentrional|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|38125.000000
+10|Galicia Setentrional|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|27054375.000000
+10|Galicia Setentrional|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|49803125.000000
+10|Galicia Setentrional|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|4109375.000000
+10|Galicia Setentrional|NA|no data|1|Matogueira e rochedo|1|Termotemperado|625.000000
+10|Galicia Setentrional|NA|no data|NA|no data|1|Termotemperado|2500.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|1|Termotemperado|116535625.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|2|Mesotemperado inferior|9580625.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|NA|no data|9673750.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|2|Turbeira|1|Termotemperado|413125.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|2|Turbeira|2|Mesotemperado inferior|700000.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|89537500.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|6512500.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|NA|no data|1313750.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|19246875.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|3750.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|415625.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|1|Termotemperado|8655000.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|2|Mesotemperado inferior|109375.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|NA|no data|159375.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|1|Termotemperado|57576875.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|2|Mesotemperado inferior|515625.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|NA|no data|1340000.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|8|Urbano|1|Termotemperado|9228750.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|8|Urbano|2|Mesotemperado inferior|1250.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|8|Urbano|NA|no data|208125.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|183901875.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|3898125.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|1542500.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|1|Termotemperado|2534375.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|NA|no data|353750.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|NA|no data|1|Termotemperado|2867500.000000
+11|Chairas e Fosas Occidentais|1|Litoral Cantabro-Atlantico|NA|no data|NA|no data|6304375.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|34924375.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|148545000.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|68502500.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|1|Matogueira e rochedo|NA|no data|20000.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|2|Turbeira|2|Mesotemperado inferior|3412500.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|2|Turbeira|3|Mesotemperado superior|5450625.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|89375.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|80700625.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|173006250.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|32914375.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|14487500.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|102601250.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|16054375.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|6|Agrosistema extensivo|1|Termotemperado|9721250.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|94663750.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|14950625.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|51481875.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|39120625.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|7|Rururbano (diseminado)|3|Mesotemperado superior|5002500.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|8|Urbano|1|Termotemperado|1676250.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|8|Urbano|2|Mesotemperado inferior|1576250.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|8|Urbano|3|Mesotemperado superior|1644375.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|9|Extractivo|1|Termotemperado|145000.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|9|Extractivo|2|Mesotemperado inferior|500000.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|183344375.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|374788750.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|83263750.000000
+11|Chairas e Fosas Occidentais|2|Vales sublitorais|NA|no data|2|Mesotemperado inferior|543125.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|1|Termotemperado|70418125.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|2|Mesotemperado inferior|4638750.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|3|Mesotemperado superior|1250.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|NA|no data|6215625.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|3|Bosque|1|Termotemperado|1168750.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|133457500.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|5277500.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|625.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|NA|no data|3050000.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|15870625.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|706875.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|1|Termotemperado|15999375.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|2|Mesotemperado inferior|19375.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|NA|no data|718125.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|1|Termotemperado|442960625.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|2|Mesotemperado inferior|167500.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|NA|no data|13744375.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|8|Urbano|1|Termotemperado|59703125.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|8|Urbano|NA|no data|5291875.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|177247500.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|1651875.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|2865625.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|11|Viñedo|1|Termotemperado|33543125.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|11|Viñedo|NA|no data|244375.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|1|Termotemperado|1108750.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|NA|no data|155625.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|NA|no data|1|Termotemperado|13286875.000000
+12|Rías Baixas|1|Litoral Cantabro-Atlantico|NA|no data|NA|no data|12915000.000000
+12|Rías Baixas|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|142350000.000000
+12|Rías Baixas|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|151928750.000000
+12|Rías Baixas|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|23176250.000000
+12|Rías Baixas|2|Vales sublitorais|2|Turbeira|2|Mesotemperado inferior|2348125.000000
+12|Rías Baixas|2|Vales sublitorais|2|Turbeira|3|Mesotemperado superior|1139375.000000
+12|Rías Baixas|2|Vales sublitorais|3|Bosque|1|Termotemperado|11031250.000000
+12|Rías Baixas|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|12739375.000000
+12|Rías Baixas|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|74375.000000
+12|Rías Baixas|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|222830625.000000
+12|Rías Baixas|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|107655625.000000
+12|Rías Baixas|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|16728750.000000
+12|Rías Baixas|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|NA|no data|4375.000000
+12|Rías Baixas|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|1186875.000000
+12|Rías Baixas|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|2834375.000000
+12|Rías Baixas|2|Vales sublitorais|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|1285625.000000
+12|Rías Baixas|2|Vales sublitorais|6|Agrosistema extensivo|1|Termotemperado|25943125.000000
+12|Rías Baixas|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|34893125.000000
+12|Rías Baixas|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|2494375.000000
+12|Rías Baixas|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|163592500.000000
+12|Rías Baixas|2|Vales sublitorais|7|Rururbano (diseminado)|2|Mesotemperado inferior|20071250.000000
+12|Rías Baixas|2|Vales sublitorais|7|Rururbano (diseminado)|3|Mesotemperado superior|586250.000000
+12|Rías Baixas|2|Vales sublitorais|8|Urbano|1|Termotemperado|8861875.000000
+12|Rías Baixas|2|Vales sublitorais|8|Urbano|2|Mesotemperado inferior|320000.000000
+12|Rías Baixas|2|Vales sublitorais|8|Urbano|3|Mesotemperado superior|139375.000000
+12|Rías Baixas|2|Vales sublitorais|9|Extractivo|1|Termotemperado|6250.000000
+12|Rías Baixas|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|151691250.000000
+12|Rías Baixas|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|101559375.000000
+12|Rías Baixas|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|11101875.000000
+12|Rías Baixas|2|Vales sublitorais|11|Viñedo|1|Termotemperado|250625.000000
+12|Rías Baixas|2|Vales sublitorais|NA|no data|1|Termotemperado|146250.000000
+12|Rías Baixas|2|Vales sublitorais|NA|no data|NA|no data|87500.000000
+12|Rías Baixas|3|Serras|1|Matogueira e rochedo|1|Termotemperado|10249375.000000
+12|Rías Baixas|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|116466875.000000
+12|Rías Baixas|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|109910625.000000
+12|Rías Baixas|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|67147500.000000
+12|Rías Baixas|3|Serras|2|Turbeira|4|Supra e orotemperado|721250.000000
+12|Rías Baixas|3|Serras|3|Bosque|1|Termotemperado|18125.000000
+12|Rías Baixas|3|Serras|3|Bosque|2|Mesotemperado inferior|8089375.000000
+12|Rías Baixas|3|Serras|3|Bosque|3|Mesotemperado superior|5403125.000000
+12|Rías Baixas|3|Serras|3|Bosque|4|Supra e orotemperado|248750.000000
+12|Rías Baixas|3|Serras|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|10571875.000000
+12|Rías Baixas|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|43181875.000000
+12|Rías Baixas|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|7738125.000000
+12|Rías Baixas|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|2260625.000000
+12|Rías Baixas|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|2|Mesotemperado inferior|73125.000000
+12|Rías Baixas|3|Serras|6|Agrosistema extensivo|1|Termotemperado|118750.000000
+12|Rías Baixas|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|28919375.000000
+12|Rías Baixas|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|25631250.000000
+12|Rías Baixas|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|310625.000000
+12|Rías Baixas|3|Serras|7|Rururbano (diseminado)|1|Termotemperado|1800625.000000
+12|Rías Baixas|3|Serras|7|Rururbano (diseminado)|2|Mesotemperado inferior|4813750.000000
+12|Rías Baixas|3|Serras|7|Rururbano (diseminado)|3|Mesotemperado superior|828750.000000
+12|Rías Baixas|3|Serras|8|Urbano|1|Termotemperado|25625.000000
+12|Rías Baixas|3|Serras|8|Urbano|2|Mesotemperado inferior|590625.000000
+12|Rías Baixas|3|Serras|8|Urbano|3|Mesotemperado superior|65000.000000
+12|Rías Baixas|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|2196875.000000
+12|Rías Baixas|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|11173750.000000
+12|Rías Baixas|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|396250.000000
+NA|no data|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|1|Termotemperado|6644375.000000
+NA|no data|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|2|Mesotemperado inferior|144375.000000
+NA|no data|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|3|Mesotemperado superior|625.000000
+NA|no data|1|Litoral Cantabro-Atlantico|1|Matogueira e rochedo|NA|no data|3645625.000000
+NA|no data|1|Litoral Cantabro-Atlantico|3|Bosque|1|Termotemperado|35625.000000
+NA|no data|1|Litoral Cantabro-Atlantico|3|Bosque|NA|no data|97500.000000
+NA|no data|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|3709375.000000
+NA|no data|1|Litoral Cantabro-Atlantico|4|Agrosistema intensivo (plantacion forestal)|NA|no data|2172500.000000
+NA|no data|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|1|Termotemperado|2616875.000000
+NA|no data|1|Litoral Cantabro-Atlantico|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|1038750.000000
+NA|no data|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|1|Termotemperado|2681875.000000
+NA|no data|1|Litoral Cantabro-Atlantico|6|Agrosistema extensivo|NA|no data|1285625.000000
+NA|no data|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|1|Termotemperado|7625625.000000
+NA|no data|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|2|Mesotemperado inferior|1875.000000
+NA|no data|1|Litoral Cantabro-Atlantico|7|Rururbano (diseminado)|NA|no data|4970000.000000
+NA|no data|1|Litoral Cantabro-Atlantico|8|Urbano|1|Termotemperado|4563750.000000
+NA|no data|1|Litoral Cantabro-Atlantico|8|Urbano|NA|no data|3547500.000000
+NA|no data|1|Litoral Cantabro-Atlantico|9|Extractivo|NA|no data|22500.000000
+NA|no data|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|8747500.000000
+NA|no data|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|56250.000000
+NA|no data|1|Litoral Cantabro-Atlantico|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|4088750.000000
+NA|no data|1|Litoral Cantabro-Atlantico|11|Viñedo|1|Termotemperado|381875.000000
+NA|no data|1|Litoral Cantabro-Atlantico|11|Viñedo|NA|no data|193125.000000
+NA|no data|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|1|Termotemperado|135000.000000
+NA|no data|1|Litoral Cantabro-Atlantico|12|Conxunto Historico|NA|no data|20625.000000
+NA|no data|1|Litoral Cantabro-Atlantico|NA|no data|1|Termotemperado|91210000.000000
+NA|no data|1|Litoral Cantabro-Atlantico|NA|no data|2|Mesotemperado inferior|861250.000000
+NA|no data|1|Litoral Cantabro-Atlantico|NA|no data|3|Mesotemperado superior|625.000000
+NA|no data|1|Litoral Cantabro-Atlantico|NA|no data|NA|no data|6546171250.000000
+NA|no data|2|Vales sublitorais|1|Matogueira e rochedo|1|Termotemperado|1875.000000
+NA|no data|2|Vales sublitorais|1|Matogueira e rochedo|2|Mesotemperado inferior|31250.000000
+NA|no data|2|Vales sublitorais|1|Matogueira e rochedo|3|Mesotemperado superior|76250.000000
+NA|no data|2|Vales sublitorais|1|Matogueira e rochedo|NA|no data|53125.000000
+NA|no data|2|Vales sublitorais|3|Bosque|1|Termotemperado|7500.000000
+NA|no data|2|Vales sublitorais|3|Bosque|2|Mesotemperado inferior|25625.000000
+NA|no data|2|Vales sublitorais|3|Bosque|3|Mesotemperado superior|40625.000000
+NA|no data|2|Vales sublitorais|3|Bosque|4|Supra e orotemperado|1250.000000
+NA|no data|2|Vales sublitorais|3|Bosque|NA|no data|3750.000000
+NA|no data|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|11875.000000
+NA|no data|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|56875.000000
+NA|no data|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|16250.000000
+NA|no data|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|625.000000
+NA|no data|2|Vales sublitorais|4|Agrosistema intensivo (plantacion forestal)|NA|no data|44375.000000
+NA|no data|2|Vales sublitorais|6|Agrosistema extensivo|2|Mesotemperado inferior|10000.000000
+NA|no data|2|Vales sublitorais|6|Agrosistema extensivo|3|Mesotemperado superior|26250.000000
+NA|no data|2|Vales sublitorais|6|Agrosistema extensivo|NA|no data|28750.000000
+NA|no data|2|Vales sublitorais|7|Rururbano (diseminado)|1|Termotemperado|2500.000000
+NA|no data|2|Vales sublitorais|7|Rururbano (diseminado)|NA|no data|43125.000000
+NA|no data|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|35000.000000
+NA|no data|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|2500.000000
+NA|no data|2|Vales sublitorais|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|34375.000000
+NA|no data|2|Vales sublitorais|NA|no data|1|Termotemperado|240625.000000
+NA|no data|2|Vales sublitorais|NA|no data|2|Mesotemperado inferior|1871250.000000
+NA|no data|2|Vales sublitorais|NA|no data|3|Mesotemperado superior|1948125.000000
+NA|no data|2|Vales sublitorais|NA|no data|4|Supra e orotemperado|71875.000000
+NA|no data|2|Vales sublitorais|NA|no data|NA|no data|1112984375.000000
+NA|no data|3|Serras|1|Matogueira e rochedo|1|Termotemperado|20000.000000
+NA|no data|3|Serras|1|Matogueira e rochedo|2|Mesotemperado inferior|76250.000000
+NA|no data|3|Serras|1|Matogueira e rochedo|3|Mesotemperado superior|132500.000000
+NA|no data|3|Serras|1|Matogueira e rochedo|4|Supra e orotemperado|1421875.000000
+NA|no data|3|Serras|1|Matogueira e rochedo|5|Mesomediterráneo|2500.000000
+NA|no data|3|Serras|1|Matogueira e rochedo|NA|no data|1168750.000000
+NA|no data|3|Serras|2|Turbeira|NA|no data|1875.000000
+NA|no data|3|Serras|3|Bosque|2|Mesotemperado inferior|123750.000000
+NA|no data|3|Serras|3|Bosque|3|Mesotemperado superior|41875.000000
+NA|no data|3|Serras|3|Bosque|4|Supra e orotemperado|218125.000000
+NA|no data|3|Serras|3|Bosque|NA|no data|234375.000000
+NA|no data|3|Serras|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|14375.000000
+NA|no data|3|Serras|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|35000.000000
+NA|no data|3|Serras|4|Agrosistema intensivo (plantacion forestal)|4|Supra e orotemperado|129375.000000
+NA|no data|3|Serras|4|Agrosistema intensivo (plantacion forestal)|NA|no data|121875.000000
+NA|no data|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|3|Mesotemperado superior|33750.000000
+NA|no data|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|4|Supra e orotemperado|81875.000000
+NA|no data|3|Serras|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|74375.000000
+NA|no data|3|Serras|6|Agrosistema extensivo|1|Termotemperado|1875.000000
+NA|no data|3|Serras|6|Agrosistema extensivo|2|Mesotemperado inferior|57500.000000
+NA|no data|3|Serras|6|Agrosistema extensivo|3|Mesotemperado superior|81250.000000
+NA|no data|3|Serras|6|Agrosistema extensivo|4|Supra e orotemperado|220625.000000
+NA|no data|3|Serras|6|Agrosistema extensivo|NA|no data|113125.000000
+NA|no data|3|Serras|9|Extractivo|3|Mesotemperado superior|1250.000000
+NA|no data|3|Serras|9|Extractivo|4|Supra e orotemperado|11875.000000
+NA|no data|3|Serras|9|Extractivo|NA|no data|1875.000000
+NA|no data|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|2|Mesotemperado inferior|7500.000000
+NA|no data|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|3|Mesotemperado superior|2500.000000
+NA|no data|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|4|Supra e orotemperado|57500.000000
+NA|no data|3|Serras|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|29375.000000
+NA|no data|3|Serras|NA|no data|1|Termotemperado|341250.000000
+NA|no data|3|Serras|NA|no data|2|Mesotemperado inferior|3687500.000000
+NA|no data|3|Serras|NA|no data|3|Mesotemperado superior|3342500.000000
+NA|no data|3|Serras|NA|no data|4|Supra e orotemperado|22149375.000000
+NA|no data|3|Serras|NA|no data|5|Mesomediterráneo|81875.000000
+NA|no data|3|Serras|NA|no data|NA|no data|4256103125.000000
+NA|no data|4|Chairas e vales interiores|1|Matogueira e rochedo|1|Termotemperado|8750.000000
+NA|no data|4|Chairas e vales interiores|1|Matogueira e rochedo|2|Mesotemperado inferior|4375.000000
+NA|no data|4|Chairas e vales interiores|1|Matogueira e rochedo|5|Mesomediterráneo|81875.000000
+NA|no data|4|Chairas e vales interiores|1|Matogueira e rochedo|NA|no data|162500.000000
+NA|no data|4|Chairas e vales interiores|3|Bosque|1|Termotemperado|5000.000000
+NA|no data|4|Chairas e vales interiores|3|Bosque|2|Mesotemperado inferior|7500.000000
+NA|no data|4|Chairas e vales interiores|3|Bosque|5|Mesomediterráneo|50000.000000
+NA|no data|4|Chairas e vales interiores|3|Bosque|NA|no data|39375.000000
+NA|no data|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|21250.000000
+NA|no data|4|Chairas e vales interiores|4|Agrosistema intensivo (plantacion forestal)|NA|no data|170000.000000
+NA|no data|4|Chairas e vales interiores|5|Agrosistema intensivo (superficie de cultivo)|NA|no data|12500.000000
+NA|no data|4|Chairas e vales interiores|6|Agrosistema extensivo|1|Termotemperado|12500.000000
+NA|no data|4|Chairas e vales interiores|6|Agrosistema extensivo|2|Mesotemperado inferior|23125.000000
+NA|no data|4|Chairas e vales interiores|6|Agrosistema extensivo|5|Mesomediterráneo|21875.000000
+NA|no data|4|Chairas e vales interiores|6|Agrosistema extensivo|NA|no data|163125.000000
+NA|no data|4|Chairas e vales interiores|7|Rururbano (diseminado)|1|Termotemperado|41875.000000
+NA|no data|4|Chairas e vales interiores|7|Rururbano (diseminado)|5|Mesomediterráneo|2500.000000
+NA|no data|4|Chairas e vales interiores|7|Rururbano (diseminado)|NA|no data|220625.000000
+NA|no data|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|8125.000000
+NA|no data|4|Chairas e vales interiores|10|Agrosistema intensivo (mosaico agroforestal)|NA|no data|92500.000000
+NA|no data|4|Chairas e vales interiores|11|Viñedo|1|Termotemperado|21875.000000
+NA|no data|4|Chairas e vales interiores|11|Viñedo|NA|no data|58125.000000
+NA|no data|4|Chairas e vales interiores|NA|no data|1|Termotemperado|441250.000000
+NA|no data|4|Chairas e vales interiores|NA|no data|2|Mesotemperado inferior|305000.000000
+NA|no data|4|Chairas e vales interiores|NA|no data|3|Mesotemperado superior|1250.000000
+NA|no data|4|Chairas e vales interiores|NA|no data|5|Mesomediterráneo|1354375.000000
+NA|no data|4|Chairas e vales interiores|NA|no data|NA|no data|240256250.000000
+NA|no data|5|Canons|1|Matogueira e rochedo|1|Termotemperado|48750.000000
+NA|no data|5|Canons|1|Matogueira e rochedo|2|Mesotemperado inferior|10000.000000
+NA|no data|5|Canons|1|Matogueira e rochedo|NA|no data|32500.000000
+NA|no data|5|Canons|3|Bosque|1|Termotemperado|24375.000000
+NA|no data|5|Canons|3|Bosque|2|Mesotemperado inferior|28750.000000
+NA|no data|5|Canons|3|Bosque|NA|no data|6875.000000
+NA|no data|5|Canons|4|Agrosistema intensivo (plantacion forestal)|1|Termotemperado|14375.000000
+NA|no data|5|Canons|4|Agrosistema intensivo (plantacion forestal)|2|Mesotemperado inferior|1250.000000
+NA|no data|5|Canons|4|Agrosistema intensivo (plantacion forestal)|3|Mesotemperado superior|4375.000000
+NA|no data|5|Canons|4|Agrosistema intensivo (plantacion forestal)|NA|no data|18125.000000
+NA|no data|5|Canons|6|Agrosistema extensivo|1|Termotemperado|625.000000
+NA|no data|5|Canons|6|Agrosistema extensivo|3|Mesotemperado superior|5000.000000
+NA|no data|5|Canons|6|Agrosistema extensivo|NA|no data|1875.000000
+NA|no data|5|Canons|7|Rururbano (diseminado)|1|Termotemperado|3750.000000
+NA|no data|5|Canons|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|1875.000000
+NA|no data|5|Canons|NA|no data|1|Termotemperado|915625.000000
+NA|no data|5|Canons|NA|no data|2|Mesotemperado inferior|430625.000000
+NA|no data|5|Canons|NA|no data|3|Mesotemperado superior|14375.000000
+NA|no data|5|Canons|NA|no data|NA|no data|39635625.000000
+NA|no data|NA|no data|1|Matogueira e rochedo|NA|no data|6250.000000
+NA|no data|NA|no data|4|Agrosistema intensivo (plantacion forestal)|NA|no data|8750.000000
+NA|no data|NA|no data|7|Rururbano (diseminado)|1|Termotemperado|1875.000000
+NA|no data|NA|no data|7|Rururbano (diseminado)|NA|no data|1875.000000
+NA|no data|NA|no data|10|Agrosistema intensivo (mosaico agroforestal)|1|Termotemperado|625.000000
+NA|no data|NA|no data|NA|no data|1|Termotemperado|5000.000000
+NA|no data|NA|no data|NA|no data|2|Mesotemperado inferior|93125.000000
+NA|no data|NA|no data|NA|no data|3|Mesotemperado superior|132500.000000
+NA|no data|NA|no data|NA|no data|4|Supra e orotemperado|84375.000000
