@@ -39,6 +39,9 @@ bash ./Scripts/Script3.sh
 # Incorporación de información de patrimonio e outras, e exportación
 bash ./Scripts/Script4.sh
 
+# Separación da lenda en campos independentes
+R CMD BATCH ./Scripts/TiposUnfoldLegend.R
+
 
 ### Análise dos resultados
 # Figuras para o informe
