@@ -18,3 +18,5 @@ ps2pdf ./Informes/Informe1/Figuras/MapaXeo.ps ./Informes/Informe1/Figuras/MapaXe
 ps2pdf ./Informes/Informe1/Figuras/MapaCub.ps ./Informes/Informe1/Figuras/MapaCub.pdf
 ps2pdf ./Informes/Informe1/Figuras/MapaCli.ps ./Informes/Informe1/Figuras/MapaCli.pdf
 ps2pdf ./Informes/Informe1/Figuras/MapaFin.ps ./Informes/Informe1/Figuras/MapaFin.pdf
+
+rm ./Informes/Informe1/Figuras/*.ps

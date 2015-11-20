@@ -18,3 +18,4 @@
 *.blg
 .RData
 .RHistory
+*.ps
