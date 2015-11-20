@@ -44,8 +44,10 @@ R CMD BATCH ./Scripts/TiposUnfoldLegend.R
 
 
 ### Análise dos resultados
-# Figuras para o informe
+# Figuras para o informe: áreas de entrenamento
 R CMD BATCH Informes/Informe1/Figuras/Figuras1.R
+# Figuras para o informe: mapas de clases
+bash ./Scripts/Mapas.sh
 # Análise de tipos de paisaxe por grandes áreas
 bash ./Scripts/Script5.sh
 R CMD BATCH /media/sf_Datos_Corbelle/tipos-paisaxe/Informes/Informe1/TiposAreas.R

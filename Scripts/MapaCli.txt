@@ -1,0 +1,31 @@
+# Simple ps.map example using the Spearfish dataset
+paper
+  width 6
+  height 8.5
+  left 0.1
+  right 0.1
+  bottom 0.1
+  top 0.1
+  end
+border 
+  color black
+  width 0.01
+  end
+scale 1:1500000
+raster termoclima
+scalebar f
+  where 4.2 8.2
+  length 100000
+  segment 4
+  numbers 2
+  fontsize 10
+  end
+text 70% -5% Pisos termoclimáticos
+  font helvetica
+  color black
+  fontsize 16
+  end
+colortable y
+  where 0.2 6.9
+  raster termoclima
+  end
