@@ -1,0 +1,111 @@
+
+R version 3.2.2 (2015-08-14) -- "Fire Safety"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R es un software libre y viene sin GARANTIA ALGUNA.
+Usted puede redistribuirlo bajo ciertas circunstancias.
+Escriba 'license()' o 'licence()' para detalles de distribucion.
+
+R es un proyecto colaborativo con muchos contribuyentes.
+Escriba 'contributors()' para obtener más información y
+'citation()' para saber cómo citar R o paquetes de R en publicaciones.
+
+Escriba 'demo()' para demostraciones, 'help()' para el sistema on-line de ayuda,
+o 'help.start()' para abrir el sistema de ayuda HTML con su navegador.
+Escriba 'q()' para salir de R.
+
+> ## Script de R para resumir o cruce de valores e unidades da paisaxe
+> ## Eduardo Corbelle, 24 de novembro de 2015
+> 
+> library(xtable)
+> 
+> ## Cargamos os datos orixinais
+> vbic <- read.table("./Informes/Informe2/ValoresBic_2015_11_24.txt",
++                    sep="|", na.strings=c("NA", "no data"),
++                    header=FALSE)
+> vcamino <- read.table("./Informes/Informe2/ValoresCamino_2015_11_24.txt",
++                    sep="|", na.strings=c("NA", "no data"),
++                    header=FALSE)
+> veolico <- read.table("./Informes/Informe2/ValoresEolicos_2015_11_24.txt",
++                    sep="|", na.strings=c("NA", "no data"),
++                    header=FALSE)
+> vnatura <- read.table("./Informes/Informe2/ValoresNatura2000_2015_11_24.txt",
++                    sep="|", na.strings=c("NA", "no data"),
++                    header=FALSE)
+> vSixotNat <- read.table("./Informes/Informe2/ValoresSixotNat_2015_11_24.txt",
++                    sep="|", na.strings=c("NA", "no data"),
++                    header=FALSE)
+> vSixotPat <- read.table("./Informes/Informe2/ValoresSixotPat_2015_11_24.txt",
++                    sep="|", na.strings=c("NA", "no data"),
++                    header=FALSE)
+> vSixotEst <- read.table("./Informes/Informe2/ValoresSixotEst_2015_11_24.txt",
++                    sep="|", na.strings=c("NA", "no data"),
++                    header=FALSE)
+> 
+> 
+> ## Creamos unha función que calcula a porcentaxe de aparición en cada tipo e a porcentaxe de cada tipo respecto do total
+> porcentTipos <- function(taboa, valor) {
++   # Selecciona os casos nos que aparece o valor identificado
++   taboaB = taboa[which(taboa$V3 == 1),]
++   # Calcula a porcentaxe que supón a súa aparición no tipo sobre o total de aparicións
++   porcent = 100*taboaB$V5/sum(taboaB$V5)
++   # Seleccionamos os casos maiores que o valor (en %) indicado
++   taboaC = data.frame(V2=taboaB$V2,
++                       porcent)[which(porcent >= valor),]
++   # Calculamos a porcentaxe que supón cada tipo sobre o total de Galicia
++   porcentT = 100*taboa$V5/sum(taboa$V5, na.rm=TRUE)
++   suma = tapply(porcentT, taboa$V2, sum)
++   taboaD = data.frame(V2 = names(suma),
++                       porcentT = as.numeric(suma))
++   # Xuntamos as dúas táboas
++   taboaE = merge(taboaC, taboaD, all.x=TRUE)
++   # Ordenamos a táboa e devolvemos o resultado
++   taboaF = taboaE[order(taboaE$porcent, decreasing=TRUE),]
++   colnames(taboaF) = c("Tipo de paisaxe", "Frec. aparición (%)", "Frecuencia do tipo (%)")
++   return(taboaF)
++ }
+> 
+> ## Creamos unha función que exporta a táboa cara LaTeX
+> exportT <- function(taboa, valor, file, caption, label) {
++   # taboa: taboa sobre a que facer os cálculos
++   # valor: % mínimo de aparición do valor
++   # file: ruta do ficheiro
++   # caption: título da táboa
++   # label: etiqueta ("label") para latex
++   require(xtable)
++   tx = xtable(porcentTipos(taboa, valor), caption, label)
++   print.xtable(tx, type="latex",
++                file, append=FALSE,
++                floating=TRUE, table.placement="p", caption.placement="top",
++                latex.environments=c("center"),
++                include.rownames=FALSE)
++ }
+> 
+> 
+> ## Exportamos
+> exportT(vbic, 0.5, "./Informes/Informe2/vbic.tex",
++         "Frecuencia de aparición de BIC e frecuencia de tipos asociados",
++         "vbic")
+> exportT(vcamino, 0.5, "./Informes/Informe2/vcamino.tex",
++         "Frecuencia de aparición dos Camiños de Santiago (área de influencia de 500 m a ambos lados) e frecuencia de tipos asociados",
++         "vcamino")
+> exportT(veolico, 0.5, "./Informes/Informe2/veolico.tex",
++         "Frecuencia de aparición de xeneradores eólicos e frecuencia de tipos asociados",
++         "veolico")
+> exportT(vnatura, 0.5, "./Informes/Informe2/vnatura.tex",
++         "Frecuencia de aparición de Lugares de Importancia Comunitaria e frecuencia de tipos asociados",
++         "vnatura")
+> exportT(vSixotNat, 0.5, "./Informes/Informe2/vsixotNat.tex",
++         "Frecuencia de aparición de valores naturais identificados na participación pública e frecuencia de tipos asociados",
++         "vsixotnat")
+> exportT(vSixotPat, 0.5, "./Informes/Informe2/vsixotPat.tex",
++         "Frecuencia de aparición de valores patrimoniais identificados na participación pública e frecuencia de tipos asociados",
++         "vsixotpat")
+> exportT(vSixotEst, 0.5, "./Informes/Informe2/vsixotEst.tex",
++         "Frecuencia de aparición de valores estéticos identificados na participación pública e frecuencia de tipos asociados",
++         "vsixotest")
+> 
+> proc.time()
+   user  system elapsed 
+  0.432   0.036   0.721 

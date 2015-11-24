@@ -1,0 +1,487 @@
+0||1|Value 1|182
+0||NA|no data|8
+1|no data; Matogueira e rochedo; Termotemperado|1|Value 1|18
+1|no data; Matogueira e rochedo; Termotemperado|NA|no data|12718
+2|no data; Matogueira e rochedo; Mesotemperado inferior|1|Value 1|566
+2|no data; Matogueira e rochedo; Mesotemperado inferior|NA|no data|6967
+3|no data; Matogueira e rochedo; Mesotemperado superior|1|Value 1|2359
+3|no data; Matogueira e rochedo; Mesotemperado superior|NA|no data|11326
+4|no data; Matogueira e rochedo; Supra e orotemperado|1|Value 1|749
+5|no data; Turbeira; Mesotemperado superior|NA|no data|1185
+6|no data; Bosque; Termotemperado|NA|no data|274
+7|no data; Bosque; Mesotemperado inferior|NA|no data|394
+8|no data; Bosque; Mesotemperado superior|NA|no data|76
+9|no data; Agrosistema intensivo (plantacion forestal); no data|1|Value 1|46
+9|no data; Agrosistema intensivo (plantacion forestal); no data|NA|no data|1
+10|no data; Agrosistema intensivo (plantacion forestal); Termotemperado|1|Value 1|84
+10|no data; Agrosistema intensivo (plantacion forestal); Termotemperado|NA|no data|12986
+11|no data; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|NA|no data|5087
+12|no data; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|NA|no data|7139
+13|no data; Agrosistema intensivo (superficie de cultivo); Mesotemperado superior|NA|no data|4597
+14|no data; Agrosistema extensivo; Termotemperado|1|Value 1|9
+14|no data; Agrosistema extensivo; Termotemperado|NA|no data|1178
+15|no data; Agrosistema extensivo; Mesotemperado inferior|1|Value 1|28
+15|no data; Agrosistema extensivo; Mesotemperado inferior|NA|no data|3718
+16|no data; Agrosistema extensivo; Mesotemperado superior|NA|no data|34431
+17|no data; Rururbano (diseminado); no data|1|Value 1|33
+17|no data; Rururbano (diseminado); no data|NA|no data|8
+18|no data; Rururbano (diseminado); Termotemperado|1|Value 1|246
+18|no data; Rururbano (diseminado); Termotemperado|NA|no data|21192
+19|no data; Rururbano (diseminado); Mesotemperado inferior|NA|no data|3501
+20|no data; Rururbano (diseminado); Mesotemperado superior|NA|no data|6768
+21|no data; Urbano; Mesotemperado superior|NA|no data|1884
+22|no data; Agrosistema intensivo (mosaico agroforestal); no data|1|Value 1|7
+22|no data; Agrosistema intensivo (mosaico agroforestal); no data|NA|no data|2
+23|no data; Agrosistema intensivo (mosaico agroforestal); Termotemperado|1|Value 1|13
+23|no data; Agrosistema intensivo (mosaico agroforestal); Termotemperado|NA|no data|8376
+24|no data; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|NA|no data|2177
+25|no data; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|NA|no data|40532
+26|Litoral Cantabro-Atlantico; no data; no data|1|Value 1|3253
+26|Litoral Cantabro-Atlantico; no data; no data|NA|no data|1492
+27|Litoral Cantabro-Atlantico; no data; Termotemperado|1|Value 1|1504
+27|Litoral Cantabro-Atlantico; no data; Termotemperado|NA|no data|284
+28|Litoral Cantabro-Atlantico; Matogueira e rochedo; no data|1|Value 1|27114
+28|Litoral Cantabro-Atlantico; Matogueira e rochedo; no data|NA|no data|13183
+29|Litoral Cantabro-Atlantico; Matogueira e rochedo; Termotemperado|1|Value 1|147736
+29|Litoral Cantabro-Atlantico; Matogueira e rochedo; Termotemperado|NA|no data|245707
+30|Litoral Cantabro-Atlantico; Matogueira e rochedo; Mesotemperado inferior|1|Value 1|13403
+30|Litoral Cantabro-Atlantico; Matogueira e rochedo; Mesotemperado inferior|NA|no data|33733
+31|Litoral Cantabro-Atlantico; Matogueira e rochedo; Mesotemperado superior|1|Value 1|1822
+31|Litoral Cantabro-Atlantico; Matogueira e rochedo; Mesotemperado superior|NA|no data|31
+32|Litoral Cantabro-Atlantico; Turbeira; Termotemperado|NA|no data|661
+33|Litoral Cantabro-Atlantico; Turbeira; Mesotemperado inferior|NA|no data|1442
+34|Litoral Cantabro-Atlantico; Bosque; no data|1|Value 1|206
+34|Litoral Cantabro-Atlantico; Bosque; no data|NA|no data|58
+35|Litoral Cantabro-Atlantico; Bosque; Termotemperado|1|Value 1|7844
+35|Litoral Cantabro-Atlantico; Bosque; Termotemperado|NA|no data|7744
+36|Litoral Cantabro-Atlantico; Bosque; Mesotemperado inferior|1|Value 1|209
+36|Litoral Cantabro-Atlantico; Bosque; Mesotemperado inferior|NA|no data|1156
+37|Litoral Cantabro-Atlantico; Agrosistema intensivo (plantacion forestal); no data|1|Value 1|6488
+37|Litoral Cantabro-Atlantico; Agrosistema intensivo (plantacion forestal); no data|NA|no data|8296
+38|Litoral Cantabro-Atlantico; Agrosistema intensivo (plantacion forestal); Termotemperado|1|Value 1|34742
+38|Litoral Cantabro-Atlantico; Agrosistema intensivo (plantacion forestal); Termotemperado|NA|no data|588778
+39|Litoral Cantabro-Atlantico; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|1|Value 1|3813
+39|Litoral Cantabro-Atlantico; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|NA|no data|288569
+40|Litoral Cantabro-Atlantico; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|NA|no data|581
+41|Litoral Cantabro-Atlantico; Agrosistema intensivo (superficie de cultivo); no data|1|Value 1|2508
+41|Litoral Cantabro-Atlantico; Agrosistema intensivo (superficie de cultivo); no data|NA|no data|2106
+42|Litoral Cantabro-Atlantico; Agrosistema intensivo (superficie de cultivo); Termotemperado|1|Value 1|15185
+42|Litoral Cantabro-Atlantico; Agrosistema intensivo (superficie de cultivo); Termotemperado|NA|no data|88722
+43|Litoral Cantabro-Atlantico; Agrosistema intensivo (superficie de cultivo); Mesotemperado inferior|NA|no data|1367
+44|Litoral Cantabro-Atlantico; Agrosistema extensivo; no data|1|Value 1|2890
+44|Litoral Cantabro-Atlantico; Agrosistema extensivo; no data|NA|no data|2255
+45|Litoral Cantabro-Atlantico; Agrosistema extensivo; Termotemperado|1|Value 1|22998
+45|Litoral Cantabro-Atlantico; Agrosistema extensivo; Termotemperado|NA|no data|51633
+46|Litoral Cantabro-Atlantico; Agrosistema extensivo; Mesotemperado inferior|1|Value 1|29
+46|Litoral Cantabro-Atlantico; Agrosistema extensivo; Mesotemperado inferior|NA|no data|790
+47|Litoral Cantabro-Atlantico; Rururbano (diseminado); no data|1|Value 1|11883
+47|Litoral Cantabro-Atlantico; Rururbano (diseminado); no data|NA|no data|35355
+48|Litoral Cantabro-Atlantico; Rururbano (diseminado); Termotemperado|1|Value 1|49355
+48|Litoral Cantabro-Atlantico; Rururbano (diseminado); Termotemperado|NA|no data|1508861
+49|Litoral Cantabro-Atlantico; Rururbano (diseminado); Mesotemperado inferior|1|Value 1|81
+49|Litoral Cantabro-Atlantico; Rururbano (diseminado); Mesotemperado inferior|NA|no data|17749
+50|Litoral Cantabro-Atlantico; Urbano; no data|1|Value 1|3667
+50|Litoral Cantabro-Atlantico; Urbano; no data|NA|no data|17536
+51|Litoral Cantabro-Atlantico; Urbano; Termotemperado|1|Value 1|9598
+51|Litoral Cantabro-Atlantico; Urbano; Termotemperado|NA|no data|241672
+52|Litoral Cantabro-Atlantico; Urbano; Mesotemperado inferior|NA|no data|4322
+53|Litoral Cantabro-Atlantico; Extractivo; no data|1|Value 1|302
+53|Litoral Cantabro-Atlantico; Extractivo; no data|NA|no data|84
+54|Litoral Cantabro-Atlantico; Extractivo; Termotemperado|1|Value 1|210
+54|Litoral Cantabro-Atlantico; Extractivo; Termotemperado|NA|no data|8089
+55|Litoral Cantabro-Atlantico; Extractivo; Mesotemperado inferior|1|Value 1|4
+55|Litoral Cantabro-Atlantico; Extractivo; Mesotemperado inferior|NA|no data|171
+56|Litoral Cantabro-Atlantico; Agrosistema intensivo (mosaico agroforestal); no data|1|Value 1|9981
+56|Litoral Cantabro-Atlantico; Agrosistema intensivo (mosaico agroforestal); no data|NA|no data|10153
+57|Litoral Cantabro-Atlantico; Agrosistema intensivo (mosaico agroforestal); Termotemperado|1|Value 1|53070
+57|Litoral Cantabro-Atlantico; Agrosistema intensivo (mosaico agroforestal); Termotemperado|NA|no data|1097177
+58|Litoral Cantabro-Atlantico; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|1|Value 1|1120
+58|Litoral Cantabro-Atlantico; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|NA|no data|137604
+59|Litoral Cantabro-Atlantico; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|NA|no data|137
+60|Litoral Cantabro-Atlantico; Viñedo; no data|1|Value 1|992
+60|Litoral Cantabro-Atlantico; Viñedo; no data|NA|no data|96
+61|Litoral Cantabro-Atlantico; Viñedo; Termotemperado|1|Value 1|3605
+61|Litoral Cantabro-Atlantico; Viñedo; Termotemperado|NA|no data|61936
+62|Litoral Cantabro-Atlantico; Conxunto Historico; no data|1|Value 1|589
+62|Litoral Cantabro-Atlantico; Conxunto Historico; no data|NA|no data|660
+63|Litoral Cantabro-Atlantico; Conxunto Historico; Termotemperado|1|Value 1|2066
+63|Litoral Cantabro-Atlantico; Conxunto Historico; Termotemperado|NA|no data|6889
+64|Litoral Cantabro-Atlantico; Conxunto Historico; Mesotemperado inferior|NA|no data|276
+65|Vales sublitorais; no data; Mesotemperado inferior|NA|no data|3493
+66|Vales sublitorais; Matogueira e rochedo; no data|1|Value 1|314
+66|Vales sublitorais; Matogueira e rochedo; no data|NA|no data|969
+67|Vales sublitorais; Matogueira e rochedo; Termotemperado|1|Value 1|16579
+67|Vales sublitorais; Matogueira e rochedo; Termotemperado|NA|no data|425023
+68|Vales sublitorais; Matogueira e rochedo; Mesotemperado inferior|1|Value 1|79820
+68|Vales sublitorais; Matogueira e rochedo; Mesotemperado inferior|NA|no data|816777
+69|Vales sublitorais; Matogueira e rochedo; Mesotemperado superior|1|Value 1|31785
+69|Vales sublitorais; Matogueira e rochedo; Mesotemperado superior|NA|no data|371458
+70|Vales sublitorais; Matogueira e rochedo; Supra e orotemperado|1|Value 1|1125
+70|Vales sublitorais; Matogueira e rochedo; Supra e orotemperado|NA|no data|2226
+71|Vales sublitorais; Turbeira; Mesotemperado inferior|1|Value 1|833
+71|Vales sublitorais; Turbeira; Mesotemperado inferior|NA|no data|14544
+72|Vales sublitorais; Turbeira; Mesotemperado superior|1|Value 1|5147
+72|Vales sublitorais; Turbeira; Mesotemperado superior|NA|no data|23398
+73|Vales sublitorais; Turbeira; Supra e orotemperado|NA|no data|1
+74|Vales sublitorais; Bosque; no data|1|Value 1|111
+74|Vales sublitorais; Bosque; no data|NA|no data|5
+75|Vales sublitorais; Bosque; Termotemperado|1|Value 1|6788
+75|Vales sublitorais; Bosque; Termotemperado|NA|no data|60373
+76|Vales sublitorais; Bosque; Mesotemperado inferior|1|Value 1|54156
+76|Vales sublitorais; Bosque; Mesotemperado inferior|NA|no data|180154
+77|Vales sublitorais; Bosque; Mesotemperado superior|1|Value 1|48049
+77|Vales sublitorais; Bosque; Mesotemperado superior|NA|no data|134686
+78|Vales sublitorais; Bosque; Supra e orotemperado|1|Value 1|1802
+78|Vales sublitorais; Bosque; Supra e orotemperado|NA|no data|3581
+79|Vales sublitorais; Agrosistema intensivo (plantacion forestal); no data|1|Value 1|217
+79|Vales sublitorais; Agrosistema intensivo (plantacion forestal); no data|NA|no data|811
+80|Vales sublitorais; Agrosistema intensivo (plantacion forestal); Termotemperado|1|Value 1|7505
+80|Vales sublitorais; Agrosistema intensivo (plantacion forestal); Termotemperado|NA|no data|840058
+81|Vales sublitorais; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|1|Value 1|26364
+81|Vales sublitorais; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|NA|no data|1346221
+82|Vales sublitorais; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|1|Value 1|9478
+82|Vales sublitorais; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|NA|no data|273451
+83|Vales sublitorais; Agrosistema intensivo (plantacion forestal); Supra e orotemperado|1|Value 1|140
+83|Vales sublitorais; Agrosistema intensivo (plantacion forestal); Supra e orotemperado|NA|no data|958
+84|Vales sublitorais; Agrosistema intensivo (superficie de cultivo); Termotemperado|1|Value 1|361
+84|Vales sublitorais; Agrosistema intensivo (superficie de cultivo); Termotemperado|NA|no data|46048
+85|Vales sublitorais; Agrosistema intensivo (superficie de cultivo); Mesotemperado inferior|1|Value 1|2954
+85|Vales sublitorais; Agrosistema intensivo (superficie de cultivo); Mesotemperado inferior|NA|no data|380693
+86|Vales sublitorais; Agrosistema intensivo (superficie de cultivo); Mesotemperado superior|1|Value 1|58
+86|Vales sublitorais; Agrosistema intensivo (superficie de cultivo); Mesotemperado superior|NA|no data|84903
+87|Vales sublitorais; Agrosistema intensivo (superficie de cultivo); Supra e orotemperado|NA|no data|14
+88|Vales sublitorais; Agrosistema extensivo; no data|1|Value 1|196
+88|Vales sublitorais; Agrosistema extensivo; no data|NA|no data|14
+89|Vales sublitorais; Agrosistema extensivo; Termotemperado|1|Value 1|9317
+89|Vales sublitorais; Agrosistema extensivo; Termotemperado|NA|no data|160330
+90|Vales sublitorais; Agrosistema extensivo; Mesotemperado inferior|1|Value 1|99616
+90|Vales sublitorais; Agrosistema extensivo; Mesotemperado inferior|NA|no data|1194853
+91|Vales sublitorais; Agrosistema extensivo; Mesotemperado superior|1|Value 1|73585
+91|Vales sublitorais; Agrosistema extensivo; Mesotemperado superior|NA|no data|498062
+92|Vales sublitorais; Agrosistema extensivo; Supra e orotemperado|1|Value 1|2828
+92|Vales sublitorais; Agrosistema extensivo; Supra e orotemperado|NA|no data|8053
+93|Vales sublitorais; Agrosistema extensivo; Mesomediterráneo|1|Value 1|89
+94|Vales sublitorais; Rururbano (diseminado); no data|1|Value 1|92
+94|Vales sublitorais; Rururbano (diseminado); no data|NA|no data|5
+95|Vales sublitorais; Rururbano (diseminado); Termotemperado|1|Value 1|4544
+95|Vales sublitorais; Rururbano (diseminado); Termotemperado|NA|no data|791458
+96|Vales sublitorais; Rururbano (diseminado); Mesotemperado inferior|1|Value 1|2914
+96|Vales sublitorais; Rururbano (diseminado); Mesotemperado inferior|NA|no data|461992
+97|Vales sublitorais; Rururbano (diseminado); Mesotemperado superior|1|Value 1|1337
+97|Vales sublitorais; Rururbano (diseminado); Mesotemperado superior|NA|no data|41504
+98|Vales sublitorais; Urbano; Termotemperado|NA|no data|34276
+99|Vales sublitorais; Urbano; Mesotemperado inferior|NA|no data|51427
+100|Vales sublitorais; Urbano; Mesotemperado superior|1|Value 1|93
+100|Vales sublitorais; Urbano; Mesotemperado superior|NA|no data|3940
+101|Vales sublitorais; Extractivo; Termotemperado|1|Value 1|21
+101|Vales sublitorais; Extractivo; Termotemperado|NA|no data|6003
+102|Vales sublitorais; Extractivo; Mesotemperado inferior|1|Value 1|359
+102|Vales sublitorais; Extractivo; Mesotemperado inferior|NA|no data|25220
+103|Vales sublitorais; Extractivo; Mesotemperado superior|NA|no data|100
+104|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); no data|1|Value 1|453
+104|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); no data|NA|no data|388
+105|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); Termotemperado|1|Value 1|10595
+105|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); Termotemperado|NA|no data|1229602
+106|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|1|Value 1|40429
+106|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|NA|no data|3531125
+107|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|1|Value 1|14494
+107|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|NA|no data|704399
+108|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); Supra e orotemperado|1|Value 1|17
+108|Vales sublitorais; Agrosistema intensivo (mosaico agroforestal); Supra e orotemperado|NA|no data|90
+109|Vales sublitorais; Viñedo; Termotemperado|NA|no data|3050
+110|Vales sublitorais; Viñedo; Mesomediterráneo|1|Value 1|57
+111|Vales sublitorais; Conxunto Historico; Mesotemperado inferior|NA|no data|1625
+112|Serras; no data; Mesotemperado inferior|1|Value 1|4
+112|Serras; no data; Mesotemperado inferior|NA|no data|8
+113|Serras; no data; Mesotemperado superior|1|Value 1|166
+113|Serras; no data; Mesotemperado superior|NA|no data|1206
+114|Serras; Matogueira e rochedo; no data|1|Value 1|25465
+114|Serras; Matogueira e rochedo; no data|NA|no data|9442
+115|Serras; Matogueira e rochedo; Termotemperado|1|Value 1|18398
+115|Serras; Matogueira e rochedo; Termotemperado|NA|no data|56039
+116|Serras; Matogueira e rochedo; Mesotemperado inferior|1|Value 1|152419
+116|Serras; Matogueira e rochedo; Mesotemperado inferior|NA|no data|1138033
+117|Serras; Matogueira e rochedo; Mesotemperado superior|1|Value 1|481365
+117|Serras; Matogueira e rochedo; Mesotemperado superior|NA|no data|1899772
+118|Serras; Matogueira e rochedo; Supra e orotemperado|1|Value 1|1516619
+118|Serras; Matogueira e rochedo; Supra e orotemperado|NA|no data|1380392
+119|Serras; Matogueira e rochedo; Mesomediterráneo|1|Value 1|11619
+119|Serras; Matogueira e rochedo; Mesomediterráneo|NA|no data|78519
+120|Serras; Turbeira; no data|NA|no data|351
+121|Serras; Turbeira; Mesotemperado inferior|1|Value 1|8196
+121|Serras; Turbeira; Mesotemperado inferior|NA|no data|17034
+122|Serras; Turbeira; Mesotemperado superior|1|Value 1|153612
+122|Serras; Turbeira; Mesotemperado superior|NA|no data|181812
+123|Serras; Turbeira; Supra e orotemperado|1|Value 1|139319
+123|Serras; Turbeira; Supra e orotemperado|NA|no data|49106
+124|Serras; Bosque; no data|1|Value 1|4151
+124|Serras; Bosque; no data|NA|no data|1535
+125|Serras; Bosque; Termotemperado|1|Value 1|1593
+125|Serras; Bosque; Termotemperado|NA|no data|572
+126|Serras; Bosque; Mesotemperado inferior|1|Value 1|43238
+126|Serras; Bosque; Mesotemperado inferior|NA|no data|284065
+127|Serras; Bosque; Mesotemperado superior|1|Value 1|109671
+127|Serras; Bosque; Mesotemperado superior|NA|no data|363843
+128|Serras; Bosque; Supra e orotemperado|1|Value 1|238924
+128|Serras; Bosque; Supra e orotemperado|NA|no data|109870
+129|Serras; Bosque; Mesomediterráneo|1|Value 1|4247
+129|Serras; Bosque; Mesomediterráneo|NA|no data|8326
+130|Serras; Agrosistema intensivo (plantacion forestal); no data|1|Value 1|1372
+130|Serras; Agrosistema intensivo (plantacion forestal); no data|NA|no data|888
+131|Serras; Agrosistema intensivo (plantacion forestal); Termotemperado|1|Value 1|2877
+131|Serras; Agrosistema intensivo (plantacion forestal); Termotemperado|NA|no data|69325
+132|Serras; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|1|Value 1|16827
+132|Serras; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|NA|no data|373193
+133|Serras; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|1|Value 1|74127
+133|Serras; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|NA|no data|434074
+134|Serras; Agrosistema intensivo (plantacion forestal); Supra e orotemperado|1|Value 1|126447
+134|Serras; Agrosistema intensivo (plantacion forestal); Supra e orotemperado|NA|no data|314966
+135|Serras; Agrosistema intensivo (plantacion forestal); Mesomediterráneo|1|Value 1|690
+135|Serras; Agrosistema intensivo (plantacion forestal); Mesomediterráneo|NA|no data|10295
+136|Serras; Agrosistema intensivo (superficie de cultivo); no data|1|Value 1|189
+136|Serras; Agrosistema intensivo (superficie de cultivo); no data|NA|no data|2044
+137|Serras; Agrosistema intensivo (superficie de cultivo); Mesotemperado inferior|1|Value 1|525
+137|Serras; Agrosistema intensivo (superficie de cultivo); Mesotemperado inferior|NA|no data|133755
+138|Serras; Agrosistema intensivo (superficie de cultivo); Mesotemperado superior|1|Value 1|6067
+138|Serras; Agrosistema intensivo (superficie de cultivo); Mesotemperado superior|NA|no data|445401
+139|Serras; Agrosistema intensivo (superficie de cultivo); Supra e orotemperado|1|Value 1|10520
+139|Serras; Agrosistema intensivo (superficie de cultivo); Supra e orotemperado|NA|no data|98987
+140|Serras; Agrosistema intensivo (superficie de cultivo); Mesomediterráneo|1|Value 1|62
+140|Serras; Agrosistema intensivo (superficie de cultivo); Mesomediterráneo|NA|no data|2515
+141|Serras; Agrosistema extensivo; no data|1|Value 1|1713
+141|Serras; Agrosistema extensivo; no data|NA|no data|1513
+142|Serras; Agrosistema extensivo; Termotemperado|1|Value 1|1353
+142|Serras; Agrosistema extensivo; Termotemperado|NA|no data|3843
+143|Serras; Agrosistema extensivo; Mesotemperado inferior|1|Value 1|58873
+143|Serras; Agrosistema extensivo; Mesotemperado inferior|NA|no data|1157627
+144|Serras; Agrosistema extensivo; Mesotemperado superior|1|Value 1|255411
+144|Serras; Agrosistema extensivo; Mesotemperado superior|NA|no data|2470995
+145|Serras; Agrosistema extensivo; Supra e orotemperado|1|Value 1|491217
+145|Serras; Agrosistema extensivo; Supra e orotemperado|NA|no data|691552
+146|Serras; Agrosistema extensivo; Mesomediterráneo|1|Value 1|3910
+146|Serras; Agrosistema extensivo; Mesomediterráneo|NA|no data|22378
+147|Serras; Rururbano (diseminado); Termotemperado|1|Value 1|162
+147|Serras; Rururbano (diseminado); Termotemperado|NA|no data|6675
+148|Serras; Rururbano (diseminado); Mesotemperado inferior|1|Value 1|422
+148|Serras; Rururbano (diseminado); Mesotemperado inferior|NA|no data|39671
+149|Serras; Rururbano (diseminado); Mesotemperado superior|1|Value 1|3168
+149|Serras; Rururbano (diseminado); Mesotemperado superior|NA|no data|49435
+150|Serras; Rururbano (diseminado); Supra e orotemperado|1|Value 1|2594
+150|Serras; Rururbano (diseminado); Supra e orotemperado|NA|no data|8727
+151|Serras; Rururbano (diseminado); Mesomediterráneo|NA|no data|870
+152|Serras; Urbano; Termotemperado|1|Value 1|46
+152|Serras; Urbano; Termotemperado|NA|no data|578
+153|Serras; Urbano; Mesotemperado inferior|NA|no data|1384
+154|Serras; Urbano; Mesotemperado superior|1|Value 1|897
+154|Serras; Urbano; Mesotemperado superior|NA|no data|4185
+155|Serras; Urbano; Supra e orotemperado|1|Value 1|535
+156|Serras; Urbano; Mesomediterráneo|NA|no data|56
+157|Serras; Extractivo; no data|NA|no data|5
+158|Serras; Extractivo; Mesotemperado inferior|1|Value 1|177
+158|Serras; Extractivo; Mesotemperado inferior|NA|no data|8618
+159|Serras; Extractivo; Mesotemperado superior|1|Value 1|16
+159|Serras; Extractivo; Mesotemperado superior|NA|no data|11067
+160|Serras; Extractivo; Supra e orotemperado|1|Value 1|118
+160|Serras; Extractivo; Supra e orotemperado|NA|no data|24678
+161|Serras; Extractivo; Mesomediterráneo|NA|no data|275
+162|Serras; Agrosistema intensivo (mosaico agroforestal); no data|1|Value 1|426
+162|Serras; Agrosistema intensivo (mosaico agroforestal); no data|NA|no data|508
+163|Serras; Agrosistema intensivo (mosaico agroforestal); Termotemperado|1|Value 1|657
+163|Serras; Agrosistema intensivo (mosaico agroforestal); Termotemperado|NA|no data|14953
+164|Serras; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|1|Value 1|5807
+164|Serras; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|NA|no data|229543
+165|Serras; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|1|Value 1|30069
+165|Serras; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|NA|no data|810156
+166|Serras; Agrosistema intensivo (mosaico agroforestal); Supra e orotemperado|1|Value 1|33022
+166|Serras; Agrosistema intensivo (mosaico agroforestal); Supra e orotemperado|NA|no data|142961
+167|Serras; Agrosistema intensivo (mosaico agroforestal); Mesomediterráneo|NA|no data|450
+168|Serras; Viñedo; Mesotemperado inferior|1|Value 1|159
+168|Serras; Viñedo; Mesotemperado inferior|NA|no data|8958
+169|Serras; Viñedo; Mesotemperado superior|NA|no data|19
+170|Serras; Viñedo; Mesomediterráneo|1|Value 1|858
+170|Serras; Viñedo; Mesomediterráneo|NA|no data|2401
+171|Serras; Conxunto Historico; Termotemperado|NA|no data|3788
+172|Serras; Conxunto Historico; Mesotemperado inferior|NA|no data|983
+173|Chairas e vales interiores; no data; Termotemperado|1|Value 1|205
+173|Chairas e vales interiores; no data; Termotemperado|NA|no data|558
+174|Chairas e vales interiores; Matogueira e rochedo; no data|1|Value 1|2070
+174|Chairas e vales interiores; Matogueira e rochedo; no data|NA|no data|2546
+175|Chairas e vales interiores; Matogueira e rochedo; Termotemperado|1|Value 1|17771
+175|Chairas e vales interiores; Matogueira e rochedo; Termotemperado|NA|no data|293169
+176|Chairas e vales interiores; Matogueira e rochedo; Mesotemperado inferior|1|Value 1|25067
+176|Chairas e vales interiores; Matogueira e rochedo; Mesotemperado inferior|NA|no data|629349
+177|Chairas e vales interiores; Matogueira e rochedo; Mesotemperado superior|1|Value 1|4256
+177|Chairas e vales interiores; Matogueira e rochedo; Mesotemperado superior|NA|no data|155043
+178|Chairas e vales interiores; Matogueira e rochedo; Supra e orotemperado|1|Value 1|431
+178|Chairas e vales interiores; Matogueira e rochedo; Supra e orotemperado|NA|no data|246
+179|Chairas e vales interiores; Matogueira e rochedo; Mesomediterráneo|1|Value 1|12111
+179|Chairas e vales interiores; Matogueira e rochedo; Mesomediterráneo|NA|no data|114805
+180|Chairas e vales interiores; Turbeira; Mesotemperado inferior|1|Value 1|1467
+180|Chairas e vales interiores; Turbeira; Mesotemperado inferior|NA|no data|3504
+181|Chairas e vales interiores; Turbeira; Mesotemperado superior|1|Value 1|1017
+181|Chairas e vales interiores; Turbeira; Mesotemperado superior|NA|no data|16553
+182|Chairas e vales interiores; Bosque; no data|1|Value 1|246
+182|Chairas e vales interiores; Bosque; no data|NA|no data|107
+183|Chairas e vales interiores; Bosque; Termotemperado|1|Value 1|5256
+183|Chairas e vales interiores; Bosque; Termotemperado|NA|no data|132784
+184|Chairas e vales interiores; Bosque; Mesotemperado inferior|1|Value 1|12743
+184|Chairas e vales interiores; Bosque; Mesotemperado inferior|NA|no data|349574
+185|Chairas e vales interiores; Bosque; Mesotemperado superior|1|Value 1|16844
+185|Chairas e vales interiores; Bosque; Mesotemperado superior|NA|no data|108483
+186|Chairas e vales interiores; Bosque; Supra e orotemperado|1|Value 1|171
+186|Chairas e vales interiores; Bosque; Supra e orotemperado|NA|no data|503
+187|Chairas e vales interiores; Bosque; Mesomediterráneo|1|Value 1|10070
+187|Chairas e vales interiores; Bosque; Mesomediterráneo|NA|no data|16644
+188|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); no data|1|Value 1|915
+188|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); no data|NA|no data|604
+189|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Termotemperado|1|Value 1|3977
+189|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Termotemperado|NA|no data|170537
+190|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|1|Value 1|8650
+190|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|NA|no data|252340
+191|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|1|Value 1|2765
+191|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|NA|no data|197075
+192|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Supra e orotemperado|NA|no data|84
+193|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Mesomediterráneo|1|Value 1|5519
+193|Chairas e vales interiores; Agrosistema intensivo (plantacion forestal); Mesomediterráneo|NA|no data|25405
+194|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); no data|NA|no data|837
+195|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); Termotemperado|1|Value 1|1589
+195|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); Termotemperado|NA|no data|28662
+196|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); Mesotemperado inferior|1|Value 1|86653
+196|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); Mesotemperado inferior|NA|no data|461837
+197|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); Mesotemperado superior|1|Value 1|3824
+197|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); Mesotemperado superior|NA|no data|335043
+198|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); Supra e orotemperado|NA|no data|5839
+199|Chairas e vales interiores; Agrosistema intensivo (superficie de cultivo); Mesomediterráneo|NA|no data|4658
+200|Chairas e vales interiores; Agrosistema extensivo; no data|1|Value 1|492
+200|Chairas e vales interiores; Agrosistema extensivo; no data|NA|no data|1969
+201|Chairas e vales interiores; Agrosistema extensivo; Termotemperado|1|Value 1|12335
+201|Chairas e vales interiores; Agrosistema extensivo; Termotemperado|NA|no data|278046
+202|Chairas e vales interiores; Agrosistema extensivo; Mesotemperado inferior|1|Value 1|47701
+202|Chairas e vales interiores; Agrosistema extensivo; Mesotemperado inferior|NA|no data|1649365
+203|Chairas e vales interiores; Agrosistema extensivo; Mesotemperado superior|1|Value 1|45091
+203|Chairas e vales interiores; Agrosistema extensivo; Mesotemperado superior|NA|no data|1268475
+204|Chairas e vales interiores; Agrosistema extensivo; Supra e orotemperado|1|Value 1|95
+204|Chairas e vales interiores; Agrosistema extensivo; Supra e orotemperado|NA|no data|6083
+205|Chairas e vales interiores; Agrosistema extensivo; Mesomediterráneo|1|Value 1|6135
+205|Chairas e vales interiores; Agrosistema extensivo; Mesomediterráneo|NA|no data|45796
+206|Chairas e vales interiores; Rururbano (diseminado); no data|1|Value 1|873
+206|Chairas e vales interiores; Rururbano (diseminado); no data|NA|no data|1496
+207|Chairas e vales interiores; Rururbano (diseminado); Termotemperado|1|Value 1|912
+207|Chairas e vales interiores; Rururbano (diseminado); Termotemperado|NA|no data|199459
+208|Chairas e vales interiores; Rururbano (diseminado); Mesotemperado inferior|1|Value 1|1474
+208|Chairas e vales interiores; Rururbano (diseminado); Mesotemperado inferior|NA|no data|240946
+209|Chairas e vales interiores; Rururbano (diseminado); Mesotemperado superior|1|Value 1|688
+209|Chairas e vales interiores; Rururbano (diseminado); Mesotemperado superior|NA|no data|141234
+210|Chairas e vales interiores; Rururbano (diseminado); Mesomediterráneo|1|Value 1|579
+210|Chairas e vales interiores; Rururbano (diseminado); Mesomediterráneo|NA|no data|21465
+211|Chairas e vales interiores; Urbano; Termotemperado|1|Value 1|22
+211|Chairas e vales interiores; Urbano; Termotemperado|NA|no data|38844
+212|Chairas e vales interiores; Urbano; Mesotemperado inferior|1|Value 1|296
+212|Chairas e vales interiores; Urbano; Mesotemperado inferior|NA|no data|26098
+213|Chairas e vales interiores; Urbano; Mesotemperado superior|NA|no data|16053
+214|Chairas e vales interiores; Urbano; Mesomediterráneo|NA|no data|2791
+215|Chairas e vales interiores; Extractivo; Termotemperado|1|Value 1|29
+215|Chairas e vales interiores; Extractivo; Termotemperado|NA|no data|302
+216|Chairas e vales interiores; Extractivo; Mesotemperado inferior|1|Value 1|117
+216|Chairas e vales interiores; Extractivo; Mesotemperado inferior|NA|no data|4257
+217|Chairas e vales interiores; Extractivo; Mesotemperado superior|NA|no data|453
+218|Chairas e vales interiores; Extractivo; Mesomediterráneo|NA|no data|372
+219|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); no data|1|Value 1|382
+219|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); no data|NA|no data|514
+220|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Termotemperado|1|Value 1|920
+220|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Termotemperado|NA|no data|159759
+221|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|1|Value 1|6265
+221|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|NA|no data|802409
+222|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|1|Value 1|6766
+222|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|NA|no data|1067545
+223|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Supra e orotemperado|NA|no data|4622
+224|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Mesomediterráneo|1|Value 1|491
+224|Chairas e vales interiores; Agrosistema intensivo (mosaico agroforestal); Mesomediterráneo|NA|no data|5826
+225|Chairas e vales interiores; Viñedo; no data|1|Value 1|215
+225|Chairas e vales interiores; Viñedo; no data|NA|no data|873
+226|Chairas e vales interiores; Viñedo; Termotemperado|1|Value 1|1504
+226|Chairas e vales interiores; Viñedo; Termotemperado|NA|no data|129920
+227|Chairas e vales interiores; Viñedo; Mesotemperado inferior|1|Value 1|335
+227|Chairas e vales interiores; Viñedo; Mesotemperado inferior|NA|no data|9387
+228|Chairas e vales interiores; Viñedo; Mesomediterráneo|1|Value 1|176
+228|Chairas e vales interiores; Viñedo; Mesomediterráneo|NA|no data|52840
+229|Chairas e vales interiores; Conxunto Historico; Termotemperado|NA|no data|1375
+230|Chairas e vales interiores; Conxunto Historico; Mesotemperado inferior|NA|no data|653
+231|Chairas e vales interiores; Conxunto Historico; Mesotemperado superior|NA|no data|523
+232|Canons; Matogueira e rochedo; no data|1|Value 1|105
+232|Canons; Matogueira e rochedo; no data|NA|no data|550
+233|Canons; Matogueira e rochedo; Termotemperado|1|Value 1|14641
+233|Canons; Matogueira e rochedo; Termotemperado|NA|no data|26188
+234|Canons; Matogueira e rochedo; Mesotemperado inferior|1|Value 1|28926
+234|Canons; Matogueira e rochedo; Mesotemperado inferior|NA|no data|65937
+235|Canons; Matogueira e rochedo; Mesotemperado superior|1|Value 1|7821
+235|Canons; Matogueira e rochedo; Mesotemperado superior|NA|no data|9347
+236|Canons; Matogueira e rochedo; Supra e orotemperado|1|Value 1|2697
+236|Canons; Matogueira e rochedo; Supra e orotemperado|NA|no data|1323
+237|Canons; Matogueira e rochedo; Mesomediterráneo|1|Value 1|21189
+237|Canons; Matogueira e rochedo; Mesomediterráneo|NA|no data|66294
+238|Canons; Turbeira; Mesotemperado inferior|1|Value 1|533
+239|Canons; Turbeira; Mesotemperado superior|1|Value 1|110
+240|Canons; Bosque; no data|1|Value 1|118
+240|Canons; Bosque; no data|NA|no data|76
+241|Canons; Bosque; Termotemperado|1|Value 1|28306
+241|Canons; Bosque; Termotemperado|NA|no data|43364
+242|Canons; Bosque; Mesotemperado inferior|1|Value 1|50463
+242|Canons; Bosque; Mesotemperado inferior|NA|no data|89445
+243|Canons; Bosque; Mesotemperado superior|1|Value 1|6220
+243|Canons; Bosque; Mesotemperado superior|NA|no data|6209
+244|Canons; Bosque; Supra e orotemperado|1|Value 1|88
+245|Canons; Bosque; Mesomediterráneo|1|Value 1|3967
+245|Canons; Bosque; Mesomediterráneo|NA|no data|8749
+246|Canons; Agrosistema intensivo (plantacion forestal); no data|1|Value 1|339
+246|Canons; Agrosistema intensivo (plantacion forestal); no data|NA|no data|396
+247|Canons; Agrosistema intensivo (plantacion forestal); Termotemperado|1|Value 1|13219
+247|Canons; Agrosistema intensivo (plantacion forestal); Termotemperado|NA|no data|20749
+248|Canons; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|1|Value 1|6148
+248|Canons; Agrosistema intensivo (plantacion forestal); Mesotemperado inferior|NA|no data|16151
+249|Canons; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|1|Value 1|218
+249|Canons; Agrosistema intensivo (plantacion forestal); Mesotemperado superior|NA|no data|3347
+250|Canons; Agrosistema intensivo (plantacion forestal); Mesomediterráneo|1|Value 1|2260
+250|Canons; Agrosistema intensivo (plantacion forestal); Mesomediterráneo|NA|no data|9726
+251|Canons; Agrosistema intensivo (superficie de cultivo); Termotemperado|NA|no data|37
+252|Canons; Agrosistema intensivo (superficie de cultivo); Mesotemperado inferior|NA|no data|1071
+253|Canons; Agrosistema intensivo (superficie de cultivo); Mesotemperado superior|NA|no data|81
+254|Canons; Agrosistema intensivo (superficie de cultivo); Mesomediterráneo|NA|no data|745
+255|Canons; Agrosistema extensivo; no data|1|Value 1|137
+255|Canons; Agrosistema extensivo; no data|NA|no data|8
+256|Canons; Agrosistema extensivo; Termotemperado|1|Value 1|4075
+256|Canons; Agrosistema extensivo; Termotemperado|NA|no data|17404
+257|Canons; Agrosistema extensivo; Mesotemperado inferior|1|Value 1|16453
+257|Canons; Agrosistema extensivo; Mesotemperado inferior|NA|no data|64342
+258|Canons; Agrosistema extensivo; Mesotemperado superior|1|Value 1|2507
+258|Canons; Agrosistema extensivo; Mesotemperado superior|NA|no data|21213
+259|Canons; Agrosistema extensivo; Supra e orotemperado|1|Value 1|205
+259|Canons; Agrosistema extensivo; Supra e orotemperado|NA|no data|164
+260|Canons; Agrosistema extensivo; Mesomediterráneo|1|Value 1|4172
+260|Canons; Agrosistema extensivo; Mesomediterráneo|NA|no data|12165
+261|Canons; Rururbano (diseminado); no data|NA|no data|66
+262|Canons; Rururbano (diseminado); Termotemperado|NA|no data|1907
+263|Canons; Rururbano (diseminado); Mesotemperado inferior|1|Value 1|57
+263|Canons; Rururbano (diseminado); Mesotemperado inferior|NA|no data|2152
+264|Canons; Rururbano (diseminado); Mesotemperado superior|NA|no data|10
+265|Canons; Rururbano (diseminado); Mesomediterráneo|1|Value 1|274
+265|Canons; Rururbano (diseminado); Mesomediterráneo|NA|no data|604
+266|Canons; Urbano; Mesotemperado inferior|NA|no data|48
+267|Canons; Extractivo; Mesomediterráneo|NA|no data|439
+268|Canons; Agrosistema intensivo (mosaico agroforestal); no data|1|Value 1|93
+268|Canons; Agrosistema intensivo (mosaico agroforestal); no data|NA|no data|6
+269|Canons; Agrosistema intensivo (mosaico agroforestal); Termotemperado|1|Value 1|3246
+269|Canons; Agrosistema intensivo (mosaico agroforestal); Termotemperado|NA|no data|4804
+270|Canons; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|1|Value 1|5542
+270|Canons; Agrosistema intensivo (mosaico agroforestal); Mesotemperado inferior|NA|no data|14384
+271|Canons; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|1|Value 1|717
+271|Canons; Agrosistema intensivo (mosaico agroforestal); Mesotemperado superior|NA|no data|1978
+272|Canons; Agrosistema intensivo (mosaico agroforestal); Mesomediterráneo|1|Value 1|399
+272|Canons; Agrosistema intensivo (mosaico agroforestal); Mesomediterráneo|NA|no data|1570
+273|Canons; Viñedo; Termotemperado|1|Value 1|1253
+273|Canons; Viñedo; Termotemperado|NA|no data|16348
+274|Canons; Viñedo; Mesotemperado inferior|1|Value 1|1022
+274|Canons; Viñedo; Mesotemperado inferior|NA|no data|9928
+275|Canons; Viñedo; Mesomediterráneo|1|Value 1|1269
+275|Canons; Viñedo; Mesomediterráneo|NA|no data|4387
+NA|no data|1|Value 1|611348
