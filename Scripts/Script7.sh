@@ -4,7 +4,7 @@
 g.mapset -c Valores
 
 ## Establecemos o acceso a mapset do mapa de unidades
-g.mapsets UdsPaisaxe
+g.mapsets UdsPaisaxe,GAP
 
 ## Establecemos a rexión de cálculo
 g.region rast=TiposPaisaxeA
@@ -36,17 +36,17 @@ v.to.rast input=puntosSixot where="ESTETICO='SI'" out=puntosSixotEstetico use=va
 
 ## Calculamos a frecuencia de aparación
 # BIC
-r.stats -clN in=TiposPaisaxeA,bic out=./Informes/Informe2/ValoresBic_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
+r.stats -clN in=GrandesAreas,TiposPaisaxeA,bic out=./Informes/Informe2/ValoresBic_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
 # Camiño Santiago
-r.stats -clN in=TiposPaisaxeA,camino2R out=./Informes/Informe2/ValoresCamino_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
+r.stats -clN in=GrandesAreas,TiposPaisaxeA,camino2R out=./Informes/Informe2/ValoresCamino_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
 # Xeneradores eólicos
-r.stats -clN in=TiposPaisaxeA,eolicos out=./Informes/Informe2/ValoresEolicos_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
+r.stats -clN in=GrandesAreas,TiposPaisaxeA,eolicos out=./Informes/Informe2/ValoresEolicos_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
 # Rede Natura 2000
-r.stats -clN in=TiposPaisaxeA,natura2000 out=./Informes/Informe2/ValoresNatura2000_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
+r.stats -clN in=GrandesAreas,TiposPaisaxeA,natura2000 out=./Informes/Informe2/ValoresNatura2000_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
 # Puntos participación pública SIXOT
-r.stats -clN in=TiposPaisaxeA,puntosSixotNatural out=./Informes/Informe2/ValoresSixotNat_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
-r.stats -clN in=TiposPaisaxeA,puntosSixotPatrimonial out=./Informes/Informe2/ValoresSixotPat_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
-r.stats -clN in=TiposPaisaxeA,puntosSixotEstetico out=./Informes/Informe2/ValoresSixotEst_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
+r.stats -clN in=GrandesAreas,TiposPaisaxeA,puntosSixotNatural out=./Informes/Informe2/ValoresSixotNat_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
+r.stats -clN in=GrandesAreas,TiposPaisaxeA,puntosSixotPatrimonial out=./Informes/Informe2/ValoresSixotPat_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
+r.stats -clN in=GrandesAreas,TiposPaisaxeA,puntosSixotEstetico out=./Informes/Informe2/ValoresSixotEst_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
 
 
 
