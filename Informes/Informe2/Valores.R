@@ -82,18 +82,19 @@ exportT <- function(taboa, valor, GAP, file, caption, label) {
 
 
 ## Exportamos
-system("rm tipos-paisaxe/Informes/Informe1/valores*.tex")
+system("rm ./Informes/Informe2/valores*.tex")
 
 for(i in 1:12) {
 exportT(vbic, 1, i,
         "./Informes/Informe2/valoresbic.tex",
         paste("Frecuencia de aparición de BIC e frecuencia de tipos asociados, GAP", rownames(GAP)[i]),
         paste("vbic", i, sep=""))
+
 exportT(vcamino, 1, i,
         "./Informes/Informe2/valorescamino.tex",
         paste("Frecuencia de aparición dos Camiños de Santiago (área de influencia de 500 m a ambos lados) e frecuencia de tipos asociados", rownames(GAP)[i]),
         paste("vcamino", i, sep=""))
-exportT(veolico, 1,
+exportT(veolico, 1, i,
         "./Informes/Informe2/valoreseolico.tex",
         paste("Frecuencia de aparición de xeneradores eólicos e frecuencia de tipos asociados", rownames(GAP)[i]),
         paste("veolico", i, sep=""))

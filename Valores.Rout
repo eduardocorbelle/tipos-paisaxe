@@ -101,19 +101,19 @@ Escriba 'q()' para salir de R.
 > 
 > 
 > ## Exportamos
-> system("rm tipos-paisaxe/Informes/Informe1/valores*.tex")
-rm: no se puede borrar «tipos-paisaxe/Informes/Informe1/valores*.tex»: No existe el fichero o el directorio
+> system("rm ./Informes/Informe2/valores*.tex")
 > 
 > for(i in 1:12) {
 + exportT(vbic, 1, i,
 +         "./Informes/Informe2/valoresbic.tex",
 +         paste("Frecuencia de aparición de BIC e frecuencia de tipos asociados, GAP", rownames(GAP)[i]),
 +         paste("vbic", i, sep=""))
++ 
 + exportT(vcamino, 1, i,
 +         "./Informes/Informe2/valorescamino.tex",
 +         paste("Frecuencia de aparición dos Camiños de Santiago (área de influencia de 500 m a ambos lados) e frecuencia de tipos asociados", rownames(GAP)[i]),
 +         paste("vcamino", i, sep=""))
-+ exportT(veolico, 1,
++ exportT(veolico, 1, i,
 +         "./Informes/Informe2/valoreseolico.tex",
 +         paste("Frecuencia de aparición de xeneradores eólicos e frecuencia de tipos asociados", rownames(GAP)[i]),
 +         paste("veolico", i, sep=""))
@@ -134,7 +134,10 @@ rm: no se puede borrar «tipos-paisaxe/Informes/Informe1/valores*.tex»: No exis
 +         paste("Frecuencia de aparición de valores estéticos identificados na participación pública e frecuencia de tipos asociados", rownames(GAP)[i]),
 +         paste("vsixotest", i, sep=""))
 + }
-Error in xtable.data.frame(porcentTipos(taboa, valor, GAP), caption, label) : 
-  el argumento "label" está ausente, sin valor por omisión
-Calls: exportT -> xtable -> xtable.data.frame
-Ejecución interrumpida
+> 
+> # Baleiramos o espazo de traballo
+> rm(list=ls())
+> 
+> proc.time()
+   user  system elapsed 
+  1.468   0.036   1.514 
