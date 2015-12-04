@@ -49,8 +49,13 @@ porcentTipos <- function(taboa, valor, GAP=c(0:12)) {
   taboaC = data.frame(V4=taboaB$V4,
                       porcent)[which(porcent >= valor),]
   # Calculamos a porcentaxe que supón cada tipo sobre o total da área xeográfica concreta
+  if(GAP==0) {
   porcentT = 100*taboa$V7/sum(taboa$V7, na.rm=TRUE)
   suma = tapply(porcentT, taboa$V4, sum)
+  } else {
+  porcentT = 100*taboa$V7[taboa$V1==GAP]/sum(taboa$V7[taboa$V1==GAP], na.rm=TRUE)
+  suma = tapply(porcentT, taboa$V4[taboa$V1==GAP], sum)
+  }
   taboaD = data.frame(V4 = names(suma),
                       porcentT = as.numeric(suma))
   # Xuntamos as dúas táboas

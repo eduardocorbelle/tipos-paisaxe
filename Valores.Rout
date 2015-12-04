@@ -68,8 +68,13 @@ Escriba 'q()' para salir de R.
 +   taboaC = data.frame(V4=taboaB$V4,
 +                       porcent)[which(porcent >= valor),]
 +   # Calculamos a porcentaxe que supón cada tipo sobre o total da área xeográfica concreta
++   if(GAP==0) {
 +   porcentT = 100*taboa$V7/sum(taboa$V7, na.rm=TRUE)
 +   suma = tapply(porcentT, taboa$V4, sum)
++   } else {
++   porcentT = 100*taboa$V7[taboa$V1==GAP]/sum(taboa$V7[taboa$V1==GAP], na.rm=TRUE)
++   suma = tapply(porcentT, taboa$V4[taboa$V1==GAP], sum)
++   }
 +   taboaD = data.frame(V4 = names(suma),
 +                       porcentT = as.numeric(suma))
 +   # Xuntamos as dúas táboas
@@ -102,6 +107,7 @@ Escriba 'q()' para salir de R.
 > 
 > ## Exportamos
 > system("rm ./Informes/Informe2/valores*.tex")
+rm: no se puede borrar «./Informes/Informe2/valores*.tex»: No existe el fichero o el directorio
 > 
 > for(i in 1:12) {
 + exportT(vbic, 1, i,
@@ -140,4 +146,4 @@ Escriba 'q()' para salir de R.
 > 
 > proc.time()
    user  system elapsed 
-  1.468   0.036   1.514 
+  1.404   0.044   1.449 
