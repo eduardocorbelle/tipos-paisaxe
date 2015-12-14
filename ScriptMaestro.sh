@@ -45,18 +45,14 @@ R CMD BATCH ./Scripts/TiposUnfoldLegend.R
 
 ### Análise dos resultados
 # Figuras para o informe: áreas de entrenamento
-R CMD BATCH ./Informes/Informe1/Figuras/Figuras1.R
+R CMD BATCH Informes/Informe1/Figuras/Figuras1.R
 # Figuras para o informe: mapas de clases
 bash ./Scripts/Mapas.sh
 # Análise de tipos de paisaxe por grandes áreas
 bash ./Scripts/Script5.sh
-R CMD BATCH ./Informes/Informe1/TiposAreas.R
-R CMD BATCH ./Informes/Informe1/TiposComarcas.R
+R CMD BATCH /media/sf_Datos_Corbelle/tipos-paisaxe/Informes/Informe1/TiposAreas.R
 # Análise de cambios de cuberta por grandes áreas e comarcas paisaxísticas
 bash ./Scripts/Script6.sh
-R CMD BATCH ./Informes/Informe1/CambiosAreas.R
-
-### Cruce de Valores identificados con unidades da paisaxe
+R CMD BATCH /media/sf_Datos_Corbelle/tipos-paisaxe/Informes/Informe1/CambiosAreas.R
+# Frecuencia de aparición dalgúns valores paisaxísticos por unidade de paisaxe
 bash ./Scripts/Script7.sh
-R CMD BATCH ./Informes/Informe2/Valores.R
-
