@@ -51,6 +51,7 @@ bash ./Scripts/Mapas.sh
 # Análise de tipos de paisaxe por grandes áreas
 bash ./Scripts/Script5.sh
 R CMD BATCH /media/sf_Datos_Corbelle/tipos-paisaxe/Informes/Informe1/TiposAreas.R
+R CMD BATCH /media/sf_Datos_Corbelle/tipos-paisaxe/Informes/Informe1/TiposComarcas.R
 # Análise de cambios de cuberta por grandes áreas e comarcas paisaxísticas
 bash ./Scripts/Script6.sh
 R CMD BATCH /media/sf_Datos_Corbelle/tipos-paisaxe/Informes/Informe1/CambiosAreas.R
