@@ -163,7 +163,7 @@ doc = addTitle( doc, "Principais tipos en Galicia", level = 1 )
 # add a table
 Galicia = FlexTable( data = TiposGm, add.rownames = FALSE )
 Galicia = setFlexTableWidths(Galicia, widths=c(10,3,3)/2.54)
-Galicia = setFlexTableBackgroundColors(Galicia, j=1:3, "white")
+Galicia = setFlexTableBackgroundColors(Galicia, j=3, "white", to="body")
 #Galicia[,] = cellProperties(background.color="white")
 doc = addFlexTable(doc, Galicia)
 
@@ -174,7 +174,7 @@ for(i in 1:12) {
 # some text
 doc = addTitle( doc, paste("Principais tipos: GAP", i), level = 2 )
 Taboa = FlexTable( data= resumo(i, 1), add.rownames = FALSE)
-Taboa = setFlexTableWidths(Galicia, widths=c(10,3,3)/2.54)
+Taboa = setFlexTableWidths(Taboa, widths=c(10,3,3)/2.54)
 doc = addFlexTable(doc, Taboa)
 }
 
