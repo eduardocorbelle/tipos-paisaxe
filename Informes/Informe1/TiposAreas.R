@@ -29,6 +29,12 @@ taboa3[is.na(taboa3)] <- 0
 ## Clases xeomorfolóxicas por Grandes Áreas (en %)
 taboa3p <- round(100*prop.table(taboa3, margin=2),1)
 
+## Tipos para toda Galicia (km2)
+taboaG <- round(tapply(datos$Aream2[-which(is.na(datos$GAP_code))], INDEX=datos$tipo[-which(is.na(datos$GAP_code))], FUN=sum, na.rm=TRUE)/1e06,2)
+taboaG[is.na(taboaG)] <- 0
+## Tipos para toda Galicia (%)
+taboaGp<- round(100*taboaG/sum(taboaG), 1)
+
 ## Tipos por grandes áreas (km2)
 taboa4 <- round(tapply(datos$Aream2, INDEX=list(datos$tipo,datos$GAP_code), FUN=sum, na.rm=TRUE)/1e06,2)
 taboa4[is.na(taboa4)] <- 0
@@ -100,6 +106,14 @@ print.xtable(xtaboa3p, type="latex",
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 
+### Resumo dos principais tipos para toda Galicia
+ordeG <- order(taboaGp, decreasing=TRUE)
+Limiar <- 1 # % mínimo de aparición
+
+TiposG <- data.frame(Tipo = names(taboaG),
+                     Área = as.numeric(taboaG),
+                     Porcentaxe = as.numeric(taboaGp))[ordeG,]
+TiposGm<- TiposG[which(TiposG$Porcentaxe>=Limiar),]
 
 ### Resumo dos principais tipos por grande área
 resumo <- function(GArea, porcent) {
@@ -132,3 +146,38 @@ for(i in 1:12) {
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 }
+
+
+### Aplicar as funcións ás 12 GAP e exportar a MS Word
+# (http://stackoverflow.com/questions/25425993/data-frame-to-word-table)
+library(ReporteRs)
+
+# Crear un obxecto docx
+doc = docx()
+# add a document title
+doc = addParagraph( doc, "Principais tipos de paisaxe de Galicia e Grandes Áreas Paisaxísticas", stylename = "TitleDoc" )
+# add a section title
+doc = addTitle( doc, "Principais tipos en Galicia", level = 1 )
+
+
+# add a table
+Galicia = FlexTable( data = TiposGm, add.rownames = FALSE )
+Galicia = setFlexTableWidths(Galicia, widths=c(10,3,3)/2.54)
+Galicia = setFlexTableBackgroundColors(Galicia, j=1:3, "white")
+#Galicia[,] = cellProperties(background.color="white")
+doc = addFlexTable(doc, Galicia)
+
+# add a section title
+doc = addTitle( doc, "Principais tipos por GAP", level = 1 )
+
+for(i in 1:12) {
+# some text
+doc = addTitle( doc, paste("Principais tipos: GAP", i), level = 2 )
+Taboa = FlexTable( data= resumo(i, 1), add.rownames = FALSE)
+Taboa = setFlexTableWidths(Galicia, widths=c(10,3,3)/2.54)
+doc = addFlexTable(doc, Taboa)
+}
+
+# write the doc
+writeDoc( doc, file = "./Informes/Informe1/TaboasTipos.docx" )
+

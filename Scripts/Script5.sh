@@ -22,3 +22,5 @@ g.region rast=mdt25@MDT25
 
 ## Obtemos os tipos por grandes áreas (resultados en m2)
 r.stats -alN in=GrandesAreas,ClasesXeo,ClaseCuberta2,termoclima out=./Informes/Informe1/TiposAreas_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
+
+r.stats -alN in=GrandesAreas,Comarcas,ClasesXeo,ClaseCuberta2,termoclima out=./Informes/Informe1/TiposAreasComarcas_$(date +"%Y_%m_%d").txt separator=pipe null_value=NA
