@@ -163,7 +163,7 @@ doc = addTitle( doc, "Principais tipos en Galicia", level = 1 )
 # add a table
 Galicia = FlexTable( data = TiposGm, add.rownames = FALSE )
 Galicia = setFlexTableWidths(Galicia, widths=c(10,3,3)/2.54)
-Galicia = setFlexTableBackgroundColors(Galicia, j=3, "white", to="body")
+Galicia = setFlexTableBackgroundColors(Galicia, i=Galicia$numrow, j=Galicia$numcol, "white", to="body")
 #Galicia[,] = cellProperties(background.color="white")
 doc = addFlexTable(doc, Galicia)
 
