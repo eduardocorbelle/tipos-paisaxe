@@ -3,11 +3,11 @@
 library(xtable)
 
 ## Cargamos os datos orixinais
-cambiosGAP <- read.table("tipos-paisaxe/Informes/Informe1/CambiosGAP_2015_10_09.txt", 
+cambiosGAP <- read.table("/Informes/Informe1/CambiosGAP_2015_10_09.txt", 
                          sep="|", na.strings=c("NA", "no data"), header=FALSE)
 colnames(cambiosGAP) <- c("GAPid","GAP","cub89id","cub89","cub09id","cub09","Aream2")
 
-cambiosCP <- read.table("tipos-paisaxe/Informes/Informe1/CambiosComarcas_2015_10_09.txt",
+cambiosCP <- read.table("./Informes/Informe1/CambiosComarcas_2015_10_09.txt",
                         sep="|", na.strings=c("NA", "no data"), header=FALSE)
 colnames(cambiosCP) <- c("CPid","CP","cub89id","cub89","cub09id","cub09","Aream2")
 
@@ -130,3 +130,75 @@ for(i in 1:12) {
 for(i in 1:50) {
   exportT(i, "CP", "tipos-paisaxe/Informes/Informe1/CambiosCP.tex")
 }
+
+
+
+### Exportar a MS Word
+# (http://stackoverflow.com/questions/25425993/data-frame-to-word-table)
+library(ReporteRs)
+
+# Crear un obxecto docx
+doc = docx()
+# add a document title
+doc = addParagraph( doc, "Cambios de cuberta entre MCA1980-1989 e MCA2000-2009", stylename = "TitleDoc" )
+# add a section title
+doc = addTitle( doc, "Numeración de grandes áreas", level = 1 )
+
+# add a table
+grandesareas = FlexTable( data = GAP, add.rownames = TRUE )
+grandesareas = setFlexTableWidths(grandesareas, widths=c(10,3)/2.54)
+doc = addFlexTable(doc, grandesareas)
+
+doc = addTitle( doc, "Numeración de comarcas", level = 1 )
+# add a section title
+# add a table
+comarcas = FlexTable( data = CP, add.rownames = TRUE )
+comarcas = setFlexTableWidths(comarcas, widths=c(10,3)/2.54)
+doc = addFlexTable(doc, comarcas)
+
+# add a section title
+doc = addTitle( doc, "Principais cambios por gran área paisaxística (km²)", level = 1 )
+
+for(i in 1:12) {
+# A) Cambios en km²
+doc = addTitle( doc, paste("GAP número", i, "(km²)"), level = 2)
+Taboa = FlexTable( data= contin(i, cambiosGAP), add.rownames = TRUE)
+Taboa = setFlexTableWidths(Taboa, widths=c(5,2,2,2,2,2)/2.54)
+doc = addFlexTable(doc, Taboa)
+}
+
+# add a section title
+doc = addTitle( doc, "Principais cambios por gran área paisaxística (porcentaxe sobre a cuberta anterior)", level = 1 )
+for(i in 1:12) {
+# A) Cambios en % sobre cuberta anterior
+doc = addTitle( doc, paste("GAP número", i, "(proporción por filas, %)"), level = 2)
+Taboa = FlexTable( data= round(100*prop.table(contin(i, cambiosGAP), 1), 1), add.rownames = TRUE)
+Taboa = setFlexTableWidths(Taboa, widths=c(5,2,2,2,2,2)/2.54)
+doc = addFlexTable(doc, Taboa)
+}
+
+
+
+# add a section title
+doc = addTitle( doc, "Principais cambios por comarca (km²)", level = 1 )
+
+for(i in 1:50) {
+# A) Cambios en km²
+doc = addTitle( doc, paste("Comarca número", i, "(km²)"), level = 2)
+Taboa = FlexTable( data= contin(i, cambiosCP), add.rownames = TRUE)
+Taboa = setFlexTableWidths(Taboa, widths=c(5,2,2,2,2,2)/2.54)
+doc = addFlexTable(doc, Taboa)
+}
+
+# add a section title
+doc = addTitle( doc, "Principais cambios por comarca (porcentaxe sobre a cuberta anterior)", level = 1 )
+for(i in 1:50) {
+# A) Cambios en % sobre cuberta anterior
+doc = addTitle( doc, paste("Comarca número", i, "(proporción por filas, %)"), level = 2)
+Taboa = FlexTable( data= round(100*prop.table(contin(i, cambiosCP), 1), 1), add.rownames = TRUE)
+Taboa = setFlexTableWidths(Taboa, widths=c(5,2,2,2,2,2)/2.54)
+doc = addFlexTable(doc, Taboa)
+}
+
+# write the doc
+writeDoc( doc, file = "./Informes/Informe1/Cambios.docx" )
