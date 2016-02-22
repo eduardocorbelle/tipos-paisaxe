@@ -57,3 +57,5 @@ bash ./Scripts/Script6.sh
 R CMD BATCH ./Informes/Informe1/CambiosAreas.R
 # Frecuencia de aparición dalgúns valores paisaxísticos por unidade de paisaxe
 bash ./Scripts/Script7.sh
+R CMD BATCH ./Informes/Informe2/Valores.R
+R CMD BATCH ./Informes/Informe2/ValoresDoc.R
