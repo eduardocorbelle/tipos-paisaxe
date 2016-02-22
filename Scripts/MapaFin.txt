@@ -1,7 +1,7 @@
 # Simple ps.map example using the Spearfish dataset
 paper
-  width 6
-  height 8.5
+  width 10
+  height 6.5
   left 0.1
   right 0.1
   bottom 0.1
@@ -11,19 +11,20 @@ border
   color black
   width 0.01
   end
+maploc 4.4 0.1
 scale 1:1500000
 vlines TiposPaisaxeD
   type boundary
   width 0.1
   end
 scalebar f
-  where 4.2 8.2
+  where 2 6
   length 100000
   segment 4
   numbers 2
   fontsize 10
   end
-text 70% -5% Unidades de paisaxe
+text -40% 95% Unidades de paisaxe
   font helvetica
   color black
   fontsize 16
