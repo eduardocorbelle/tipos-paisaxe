@@ -22,4 +22,6 @@ ps2pdf ./Informes/Informe1/Figuras/MapaFin.ps ./Informes/Informe1/Figuras/MapaFi
 
 pdftk ./Informes/Informe1/Figuras/MapaXeo.pdf ./Informes/Informe1/Figuras/MapaCub.pdf ./Informes/Informe1/Figuras/MapaCli.pdf ./Informes/Informe1/Figuras/MapaFin.pdf cat output ./Informes/Informe1/Figuras/Mapas.pdf
 
+convert -density 300 ./Informes/Informe1/Figuras/Mapas.pdf ./Informes/Informe1/Figuras/Mapas.jpeg
+
 rm ./Informes/Informe1/Figuras/*.ps
