@@ -98,7 +98,7 @@ r.category ClaseCuberta sep=: rules=- << EOF
 8:Urbano
 9:Extractivo
 10:Agrosistema intensivo (mosaico agroforestal)
-11:Viñedo
+11:Vinedo
 EOF
 
 ## Incorporar os conxuntos históricos (área integral de protección)
@@ -119,7 +119,7 @@ r.category ClaseCuberta2 sep=: rules=- << EOF
 8:Urbano
 9:Extractivo
 10:Agrosistema intensivo (mosaico agroforestal)
-11:Viñedo
+11:Vinedo
 12:Conxunto Historico
 13:Lamina de auga
 EOF
