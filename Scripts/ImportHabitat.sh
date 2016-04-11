@@ -3,10 +3,16 @@
 ## Script para cargar a capa de SIOSE
 ## Eduardo Corbelle, 28 de xullo de 2015
 
-g.mapset -c Habitat
+g.mapset -c TmpPaisaxe_Habitat
+g.remove type=raster pattern=* -f
+g.remove type=vector pattern=* -f
+
+## Establecemos a rexión
+g.mapsets mapset=MDT25 operation=add
+g.region rast=mdt25
 
 ## Importamos o ficheiro
-v.in.ogr input=./Data/Habitats/2011_habitats_GAL_U1_ETRS89.shp output=habitats
+v.in.ogr input=DatosOrixinais/PlanDirector2011/2011_habitats_GAL_U1_ETRS89.shp output=habitats
 
 ## Creamos unha nova columna con códigos numéricos
 v.db.addcolumn map=habitats columns='codigo integer'
@@ -23,10 +29,6 @@ v.db.update map=habitats column=codigo value=9 where='HABITAT="reas urbanas e in
 v.db.update map=habitats column=codigo value=10 where='HABITAT="Repoblaciones y bosques transformados"'
 v.db.update map=habitats column=codigo value=11 where='HABITAT="Turberas-Brezales hmedos"'
 v.db.update map=habitats column=codigo value=12 where='HABITAT="Vas de comunicacin"'
-
-## Establecemos a rexión
-g.mapsets mapset=MDT25
-g.region rast=mdt25
 
 ## Convertimos a raster
 v.to.rast input=habitats type=area out=habitats use=attr attr=codigo label=HABITAT

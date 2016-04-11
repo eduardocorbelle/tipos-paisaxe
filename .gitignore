@@ -20,4 +20,9 @@
 .RHistory
 *.ps
 
-Datos/
+DatosOrixinais/
+DatosProcesados/
+ResultadosIntermedios/
+ResultadosFinais/
+Logs/
+Tmp/

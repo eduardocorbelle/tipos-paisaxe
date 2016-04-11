@@ -3,16 +3,16 @@
 ## Script para cargar a capa de SIOSE
 ## Eduardo Corbelle, 11 de xuño de 2015
 
-g.mapset -c SIOSE
-
-## Eliminamos parte das columnas da táboa de atributos orixinal
-R CMD BATCH ./Scripts/PreparaSiose.R
+g.mapset -c TmpPaisaxe_SIOSE
+g.remove type=raster pattern=* -f
+g.remove type=raster pattern=* -f # (2 veces para eliminar o mapa reclasificado primeiro)
+g.remove type=vector pattern=* -f
 
 ## Importamos o ficheiro
-v.in.ogr input=/media/sf_Datos_Corbelle/Data/Datos_IET/SIOSE2011/SIOSE_2011_agregado.shp output=siose2011
+v.in.ogr input=DatosProcesados/SIOSE_2011_agregado.shp output=siose2011
 
 ## Establecemos a rexión
-g.mapsets operation=MDT25
+g.mapsets mapset=MDT25 operation=add
 g.region rast=mdt25
 
 ## Convertimos a raster
@@ -20,7 +20,7 @@ g.region rast=mdt25
 v.to.rast input=siose2011 type=area out=siose2011 use=attr attribute_column=AGREGACION label_column=CLASELENDA
 
 ## Reclasificamos
-r.reclass input=siose2011 output=siose2011r rules=./Scripts/ReclassSiose.txt title="Siose 2011 reclasificado"
+r.reclass input=siose2011 output=siose2011r rules=Scripts/ReclassSiose.txt
 
 # (Categorías orixinais da reclasificación feita no IET)
 # [1] "10 Coníferas"                                  
@@ -50,3 +50,4 @@ r.reclass input=siose2011 output=siose2011r rules=./Scripts/ReclassSiose.txt tit
 #[25] "7 Praias e cantís"                             
 #[26] "8 Especies caducifolias"                       
 #[27] "9 Eucaliptos"
+
