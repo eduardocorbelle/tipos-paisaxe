@@ -35,10 +35,10 @@ r.out.gdal in=cubertas out=ResultadosIntermedios/Cubertas.img format=HFA
 
 
 ## Cálculo dos histogramas de co-ocorrencias (ventá circular, diámetro de 1000 m, resolución 25 m)
-p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=Tmp/GrellaCubertas
+p.sig.grid -c input=cubertas size=20 shift=1 method=coocurence histograms=Tmp/GrellaCubertas
 
 ## Cálculo dos histogramas para as escenas seleccionadas
-p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=40 method=coocurence histograms=Tmp/escenasCuberta.his
+p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=20 method=coocurence histograms=Tmp/escenasCuberta.his
 # Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
 
 ### Similaridade coas escenas seleccionadas
@@ -46,21 +46,21 @@ p.sim.search scenes=Tmp/escenasCuberta.his grid=Tmp/GrellaCubertas measure=shann
 
 ### Valores medios (e comprobación de valores extremos) de similaridade
 ## Monte raso (1)
-r.mapcalc expression="sMR = SC_shannon_1"
+g.copy raster=SC_shannon_1,sMR
 ## Turbeiras (2)
-r.mapcalc expression="sTu = SC_shannon_2"
+g.copy raster=SC_shannon_2,sTu
 ## Bosque (3)
-r.mapcalc expression="sB = SC_shannon_3"
+g.copy raster=SC_shannon_3,sB
 ## Repoboacións (4)
-r.mapcalc expression="sRF = SC_shannon_5"
+g.copy raster=SC_shannon_5,sRF
 ## Agrogandeiro intensivo (5)
-r.mapcalc expression="sAI = SC_shannon_7"
+g.copy raster=SC_shannon_7,sAI
 ## Agrogandeiro extensivo (6)
 r.mapcalc expression="sAE = (SC_shannon_9 + SC_shannon_10)/2"
 ## Rururbano diseminado (7)
 r.mapcalc expression="sRD = (SC_shannon_11 + SC_shannon_12)/2"
 ## Urbano (8)
-r.mapcalc expression="sU = SC_shannon_13"
+g.copy raster=SC_shannon_13,sU
 ## Extractivo (9) 
 g.copy raster=SC_shannon_15,sEx
 ## Mosaico agroforestal (10)
@@ -108,7 +108,7 @@ r.category ClaseCuberta2 sep=: rules=- << EOF
 EOF
 
 
-r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas.img format=HFA
+r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas_500m.img format=HFA
 
 ## Desactivar máscara
 r.mask -r
