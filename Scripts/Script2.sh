@@ -104,7 +104,7 @@ EOF
 ## Incorporar os conxuntos históricos (área integral de protección)
 echo "-------------10-------------"
 v.to.rast in=AreaIntegral out=AreaIntegral use=val val=1
-r.null map=AreaIntegral null=0
+r.null map=AreaIntgeral null=0
 
 r.mapcalc expression="ClaseCuberta2=if(siose2011r==2,13,if(AreaIntegral==1, 12, ClaseCuberta))"
 
