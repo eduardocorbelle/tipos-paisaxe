@@ -42,38 +42,38 @@ p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=Tmp/Gr
 
 ## Cálculo dos histogramas para as escenas seleccionadas
 # Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
-p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=10 method=coocurence histograms=Tmp/escenasCuberta250.his
+p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=40 method=coocurence histograms=Tmp/escenasCubertaA.his
 
-p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=40 method=coocurence histograms=Tmp/escenasCuberta1000.his
+p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=10 method=coocurence histograms=Tmp/escenasCubertaB.his
 
 ### Similaridade coas escenas seleccionadas
-p.sim.search scenes=Tmp/escenasCuberta1000.his grid=Tmp/GrellaCubertas1000 measure=shannon output=SC_1000 nulls=0.99
+p.sim.search scenes=Tmp/escenasCubertaA.his grid=Tmp/GrellaCubertasA measure=shannon output=SC_A nulls=0.99
 
-p.sim.search scenes=Tmp/escenasCuberta250.his grid=Tmp/GrellaCubertas250 measure=shannon output=SC_250 nulls=0.99
+p.sim.search scenes=Tmp/escenasCuberta250.his grid=Tmp/GrellaCubertasB measure=shannon output=SC_B nulls=0.99
 
 ### Valores medios (e comprobación de valores extremos) de similaridade
 ## Monte raso (1)
-g.copy raster=SC_1000_1,sMR
+g.copy raster=SC_A_1,sMR
 ## Turbeiras (2)
-g.copy raster=SC_1000_2,sTu
+g.copy raster=SC_A_2,sTu
 ## Bosque (3)
-g.copy raster=SC_1000_3,sB
+g.copy raster=SC_A_3,sB
 ## Repoboacións (4)
-g.copy raster=SC_1000_5,sRF
+g.copy raster=SC_A_5,sRF
 ## Agrogandeiro intensivo (5)
-g.copy raster=SC_1000_7,sAI
+g.copy raster=SC_A_7,sAI
 ## Agrogandeiro extensivo (6)
-r.mapcalc expression="sAE = (SC_1000_9 + SC_1000_10)/2"
+r.mapcalc expression="sAE = (SC_A_9 + SC_A_10)/2"
 ## Rururbano diseminado (7)
-r.mapcalc expression="sRD = (SC_250_11 + SC_250_12)/2"
+r.mapcalc expression="sRD = (SC_B_11 + SC_B_12)/2"
 ## Urbano (8)
-g.copy raster=SC_250_13,sU
+g.copy raster=SC_B_13,sU
 ## Extractivo (9) 
-g.copy raster=SC_250_15,sEx
+g.copy raster=SC_B_15,sEx
 ## Mosaico agroforestal (10)
-r.mapcalc expression="sAF = (SC_1000_16 + SC_1000_17)/2"
+r.mapcalc expression="sAF = (SC_A_16 + SC_A_17)/2"
 ## Viñedo (11)
-r.mapcalc expression="sVI = (SC_250_18 + SC_250_19)/2"
+r.mapcalc expression="sVI = (SC_B_18 + SC_B_19)/2"
 
 ### Asignación por máxima similaridade
 r.mapcalc expression="ClaseCuberta = if(sMR > sTu & sMR > sB & sMR > sRF & sMR > sAI & sMR > sAE & sMR > sRD & sMR > sU & sMR > sEx & sMR > sAF & sMR > sVI, 1, if(sTu > sB & sTu > sRF & sTu > sAI & sTu > sAE & sTu > sRD & sTu > sU  & sTu > sEx & sTu > sAF & sTu > sVI, 2, if(sB > sRF & sB > sAI & sB > sAE & sB > sRD & sB > sU & sB > sEx & sB > sAF & sB > sVI, 3, if(sRF > sAI & sRF > sAE & sRF > sRD & sRF > sU & sRF > sEx & sRF > sAF & sRF > sVI, 4, if(sAI > sAE & sAI > sRD & sAI > sU & sAI > sEx & sAI > sAF  & sAI > sVI, 5, if(sAE > sRD & sAE > sU & sAE > sEx & sAE > sAF & sAE > sVI, 6, if(sRD > sU & sRD > sEx & sRD > sAF & sRD > sVI, 7, if(sU > sEx & sU > sAF & sU > sVI, 8, if(sEx > sAF & sEx > sVI, 9, if(sAF > sVI, 10, 11))))))))))"
