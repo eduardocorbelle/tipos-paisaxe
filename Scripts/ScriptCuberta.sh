@@ -36,9 +36,9 @@ r.out.gdal in=cubertas out=ResultadosIntermedios/Cubertas.img format=HFA
 
 ## Cálculo dos histogramas de co-ocorrencias 
 # *Ventá circular, diámetros de 250 e 1000 m (resolución 25 m/píxel)
-p.sig.grid -c input=cubertas size=10 shift=1 method=coocurence histograms=Tmp/GrellaCubertas250
+p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=Tmp/GrellaCubertasA
 
-p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=Tmp/GrellaCubertas1000
+p.sig.grid -c input=cubertas size=10 shift=1 method=coocurence histograms=Tmp/GrellaCubertasB
 
 ## Cálculo dos histogramas para as escenas seleccionadas
 # Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
