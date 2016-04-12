@@ -63,15 +63,15 @@ g.copy raster=SC_1000_5,sRF
 ## Agrogandeiro intensivo (5)
 g.copy raster=SC_1000_7,sAI
 ## Agrogandeiro extensivo (6)
-r.mapcalc expression="sAE = max(SC_1000_9, SC_1000_10)"
+r.mapcalc expression="sAE = (SC_1000_9 + SC_1000_10)/2"
 ## Rururbano diseminado (7)
-r.mapcalc expression="sRD = max(SC_250_11, SC_250_12)"
+r.mapcalc expression="sRD = (SC_250_11 + SC_250_12)/2"
 ## Urbano (8)
 g.copy raster=SC_250_13,sU
 ## Extractivo (9) 
 g.copy raster=SC_250_15,sEx
 ## Mosaico agroforestal (10)
-r.mapcalc expression="sAF = max(SC_1000_16, SC_1000_17)/2"
+r.mapcalc expression="sAF = (SC_1000_16 + SC_1000_17)/2"
 ## Viñedo (11)
 r.mapcalc expression="sVI = (SC_250_18 + SC_250_19)/2"
 
@@ -115,7 +115,7 @@ r.category ClaseCuberta2 sep=: rules=- << EOF
 EOF
 
 
-r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas_750m.img format=HFA
+r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas_1000-250m_medias.img format=HFA
 
 ## Desactivar máscara
 r.mask -r
