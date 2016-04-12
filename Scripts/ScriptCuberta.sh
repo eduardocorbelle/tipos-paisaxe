@@ -42,14 +42,14 @@ p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=Tmp/Gr
 
 ## Cálculo dos histogramas para as escenas seleccionadas
 # Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
-p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=40 method=coocurence histograms=Tmp/escenasCubertaA.his
+p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=60 method=coocurence histograms=Tmp/escenasCubertaA.his
 
 p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=10 method=coocurence histograms=Tmp/escenasCubertaB.his
 
 ### Similaridade coas escenas seleccionadas
 p.sim.search scenes=Tmp/escenasCubertaA.his grid=Tmp/GrellaCubertasA measure=shannon output=SC_A nulls=0.99
 
-p.sim.search scenes=Tmp/escenasCuberta250.his grid=Tmp/GrellaCubertasB measure=shannon output=SC_B nulls=0.99
+p.sim.search scenes=Tmp/escenasCubertaB.his grid=Tmp/GrellaCubertasB measure=shannon output=SC_B nulls=0.99
 
 ### Valores medios (e comprobación de valores extremos) de similaridade
 ## Monte raso (1)
@@ -115,7 +115,7 @@ r.category ClaseCuberta2 sep=: rules=- << EOF
 EOF
 
 
-r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas_1000-250m_medias.img format=HFA
+r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas_1500-250m_medias.img format=HFA
 
 ## Desactivar máscara
 r.mask -r
