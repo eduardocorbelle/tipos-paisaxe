@@ -30,8 +30,9 @@ r.mask -r
 r.to.vect -sv input=TiposPaisaxeB output=TiposPaisaxeB type=area
 
 ########## Simplificar (eliminar unidades menores de 2ha)
-#v.generalize input=TiposPaisaxeB output=TiposPaisaxeC method=reumann threshold=26 --o
-v.clean input=TiposPaisaxeB output=TiposPaisaxeD tool=rmarea threshold=20000 --o
+v.clean input=TiposPaisaxeB output=TiposPaisaxeC tool=rmarea threshold=20000
+
+v.generalize input=TiposPaisaxeC output=TiposPaisaxeD method=reumann threshold=26
 
 ########## Exportar
 v.out.ogr in=TiposPaisaxeD output=ResultadosFinais/ output_layer=UdsPaisaxe
