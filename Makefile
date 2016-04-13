@@ -3,12 +3,24 @@
 
 R_opts = --vanilla
 
-all: cubertas
+all: cubertas relevo
+
+
+################# Grandes unidades do relevo
+relevo: Logs/ScriptXeomorf2.log
+
+## Segmentación
+# Logs/ScriptXeomorf1.log: Scripts/ScriptXeomorf1.sh
+#	sh -x Scripts/ScriptXeomorf1.sh 2>&1 | tee Logs/ScriptXeomorf1.log
+
+## Importación da clasificación manual
+Logs/ScriptXeomorf2.log: Scripts/ScriptXeomorf2.sh DatosOrixinais/ClasifXeomorf/segmentos25_clasif.shp
+#	Debería depender tamén de Logs/ScriptXeomorf1.log
+	sh -x Scripts/ScriptXeomorf2.sh 2>&1 | tee Logs/ScriptXeomorf2.log
 
 
 ################# Patróns de cubertas
 cubertas: Logs/ScriptCuberta.log
-
 
 ## Importación de capas
 Logs/PreparaSiose.Rout: Scripts/PreparaSiose.R

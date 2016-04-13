@@ -35,16 +35,16 @@ r.out.gdal in=cubertas out=ResultadosIntermedios/Cubertas.img format=HFA
 
 
 ## Cálculo dos histogramas de co-ocorrencias 
-# *Ventá circular, diámetros de 200 e 1000 m (resolución 25 m/píxel)
+# *Ventá circular, diámetros de 1000 e 250 m (resolución 25 m/píxel)
 p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=Tmp/GrellaCubertasA
 
-p.sig.grid -c input=cubertas size=8 shift=1 method=coocurence histograms=Tmp/GrellaCubertasB
+p.sig.grid -c input=cubertas size=10 shift=1 method=coocurence histograms=Tmp/GrellaCubertasB
 
 ## Cálculo dos histogramas para as escenas seleccionadas
 # Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
 p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=40 method=coocurence histograms=Tmp/escenasCubertaA.his
 
-p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=8 method=coocurence histograms=Tmp/escenasCubertaB.his
+p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=10 method=coocurence histograms=Tmp/escenasCubertaB.his
 
 ### Similaridade coas escenas seleccionadas
 p.sim.search scenes=Tmp/escenasCubertaA.his grid=Tmp/GrellaCubertasA measure=shannon output=SC_A nulls=0.99
@@ -115,7 +115,7 @@ r.category ClaseCuberta2 sep=: rules=- << EOF
 EOF
 
 
-r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas_1000-200m_medias.img format=HFA
+r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas_1000-250m_medias.img format=HFA
 
 
 ## Desactivar máscara
