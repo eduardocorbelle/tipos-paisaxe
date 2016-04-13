@@ -1,7 +1,14 @@
 #!/bin/bash
 
-## Script de probas en Polaris para a incorporación de información climática
+## Script para a incorporación de información climática
 ## Eduardo Corbelle, iniciado o 7 de maio de 2015
+
+g.mapset -c TmpPaisaxe_Clima2
+g.mapsets mapset=MDT25,AdminLimits,Bioclima
+g.remove type=raster pattern=* -f
+g.remove type=vector pattern=* -f
+
+g.region rast=mdt25
 
 ########## Mapa climático
 #### Copiar ao mapset activo, engadir códigos numéricos

@@ -3,7 +3,7 @@
 
 R_opts = --vanilla
 
-all: cubertas relevo
+all: relevo clima cubertas
 
 
 ################# Grandes unidades do relevo
@@ -18,6 +18,15 @@ Logs/ScriptXeomorf2.log: Scripts/ScriptXeomorf2.sh DatosOrixinais/ClasifXeomorf/
 #	Debería depender tamén de Logs/ScriptXeomorf1.log
 	sh -x Scripts/ScriptXeomorf2.sh 2>&1 | tee Logs/ScriptXeomorf2.log
 
+
+################# Clasificación bioclimática
+clima: Logs/ScriptClima.log
+
+Logs/ImportClima.log: Scripts/ImportClima.sh
+	sh -x Scripts/ImportClima.sh 2>&1 | tee Logs/ImportClima.log
+
+Logs/ScriptClima.log: Logs/ImportClima.log Scripts/ScriptClima.sh
+	sh -x Scripts/ScriptClima.sh 2>&1 | tee Logs/ScriptClima.log
 
 ################# Patróns de cubertas
 cubertas: Logs/ScriptCuberta.log
