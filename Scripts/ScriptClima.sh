@@ -12,7 +12,7 @@ g.region rast=mdt25
 
 ########## Mapa climático
 #### Copiar ao mapset activo, engadir códigos numéricos
-g.copy vect=termoclima@Clima,termoclima
+g.copy vect=termoclima@Bioclima,termoclima
 v.build map=termoclima
 
 v.db.addcolumn map=termoclima columns='codigo INT'
