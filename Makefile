@@ -3,7 +3,7 @@
 
 R_opts = --vanilla
 
-all: relevo clima cubertas
+all: relevo clima cubertas mapa
 
 
 ################# Grandes unidades do relevo ###########################
@@ -56,3 +56,18 @@ Logs/ImportCascos.log: Scripts/ImportCascos.sh
 Logs/ScriptCuberta.log: Logs/ImportSIOSE.log Logs/ImportHabitat.log Logs/ImportVinhedo.log Logs/ImportCascos.log Scripts/ScriptCuberta.sh
 	rm Tmp/* -f
 	sh -x Scripts/ScriptCuberta.sh 2>&1 | tee Logs/ScriptCuberta.log
+
+
+################# Mapa final ##########################################
+mapa: Logs/TiposUnfold.Rout
+
+Logs/ImportPOL.log: Scripts/ImportPOL.sh
+	sh -x Scripts/ImportPOL.sh 2>&1 | tee Logs/ImportPOL.log
+
+Logs/ScriptMapa.log: Logs/ImportPOL.log Scripts/ScriptMapa.sh
+	rm ResultadosFinais/UdsPaisaxe.* -f
+	sh -x Scripts/ScriptMapa.sh 2>&1 | tee Logs/ScriptMapa.log
+
+Logs/TiposUnfold.Rout: Logs/ScriptMapa.log Scripts/TiposUnfoldLegend.R
+	R CMD BATCH $(R_opts) Scripts/TiposUnfoldLegend.R Logs/TiposUnfold.Rout
+

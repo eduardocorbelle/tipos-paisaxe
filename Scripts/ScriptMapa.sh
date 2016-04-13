@@ -1,17 +1,27 @@
 #!/bin/bash
 
-## Script de probas en Polaris para a combinación dos resultados finais
+## Script para a combinación dos resultados finais
 ## Eduardo Corbelle, iniciado o 7 de maio de 2015
 
-g.mapset Tmp
-g.mapsets POL
-r.mask raster=concellos
+g.mapset -c TmpPaisaxe_MapaFinal
+g.mapsets mapset=MDT25,AdminLimits,TmpPaisaxe_Cubertas
+g.mapsets mapset=TmpPaisaxe_Clima2,TmpPaisaxe_Xeo2,TmpPaisaxe_POL
+g.remove type=raster pattern=* -f
+g.remove type=vector pattern=* -f
+
+g.region rast=ClasesXeo
+
+## Copiamos mapa de concellos e establecemos a máscara
+g.copy vect=concellos_siam,concellos
+v.build concellos
+v.to.rast input=concellos out=concellos use=val value=1
+r.mask concellos
 
 ########## Cruzar as categorías
 r.cross input=ClasesXeo,ClaseCuberta2,termoclima output=TiposPaisaxeA
 
 ########## Excluír o ámbito do POL do resultado do traballo
-v.to.rast input=Ambito@POL type=area use=cat out=POL
+v.to.rast input=Ambito type=area use=cat out=POL
 r.mapcalc "TiposPaisaxeB = if(isnull(POL), TiposPaisaxeA, 999)"
 r.category map=TiposPaisaxeB raster=TiposPaisaxeA
 r.mask -r
@@ -24,10 +34,7 @@ r.to.vect -sv input=TiposPaisaxeB output=TiposPaisaxeB type=area
 v.clean input=TiposPaisaxeB output=TiposPaisaxeD tool=rmarea threshold=20000 --o
 
 ########## Exportar
-now=$(date +"%Y_%m_%d")
-result=TiposPaisaxe_$now
-
-v.out.ogr in=TiposPaisaxeD output=/media/sf_Datos_Corbelle/Resultados output_layer=$result
+v.out.ogr in=TiposPaisaxeD output=ResultadosFinais/ output_layer=UdsPaisaxe
 
 ########## Limpeza do espazo de traballo
 g.remove type=vect name=TiposPaisaxeB -f

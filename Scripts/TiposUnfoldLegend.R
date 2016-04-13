@@ -4,8 +4,8 @@
 library(foreign)
 
 # Establecemos a ruta do ficheiro
-ruta     <- "/home/edujose/Traballo/Proxectos/2015_04_CatalogoPaisaxe/Resultados/TiposPaisaxe_v04/"
-ficheiro <- "TiposPaisaxe_2015_11_13" 
+ruta     <- "ResultadosFinais/"
+ficheiro <- "UdsPaisaxe" 
 
 # Creamos unha copia de respaldo do .dbf orixinal
 base = paste(ruta, ficheiro, ".dbf", sep="")

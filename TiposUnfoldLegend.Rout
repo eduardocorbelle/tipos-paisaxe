@@ -1,0 +1,54 @@
+
+R version 3.2.2 (2015-08-14) -- "Fire Safety"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R es un software libre y viene sin GARANTIA ALGUNA.
+Usted puede redistribuirlo bajo ciertas circunstancias.
+Escriba 'license()' o 'licence()' para detalles de distribucion.
+
+R es un proyecto colaborativo con muchos contribuyentes.
+Escriba 'contributors()' para obtener más información y
+'citation()' para saber cómo citar R o paquetes de R en publicaciones.
+
+Escriba 'demo()' para demostraciones, 'help()' para el sistema on-line de ayuda,
+o 'help.start()' para abrir el sistema de ayuda HTML con su navegador.
+Escriba 'q()' para salir de R.
+
+> ## Script de R para dividir automaticamente a lenda do mapa de tipos de paisaxe en tres categorías simples
+> ## Eduardo Corbelle, 16 de novembro de 2015
+> 
+> library(foreign)
+> 
+> # Establecemos a ruta do ficheiro
+> ruta     <- "ResultadosFinais/"
+> ficheiro <- "UdsPaisaxe" 
+> 
+> # Creamos unha copia de respaldo do .dbf orixinal
+> base = paste(ruta, ficheiro, ".dbf", sep="")
+> copia = paste(ruta, ficheiro, ".dbf.bk", sep="")
+> system2("cp", args=c(base, copia))
+> 
+> # Importamos o dbf
+> tipos <- read.dbf(base)
+> 
+> # Dividimos a lenda orixinal
+> write.csv(tipos$label, paste(ruta, "tipos.csv", sep=""),
++           col.names=FALSE, row.names=FALSE, quote=FALSE)
+Warning message:
+In write.csv(tipos$label, paste(ruta, "tipos.csv", sep = ""), col.names = FALSE,  :
+  attempt to set 'col.names' ignored
+> tipos2 <- read.csv(paste(ruta, "tipos.csv", sep=""), 
++                    sep=";", header=FALSE, skip=1)
+> 
+> colnames(tipos2) <- c("Xeomorf", "Cuberta", "Clima")
+> 
+> # Unimos as dúas táboas (orixinal e dividida)
+> tipos3 <- cbind(tipos, tipos2)
+> 
+> # Exportamos como dbf
+> write.dbf(tipos3, base)
+> 
+> proc.time()
+   user  system elapsed 
+  0.616   0.152   0.881 
