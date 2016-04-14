@@ -32,14 +32,10 @@ r.to.vect -sv input=TiposPaisaxeB output=TiposPaisaxeB type=area
 ########## Simplificar (eliminar unidades menores de 2ha)
 v.clean input=TiposPaisaxeB output=TiposPaisaxeC tool=rmarea threshold=20000
 
-v.generalize input=TiposPaisaxeC output=TiposPaisaxeD method=reumann threshold=26
+#v.generalize input=TiposPaisaxeC output=TiposPaisaxeD method=douglas threshold=30
+
+
 
 ########## Exportar
-v.out.ogr in=TiposPaisaxeD output=ResultadosFinais/ output_layer=UdsPaisaxe
+v.out.ogr in=TiposPaisaxeC output=ResultadosFinais/ output_layer=UdsPaisaxe
 
-########## Limpeza do espazo de traballo
-g.remove type=vect name=TiposPaisaxeB -f
-#g.remove type=vect name=TiposPaisaxeC -f
-
-########## Edición manual do mapa resultante: 
-## Separación da lenda en tres campos distintos da táboa de atributos.
