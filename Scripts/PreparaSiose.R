@@ -3,9 +3,9 @@
 
 library(foreign)
 
-siose <- read.dbf("DatosProcesados/SIOSE_2011_agregado.dbf.bk")
+siose <- read.dbf("DatosProcesados/nueva_agregacion.dbf.bk")
 
-sioseB <- data.frame(AGREGACION=siose$AGREGACION,
-                     CLASELENDA=siose$CLASELENDA)
+sioseB <- data.frame(OBJECTID = siose$OBJECTID,
+                     code=siose$AGREGACI_1)
 
-write.dbf(sioseB, "DatosProcesados/SIOSE_2011_agregado.dbf")
+write.dbf(sioseB, "DatosProcesados/nueva_agregacion.dbf")

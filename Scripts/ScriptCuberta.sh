@@ -26,7 +26,7 @@ r.mask concellos
 r.mapcalc expression="Vin=Vin040+Vin045+Vin050+Vin055+Vin060+Vin065+Vin070+Vin075+Vin080+Vin085+Vin090+Vin095+Vin100"
 
 ## Combinamos as diferentes capas
-r.mapcalc expression="cubertas = if(siose2011r==2 | siose2011r==8, null(), if(habitats==2, 5, if(habitats==11, 2, if(Vin==1, 8, siose2011r))))"
+r.mapcalc expression="cubertas = if(siose2011==1 | siose2011==4 | siose2011==10, null(), if(habitats==2, 5, if(habitats==11, 12, if(Vin==1, 13, siose2011))))"
 r.category map=cubertas rules=Scripts/CategoriasCuberta.txt separator=":"
 r.support -s cubertas
 r.out.gdal in=cubertas out=ResultadosIntermedios/Cubertas.img format=HFA

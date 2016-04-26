@@ -6,7 +6,7 @@
 5,Agrosistema intensivo (plantacion forestal)
 6,Agrosistema intensivo (plantacion forestal)
 7,Agrosistema intensivo (superficie de cultivo)
-8,Agrosistema intensivo (superficie de cultivo)
+
 9,Agrosistema extensivo
 10,Agrosistema extensivo
 11,Rururbano/diseminado
