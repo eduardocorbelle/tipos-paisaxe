@@ -4,14 +4,14 @@
 2,Turbeira
 3,Bosque
 5,Agrosistema intensivo (plantacion forestal)
-6,Agrosistema intensivo (plantacion forestal)
 7,Agrosistema intensivo (superficie de cultivo)
-
+8,Agrosistema extensivo
 9,Agrosistema extensivo
 10,Agrosistema extensivo
 11,Rururbano/diseminado
 12,Rururbano/diseminado
-13,Urbano
+13,Rururbano/diseminado
+14,Urbano
 15,Extractivo
 16,Agrosistema intensivo (mosaico agroforestal)
 17,Agrosistema intensivo (mosaico agroforestal)

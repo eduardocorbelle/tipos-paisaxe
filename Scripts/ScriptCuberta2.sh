@@ -1,10 +1,11 @@
 #!/bin/bash
 
-## Script para a clasificación de unidades de tipo de cuberta da paisaxe
+## Script para a clasificación de unidades de tipo de cuberta da paisaxe (2)
 ## Eduardo Corbelle, iniciado o 7 de maio de 2015
 
-g.mapset -c TmpPaisaxe_Cubertas
-g.mapsets mapset=MDT25,AdminLimits,TmpPaisaxe_SIOSE,TmpPaisaxe_Habitat,TmpPaisaxe_Vinhedo,TmpPaisaxe_Cascos
+g.mapset -c TmpPaisaxe_Cubertas2
+g.mapsets mapset=MDT25,AdminLimits,TmpPaisaxe_SIOSE,TmpPaisaxe_Habitat
+g.mapsets mapset=TmpPaisaxe_Vinhedo,TmpPaisaxe_Cascos,TmpPaisaxe_Cubertas
 g.remove type=raster pattern=* -f
 g.remove type=vector pattern=* -f
 
@@ -12,39 +13,14 @@ g.remove type=vector pattern=* -f
 g.region rast=mdt25
 
 ## Copiamos mapa de concellos e establecemos a máscara
-g.copy vect=concellos_siam,concellos
-v.build concellos
-v.to.rast input=concellos out=concellos use=val value=1
 r.mask concellos
 
 
-############
-### Información de cubertas
-### (unha combinación de SIOSE2011, mapa de hábitats, e parcelas de viñedo en SIOSE2011)
-
-## Creamos unha capa de viñedo (cuberta de viñedo na parcela superior a 40%)
-r.mapcalc expression="Vin=Vin040+Vin045+Vin050+Vin055+Vin060+Vin065+Vin070+Vin075+Vin080+Vin085+Vin090+Vin095+Vin100"
-
-## Combinamos as diferentes capas
-r.mapcalc expression="cubertas = if(siose2011==1 | siose2011==4 | siose2011==10, null(), if(habitats==2, 5, if(habitats==11, 12, if(Vin==1, 13, siose2011))))"
-r.category map=cubertas rules=Scripts/CategoriasCuberta.txt separator=":"
-r.support -s cubertas
-r.out.gdal in=cubertas out=ResultadosIntermedios/Cubertas.img format=HFA
-
-
-
-
-## Cálculo dos histogramas de co-ocorrencias 
-# *Ventá circular, diámetros de 1000 e 250 m (resolución 25 m/píxel)
-p.sig.grid -c input=cubertas size=40 shift=1 method=coocurence histograms=Tmp/GrellaCubertasA
-
-p.sig.grid -c input=cubertas size=10 shift=1 method=coocurence histograms=Tmp/GrellaCubertasB
-
 ## Cálculo dos histogramas para as escenas seleccionadas
 # Clases de paisaxe asociadas ás escenas: ver "escenasCubertaC.txt"
-p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=40 method=coocurence histograms=Tmp/escenasCubertaA.his
+p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta_A.txt size=40 method=coocurence histograms=Tmp/escenasCubertaA.his
 
-p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta.txt size=10 method=coocurence histograms=Tmp/escenasCubertaB.his
+p.sig.points -c input=cubertas coorfile=Escenas/escenasCuberta_B.txt size=10 method=coocurence histograms=Tmp/escenasCubertaB.his
 
 ### Similaridade coas escenas seleccionadas
 p.sim.search scenes=Tmp/escenasCubertaA.his grid=Tmp/GrellaCubertasA measure=shannon output=SC_A nulls=0.99
@@ -63,40 +39,27 @@ g.copy raster=SC_A_5,sRF
 ## Agrogandeiro intensivo (5)
 g.copy raster=SC_A_7,sAI
 ## Agrogandeiro extensivo (6)
-r.mapcalc expression="sAE = (SC_A_9 + SC_A_10)/2"
+r.mapcalc expression="sAE = (SC_A_8 + SC_A_9 + SC_A_10)/3"
 ## Rururbano diseminado (7)
-r.mapcalc expression="sRD = (SC_B_11 + SC_B_12)/2"
+r.mapcalc expression="sRD = (SC_A_4 + SC_A_11 + SC_A_12 + SC_A_13)/4"
 ## Urbano (8)
-g.copy raster=SC_B_13,sU
+g.copy raster=SC_B_14,sU
 ## Extractivo (9) 
 g.copy raster=SC_B_15,sEx
 ## Mosaico agroforestal (10)
 r.mapcalc expression="sAF = (SC_A_16 + SC_A_17)/2"
 ## Viñedo (11)
-r.mapcalc expression="sVI = (SC_B_18 + SC_B_19)/2"
+r.mapcalc expression="sVI = (SC_A_18 + SC_A_19)/2"
 
 ### Asignación por máxima similaridade
 r.mapcalc expression="ClaseCuberta = if(sMR > sTu & sMR > sB & sMR > sRF & sMR > sAI & sMR > sAE & sMR > sRD & sMR > sU & sMR > sEx & sMR > sAF & sMR > sVI, 1, if(sTu > sB & sTu > sRF & sTu > sAI & sTu > sAE & sTu > sRD & sTu > sU  & sTu > sEx & sTu > sAF & sTu > sVI, 2, if(sB > sRF & sB > sAI & sB > sAE & sB > sRD & sB > sU & sB > sEx & sB > sAF & sB > sVI, 3, if(sRF > sAI & sRF > sAE & sRF > sRD & sRF > sU & sRF > sEx & sRF > sAF & sRF > sVI, 4, if(sAI > sAE & sAI > sRD & sAI > sU & sAI > sEx & sAI > sAF  & sAI > sVI, 5, if(sAE > sRD & sAE > sU & sAE > sEx & sAE > sAF & sAE > sVI, 6, if(sRD > sU & sRD > sEx & sRD > sAF & sRD > sVI, 7, if(sU > sEx & sU > sAF & sU > sVI, 8, if(sEx > sAF & sEx > sVI, 9, if(sAF > sVI, 10, 11))))))))))"
 
-r.category ClaseCuberta sep=: rules=- << EOF
-1:Matogueira e rochedo
-2:Turbeira
-3:Bosque
-4:Agrosistema intensivo (plantacion forestal)
-5:Agrosistema intensivo (superficie de cultivo)
-6:Agrosistema extensivo
-7:Rururbano (diseminado)
-8:Urbano
-9:Extractivo
-10:Agrosistema intensivo (mosaico agroforestal)
-11:Vinedo
-EOF
 
 ## Incorporar os conxuntos históricos (área integral de protección)
 v.to.rast in=AreaIntegral out=AreaIntegral use=val val=1
 r.null map=AreaIntegral null=0
 
-r.mapcalc expression="ClaseCuberta2=if(siose2011r==2,13,if(AreaIntegral==1, 12, ClaseCuberta))"
+r.mapcalc expression="ClaseCuberta2=if(siose2011==10,13,if(siose2011==1, 14, if(siose2011==4,15, if(AreaIntegral==1, 12, ClaseCuberta))))"
 
 r.category ClaseCuberta2 sep=: rules=- << EOF
 1:Matogueira e rochedo
@@ -112,10 +75,11 @@ r.category ClaseCuberta2 sep=: rules=- << EOF
 11:Vinedo
 12:Conxunto Historico
 13:Lamina de auga
+14:Sistemas xerais de transporte
+15:Praias e cantís
 EOF
 
-
-r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas_1000-250m_medias.img format=HFA
+r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas.img format=HFA
 
 
 ## Desactivar máscara

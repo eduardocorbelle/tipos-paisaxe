@@ -4,7 +4,7 @@
 ## Eduardo Corbelle, iniciado o 7 de maio de 2015
 
 g.mapset -c TmpPaisaxe_MapaFinal
-g.mapsets mapset=MDT25,AdminLimits,TmpPaisaxe_Cubertas
+g.mapsets mapset=MDT25,AdminLimits,TmpPaisaxe_Cubertas,TmpPaisaxe_Cubertas2 
 g.mapsets mapset=TmpPaisaxe_Clima2,TmpPaisaxe_Xeo2,TmpPaisaxe_POL
 g.remove type=raster pattern=* -f
 g.remove type=vector pattern=* -f
@@ -12,9 +12,6 @@ g.remove type=vector pattern=* -f
 g.region rast=ClasesXeo
 
 ## Copiamos mapa de concellos e establecemos a máscara
-g.copy vect=concellos_siam,concellos
-v.build concellos
-v.to.rast input=concellos out=concellos use=val value=1
 r.mask concellos
 
 ########## Cruzar as categorías

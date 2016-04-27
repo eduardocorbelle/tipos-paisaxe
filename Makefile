@@ -30,7 +30,7 @@ Logs/ScriptClima.log: Logs/ImportCLIMA.log Scripts/ScriptClima.sh
 
 
 ################# Patróns de cubertas ##################################
-cubertas: Logs/ScriptCuberta.log
+cubertas: Logs/ScriptCuberta2.log
 
 ## Importación de capas
 Logs/PreparaSiose.Rout: Scripts/PreparaSiose.R
@@ -49,10 +49,14 @@ Logs/ImportCascos.log: Scripts/ImportCascos.sh
 	sh -x Scripts/ImportCascos.sh 2>&1 | tee Logs/ImportCascos.log
 
 ## Busca de patróns
-Logs/ScriptCuberta.log: Logs/ImportSIOSE.log Logs/ImportHabitat.log Logs/ImportCascos.log Scripts/ScriptCuberta.sh
+Logs/ScriptCuberta1.log: Logs/ImportSIOSE.log Logs/ImportHabitat.log Logs/ImportCascos.log Scripts/ScriptCuberta1.sh
 	rm Tmp/* -f
 	rm ResultadosIntermedios/Cubertas.img -f
-	sh -x Scripts/ScriptCuberta.sh 2>&1 | tee Logs/ScriptCuberta.log
+	sh -x Scripts/ScriptCuberta1.sh 2>&1 | tee Logs/ScriptCuberta1.log
+
+Logs/ScriptCuberta2.log: Logs/ImportSIOSE.log Logs/ImportHabitat.log Logs/ImportCascos.log Logs/ScriptCuberta1.log Scripts/ScriptCuberta2.sh
+	rm ResultadosIntermedios/PatronCubertas.img -f
+	sh -x Scripts/ScriptCuberta2.sh 2>&1 | tee Logs/ScriptCuberta2.log
 
 
 ################# Mapa final ##########################################
