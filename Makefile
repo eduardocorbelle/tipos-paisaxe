@@ -65,7 +65,7 @@ mapa: Logs/TiposUnfold.Rout
 Logs/ImportPOL.log: Scripts/ImportPOL.sh
 	sh -x Scripts/ImportPOL.sh 2>&1 | tee Logs/ImportPOL.log
 
-Logs/ScriptMapa.log: Logs/ImportPOL.log Scripts/ScriptMapa.sh Logs/ScriptCuberta.log Logs/ScriptClima.log Logs/ScriptXeomorf2.log
+Logs/ScriptMapa.log: Logs/ImportPOL.log Scripts/ScriptMapa.sh Logs/ScriptCuberta2.log Logs/ScriptClima.log Logs/ScriptXeomorf2.log
 	rm ResultadosFinais/UdsPaisaxe.* -f
 	sh -x Scripts/ScriptMapa.sh 2>&1 | tee Logs/ScriptMapa.log
 
