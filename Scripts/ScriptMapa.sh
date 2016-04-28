@@ -18,7 +18,7 @@ r.mask concellos
 r.cross input=ClasesXeo,ClaseCuberta2,termoclima output=TiposPaisaxeA
 
 ########## Pasar a vector 
-g.copy vect=TiposPaisaxeA,TiposPaisaxeB
+g.copy rast=TiposPaisaxeA,TiposPaisaxeB
 r.to.vect -sv input=TiposPaisaxeB output=TiposPaisaxeB type=area
 
 ########## Simplificar (eliminar unidades menores de 2ha)
