@@ -17,13 +17,8 @@ r.mask concellos
 ########## Cruzar as categorías
 r.cross input=ClasesXeo,ClaseCuberta2,termoclima output=TiposPaisaxeA
 
-########## Excluír o ámbito do POL do resultado do traballo
-v.to.rast input=Ambito type=area use=cat out=POL
-r.mapcalc "TiposPaisaxeB = if(isnull(POL), TiposPaisaxeA, 999)"
-r.category map=TiposPaisaxeB raster=TiposPaisaxeA
-r.mask -r
-
 ########## Pasar a vector 
+g.copy vect=TiposPaisaxeA,TiposPaisaxeB
 r.to.vect -sv input=TiposPaisaxeB output=TiposPaisaxeB type=area
 
 ########## Simplificar (eliminar unidades menores de 2ha)
