@@ -55,6 +55,7 @@ Logs/ScriptCuberta1.log: Logs/ImportSIOSE.log Logs/ImportHabitat.log Logs/Import
 	sh -x Scripts/ScriptCuberta1.sh 2>&1 | tee Logs/ScriptCuberta1.log
 
 Logs/ScriptCuberta2.log: Logs/ImportSIOSE.log Logs/ImportHabitat.log Logs/ImportCascos.log Logs/ScriptCuberta1.log Scripts/ScriptCuberta2.sh
+	rm Tmp/escenasCuberta* -f
 	rm ResultadosIntermedios/PatronCubertas.img -f
 	sh -x Scripts/ScriptCuberta2.sh 2>&1 | tee Logs/ScriptCuberta2.log
 

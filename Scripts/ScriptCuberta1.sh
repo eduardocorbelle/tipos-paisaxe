@@ -27,7 +27,23 @@ r.mapcalc expression="Vin=Vin040+Vin045+Vin050+Vin055+Vin060+Vin065+Vin070+Vin07
 
 ## Combinamos as diferentes capas
 r.mapcalc expression="cubertas = if(siose2011==1 | siose2011==4 | siose2011==10, null(), if(habitats==2, 5, if(habitats==11, 12, if(Vin==1, 13, siose2011))))"
-r.category map=cubertas rules=Scripts/CategoriasCuberta.txt separator=":"
+
+r.category map=cubertas sep=: rules=- << EOF
+1:Sistemas xerais de transporte
+2:Zonas urbanas e cubertas artificiais
+3:Zonas de extraccion ou verquido
+4:Praias e cantís
+5:Especies caducifolias
+6:Mosaico agricola e urbano (diseminado)
+7:Mosaico agricola e forestal (agr extensivo)
+8:Mato e rochedo
+9:Repoboacion forestal
+10:Augas continentais
+11:Cultivos leñosos (agr intensivo)
+12:Turbeiras
+13:Vinedo
+EOF
+
 r.support -s cubertas
 r.out.gdal in=cubertas out=ResultadosIntermedios/Cubertas.img format=HFA
 

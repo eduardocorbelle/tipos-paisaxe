@@ -1,8 +1,0 @@
-1:Mato e rochedo
-2:Turbeiras
-3:Urbano e artificial
-4:Repoboacions
-5:Bosque
-6:Agricola e gandeiro
-7:Extraccion e verquido
-8:Viñedo

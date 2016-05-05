@@ -54,14 +54,7 @@ r.mapcalc expression="sVI = (SC_A_18 + SC_A_19)/2"
 ### Asignación por máxima similaridade
 r.mapcalc expression="ClaseCuberta = if(sMR > sTu & sMR > sB & sMR > sRF & sMR > sAI & sMR > sAE & sMR > sRD & sMR > sU & sMR > sEx & sMR > sAF & sMR > sVI, 1, if(sTu > sB & sTu > sRF & sTu > sAI & sTu > sAE & sTu > sRD & sTu > sU  & sTu > sEx & sTu > sAF & sTu > sVI, 2, if(sB > sRF & sB > sAI & sB > sAE & sB > sRD & sB > sU & sB > sEx & sB > sAF & sB > sVI, 3, if(sRF > sAI & sRF > sAE & sRF > sRD & sRF > sU & sRF > sEx & sRF > sAF & sRF > sVI, 4, if(sAI > sAE & sAI > sRD & sAI > sU & sAI > sEx & sAI > sAF  & sAI > sVI, 5, if(sAE > sRD & sAE > sU & sAE > sEx & sAE > sAF & sAE > sVI, 6, if(sRD > sU & sRD > sEx & sRD > sAF & sRD > sVI, 7, if(sU > sEx & sU > sAF & sU > sVI, 8, if(sEx > sAF & sEx > sVI, 9, if(sAF > sVI, 10, 11))))))))))"
 
-
-## Incorporar os conxuntos históricos (área integral de protección)
-v.to.rast in=AreaIntegral out=AreaIntegral use=val val=1
-r.null map=AreaIntegral null=0
-
-r.mapcalc expression="ClaseCuberta2=if(siose2011==10,13,if(siose2011==1, 14, if(siose2011==4,15, if(AreaIntegral==1, 12, ClaseCuberta))))"
-
-r.category ClaseCuberta2 sep=: rules=- << EOF
+r.category ClaseCuberta sep=: rules=- << EOF
 1:Matogueira e rochedo
 2:Turbeira
 3:Bosque
@@ -73,14 +66,7 @@ r.category ClaseCuberta2 sep=: rules=- << EOF
 9:Extractivo
 10:Agrosistema intensivo (mosaico agroforestal)
 11:Vinedo
-12:Conxunto Historico
-13:Lamina de auga
-14:Sistemas xerais de transporte
-15:Praias e cantís
 EOF
-
-r.out.gdal in=ClaseCuberta2 out=ResultadosIntermedios/PatronCubertas.img format=HFA
-
 
 ## Desactivar máscara
 r.mask -r
