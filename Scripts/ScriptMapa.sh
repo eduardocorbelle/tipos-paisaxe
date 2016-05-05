@@ -14,51 +14,41 @@ g.region rast=ClasesXeo
 ## Copiamos mapa de concellos e establecemos a máscara
 r.mask concellos
 
-## Simplificar (eliminar unidades menores de 10ha) nas clases (patróns) de cuberta
-r.reclass.area input=ClaseCuberta out=ClaseCubertaB value=10 mode=lesser method=rmarea
+## Cruzamos Relevo e patróns de cuberta
+r.cross input=ClasesXeo,ClaseCuberta out=Tipos1
 
-r.category ClaseCubertaB sep=: rules=- << EOF
-1:Matogueira e rochedo
-2:Turbeira
-3:Bosque
-4:Agrosistema intensivo (plantacion forestal)
-5:Agrosistema intensivo (superficie de cultivo)
-6:Agrosistema extensivo
-7:Rururbano (diseminado)
-8:Urbano
-9:Extractivo
-10:Agrosistema intensivo (mosaico agroforestal)
-11:Vinedo
-EOF
+## Simplificar (eliminar unidades menores de 10ha) 
+r.reclass.area input=Tipos1 out=Tipos2 value=10 mode=lesser method=rmarea
 
-## Cruzar as categorías de clima e relevo
-r.cross input=ClasesXeo,termoclima output=XeoClima
+r.category map=Tipos2 raster=Tipos1
 
-
-
-
-
-## Asignar relevo e clima
-r.clump input=ClaseCubertaB output=ClaseCubertaClumps
-r.statistics -c base=ClaseCubertaClumps cover=XeoClima method=mode output=TiposPaisaxeA
-r.cross input=ClaseCubertaB,TiposPaisaxeA output=TiposPaisaxeB
+## Asignar clima
+r.clump input=Tipos2 output=Tipos2Clump
+r.statistics -c base=Tipos2Clump cover=termoclima method=mode output=Tipos3
+r.cross input=Tipos2,Tipos3 output=TiposPaisaxeA
 
 ## Incorporar os conxuntos históricos (área integral de protección) e outras
+# Área integral de protección
 v.to.rast in=AreaIntegral out=AreaIntegral use=val val=1
 r.null map=AreaIntegral null=0
 
-r.mapcalc expression="TiposPaisaxeC=if(siose2011==10,20013,if(siose2011==4,20015, if(AreaIntegral==1, 20012, TiposPaisaxeB)))"
+# Lámina de auga
+r.mapcalc expression="lAuga = if(siose2011==10, 1, 0)"
+r.reclass.area input=lAuga out=lAuga2 value=15 mode=lesser method=rmarea
+
+# Superposición
+r.mapcalc expression="TiposPaisaxeC=if(lAuga2==1,20013,if(siose2011==4,20015, if(AreaIntegral==1, 20012, TiposPaisaxeA)))"
 
 rm Tmp/Lenda1.txt -f
 
-r.category map=TiposPaisaxeB >> Tmp/Lenda1.txt
+r.category map=TiposPaisaxeA >> Tmp/Lenda1.txt
 
 TAB="$(printf '\t')"
 
 cat <<EOT >> Tmp/Lenda1.txt
-20012${TAB}Conxunto Historico; ;
-20013${TAB}Lamina de auga; ;
-20015${TAB}Praias e cantís; ;
+20012${TAB};Conxunto Historico;
+20013${TAB};Lamina de auga;
+20015${TAB};Praias e cantis;
 EOT
 
 r.category map=TiposPaisaxeC rules=Tmp/Lenda1.txt separator=tab
