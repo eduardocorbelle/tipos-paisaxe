@@ -9,23 +9,47 @@ g.mapsets mapset=TmpPaisaxe_Clima2,TmpPaisaxe_Xeo2,TmpPaisaxe_POL,TmpPaisaxe_SIO
 g.remove type=raster pattern=* -f
 g.remove type=vector pattern=* -f
 
-g.region rast=ClasesXeo
 
-## Copiamos mapa de concellos e establecemos a máscara
+## Establecemos a máscara
+g.region rast=ClasesXeo
 r.mask concellos
 
+
 ## Cruzamos Relevo e patróns de cuberta
-r.cross input=ClasesXeo,ClaseCuberta out=Tipos1
+g.copy rast=ClaseCuberta,ClaseCubertaB
+r.null map=ClaseCubertaB null=12
+
+r.mapcalc expression="ClaseCubertaC=if(ClaseCubertaB==1, 13, ClaseCubertaB)"
+
+r.category map=ClaseCubertaC sep=: rules=- << EOF
+2:Turbeira
+3:Bosque
+4:Agrosistema intensivo (plantacion forestal)
+5:Agrosistema intensivo (superficie de cultivo)
+6:Agrosistema extensivo
+7:Rururbano (diseminado)
+8:Urbano
+9:Extractivo
+10:Agrosistema intensivo (mosaico agroforestal)
+11:Vinedo
+12:NoData
+13:Matogueira e rochedo
+EOF
+
+r.cross input=ClasesXeo,ClaseCubertaC out=Tipos1
 
 ## Simplificar (eliminar unidades menores de 10ha) 
 r.reclass.area input=Tipos1 out=Tipos2 value=10 mode=lesser method=rmarea
 
 r.category map=Tipos2 raster=Tipos1
+# Devolvemos o tipo
+r.mapcalc expression="Tipos2b=if(Tipos2==0, Tipos1, Tipos2)"
+r.category map=Tipos2b raster=Tipos2
 
 ## Asignar clima
-r.clump input=Tipos2 output=Tipos2Clump
-r.statistics -c base=Tipos2Clump cover=termoclima method=mode output=Tipos3
-r.cross input=Tipos2,Tipos3 output=TiposPaisaxeA
+r.clump input=Tipos2b output=Tipos2c
+r.statistics -c base=Tipos2c cover=termoclima method=mode output=Tipos3
+r.cross input=Tipos2b,Tipos3 output=TiposPaisaxeA
 
 ## Incorporar os conxuntos históricos (área integral de protección) e outras
 # Área integral de protección
