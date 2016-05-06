@@ -19,9 +19,8 @@ r.mask concellos
 g.copy rast=ClaseCuberta,ClaseCubertaB
 r.null map=ClaseCubertaB null=12
 
-r.mapcalc expression="ClaseCubertaC=if(ClaseCubertaB==1, 13, ClaseCubertaB)"
-
-r.category map=ClaseCubertaC sep=: rules=- << EOF
+r.category map=ClaseCubertaB sep=: rules=- << EOF
+1:Matogueira e rochedo
 2:Turbeira
 3:Bosque
 4:Agrosistema intensivo (plantacion forestal)
@@ -33,10 +32,13 @@ r.category map=ClaseCubertaC sep=: rules=- << EOF
 10:Agrosistema intensivo (mosaico agroforestal)
 11:Vinedo
 12:NoData
-13:Matogueira e rochedo
 EOF
 
-r.cross input=ClasesXeo,ClaseCubertaC out=Tipos1
+r.mapcalc expression="ClasesXeoB=ClasesXeo"
+
+r.mask -r
+r.cross input=ClasesXeoB,ClaseCubertaB out=Tipos1
+r.mask concellos
 
 ## Simplificar (eliminar unidades menores de 10ha) 
 r.reclass.area input=Tipos1 out=Tipos2 value=10 mode=lesser method=rmarea
