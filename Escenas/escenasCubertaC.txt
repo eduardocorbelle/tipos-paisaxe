@@ -1,19 +1,20 @@
-# Clases de paisaxe asociadas ás escenas (escenascuberta.txt)
+# Clases de patrón de cuberta asociadas ás escenas
 
-1,Matogueira e rochedo
-2,Turbeira
-3,Bosque
-5,Agrosistema intensivo (plantacion forestal)
-7,Agrosistema intensivo (superficie de cultivo)
-8,Agrosistema extensivo
-9,Agrosistema extensivo
-10,Agrosistema extensivo
-11,Rururbano/diseminado
-12,Rururbano/diseminado
-13,Rururbano/diseminado
-14,Urbano
-15,Extractivo
-16,Agrosistema intensivo (mosaico agroforestal)
-17,Agrosistema intensivo (mosaico agroforestal)
-18,Viñedo
-19,Viñedo
+1,552360,4690510,Matogueira e rochedo
+2,617500,4819500,Turbeira
+3,672500,4743500,Bosque
+5,488000,4760000,Agrosistema intensivo (plantacion forestal)
+7,624100,4789000,Agrosistema intensivo (superficie de cultivo)
+8,594000,4708500,Agrosistema extensivo
+9,635000,4723000,Agrosistema extensivo
+10,636500,4727500,Agrosistema extensivo
+4,516500,4713500,Rururbano/diseminado
+11,519500,4714500,Rururbano/diseminado
+12,522000,4654500,Rururbano/diseminado
+13,522100,4660400,Rururbano/diseminado
+14,617240,4763250,Urbano
+15,679725,4689220,Extractivo
+16,563275,4753720,Agrosistema intensivo (mosaico agroforestal)
+17,558760,4756500,Agrosistema intensivo (mosaico agroforestal)
+18,572500,4686650,Viñedo
+19,517000,4703500,Viñedo

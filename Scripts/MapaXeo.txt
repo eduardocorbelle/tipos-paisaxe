@@ -20,7 +20,7 @@ scalebar f
   numbers 2
   fontsize 10
   end
-text -40% 95% Clases xeomorfolóxicas
+text -40% 95% Grandes unidades do relevo
   font helvetica
   color black
   fontsize 16

@@ -3,17 +3,17 @@
 
 R_opts = --vanilla
 
-all: relevo clima cubertas mapa
+all: relevo clima cubertas mapa analise
 
 
 ################# Grandes unidades do relevo ###########################
 relevo: Logs/ScriptXeomorf2.log
 
-## Segmentación
+# Segmentación
 # Logs/ScriptXeomorf1.log: Scripts/ScriptXeomorf1.sh
 #	sh -x Scripts/ScriptXeomorf1.sh 2>&1 | tee Logs/ScriptXeomorf1.log
 
-## Importación da clasificación manual
+# Importación da clasificación manual
 Logs/ScriptXeomorf2.log: Scripts/ScriptXeomorf2.sh DatosOrixinais/ClasifXeomorf/segmentos25_clasif.shp
 #	Debería depender tamén de Logs/ScriptXeomorf1.log
 	sh -x Scripts/ScriptXeomorf2.sh 2>&1 | tee Logs/ScriptXeomorf2.log
@@ -73,3 +73,35 @@ Logs/ScriptMapa.log: Logs/ImportPOL.log Scripts/ScriptMapa.sh Logs/ScriptCuberta
 Logs/TiposUnfold.Rout: Logs/ScriptMapa.log Scripts/TiposUnfoldLegend.R
 	R CMD BATCH $(R_opts) Scripts/TiposUnfoldLegend.R Logs/TiposUnfold.Rout
 
+
+################# Análise de resultados ################################
+analise: Logs/Figuras1.Rout Logs/Mapas.log Logs/TiposComarcas.Rout Logs/TiposUnfold.Rout
+
+# Figuras para o informe: áreas de entrenamento
+Logs/Figuras1.Rout: Scripts/Figuras1.R
+	R CMD BATCH $(R_opts) Scripts/Figuras1.R Logs/Figuras1.Rout
+
+# Figuras para o informe: mapas de grandes clases
+Logs/Mapas.log: Scripts/Mapa*
+	sh -x Scripts/Mapas.sh 2>&1 | tee Logs/Mapas.log
+	sh Scripts/ForLoop.sh
+	cd Informes/Informe1/Figuras/; pdftk MapaXeo.pdf MapaCub.pdf MapaCli.pdf MapaFin.pdf cat output Mapas.pdf
+	convert -density 300 Informes/Informe1/Figuras/Mapas.pdf Informes/Informe1/Figuras/Mapas.jpeg
+	rm Informes/Informe1/Figuras/*.ps
+
+# Análise de tipos de paisaxe por grandes áreas e comarcas
+Logs/TiposComarcas.Rout: Scripts/Script5.sh Scripts/Tipos*
+	rm Informes/Informe1/TiposAreas*.txt
+	sh -x Scripts/Script5.sh 2>&1 | tee Logs/Script5.log
+	R CMD BATCH $(R_opts) Scripts/TiposAreas.R Logs/TiposAreas.Rout
+	R CMD BATCH $(R_opts) Scripts/TiposComarcas.R Logs/TiposComarcas.Rout
+
+# Análise de cambios de cuberta por grandes áreas e comarcas paisaxísticas
+#bash ./Scripts/Script6.sh
+#R CMD BATCH ./Informes/Informe1/CambiosAreas.R
+
+# Frecuencia de aparición de valores paisaxísticos por tipos de paisaxe
+Logs/Valores.Rout: Scripts/Script7.sh Scripts/Valores*
+	sh -x Scripts/Script7.sh 2>&1 | tee Logs/Script7.log
+	R CMD BATCH .$(R_opts) Scripts/Valores.R Logs/Valores.Rout
+	R CMD BATCH .$(R_opts) Scripts/ValoresDoc.R Logs/ValoresDoc.Rout

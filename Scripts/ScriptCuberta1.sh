@@ -43,8 +43,12 @@ r.category map=cubertas sep=: rules=- << EOF
 12:Turbeiras
 13:Vinedo
 EOF
-
 r.support -s cubertas
+
+
+## Exportamos o mapa de cubertas e as categorías para producir figuras en R
+rm ResultadosIntermedios/CategoriasCuberta.txt -f
+r.category cubertas >> ResultadosIntermedios/CategoriasCuberta.txt
 r.out.gdal in=cubertas out=ResultadosIntermedios/Cubertas.img format=HFA
 
 
