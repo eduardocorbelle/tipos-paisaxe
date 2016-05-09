@@ -18,7 +18,7 @@
 \usepackage{pdflscape}
 \usepackage{morefloats}
 
-\title{Mapa de tipos de paisaxe en Galicia\\Descrición da versión 0.4}
+\title{Mapa de unidades de paisaxe de Galicia\\Descrición da versión 0.6}
 \author{Eduardo Corbelle Rico\thanks{Laboratorio do territorio (LaboraTe), Departamento de Enxeñería Agroforestal, Universidade de Santiago de Compostela. Correo-e: \href{mailto:eduardo.corbelle@usc.es}{eduardo.corbelle@usc.es}.}}
 \date{\today}
 \graphicspath{{"./Figuras/"}}
@@ -30,9 +30,9 @@
 \hrule
  \vspace{.2cm}
   \begin{small}
-   \noindent NOTA: Este documento describe os conceptos teóricos, os supostos de partida, as fontes de información orixinais e o proceso de traballo empregado na produción da versión 0.4 do Mapa de tipos de paisaxe de Galicia. A totalidade do código empregado está dispoñible para descarga e avaliación por parte do público en:
+   \noindent NOTA: Este documento describe os conceptos teóricos, os supostos de partida, as fontes de información orixinais e o proceso de traballo empregado na produción da versión 0.6 do Mapa de unidades da paisaxe de Galicia. A totalidade do código empregado está dispoñible para descarga e avaliación por parte do público en:
    \begin{center}
- \url{https://github.com/eduardocorbelle/tipos-paisaxe/releases/tag/v0.4}   
+ \url{https://github.com/eduardocorbelle/tipos-paisaxe/releases/tag/v0.6}   
    \end{center}
 Todo o contido do documento faise público baixo licencia \emph{Creative Commons Atribución-Compartir Igual} (CC by-sa). Unha versión resumida das condicións da licencia pódese consultar en galego en:
    \begin{center}
@@ -56,7 +56,7 @@ A delimitación xeográfica dos límites de distintas unidades da paisaxe e a s�
 \end{quote}
 
 
-En xeral, o proceso de delimitación dos diferentes tipos existentes nunha determinada área xeográfica pode realizarse de modo subxectivo, baseado no xuízo dun experto ou equipo de expertos, ou de modo obxectivo, habitualmente baseado no uso de métodos estatísticos cuantitativos automáticos ou semi-automáticos. A primeira aproximación foi a máis habitual ata décadas recentes, pero a revisión da bibliografía sobre o tema indica que a segunda se converteu en maioritaria hai anos e ocupa no momento actual o principal foco de atención da comunidade científica \citep{Mucher201087,Jasiewicz2014104}. Se facemos unha breve comparación entre ambas aproximacións debemos indicar que a aproximación subxectiva proporciona habitualmente moi bos resultados, pero que estes non son facilmente reproducibles por outro equipo ou noutra área xeográfica, e que resulta especialmente custosa debido a que obriga a reunir un equipo con moita experiencia sobre a área de estudio, e leva asociado un volume de traballo moi elevado. Polo contrario, a aproximación obxectiva é máis propensa a producir erros de clasificación, pero en compensación é máis transparente cara o público, facilmente replicable e facilmente actualizable con información cartográfica máis recente. Os principais requirimentos dos métodos automáticos son fundamentalmente dous: a capacidade de cómputo, e a dispoñibilidade de información cartográfica cun nivel de detalle axeitado á escala de traballo.
+En xeral, o proceso de delimitación dos diferentes tipos existentes nunha determinada área xeográfica pode realizarse de modo subxectivo, baseado no xuízo dun experto ou equipo de expertos, ou de modo obxectivo, habitualmente baseado no uso de métodos estatísticos cuantitativos automáticos ou semi-automáticos. A primeira aproximación foi a máis habitual ata décadas recentes, pero a revisión da bibliografía sobre o tema indica que a segunda se converteu en maioritaria hai anos e ocupa no momento actual o principal foco de atención da comunidade científica \citep{Mucher201087,Jasiewicz2014104}. Se facemos unha breve comparación entre ambas aproximacións debemos indicar que a aproximación subxectiva proporciona habitualmente moi bos resultados, pero que estes non son facilmente reproducibles por outro equipo ou noutra área xeográfica, e que resulta especialmente custosa debido a que obriga a reunir un equipo con moita experiencia sobre a área de estudio, e leva asociado un volume de traballo moi elevado. A aproximación obxectiva é quizais máis propensa a producir erros de clasificación (o cal non quere dicir que as aproximacións subxectivas estean exentas deles), pero en compensación é máis transparente cara o público, facilmente replicable e facilmente actualizable con información cartográfica máis recente. Os principais requirimentos dos métodos automáticos son fundamentalmente dous: a capacidade de cómputo, e a dispoñibilidade de información cartográfica cun nivel de detalle axeitado á escala de traballo.
 
 
 
@@ -133,50 +133,29 @@ Para realizar o mapa de tipos de paisaxe de Galicia propoñemos unha aproximaci�
 A fonte empregada para analizar a morfoloxía do terreo é o modelo dixital do terreo con paso de malla de 25 metros (MDT25) elaborado e distribuído polo \emph{Instituto Geográfico Nacional}. Á vista da resolución empregada por outros traballos consultados, 25~m/píxel semella un bo compromiso entre nivel de detalle e volume de información: sobre a superficie de Galicia, supón arredor de 50 millóns de píxeles (empregar o seguinte modelo máis detallado ofrecido polo IGN, o MDT5 con malla de 5 metros, suporía multiplicar por 25 o volume de cálculo necesario, ata os 1~250 millóns de píxeles). Os datos empregados neste traballo, descargados na primavera de 2015, corresponden ás campañas de 2009 (nas provincias de Ourense e Lugo) e 2011 (nas provincias de A Coruña e Pontevedra) e proceden en tódolos casos do procesado de datos tomados por sensores láser aeroportados (lídar).
 
 
-No relativo ao uso ou cuberta do solo optamos por empregar fundamentalmente dúas fontes que consideramos complementarias. A primeira é unha versión simplificada da edición de 2011 do Sistema de Información da Ocupación do Solo de España (SIOSE), elaborada e proporcionada polo Instituto de Estudos do Territorio (IET) da Consellería de Medio Ambiente. A escala de SIOSE (1:25~000) é a mesma que a deste traballo. Malia tratarse dunha versión de lenda xa simplificada respecto da lenda completa de SIOSE, optamos por reducir aínda máis o número de categorías contempladas seguindo o criterio exposto no cadro~\ref{cadroSIOSE}: no cadro incluímos, ademais, os criterios de simplificación empregados polo IET tal e como aparecen descritos na documentación á que tivemos acceso. A información contida nesta versión simplificada de SIOSE foi complementada parcialmente coa existente na cartografía do Plan Director da Rede Natura 2000 de Galicia \citep{PDRN2011}. En particular, tomamos desta última fonte a localización das áreas de turbeira e brezais húmidos, e a das masas de bosque caducifolio. Finalmente, a información contida nestas dúas fontes principais complementouse coa delimitación das áreas integrais de protección de conxuntos históricos, cedida polo IET.
+No relativo ao uso ou cuberta do solo optamos por empregar fundamentalmente dúas fontes que consideramos complementarias. A primeira é unha versión simplificada da edición de 2011 do Sistema de Información da Ocupación do Solo de España (SIOSE), elaborada e proporcionada polo Instituto de Estudos do Territorio (IET) da Consellería de Medio Ambiente. A escala de SIOSE (1:25~000) é a mesma que a deste traballo e o criterio de simplificación da lenda orixinal figura no cadro~\ref{cadroSIOSE}. A información contida nesta versión simplificada de SIOSE foi complementada parcialmente coa existente na cartografía do Plan Director da Rede Natura 2000 de Galicia \citep{PDRN2011}. En particular, tomamos desta última fonte a localización das áreas de turbeira e brezais húmidos, e a das masas de bosque caducifolio. Finalmente, a información contida nestas dúas fontes principais complementouse coa delimitación das áreas integrais de protección de conxuntos históricos, cedida polo IET.
 
 
 \begin{table}
-\caption{Categorías na capa de Siose 2011 proporcionada polo IET (inclúense os criterios empregados polo IET para a simplificación inicial) e conversión proposta neste traballo} \label{cadroSIOSE}
+\caption{Categorías na capa de Siose 2011 e simplificación proposta para este traballo} \label{cadroSIOSE}
 \begin{center}
 \begin{small}
-\begin{tabular}{p{.88\textwidth}p{.12\textwidth}}
+\begin{tabular}{p{.12\textwidth}p{.88\textwidth}}
 \toprule
-Agregación proposta polo IET & Conversión proposta\\
+Clase & Criterios \\
 \midrule
-Cultivos e prados (prados ou cultivos herbáceos distintos do arroz, cunha cuberta maior do 60\% da mancha) & Superficie agrícola \\
-Mosaico agrícola e mato (mistura de cultivos herbáceos, prados, viñedo, matogueira, e diferentes tipos de arborado, sen especificar proporcións) &  \\
-Mosaico de cultivos e especies arbóreas (mistura de cultivos herbáceos, prados, viñedo, e arborado, sen especificar proporcións) &  \\
-\midrule
-Viñedo e cultivos leñosos (cando o viñedo ocupa máis do 40\% da mancha) & Viñedo \\
-\midrule
-Coníferas (manchas con cuberta de coníferas superior ao 75\%) & Repoboación \\
-Eucaliptos (manchas con cuberta de eucalipto superior ao 75\%) & forestal \\
-Eucaliptos e coníferas (manchas con cuberta de coníferas e de eucalipto, cando ningunha das dúas supera o 75\%) &  \\
-Mestura de especies arbóreas (manchas con cuberta de coníferas, eucalipto, frondosas caducifolias, ou mato, cando ningunha das clases simples domina sobre as restantes) & \\
-Repoboacións forestais (cando a fracción de cabida cuberta é inferior ao 50\%) &  \\
-\midrule
-Especies caducifolias (cuberta superior ao 75\%) & Bosque \\
-\midrule
-Mato (cuberta maioritaria de matogueira, solo nú, ou pasteiros) & Matogueira\\
-Mato e especies arbóreas (combinación de matogueira e especies arbóreas, sen especificar proporción) &  \\
-Mato e rochedo (presenza de rochedo entre o 30--70\%, acompañado de matogueira, solo nú, ou pasteiros) &  \\
-Afloramentos rochosos e rochedos (en manchas puras ou cando a cuberta é superior ao 70\%) &  \\
-Zonas queimadas &  \\
-\midrule
-Coberturas artificiais (polígonos industriais, industrias illadas, instalacións de explotacións agrarias ou forestais, piscifactorías, complexos hoteleiros ou recreativos, cemiterios\ldots en manchas puras ou con cuberta superior ao 60\%) & Urbano e artificial \\
-Instalacións deportivas &  \\
-Mosaico agrícola e urbano &  \\
-Zonas urbanas (edificacións, zonas verdes artificiais, láminas de auga artificiais, outras construcións, cando a cuberta é superior ao 60\% da mancha) &  \\
-\midrule
-Zonas de extracción ou verquido (zonas de extracción ou verquido mineiro, cando a cuberta é superior ao 60\%) &  Zonas de extracción\\
-\midrule
-Augas continentais & Auga \\
-Augas mariñas &  zonas \\
-Zonas húmidas &  húmidas\\
-Praias e cantís &  \\
-\midrule
-Sistemas xerais de transporte (vías, aparcadoiros, rede viaria, ferroviaria, aeroportos, en clase pura ou con cuberta superior ao 60\%) &  (Non contemplado)\\
+Zonas urbanas e cubertas artificiais & Integrada polas clases \emph{edificación}, \emph{zona verde artificial}, \emph{lámina de auga artificial}, \emph{outras construccións}, \emph{solo non edificado}, \emph{casco}, e \emph{ensanche}. Tamén as clases \emph{polígono industrial}, \emph{industria}, \emph{comercial e oficinas}, \emph{complexo hoteleiro}, etc. cando forman cubertas puras ou cubren máis do 60\% da mancha.  \\
+Zonas de extracción ou verquido & Integrada polas clases \emph{zonas de extracción} e \emph{mineiro extractivo}, cando forman manchas puras ou cubren máis do 60\% dunha mancha.\\
+Praias e cantís & Integrada polas clases \emph{praias, dunas e areais} e \emph{acantilados mariños}. \\
+Especies caducifolias & Formada pola clase \emph{frondosas caducifolias} cnado supón máis do 75\%. \\
+Mosaico agricola e urbano & Formada por polígonos nos que se misturan coberturas agrícolas e urbanas (asentamento agrícola residencial). \\
+Mosaico agricola e forestal & Formada por mosaicos de especies forestais de repoboación e cultivos forraxeiros. Característica das áreas de gandería máis intensiva.\\
+Mato e rochedo & Integrada polas clases \emph{afloramentos rochosos}, \emph{pedregais}, \emph{matogueira}, \emph{solo nú}, \emph{pasteiro} e \emph{zonas queimadas}. \\
+Repoboación forestal & Formada polas clases \emph{frondosas perennifolias}, \emph{coníferas}, ou diferentes asociacións de especies arbóreas forestais procedentes de repoboación. \\
+Augas continentais & Formada por cursos de auga, lagos e lagoas, encoros, lagoas costeiras.\\
+Cultivos & Integrada por clases de \emph{cultivos herbáceos}, \emph{cultivos leñosos} (diferentes do viñedo). \\
+Turbeiras & (Clase tomada directamente do Plan Director de Rede Natura 2000.) \\
+Viñedo & Integrada pola clase \emph{viñedo}, cando cubre cando menos o 40\% da superficie da mancha. \\
 \bottomrule
 \end{tabular}
 \end{small}
@@ -203,7 +182,7 @@ O proceso de traballo consta de tres partes diferenciadas, correspondentes ao an
 \subsection{Morfoloxía do terreo}
 
 Para a clasificación das principais rexións xeomorfolóxicas de Galicia seguimos no fundamental a división proposta por \citet{Ramil2005}, que empregan catro grandes categorías: <<Litoral cántabro-atlántico>>, <<vales sublitorais cántabro-atlánticos>>, <<serras>>, e <<chairas e vales interiores>>. A estas catro categorías engadimos a de <<canóns fluviais>>.
-O procedemento para a súa delimitación partiu dunha segmentación automática sobre os valores de altitude do MDT25 e unha capa de pendente do terreo derivada deste último: O resultado do proceso foi unha división do terreo en algo máis de 12~000 áreas (segmentos) de pendente e altitude relativamente homoxéneas. O número final de segmentos resulta da elección de parámetros no proceso de segmentación, e escolleuse como un compromiso entre un suficiente nivel de detalle e un número aceptable para o seu tratamento posterior. Cada un dos segmentos resultantes foi posteriormente clasificado manualmente nalgunha das categorías citadas (figura~\ref{fig:Morfo}). En xeral, o criterio para a delimitación da área de litoral foi o de seguir a cota situada a 100 metros sobre o nivel do mar, e o criterio para a clasificación das serras foi seleccionar as áreas por enriba dos 600-700 metros de altitude \citep{PerezAlberti1986} nas serras centrais e orientais, e as situadas por enriba dos 400-500 metros nas serras da parte occidental.
+O procedemento para a súa delimitación partiu dunha segmentación automática sobre os valores de altitude do MDT25 e unha capa de pendente do terreo derivada deste último: O resultado do proceso foi unha división do terreo en algo máis de 12~000 polígonos (segmentos) de pendente e altitude relativamente homoxéneas. O número final de segmentos resulta da elección de parámetros no proceso de segmentación, e escolleuse como un compromiso entre un suficiente nivel de detalle e un número aceptable para o seu tratamento posterior. Cada un dos segmentos resultantes foi posteriormente clasificado manualmente nalgunha das categorías citadas (figura~\ref{fig:Morfo}). En xeral, o criterio para a delimitación da área de litoral foi o de seguir a cota situada a 100 metros sobre o nivel do mar, e o criterio para a clasificación das serras foi seleccionar as áreas por enriba dos 600-700 metros de altitude \citep{PerezAlberti1986} nas serras centrais e orientais, e as situadas por enriba dos 400-500 metros nas serras da parte occidental.
 
 
 \begin{figure}
@@ -213,9 +192,9 @@ O procedemento para a súa delimitación partiu dunha segmentación automática 
 
 \subsection{Clases de uso do solo}
 
-A clasificación de clases de paisaxe en función do uso do solo que presentamos aquí trata cada mancha de uso uniforme como un elemento, e define a clase de paisaxe como unha combinación de manchas, nun entorno de busca predefinido de modo arbitrario como un círculo de 1~km de diámetro. A elección das diferentes clases é o resultado dun compromiso entre o que é posible apreciar nas fontes de información orixinal, as existencias de diferencias relacionadas coa xestión paisaxística, e a lóxica asociada á escala de traballo. A perspectiva utilizada é fundamentalmente funcional e non tanto estética, baseada na idea de que a paisaxe funciona como un sistema de elementos relacionados entre si, que proporciona un determinado conxunto de servizos ambientais e ten asociados uns determinados fluxos de materia e enerxía \citep{Forman1986}. Precisamente para resaltar o carácter de ecosistemas modificados pola actividade agraria é polo que varias das clases identificadas reciben neste documento o nome de agrosistemas ou agroecosistemas, e inclúense nestas clases tanto usos de produción agrícola ou gandeira como de produción forestal, pois estas estiveron no pasado e están aínda en grande medida ligadas de maneira íntima no territorio de Galicia. As diferentes características respecto da riqueza de especies vexetais e animais, a abundancia de espazos de hábitat favorable para cada unha delas, ou a maior ou menor abundancia de corredores ecolóxicos fai que diferenciemos, por exemplo, tres clases diferentes con importante presencia de cultivos ou prados que denominamos, respectivamente, agrosistema intensivo de superficies de cultivo, agrosistema intensivo en mosaico agroforestal, e agrosistema extensivo. A lóxica da xestión paisaxística desde un punto de vista de manexo dos ecosistemas probablemente recomendaría prestar atención a diferentes aspectos das actividades a desenvolver en cada caso: por exemplo, a introdución de elementos que incrementen a heteroxeneidade probablemente debera ser prioritaria na primeira, mentres que sería a súa preservación ---a conservación de árbores, valados e sebes, por citar algúns--- a que sería prioritaria na última. Nalgúns casos, a diferenciación permitiría tamén establecer diferentes niveis de esixencia no manexo desde criterios estéticos ou visuais, como podería ser o caso da forma xeométrica e a extensión das áreas de corta nas dúas clases dominadas por arborado que definimos neste traballo (agrosistemas intensivos dominados por plantacións forestais, e áreas de bosque caducifolio). Finalmente, algunhas das clases definidas aparecen de xeito separado para atender á súa singularidade, escaseza, e relativa fraxilidade dentro do contexto da comunidade autónoma: este é o caso, por exemplo, das áreas de turbeira e brezal húmido, pero tamén das áreas de protección de conxuntos históricos ou das áreas de viñedo. 
+A clasificación de clases de paisaxe en función do uso do solo que presentamos aquí trata cada mancha de uso uniforme (despois da reclasificación da información contida en SIOSE) como un elemento, e define a clase de paisaxe como unha combinación de manchas, nun entorno de busca predefinido de modo arbitrario como un círculo de 1~km de diámetro (coa excepción do patrón de áreas urbanas, definido para un diámetro de 250~m). A elección das diferentes clases é o resultado dun compromiso entre o que é posible apreciar nas fontes de información orixinal, as existencias de diferencias relacionadas coa xestión paisaxística, e a lóxica asociada á escala de traballo. A perspectiva utilizada é fundamentalmente funcional e non tanto estética, baseada na idea de que a paisaxe funciona como un sistema de elementos relacionados entre si, que proporciona un determinado conxunto de servizos ambientais e ten asociados uns determinados fluxos de materia e enerxía \citep{Forman1986}. Precisamente para resaltar o carácter de ecosistemas modificados pola actividade agraria é polo que varias das clases identificadas reciben neste documento o nome de agrosistemas ou agroecosistemas, e inclúense nestas clases tanto usos de produción agrícola ou gandeira como de produción forestal, pois estas estiveron no pasado e están aínda en grande medida ligadas de maneira íntima no territorio de Galicia. As diferentes características respecto da riqueza de especies vexetais e animais, a abundancia de espazos de hábitat favorable para cada unha delas, ou a maior ou menor abundancia de corredores ecolóxicos fai que diferenciemos, por exemplo, tres clases diferentes con importante presencia de cultivos ou prados que denominamos, respectivamente, agrosistema intensivo de superficies de cultivo, agrosistema intensivo en mosaico agroforestal, e agrosistema extensivo. A lóxica da xestión paisaxística desde un punto de vista de manexo dos ecosistemas probablemente recomendaría prestar atención a diferentes aspectos das actividades a desenvolver en cada caso: por exemplo, a introdución de elementos que incrementen a heteroxeneidade probablemente debera ser prioritaria na primeira, mentres que sería a súa preservación ---a conservación de árbores, valados e sebes, por citar algúns--- a que sería prioritaria na última. Nalgúns casos, a diferenciación permitiría tamén establecer diferentes niveis de esixencia no manexo desde criterios estéticos ou visuais, como podería ser o caso da forma xeométrica e a extensión das áreas de corta nas dúas clases dominadas por arborado que definimos neste traballo (agrosistemas intensivos dominados por plantacións forestais, e áreas de bosque caducifolio). Finalmente, algunhas das clases definidas aparecen de xeito separado para atender á súa singularidade, escaseza, e relativa fraxilidade dentro do contexto da comunidade autónoma: este é o caso, por exemplo, das áreas de turbeira e brezal húmido, pero tamén das áreas de protección de conxuntos históricos ou das áreas de viñedo. 
 
-Para cada unha das clases definidas que se enumeran a continuación, empregouse unha ou varias áreas de entrenamento para a clasificación automática (áreas empregadas para indicar ao algoritmo de clasificación o que se desexa buscar). Os exemplos concretos utilizados móstranse nas figuras \ref{fig:escenas1} a \ref{fig:escenas8}, e a descrición do que se pretendía capturar con cada unha é a seguinte:
+Para cada unha das clases definidas que se enumeran a continuación, empregouse unha ou varias áreas de entrenamento para a clasificación automática (áreas empregadas para indicar ao algoritmo de clasificación o que se desexa buscar). Algúns dos exemplos concretos utilizados móstranse nas figuras \ref{fig:escenas1} a \ref{fig:escenas8}, e a descrición do que se pretendía capturar con cada unha é a seguinte:
 
 \begin{enumerate}
  \item Áreas de matogueira e rochedo. As caracterizadas pola dominancia de áreas de mato ou rochedo non clasificadas como turbeiras ou brezal húmido.
@@ -232,7 +211,9 @@ Para cada unha das clases definidas que se enumeran a continuación, empregouse 
  \item Áreas de uso urbano. Caracterizadas pola dominancia do uso urbano, residencial ou industrial.
  \item Áreas rururbanas ou de diseminado. Áreas caracterizadas pola coexistencia de manchas clasificadas como de uso urbano con manchas de cultivo ou prados, repoboacións forestais e, ocasionalmente, masas de frondosas caducifolias.
  \item Áreas de uso extractivo. Caracterizadas pola dominancia de superficies de explotación mineira a ceo aberto ou restos desta actividade.
- \item Áreas de protección de conxuntos históricos. Aquelas clasificadas como tales polo planeamento urbanístico.
+ \item Áreas de protección de conxuntos históricos. Aquelas clasificadas como tales polo planeamento urbanístico (tomadas directamente da cartografía orixinal).
+ \item Lámina de auga (tomada directamente da cartografía orixinal).
+ \item Praias e cantís (tomadas directamente da cartografía orixinal).
 \end{enumerate}
 
 
