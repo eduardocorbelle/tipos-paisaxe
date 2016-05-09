@@ -4,25 +4,25 @@
 library(xtable)
 
 ## Cargamos os datos orixinais
-vbic <- read.table("./Informes/Informe2/ValoresBic_2015_12_02.txt",
+vbic <- read.table("ResultadosIntermedios/ValoresBic.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vcamino <- read.table("./Informes/Informe2/ValoresCamino_2015_12_02.txt",
+vcamino <- read.table("ResultadosIntermedios/ValoresCamino.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-veolico <- read.table("./Informes/Informe2/ValoresEolicos_2015_12_02.txt",
+veolico <- read.table("ResultadosIntermedios/ValoresEolicos.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vnatura <- read.table("./Informes/Informe2/ValoresNatura2000_2015_12_02.txt",
+vnatura <- read.table("ResultadosIntermedios/ValoresNatura2000.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vSixotNat <- read.table("./Informes/Informe2/ValoresSixotNat_2015_12_02.txt",
+vSixotNat <- read.table("ResultadosIntermedios/ValoresSixotNat.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vSixotPat <- read.table("./Informes/Informe2/ValoresSixotPat_2015_12_02.txt",
+vSixotPat <- read.table("ResultadosIntermedios/ValoresSixotPat.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vSixotEst <- read.table("./Informes/Informe2/ValoresSixotEst_2015_12_02.txt",
+vSixotEst <- read.table("ResultadosIntermedios/ValoresSixotEst.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
 
@@ -87,39 +87,34 @@ exportT <- function(taboa, valor, GAP, file, caption, label) {
 
 
 ## Exportamos
-system("rm ./Informes/Informe2/valores*.tex")
-
 for(i in 1:12) {
 exportT(vbic, 1, i,
-        "./Informes/Informe2/valoresbic.tex",
+        "Informes/Taboas/valoresbic.tex",
         paste("Frecuencia de aparición de BIC e frecuencia de tipos asociados, GAP", rownames(GAP)[i]),
         paste("vbic", i, sep=""))
-
 exportT(vcamino, 1, i,
-        "./Informes/Informe2/valorescamino.tex",
+        "Informes/Taboas/valorescamino.tex",
         paste("Frecuencia de aparición dos Camiños de Santiago (área de influencia de 500 m a ambos lados) e frecuencia de tipos asociados", rownames(GAP)[i]),
         paste("vcamino", i, sep=""))
 exportT(veolico, 1, i,
-        "./Informes/Informe2/valoreseolico.tex",
+        "Informes/Taboas/valoreseolico.tex",
         paste("Frecuencia de aparición de xeneradores eólicos e frecuencia de tipos asociados", rownames(GAP)[i]),
         paste("veolico", i, sep=""))
 exportT(vnatura, 1, i,
-        "./Informes/Informe2/valoresnatura.tex",
+        "Informes/Taboas/valoresnatura.tex",
         paste("Frecuencia de aparición de Lugares de Importancia Comunitaria e frecuencia de tipos asociados", rownames(GAP)[i]),
         paste("vnatura", i, sep=""))
 exportT(vSixotNat, 1, i,
-        "./Informes/Informe2/valoressixotNat.tex",
+        "Informes/Taboas/valoressixotNat.tex",
         paste("Frecuencia de aparición de valores naturais identificados na participación pública e frecuencia de tipos asociados", rownames(GAP)[i]),
         paste("vsixotnat", i, sep=""))
 exportT(vSixotPat, 1, i,
-        "./Informes/Informe2/valoressixotPat.tex",
+        "Informes/Taboas/valoressixotPat.tex",
         paste("Frecuencia de aparición de valores patrimoniais identificados na participación pública e frecuencia de tipos asociados", rownames(GAP)[i]),
         paste("vsixotpat", i, sep=""))
 exportT(vSixotEst, 1, i,
-        "./Informes/Informe2/valoressixotEst.tex",
+        "Informes/Taboas/valoressixotEst.tex",
         paste("Frecuencia de aparición de valores estéticos identificados na participación pública e frecuencia de tipos asociados", rownames(GAP)[i]),
         paste("vsixotest", i, sep=""))
 }
 
-# Baleiramos o espazo de traballo
-rm(list=ls())

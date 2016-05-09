@@ -75,7 +75,7 @@ Logs/TiposUnfold.Rout: Logs/ScriptMapa.log Scripts/TiposUnfoldLegend.R
 
 
 ################# Análise de resultados ################################
-analise: Logs/Figuras1.Rout Logs/Mapas.log Logs/TiposComarcas.Rout Logs/TiposUnfold.Rout
+analise: Logs/TiposUnfold.Rout Logs/Figuras1.Rout Logs/Mapas.log Logs/TiposComarcas.Rout Logs/ValoresDoc.Rout
 
 # Figuras para o informe: áreas de entrenamento
 Logs/Figuras1.Rout: Scripts/Figuras1.R
@@ -91,7 +91,7 @@ Logs/Mapas.log: Scripts/Mapa*
 
 # Análise de tipos de paisaxe por grandes áreas e comarcas
 Logs/TiposComarcas.Rout: Scripts/Script5.sh Scripts/Tipos*
-	rm Informes/Informe1/TiposAreas*.txt
+	rm ResultadosIntermedios/TiposAreas*.txt -f
 	sh -x Scripts/Script5.sh 2>&1 | tee Logs/Script5.log
 	R CMD BATCH $(R_opts) Scripts/TiposAreas.R Logs/TiposAreas.Rout
 	R CMD BATCH $(R_opts) Scripts/TiposComarcas.R Logs/TiposComarcas.Rout
@@ -101,7 +101,10 @@ Logs/TiposComarcas.Rout: Scripts/Script5.sh Scripts/Tipos*
 #R CMD BATCH ./Informes/Informe1/CambiosAreas.R
 
 # Frecuencia de aparición de valores paisaxísticos por tipos de paisaxe
-Logs/Valores.Rout: Scripts/Script7.sh Scripts/Valores*
+Logs/ValoresDoc.Rout: Scripts/Script7.sh Scripts/Valores*
+	rm ResultadosIntermedios/Valores*.txt -f
 	sh -x Scripts/Script7.sh 2>&1 | tee Logs/Script7.log
-	R CMD BATCH .$(R_opts) Scripts/Valores.R Logs/Valores.Rout
-	R CMD BATCH .$(R_opts) Scripts/ValoresDoc.R Logs/ValoresDoc.Rout
+	rm Informes/Taboas/valores*.tex -f
+	rm Informes/Taboas/valores*.docx -f
+	R CMD BATCH $(R_opts) Scripts/Valores.R Logs/Valores.Rout
+	R CMD BATCH $(R_opts) Scripts/ValoresDoc.R Logs/ValoresDoc.Rout

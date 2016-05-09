@@ -59,6 +59,6 @@ v.to.rast in=uds out=cub use=attr attr=cub label_column=Cuberta
 v.to.rast in=uds out=cli use=attr attr=cli label_column=Clima
 
 ## Obtemos os tipos por grandes áreas (resultados en m2)
-r.stats -alN in=GrandesAreas,xeo,cub,cli out=Informes/Informe1/TiposAreas.txt separator=pipe null_value=NA
+r.stats -alN in=GrandesAreas,xeo,cub,cli out=ResultadosIntermedios/TiposAreas.txt separator=pipe null_value=NA
 
-r.stats -alN in=GrandesAreas,Comarcas,xeo,cub,cli out=Informes/Informe1/TiposAreasComarcas.txt separator=pipe null_value=NA
+r.stats -alN in=GrandesAreas,Comarcas,xeo,cub,cli out=ResultadosIntermedios/TiposAreasComarcas.txt separator=pipe null_value=NA

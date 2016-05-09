@@ -6,25 +6,25 @@ library(ReporteRs)
 
 
 ## Cargamos os datos orixinais
-vbic <- read.table("./Informes/Informe2/ValoresBic_2015_12_02.txt",
+vbic <- read.table("ResultadosIntermedios/ValoresBic.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vcamino <- read.table("./Informes/Informe2/ValoresCamino_2015_12_02.txt",
+vcamino <- read.table("ResultadosIntermedios/ValoresCamino.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-veolico <- read.table("./Informes/Informe2/ValoresEolicos_2015_12_02.txt",
+veolico <- read.table("ResultadosIntermedios/ValoresEolicos.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vnatura <- read.table("./Informes/Informe2/ValoresNatura2000_2015_12_02.txt",
+vnatura <- read.table("ResultadosIntermedios/ValoresNatura2000.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vSixotNat <- read.table("./Informes/Informe2/ValoresSixotNat_2015_12_02.txt",
+vSixotNat <- read.table("ResultadosIntermedios/ValoresSixotNat.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vSixotPat <- read.table("./Informes/Informe2/ValoresSixotPat_2015_12_02.txt",
+vSixotPat <- read.table("ResultadosIntermedios/ValoresSixotPat.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
-vSixotEst <- read.table("./Informes/Informe2/ValoresSixotEst_2015_12_02.txt",
+vSixotEst <- read.table("ResultadosIntermedios/ValoresSixotEst.txt",
                    sep="|", na.strings=c("NA", "no data"),
                    header=FALSE)
 
@@ -126,7 +126,5 @@ doc = addFlexTable(doc, tx)
 
 }
 
-writeDoc( doc, file = "./Informes/Informe2/ValoresTipos.docx" )
+writeDoc( doc, file = "Informes/Taboas/ValoresTipos.docx" )
 
-# Baleiramos o espazo de traballo
-rm(list=ls())

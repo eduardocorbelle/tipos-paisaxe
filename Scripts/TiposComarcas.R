@@ -2,7 +2,7 @@
 ### Eduardo Corbelle, 14 de decembro de 2015
 
 ## Cargamos os datos orixinais
-datos <- read.table("Informes/Informe1/TiposAreasComarcas.txt", sep="|", header=FALSE)
+datos <- read.table("ResultadosIntermedios/TiposAreasComarcas.txt", sep="|", header=FALSE)
 colnames(datos) <- c("GAPcode", "GAP", "CPcode", "CP",  "CXn", "CXt", "CCn", "CCt", "Cln", "Clt", "Aream2")
 
 ## Función para a equivalencia entre códigos e comarcas
@@ -49,5 +49,5 @@ rm(tmp)
 }
 }
 
-writeDoc( doc, file= "Informes/Informe1/ClasesComarcas.docx" )
+writeDoc( doc, file= "Informes/Taboas/ClasesComarcas.docx" )
 

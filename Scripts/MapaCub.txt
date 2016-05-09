@@ -12,7 +12,7 @@ border
   end
 maploc 4.4 0.1
 scale 1:1500000
-raster ClaseCuberta2
+raster ClaseCuberta
 scalebar f
   where 2 6
   length 100000
@@ -27,7 +27,7 @@ text -40% 95% Patróns de cuberta
   end
 colortable y
   where 0.3 0.5
-  raster ClaseCuberta2
+  raster ClaseCuberta
   font helvetica
   fontsize 12
   end

@@ -1,7 +1,7 @@
 ## Script de R para resumir os datos de tipos de paisaxe por grandes áreas
 
 ## Cargamos os datos orixinais
-datos <- read.table("Informes/Informe1/TiposAreas.txt", sep="|", header=FALSE)
+datos <- read.table("ResultadosIntermedios/TiposAreas.txt", sep="|", header=FALSE)
 colnames(datos) <- c("GAP_code","GAP","CXn","CXt","CCn","CCt","Cln","Clt","Aream2")
 datos <- data.frame(datos, 
                     tipo = factor(paste(datos$CXt, ";", datos$CCt, ";", datos$Clt)))
@@ -78,31 +78,31 @@ xtaboa3p <- xtable(taboa3p[-4,],
 
 ## Exportamos a un ficheiro .tex
 print.xtable(xtaboa0, type="latex", 
-             file="Informes/Informe1/TaboasGA.tex", append=FALSE,
+             file="Informes/Taboas/TaboasGA.tex", append=FALSE,
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 print.xtable(xtaboa1, type="latex", 
-             file="Informes/Informe1/TaboasGA.tex", append=TRUE,
+             file="Informes/Taboas/TaboasGA.tex", append=TRUE,
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 print.xtable(xtaboa1p, type="latex", 
-             file="Informes/Informe1/TaboasGA.tex", append=TRUE,
+             file="Informes/Taboas/TaboasGA.tex", append=TRUE,
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 print.xtable(xtaboa2, type="latex", 
-             file="Informes/Informe1/TaboasGA.tex", append=TRUE,
+             file="Informes/Taboas/TaboasGA.tex", append=TRUE,
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 print.xtable(xtaboa2p, type="latex", 
-             file="Informes/Informe1/TaboasGA.tex", append=TRUE,
+             file="Informes/Taboas/TaboasGA.tex", append=TRUE,
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 print.xtable(xtaboa3, type="latex", 
-             file="Informes/Informe1/TaboasGA.tex", append=TRUE,
+             file="Informes/Taboas/TaboasGA.tex", append=TRUE,
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 print.xtable(xtaboa3p, type="latex", 
-             file="Informes/Informe1/TaboasGA.tex", append=TRUE,
+             file="Informes/Taboas/TaboasGA.tex", append=TRUE,
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 
@@ -136,13 +136,13 @@ resumo <- function(GArea, porcent) {
 
 ### Aplicar a función ás 12 grandes áreas e exportar a LaTeX
 # (bucle)
-system("rm Informes/Informe1/TaboasTipos.tex")
+system("rm Informes/Taboas/TaboasTipos.tex")
 for(i in 1:12) {
  print.xtable(xtable(resumo(i, 1),
                      caption=paste("Principais tipos de paisaxe, ", rownames(taboa0)[i] , "(", i, ")"),
                      label=paste("Tipos", i)),
              type="latex", 
-             file="Informes/Informe1/TaboasTipos.tex", append=TRUE,
+             file="Informes/Taboas/TaboasTipos.tex", append=TRUE,
              floating=TRUE, table.placement = "p", caption.placement="top",
              latex.environments=c("center"))
 }
@@ -179,5 +179,5 @@ doc = addFlexTable(doc, Taboa)
 }
 
 # write the doc
-writeDoc( doc, file = "Informes/Informe1/TaboasTipos.docx" )
+writeDoc( doc, file = "Informes/Taboas/TaboasTipos.docx" )
 
