@@ -219,12 +219,16 @@ Para cada unha das clases definidas que se enumeran a continuación, empregouse 
 
 Cada unha das áreas de entrenamento mostradas nas figuras, delimitadas por unha circunferencia de cor branca, definen unha matriz numérica de co-ocorrencias entre as cubertas do solo. Esta expresa a frecuencia de aparición, dentro da circunferencia, de cada combinación de píxeles contiguos da mesma ou diferentes clases de cuberta simples (agrícola ao lado de agrícola, agrícola ao lado de repoboación, e así sucesivamente). É esta frecuencia de co-ocorrencia a que define o patrón de busca, e é a razón de que nalgún caso empreguemos unha única área de entrenamento: cando a área de entrenamento corresponde á dominancia dunha única clase, o patrón ideal que resulta é do de moitas aparicións da clase dominante ao lado de si mesma, e exemplos adicionais non introducen máis información no proceso (este é o caso dos exemplos escollidos para a clase de <<agrosistema intensivo: cultivo>>, por exemplo). Polo contrario, cando o patrón que tratamos de definir responde á combinación, máis ou menos íntima, de diferentes clases, pode ser beneficioso definir varios exemplos (este é o caso, por exemplo, da clase <<rururbano diseminado>>). Nestes casos optamos inicialmente por empregar dous exemplos de cada clase, pero esta é unha decisión susceptible de cambios. Cómpre sinalar tamén que o patrón definido é de co-ocorrencia entre clases e non de frecuencias de cada clase: por exemplo, dúas áreas nas que o uso agrícola e as repoboacións forestais ocuparan cada unha o 50\% da superficie non presentarían o mesmo patrón de co-ocorrencia se nunha delas hai dúas únicas manchas separadas mentres que na outra hai múltiples manchas que se intercalan entre si.
 
-O proceso de clasificación comeza comparando o patrón concreto observado para cada un dos píxeles do mapa con todos e cada un dos patróns de referencia. Para a resolución escollida neste traballo, de 25~m/píxel, trátase de arredor de 50 millóns de patróns empíricos a comparar con cada un dos patróns de referencia. Para a comparación empregamos o estatístico de distancia de Shannon \citep{Cha2007} como medida de similaridade, xa que algúns autores consideran que é máis próximo á percepción humana (visual) da similaridade que outros \citep{Jasiewicz2014104}. Cando se utilizan varios exemplos de entrenamento para unha mesma clase, o mapa de similaridade final calculouse como a media aritmética dos resultantes para cada exemplo. O mapa final de clases de cuberta ou uso do terreo elaborouse asignando a cada píxel a clase con maior valor de similaridade asociado en cada caso. A única excepción a esta regra foron as áreas de protección integral de conxuntos históricos, que foron tomadas directamente da fonte orixinal. Igualmente, as áreas cubertas por láminas de auga foron excluídas do proceso de clasificación, e asignadas \emph{a posteriori} de xeito directo a partir da cartografía de SIOSE.
+O proceso de clasificación comeza comparando o patrón concreto observado para cada un dos píxeles do mapa con todos e cada un dos patróns de referencia. Para a resolución escollida neste traballo, de 25~m/píxel, trátase de arredor de 50 millóns de patróns empíricos a comparar con cada un dos patróns de referencia. Para a comparación empregamos o estatístico de distancia de Shannon \citep{Cha2007} como medida de similaridade, xa que algúns autores consideran que é máis próximo á percepción humana (visual) da similaridade que outros \citep{Jasiewicz2014104}. Cando se utilizan varios exemplos de entrenamento para unha mesma clase, o mapa de similaridade final calculouse como a media aritmética dos resultantes para cada exemplo. O mapa final de clases de cuberta ou uso do terreo elaborouse asignando a cada píxel a clase con maior valor de similaridade asociado en cada caso. As únicas excepción a esta regra foron as áreas de protección integral de conxuntos históricos, as láminas de auga, e as praias, que foron tomadas directamente da fonte orixinal.
 
 %A partir do anterior, empregamos unha segmentación baseada nunha grella de escenas (\emph{grid-of-scenes}) mediante o módulo \texttt{p.sig.grid} dispoñible en GeoPAT. A escena é unha área arredor de cada punto do terreo para a que se calcula un único patrón. O tamaño da escena (\emph{size}, $N$) escollido é neste caso de 100 píxeles (2~500~m). Neste proceso é posible degradar a resolución do ráster orixinal mediante o parámetro \emph{shift} (k) que define, neste caso, a densidade de puntos para os que se avalía o patrón (ou a distancia entre centros de escena), que establecemos provisionalmente en 2--4 píxeles: isto significa que a resolución do ráster de patróns é de 50--100 metros (2--4 veces máis grosa que a da capa orixinal).\footnote{A modo de comparación cos parámetros seleccionados aquí, \citet{Jasiewicz2014104} empregan $k=50$ e $N=1000$ (escenas de $15\times 15$~km e resolución do mapa de saída de 1.5~km).} O método empregado para caracterizar cada patrón é o de co-ocorrencia: en cada ventá de $N \times N$ píxeles avalíase o número de ocasións (frecuencia) que cada clase de pendente aparece ao lado de cada unha das demais. O resultado é un histograma de frecuencias de co-ocorrencia para cada escena.
 
+
+
+
+
 \begin{figure}
-\caption{Escenas de entrenamento definidas para áreas de monte raso e turbeiras}\label{fig:escenas1}
+\caption{Escenas de entrenamento definidas para áreas de matogueira e rochedo e turbeiras}\label{fig:escenas1}
 \includegraphics[width=\textwidth]{Escena_1}\\
 \includegraphics[width=\textwidth]{Escena_2}
 \end{figure}
@@ -253,7 +257,7 @@ O proceso de clasificación comeza comparando o patrón concreto observado para 
 \end{figure}
 
 \begin{figure}
-\caption{Escenas de entrenamento definidas para áreas urbanas e de uso extrativo}\label{fig:escenas6}
+\caption{Escenas de entrenamento definidas para áreas urbanas e de uso extractivo}\label{fig:escenas6}
 \includegraphics[width=\textwidth]{Escena_13}\\
 \includegraphics[width=\textwidth]{Escena_15}
 \end{figure}
@@ -272,6 +276,7 @@ O proceso de clasificación comeza comparando o patrón concreto observado para 
 
 \clearpage
 
+
 \subsection{Información climática}
 
 A fonte orixinal considera sete clases de termotipos: termotemperado superior, mesotemperado inferior, mesotemperado
@@ -279,16 +284,14 @@ superior, supratemperado inferior, supratemperado superior, orotemperado (inferi
 
 \subsection{Combinación das clases}
 
-Os mapas de clases de formas do terreo e de clases de uso do solo combináronse co mapa de bioclimas para formar un mapa provisional de tipos de paisaxe, que foi posteriormente vectorizado de xeito automático. O mapa vectorial resultante foi sometido a un dobre proceso de simplificación: para eliminar as manchas de área menor de 2~ha de superficie, e para mellorar a calidade visual das liñas que separan as diferentes manchas.
-
-Finalmente, o mapa foi recortado polo ámbito de delimitación do Plan de Ordenación do Litoral (POL), que se exclúe dos resultados finais.
+Os mapas de clases de formas do terreo e de clases de uso do solo combináronse inicialmente para obter un mapa provisional. Deste mapa, e para mellorar a súa utilidade posterior na xestión, elimináronse as manchas de área menor de 10~ha de superficie. A cada unha das manchas resultantes asignouse unha clase climática (termotipo) mediante unha operación zonal de maioría: é dicir, cada mancha recibiu como atributo o piso termoclimático que ocupaba unha maior parte da súa superficie. Este procedemento permitiu evitar que a información climática, cun nivel de detalle espacial inferior ás dúas outras clases e cunha variabilidade espacial difícil de capturar a esta escala, dividise demasiado as unidades finais. Finalmente, o mapa foi vectorizado de xeito automático.
 
 % No script 4 agora xa se fai o recorte antes da simplificación das áreas de menos de 10ha
 
 
 \section{Resultados}
 
-Cada tipo de paisaxe contemplado no mapa vén definido, polo tanto, pola combinación das clases dos tres mapas orixinais. En total, a versión 0.4 elaborada de acordo ao descrito neste documento inclúe 28~350 unidades de paisaxe (unha vez excluída a área de delimitación do Plan de Ordenación do Litoral) pertencentes a 258 tipos de paisaxe diferentes, resultantes da combinación das 5 clases de rexión xeomorfolóxica, 12 clases de cuberta do solo, e 5 clases de termotipos (o que resultaría teoricamente en 300 clases teoricamente posibles, das cales non todas aparecen na realidade). A área media das unidades é de 104~ha e a mediana de 19~ha, se ben o rango oscila entre 2 e 73~000~ha.
+Cada tipo de paisaxe contemplado no mapa vén definido, polo tanto, pola combinación das clases dos tres mapas orixinais (excepto para as manchas de cascos históricos, láminas de auga, e praias, que só contan con información de cuberta). En total, a versión 0.6 elaborada de acordo ao descrito neste documento inclúe 20~753 unidades de paisaxe  pertencentes a 185 tipos de paisaxe diferentes, resultantes da combinación das 5 clases de grandes áreas de relevo, 12+3 clases de cuberta do solo, e 5 clases de termotipos (o que resultaría teoricamente en $5\times12\times5 + 3 = 303$ clases teoricamente posibles, das cales non todas aparecen na realidade). A área media das unidades é de 144~ha e a mediana de 21~ha.
 
 
 
@@ -297,29 +300,29 @@ Cada tipo de paisaxe contemplado no mapa vén definido, polo tanto, pola combina
 \bibliographystyle{galego}
 \bibliography{./References/LandscapeMapping}
 
-\newpage
-\section*{Resumo de tipos de paisaxe por Grandes Áreas Paisaxísticas}
+%\newpage
+%\section*{Resumo de tipos de paisaxe por Grandes Áreas Paisaxísticas}
 
-\begin{landscape}
- \begin{small}
-  \input{TaboasGA}
-  \input{TaboasTipos}
- \end{small}
-\clearpage
-\end{landscape}
+%\begin{landscape}
+% \begin{small}
+%  \input{TaboasGA}
+%  \input{TaboasTipos}
+% \end{small}
+%\clearpage
+%\end{landscape}
 
 
-\section*{Cambios de cuberta do solo por Grandes Áreas e Comarcas Paisaxísticas}
+%\section*{Cambios de cuberta do solo por Grandes Áreas e Comarcas Paisaxísticas}
 
-Presentamos a continuación un conxunto de táboas de continxencia nas que se detallan os principais cambios de cuberta do solo identificados nas Grandes Áreas e Comarcas. Os datos de partida para a análise proveñen das edicións de 1980--1989 e 2000-2010 do \emph{Mapa de Cultivos y Aprovechamientos} publicadas polo Ministerio de Agricultura. Os anos medios de referencia para estas fontes, no caso de Galicia, corresponden a 1985 e 2005, respectivamente. A metodoloxía seguida na análise segue a publicada por \citet{Corbelle2014RGE}, e fundamentalmente afecta á reclasificación das clases orixinarias dos dous mapas en cinco clases simples: superficie agrícola utilizada (SAU), superficie arborada con orixe en plantación (Arb-plant), superficie arborada procedente de revexetación espontánea (Arb-revex), superficie de matogueira (Mato), e superficie construída (Artificial). Cada táboa de continxencia presenta en filas as clases de cuberta do ano 1985 e en columnas as de 2005: dese xeito, cada cela debe interpretarse como a área (en km²) ocupada pola clase correspondente á fila en 1985 e pola clase correspondente á columna en 2005.
+%Presentamos a continuación un conxunto de táboas de continxencia nas que se detallan os principais cambios de cuberta do solo identificados nas Grandes Áreas e Comarcas. Os datos de partida para a análise proveñen das edicións de 1980--1989 e 2000-2010 do \emph{Mapa de Cultivos y Aprovechamientos} publicadas polo Ministerio de Agricultura. Os anos medios de referencia para estas fontes, no caso de Galicia, corresponden a 1985 e 2005, respectivamente. A metodoloxía seguida na análise segue a publicada por \citet{Corbelle2014RGE}, e fundamentalmente afecta á reclasificación das clases orixinarias dos dous mapas en cinco clases simples: superficie agrícola utilizada (SAU), superficie arborada con orixe en plantación (Arb-plant), superficie arborada procedente de revexetación espontánea (Arb-revex), superficie de matogueira (Mato), e superficie construída (Artificial). Cada táboa de continxencia presenta en filas as clases de cuberta do ano 1985 e en columnas as de 2005: dese xeito, cada cela debe interpretarse como a área (en km²) ocupada pola clase correspondente á fila en 1985 e pola clase correspondente á columna en 2005.
 
-\clearpage
+%\clearpage
 
-\begin{small}
-\input{CambiosGAP}
+%\begin{small}
+%\input{CambiosGAP}
 %\clearpage
 %\input{CambiosCP}
-\end{small}
+%\end{small}
 
 
 \end{document}
