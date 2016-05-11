@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd Informes/Informe1/Figuras/
+cd Informes/Figuras/
 
 for i in *.ps
 do

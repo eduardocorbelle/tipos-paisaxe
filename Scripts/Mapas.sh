@@ -15,6 +15,6 @@ iconv -f UTF-8 -t ISO_8859-1 Scripts/MapaFin.txt > Tmp/MapaFinIso.txt
 
 ps.map input=Tmp/MapaXeoIso.txt out=Informes/Informe1/Figuras/MapaXeo.ps copies=1 --o
 r.colors map=ClaseCuberta2 rules=Scripts/MapaCubRules.txt
-ps.map input=Tmp/MapaCubIso.txt out=Informes/Informe1/Figuras/MapaCub.ps copies=1 --o
-ps.map input=Tmp/MapaCliIso.txt out=Informes/Informe1/Figuras/MapaCli.ps copies=1 --o
-ps.map input=Tmp/MapaFinIso.txt out=Informes/Informe1/Figuras/MapaFin.ps copies=1 --o
+ps.map input=Tmp/MapaCubIso.txt out=Informes/Figuras/MapaCub.ps copies=1 --o
+ps.map input=Tmp/MapaCliIso.txt out=Informes/Figuras/MapaCli.ps copies=1 --o
+ps.map input=Tmp/MapaFinIso.txt out=Informes/Figuras/MapaFin.ps copies=1 --o

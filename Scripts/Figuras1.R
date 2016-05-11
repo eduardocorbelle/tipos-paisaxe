@@ -29,7 +29,7 @@ figura <- function(i) {
   cor = brewer.pal(12, "Paired")
   ## Parámetros do ficheiro resultante
   # Gráfico de 8 cm de altura, equiv. a 8 km a escala 1:25.000
-  png(paste("Informes/Informe1/Figuras/Escena_", esc$id[i], ".png", sep=""),
+  png(paste("Informes/Figuras/Escena_", esc$id[i], ".png", sep=""),
       width=12, height=12/1.5, units="cm", 
       res=300, pointsize=10)
   ## Preparación do espazo (2 espazos de debuxo)

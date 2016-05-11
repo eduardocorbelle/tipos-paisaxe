@@ -85,9 +85,9 @@ Logs/Figuras1.Rout: Scripts/Figuras1.R
 Logs/Mapas.log: Scripts/Mapa*
 	sh -x Scripts/Mapas.sh 2>&1 | tee Logs/Mapas.log
 	sh Scripts/ForLoop.sh
-	cd Informes/Informe1/Figuras/; pdftk MapaXeo.pdf MapaCub.pdf MapaCli.pdf MapaFin.pdf cat output Mapas.pdf
-	convert -density 300 Informes/Informe1/Figuras/Mapas.pdf Informes/Informe1/Figuras/Mapas.jpeg
-	rm Informes/Informe1/Figuras/*.ps
+	cd Informes/Figuras/; pdftk MapaXeo.pdf MapaCub.pdf MapaCli.pdf MapaFin.pdf cat output Mapas.pdf
+	convert -density 300 Informes/Informe1/Figuras/Mapas.pdf Informes/Figuras/Mapas.jpeg
+	rm Informes/Figuras/*.ps
 
 # Análise de tipos de paisaxe por grandes áreas e comarcas
 Logs/TiposComarcas.Rout: Scripts/Script5.sh Scripts/Tipos*
